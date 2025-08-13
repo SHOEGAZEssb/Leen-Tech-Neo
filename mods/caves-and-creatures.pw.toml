@@ -1,0 +1,12 @@
+name = "Caves & Creatures"
+filename = "caves_and_creatures-1.5.0-forge-1.20.1.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "23ef2e55af42780b52a7b5b557a6f51798062a9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6881491
+project-id = 1027587
