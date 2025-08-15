@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "367231d5c30cbb298f331822f6593d34c2eb1327188b876b279334c850455995"
+file = "config/ae2/common.json"
+hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
 file = "mods/accessories.pw.toml"
