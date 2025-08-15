@@ -186,6 +186,11 @@ hash = "4cd18168c4930515acf2121d9d8cf8824e3ee1e0608b3aca8f659c93c65c9f7e"
 metafile = true
 
 [[files]]
+file = "mods/darwin-iv-mod.pw.toml"
+hash = "60c75c876efb9b6d72d49bba3cc40c2931a1ecf7f26ceb555f16f2552af02006"
+metafile = true
+
+[[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "cdadd505c8a89e021138ed4f3a5bd28d582714a8913d85d311aaa113ceb76408"
 metafile = true

@@ -1,0 +1,12 @@
+name = "Darwin 4"
+filename = "darwiniv-1.0.0-forge-1.20.1 beta ver.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "4618be7e3ae8b66369dc8bfeffc240543e18623f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5410689
+project-id = 1033410
