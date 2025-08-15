@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "367231d5c30cbb298f331822f6593d34c2eb1327188b876b279334c850455995"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "75948439841eb3cbae2f75ee186c338b3311d30ea13f077d6ffc75f7267eabde"
 metafile = true
@@ -187,7 +191,7 @@ metafile = true
 
 [[files]]
 file = "mods/darwin-iv-mod.pw.toml"
-hash = "60c75c876efb9b6d72d49bba3cc40c2931a1ecf7f26ceb555f16f2552af02006"
+hash = "ff1ea44f19bf60cdc165c8ead05064da3e514f5adf0e538492408360d32d0c01"
 metafile = true
 
 [[files]]
@@ -202,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
+hash = "57f5ec273570b39482833d623e8acbd552c95119ef1dc38ef77f8020d9cd4c16"
 metafile = true
 
 [[files]]

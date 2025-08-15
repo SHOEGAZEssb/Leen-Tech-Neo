@@ -1,4 +1,4 @@
-name = "Leen Tech 3"
+name = "Leen Tech Neo"
 author = "Tim & Leen"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "73dced5d45fc4a0f6846c968d9a0b21cbdc40112e26846908e022df3e61bd312"
+hash = "e44c361e0a66dbf89cc3f6cbbba547dc121dc4c8afc30c9e531fb61857c4177d"
 
 [versions]
 forge = "47.4.6"
