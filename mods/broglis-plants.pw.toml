@@ -1,0 +1,12 @@
+name = "Broglis Plants"
+filename = "broglisplants-1.2-1.20.1.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "c36fc538d78af28b1601285ef3653ab4db7d59cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6800760
+project-id = 693317

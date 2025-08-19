@@ -1,0 +1,12 @@
+name = "Create: Enlightend [Forge/NeoForge]"
+filename = "create_enlightend-1.0.0-forge-1.20.1.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "0333b651dbd7b1d865d0ffaec3883aa6d7b319d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5851782
+project-id = 1129503

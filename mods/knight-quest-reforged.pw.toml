@@ -1,0 +1,12 @@
+name = "Knight Quest [Reforged]"
+filename = "knightquest-forge-1.20.1-1.9.1.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "9de88aee0e19da7db8a7e57715b5abc3c6060ffc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6836040
+project-id = 1018043
