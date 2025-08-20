@@ -52,6 +52,16 @@ hash = "48fc5125a1d5ed8e94c8a603d3e3378c4a34abfe8470065fa98f371e0d5421f8"
 metafile = true
 
 [[files]]
+file = "mods/alexs-caves-torpedoes.pw.toml"
+hash = "b4362b23d416fa4f3ff7dfdd317a4614c2dbdab3103899d72fbae04607729a99"
+metafile = true
+
+[[files]]
+file = "mods/alexs-caves-trimmed.pw.toml"
+hash = "3c9fdb75fa39fde7a0ba017d95665a1f749005fb69967b34123b9431f1153b44"
+metafile = true
+
+[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "30c944b1cdaef752bcfcfa914756ed041b9c207c34b284797f8e06fa39d3726b"
 metafile = true
@@ -59,6 +69,16 @@ metafile = true
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "04455df74804a725a315fecbdc57860394afb1ee7eb663aae40896d2e0fea961"
+metafile = true
+
+[[files]]
+file = "mods/alexscavesexemplified.pw.toml"
+hash = "adb891a61e52bb172ea3c72d8ee2e5cc19434b2da37811035975930d3efca591"
+metafile = true
+
+[[files]]
+file = "mods/alexsmobsinteraction.pw.toml"
+hash = "9d95bb18f6a320014797f409ce82f935e9c1aa26fa35de43625e65c0980efcd2"
 metafile = true
 
 [[files]]
@@ -239,6 +259,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "f47666058dd8da125d255c3c25eb084a1f626841c5cc5fc3fa3631ca25360460"
+metafile = true
+
+[[files]]
+file = "mods/create-alexs-caves-compat.pw.toml"
+hash = "54b550b8b9ce0c8906fa12e36aa2bba40f8ea2de511d81a0f6b88f1c2a280739"
 metafile = true
 
 [[files]]
@@ -442,6 +467,11 @@ hash = "3e1eb9740fada46d463ae8f5e1f2cf24d5a85532356f7d5173a7c23a0dd8fb53"
 metafile = true
 
 [[files]]
+file = "mods/gems-jewels.pw.toml"
+hash = "facc666ee957819b5d48e0332066f5c0bd7c8b1299dc51a4bf9adce8f900164c"
+metafile = true
+
+[[files]]
 file = "mods/ghost.pw.toml"
 hash = "72feade9eb332cf699db3d2bb79e4d16dc1eb3a4a6266922a8d9664d08a81a0a"
 metafile = true
@@ -578,7 +608,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "d808de8b4c211941d0ec7d84d59cac7699199f5adfa6c2a13c4f9cdc6a027908"
+hash = "75199fa3b762c5aa781e3cb2aab7779d19128b2a1c5b15798d5e613df8d16573"
 metafile = true
 
 [[files]]
@@ -642,6 +672,11 @@ hash = "3f76151faf586eb5211b99a96b28b1c33666bc8524ef847d6166dbd8a023dca6"
 metafile = true
 
 [[files]]
+file = "mods/more-critters.pw.toml"
+hash = "d62f2f3788c73fa8ee2e82b2c2477e7e9e1cd8c91a443bd13b21d29811963636"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "fc65038c1b735a0462b32f9eec33c802bfcae81a567ca391e518892bb446d847"
 metafile = true
@@ -687,8 +722,13 @@ hash = "fd382cec52297ec03c27c9127dcc2d0b2c288262ce5680a1e7b6d9d8bfc04ece"
 metafile = true
 
 [[files]]
+file = "mods/octo-lib.pw.toml"
+hash = "320c4d3a50b1f2f45d64d2f88c8c16473bc85b95d67e54ff93205ac9d2ead3cf"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
-hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
+hash = "1dc0a25903ca2073df5e6adbb2f55e53f69b2e70a6fbc00b057aed8e7e20e104"
 metafile = true
 
 [[files]]
@@ -717,8 +757,23 @@ hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
 metafile = true
 
 [[files]]
+file = "mods/rac-compat.pw.toml"
+hash = "1370259dc6dbee26f16ca508c73ab6a8d833e0a1319a4c101ce8beecdd7995fa"
+metafile = true
+
+[[files]]
 file = "mods/rainbow-reef.pw.toml"
 hash = "fd4f1e9666594f7ceebba695809e4256195619ee76c57060031e4c701ac14330"
+metafile = true
+
+[[files]]
+file = "mods/ram-compat.pw.toml"
+hash = "61278599a5ab03ca6767482e92711f42bd913d3ce330c557c5939b294b07b528"
+metafile = true
+
+[[files]]
+file = "mods/rar-compat.pw.toml"
+hash = "a710606593c77d6909ac25f3baeb04ba554ed8a8f076d4a4c5f30b5d4f838d8c"
 metafile = true
 
 [[files]]
@@ -729,6 +784,11 @@ metafile = true
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "894af11913de3a7375018085020f5e773cf72edeb840f4829e2ff5f1c29362e1"
+metafile = true
+
+[[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "2bff9341fdba31491a0b53e2b84660eb94147ff07de1f48a6bb2bd7e745ebb86"
 metafile = true
 
 [[files]]
@@ -793,7 +853,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "211c3a72fb3085e2356214da945bbe46c0dd045a6e27929b5c162ba58bc40962"
+hash = "23063695dff072c1785d0de63884b3db2b38e6f2fcaf816968b9d453eafe4350"
 metafile = true
 
 [[files]]
@@ -862,6 +922,11 @@ hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
 metafile = true
 
 [[files]]
+file = "mods/under-the-moon.pw.toml"
+hash = "60406089b852ac4415f998f181fa101bb663013c94bd3c826fa35d05ae647c24"
+metafile = true
+
+[[files]]
 file = "mods/unusual-fish-mod.pw.toml"
 hash = "589e5ac064134412ac95f2811fb5b20d65e15ad342bd6943a92b02be5c56ce7d"
 metafile = true
@@ -874,6 +939,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "5dbc1ed70c1dd5c99c93d353b6267c6a4e7af2b342d0ad4ddecf54593e199224"
+metafile = true
+
+[[files]]
+file = "mods/whaleborne.pw.toml"
+hash = "ad22c58ad1b158846ecde7661b8e0ae4f9a93f3f25afe88872c0b60e455262ec"
 metafile = true
 
 [[files]]

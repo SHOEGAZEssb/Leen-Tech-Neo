@@ -1,0 +1,12 @@
+name = "Gems & Jewels"
+filename = "gemsnjewels-1.20.1-1.4.12.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "edee07595ec67d25c923bc4075fa0a71b0eafd05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6714850
+project-id = 392943
