@@ -1,0 +1,12 @@
+name = "Cataclysmic Combat"
+filename = "cataclysmiccombat-1.4.1-1.20.1.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "f455a6e260afa4903703f8b063ecbc6c494887d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6735044
+project-id = 880483

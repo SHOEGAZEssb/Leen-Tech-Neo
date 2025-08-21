@@ -17,13 +17,18 @@ file = "kubejs/server_scripts/jei_cleanup_server.js"
 hash = "a7363fea0ecc1b69b3add3bc4cd3aad19e198b43c169a395fc77d77ddd7d5397"
 
 [[files]]
-file = "mods/accessories.pw.toml"
-hash = "75948439841eb3cbae2f75ee186c338b3311d30ea13f077d6ffc75f7267eabde"
+file = "mods/ad-astra-more-structures.pw.toml"
+hash = "eaea364f31acc82bc5bd7cd0834b5499c7407c34b3573a41bff8619108594384"
 metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
+metafile = true
+
+[[files]]
+file = "mods/ae2-things-forge.pw.toml"
+hash = "3fc558b52ae9098fa4ab2e9033ef40d4692b4e3b2885a93751c7f0269c421e54"
 metafile = true
 
 [[files]]
@@ -122,6 +127,16 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
+file = "mods/ars-additions.pw.toml"
+hash = "cf8dede22d661cb23a8890102f00feaec721357b02254eb1db6c34b6082cab4b"
+metafile = true
+
+[[files]]
+file = "mods/ars-creo.pw.toml"
+hash = "0541804cc92f4b9c7a64f8932690fbe09b3a892cea26c8a036e93dc4f2ab084d"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "b6ef08847945afa578afe2b7f4a787d1b9ccdc87386103aed4eeb63f6aff0bb2"
 metafile = true
@@ -134,11 +149,6 @@ metafile = true
 [[files]]
 file = "mods/atmospheric.pw.toml"
 hash = "507c3a4fa82b16ba8fc96e67668d68bba336ca2f9618ca263e47d1972259cff2"
-metafile = true
-
-[[files]]
-file = "mods/backported-wolves.pw.toml"
-hash = "75b5556bcb289dc87d065d11138e6121bcd968e83968c5dc8c54d9649b0a53ea"
 metafile = true
 
 [[files]]
@@ -207,13 +217,13 @@ hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
-file = "mods/caves-and-creatures.pw.toml"
-hash = "fe9a421e83314814e9eecea846d7f5f15d511760c30b7f956e4bb84819451fdc"
+file = "mods/cataclysmic-combat.pw.toml"
+hash = "62092b0bd3a87a53a26bc6254721965ab0041a7254af0a69dd44119e46dc54b0"
 metafile = true
 
 [[files]]
-file = "mods/chunk-loaders.pw.toml"
-hash = "05d0f9196f850f27e71c66ebee46839e98c20b88c097536c6960303f0c403048"
+file = "mods/caves-and-creatures.pw.toml"
+hash = "fe9a421e83314814e9eecea846d7f5f15d511760c30b7f956e4bb84819451fdc"
 metafile = true
 
 [[files]]
@@ -274,6 +284,16 @@ metafile = true
 [[files]]
 file = "mods/create-enlightend.pw.toml"
 hash = "f01018ef369c2ec6126a1a0b9cc8285b1da891fc326e4677ba3853966709a77b"
+metafile = true
+
+[[files]]
+file = "mods/create-industry.pw.toml"
+hash = "562018ced34c312a66849bdf8351dacd1f8890a4a9f06fd06cef2bee49d47b80"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "dc384e174383ff657f27bd21b4208c58b2b207e1ff9270035e18f08f91e11c5d"
 metafile = true
 
 [[files]]
@@ -357,6 +377,11 @@ hash = "26faef16a054240ffc0521b1604937ff584c7f7a6cdf88abb2eedec00757ddb0"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-village.pw.toml"
+hash = "072fbc4806fa9ef56a41bdfeaf2a2950302663bcd2f18da161003a75129b34f2"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "57f5ec273570b39482833d623e8acbd552c95119ef1dc38ef77f8020d9cd4c16"
 metafile = true
@@ -392,6 +417,11 @@ hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
 metafile = true
 
 [[files]]
+file = "mods/entangled.pw.toml"
+hash = "8276a58cd3e429c886cfe8bab5c15db4b06f3337f28ab61f7b6cea370d8731f0"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "5d94f8bc7787c32279634eef101f43fa46cf119ea000c91ad70d833a8fcdcb06"
 metafile = true
@@ -399,6 +429,11 @@ metafile = true
 [[files]]
 file = "mods/environmental.pw.toml"
 hash = "2f2fd6882c38ac0f0df86145d1a0d2ae27d6631d23f17a5a11c1767204ad4c25"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "010d6c402eb65881d8148d951d1b838658396c8e646ced132271e96d4f852cd3"
 metafile = true
 
 [[files]]
@@ -534,6 +569,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "73f0fb77d1827b8571a4a17f39920b813c356fe2c8647ae1195de50792e5bc7c"
+metafile = true
+
+[[files]]
+file = "mods/integrated-cataclysm.pw.toml"
+hash = "2feec2dc0327ab8a93ed9ecad8bbf898b867f644c785250f8f5c60d994bd3055"
 metafile = true
 
 [[files]]
@@ -677,6 +717,16 @@ hash = "d62f2f3788c73fa8ee2e82b2c2477e7e9e1cd8c91a443bd13b21d29811963636"
 metafile = true
 
 [[files]]
+file = "mods/more-mob-variants.pw.toml"
+hash = "11a95afeaa0c1ac39adaedfd62e3519e864bfc15129d143b11719b6c2c9c6cfe"
+metafile = true
+
+[[files]]
+file = "mods/more-sniffer-flowers.pw.toml"
+hash = "09960c1b3595d57622158fc41f85ccb3ba69a0c00c2eb834293fc1ec02749c6a"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "fc65038c1b735a0462b32f9eec33c802bfcae81a567ca391e518892bb446d847"
 metafile = true
@@ -699,6 +749,11 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "ce870561ca76e5ab45d33af7eaa9ca63deb090e2b6bd29bed9de90ff43507b98"
+metafile = true
+
+[[files]]
+file = "mods/nethers-exoticism.pw.toml"
+hash = "da3d56ca17145a0981aaedddd85fb43e2c3403a3748944ed1e198dcdd27bc64b"
 metafile = true
 
 [[files]]
@@ -734,6 +789,11 @@ metafile = true
 [[files]]
 file = "mods/opposing-force.pw.toml"
 hash = "24c3fad88cd07730fd48f876e470cd3aaea06a83b00874449e46d62c9063de94"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
@@ -872,6 +932,11 @@ hash = "47ac26ddab2c00a8653274b31558b914547d2e89830d9c87fa594559f2a68d46"
 metafile = true
 
 [[files]]
+file = "mods/stone-zone.pw.toml"
+hash = "d150545e5283ceb78e9bd1e0aaf8ceab58e04d3ec78a7dc396c3f26d9bdf5c3b"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "b805db41ac6a23b170f406044512869084734d672176e04b2ff0c54da2c38658"
 metafile = true
@@ -914,6 +979,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "8308f909baa0bdfb27cae80b867da72a876a15c2fdc73fabb9290a6165d8db36"
+metafile = true
+
+[[files]]
+file = "mods/twilight-forest-the-lost-blocks.pw.toml"
+hash = "d2e881744ce3eccb28574dd740bbeb37f0751c3814e329d71664a35d507135a1"
 metafile = true
 
 [[files]]
