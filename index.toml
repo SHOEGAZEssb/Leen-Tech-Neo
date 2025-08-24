@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "0e3cffa304b8ebdb08d0e52b9725254a3e723db0ca79d1275971d7be72502961"
+hash = "bcbdefc3141031a1d3acff9ef3ecd93dae5946c632f1675ba4c9a7cb875b369a"
 metafile = true
 
 [[files]]
@@ -273,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-alexs-caves-compat.pw.toml"
-hash = "54b550b8b9ce0c8906fa12e36aa2bba40f8ea2de511d81a0f6b88f1c2a280739"
+hash = "1d926285c10f7336971ec7ac1b05bbea62a0af8a8565b2e083dddfaf469680d3"
 metafile = true
 
 [[files]]
@@ -433,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "010d6c402eb65881d8148d951d1b838658396c8e646ced132271e96d4f852cd3"
+hash = "8b7d2b8b51d0b00fac1e366cccfc919fe2c424c26b2da4872aecbfad294ba7bc"
 metafile = true
 
 [[files]]
@@ -463,12 +463,17 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "54d80619e50d62f71a2c9913646da6e4b8b433154902df9941e0fe4a869cf929"
+hash = "067fc433511066d18b1795b86c9856246a8da7f9a4316afd6b25e5eee181f660"
 metafile = true
 
 [[files]]
 file = "mods/feature-recycler.pw.toml"
 hash = "119257a0c0eecc89ca8ca4ed6a495b9ca7d477acc5a822fecba1fc697989910c"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
@@ -493,12 +498,12 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "5945fa151974b372c5f69810bb507c4dcc370341477a19e2b50730a5cba8bf48"
+hash = "e17f96677912ca1e42ab05ba1e959226c7b5244f6a24eb573ace63f57e6c222f"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "3e1eb9740fada46d463ae8f5e1f2cf24d5a85532356f7d5173a7c23a0dd8fb53"
+hash = "cdb49cbc2bf1bd15a0be40373b6bc5c4cbd550d78896ab9317f72ce72858f712"
 metafile = true
 
 [[files]]
@@ -807,6 +812,11 @@ hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "25f4863fba654a2b603a90f52ce5f0e17871c4249fd5c7bef3d40a6c8d9e36de"
+metafile = true
+
+[[files]]
 file = "mods/productivebees.pw.toml"
 hash = "0d0932614d3c6b26a635ded1e662afcdd27e1a87b37036593882f7c39822788d"
 metafile = true
@@ -938,7 +948,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b805db41ac6a23b170f406044512869084734d672176e04b2ff0c54da2c38658"
+hash = "cb118cf1a3416d0355c62c4b26cac90ecb25426ae9cae00867524e5b71ba26c8"
 metafile = true
 
 [[files]]
