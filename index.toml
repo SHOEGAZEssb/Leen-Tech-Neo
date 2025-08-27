@@ -367,11 +367,6 @@ hash = "70bb6f786bdb9c3132124acb1b20ea26e94b67d4373e089f2db97b6ef8d25ae6"
 metafile = true
 
 [[files]]
-file = "mods/dragns-just-bettas.pw.toml"
-hash = "a5fdee32d30caaf6c7c12a7fc0186d9d6ba3a8bb94693e0ba12c6fefd1d6ab4b"
-metafile = true
-
-[[files]]
 file = "mods/dungeon-now-loading.pw.toml"
 hash = "26faef16a054240ffc0521b1604937ff584c7f7a6cdf88abb2eedec00757ddb0"
 metafile = true
@@ -429,11 +424,6 @@ metafile = true
 [[files]]
 file = "mods/environmental.pw.toml"
 hash = "2f2fd6882c38ac0f0df86145d1a0d2ae27d6631d23f17a5a11c1767204ad4c25"
-metafile = true
-
-[[files]]
-file = "mods/every-compat.pw.toml"
-hash = "8b7d2b8b51d0b00fac1e366cccfc919fe2c424c26b2da4872aecbfad294ba7bc"
 metafile = true
 
 [[files]]
@@ -549,11 +539,6 @@ metafile = true
 [[files]]
 file = "mods/hellions-sniffer.pw.toml"
 hash = "df41fb86bbe2e923cda1e91a38ccc13a8f9e7e74a7f3be013abf068a4013e2a9"
-metafile = true
-
-[[files]]
-file = "mods/ice-and-fire-dragons.pw.toml"
-hash = "d95f5e8a364f54f0d82481a7ff212470677613357e2b1def81dfeae8443bd024"
 metafile = true
 
 [[files]]
@@ -802,11 +787,6 @@ hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
-file = "mods/platform.pw.toml"
-hash = "98a60625d9c7b1226e89dc6092496875c10a8223a7b77532143fd2812d4c1956"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
@@ -887,11 +867,6 @@ hash = "d653da4a1e1a209fd1ed5c20ab60d18dc6a75b5e4030307f02b1e45caead698e"
 metafile = true
 
 [[files]]
-file = "mods/rotten-creatures.pw.toml"
-hash = "4c342934b5c7b088215e27b4e880cfe68ebe239292a78220b51e1e85cd24afbc"
-metafile = true
-
-[[files]]
 file = "mods/seafarer.pw.toml"
 hash = "018258440f57d313e52eca5a252dc51e6208448dceb31e4782e00863775a5083"
 metafile = true
@@ -939,11 +914,6 @@ metafile = true
 [[files]]
 file = "mods/species.pw.toml"
 hash = "47ac26ddab2c00a8653274b31558b914547d2e89830d9c87fa594559f2a68d46"
-metafile = true
-
-[[files]]
-file = "mods/stone-zone.pw.toml"
-hash = "d150545e5283ceb78e9bd1e0aaf8ceab58e04d3ec78a7dc396c3f26d9bdf5c3b"
 metafile = true
 
 [[files]]
@@ -1039,11 +1009,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "f0287292067ee61ebef19415b73429d93323a0fbcbb6d894940dc8e7b59fe11e"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-end-island.pw.toml"
-hash = "1c7dc736a2caa74de7e10b1a8c7c3bc0d876fd8649e2f14a040bcd490e463fe2"
 metafile = true
 
 [[files]]
