@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "4661cb90e5eb98f646570d23a663568b40e4e660bc34ef0b1af9c47c5a512451"
+
+[[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
 hash = "0b5704a8bc4fe43a6d23986b1ba0e4731c2eac0a3e6cfb740f9168163345e40f"
 
