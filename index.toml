@@ -777,6 +777,11 @@ hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "8e6f9da3604aa92c239cb8f1a91ffd4aa574b0cbd5d01d9779b6a95cb144a9f2"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
