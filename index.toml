@@ -332,11 +332,6 @@ hash = "512e13520d13dcc147ca6f13b33f3efc68d7a182955327a0e780d8ca1a5cc826"
 metafile = true
 
 [[files]]
-file = "mods/cucumber.pw.toml"
-hash = "d9c3f29ab7fec67e5f2fc6a38e26bfb48033c2e7470d8505350e22d43f531d27"
-metafile = true
-
-[[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
@@ -574,11 +569,6 @@ metafile = true
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "f2a70639d44fa36d57f7705a51fb402cf2fd0ab8330368348fa4beda60ec0ebe"
-metafile = true
-
-[[files]]
-file = "mods/iron-jetpacks.pw.toml"
-hash = "e9422b2a58d3482ee7f7e0caccd212c1e542729a429c5ec33b1fb7d9c1547b1a"
 metafile = true
 
 [[files]]
