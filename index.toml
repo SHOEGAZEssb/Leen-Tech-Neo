@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/environmental.pw.toml"
-hash = "2f2fd6882c38ac0f0df86145d1a0d2ae27d6631d23f17a5a11c1767204ad4c25"
+hash = "a49e5cc0f772b33254416c3eb5884235b46a23bedc6191dadf11a34de37c7715"
 metafile = true
 
 [[files]]
@@ -527,7 +527,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "4d8d91a21609efe8abe1e2d135b2c5761321835f0ce9592230c8f1e57146e5f0"
+hash = "0ffd4cabc4d73f62891f6a663da56691d720f395de1379586807f7b96cdbe239"
 metafile = true
 
 [[files]]
@@ -572,7 +572,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "f2a70639d44fa36d57f7705a51fb402cf2fd0ab8330368348fa4beda60ec0ebe"
+hash = "18b3eb11650b65e2749b8b41541b1af7bd69d388d0f6b2a69f25501bcdc68844"
 metafile = true
 
 [[files]]
@@ -697,7 +697,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "64a54781109c753c28e1f4fd6a6ce432b1489edd0d4f41ef0139df8491893967"
+hash = "1838a508046ad1dd348f48a46ed774aabd7f2d039471498fc58a5cca06cc0d37"
 metafile = true
 
 [[files]]
@@ -877,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "edacf27ee09dd5ca71d2d7b46104b0a9fdbbb8b507ac239db51d47a3b6f53c64"
+hash = "5971c0c903055dccf4b1e3becdacb2451ab0fe4b6a72ca274b4e9e37a0f9089e"
 metafile = true
 
 [[files]]
@@ -902,7 +902,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "026f2625feac6e7c44899cdf4c47d7779aa0e5be034ab80964c366a080ee5f07"
+hash = "5ac8d1cf597a2845ea7fcae4a961b10ed650da15c7a63861b8ae66ebce40253f"
 metafile = true
 
 [[files]]
