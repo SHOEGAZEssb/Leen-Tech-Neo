@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
+file = "config/grimoireofgaia-common.toml"
+hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "4661cb90e5eb98f646570d23a663568b40e4e660bc34ef0b1af9c47c5a512451"
 
@@ -19,6 +23,10 @@ hash = "0b5704a8bc4fe43a6d23986b1ba0e4731c2eac0a3e6cfb740f9168163345e40f"
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
 hash = "a7363fea0ecc1b69b3add3bc4cd3aad19e198b43c169a395fc77d77ddd7d5397"
+
+[[files]]
+file = "kubejs/server_scripts/recipes.js"
+hash = "27ff1e8d528b5e5b61bc4a3bd61a5c822dad6165da92259a6311a3bb73c1a151"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
