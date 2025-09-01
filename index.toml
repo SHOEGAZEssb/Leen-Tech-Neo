@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
+file = "config/blockswap/block_swap.json5"
+hash = "ff2653e500298ede9b5dcac28ed8ca39b1bb67943f7f66d2ea48ffa50e85d8e8"
+
+[[files]]
 file = "config/grimoireofgaia-common.toml"
 hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
 
@@ -181,6 +185,11 @@ metafile = true
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
+metafile = true
+
+[[files]]
+file = "mods/block-swap.pw.toml"
+hash = "6ba21f556b6c00a3cb9cdfe125ce85413b5ee4e30a5a75a53d5316797c247309"
 metafile = true
 
 [[files]]
