@@ -86,6 +86,13 @@ to make editing this file much easier.
 	*/
 	"swapper": {
 		"biomesoplenty:spanish_moss": "regions_unexplored:spanish_moss",
-		"biomesoplenty:spanish_moss_plant": "regions_unexplored:spanish_moss_plant"
+		"biomesoplenty:spanish_moss_plant": "regions_unexplored:spanish_moss_plant",
+		"biomesoplenty:barley": "regions_unexplored:barley",
+		"regions_unexplored:dead_leaves": "biomesoplenty:dead_leaves",
+		"regions_unexplored:dead_log": "biomesoplenty:dead_log",
+		"regions_unexplored:stripped_dead_log": "biomesoplenty:stripped_dead_log",
+		"regions_unexplored:dead_wood": "biomesoplenty:dead_wood",
+		"regions_unexplored:stripped_dead_wood": "biomesoplenty:stripped_dead_wood",
+		"regions_unexplored:dead_sapling": "biomesoplenty:dead_sapling"
 	}
 }

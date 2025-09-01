@@ -18,7 +18,7 @@ hash = "639b921cc0692cbfb1e9ab2ef16c256105dad5fe70ee2bb1bab00191d50a5de2"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "ff2653e500298ede9b5dcac28ed8ca39b1bb67943f7f66d2ea48ffa50e85d8e8"
+hash = "b679db24f1159d7e36de440c6d230634ef63ef3c1256c904cacdfb6b10b0b01e"
 
 [[files]]
 file = "config/grimoireofgaia-common.toml"
