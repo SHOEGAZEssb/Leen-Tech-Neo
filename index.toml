@@ -396,7 +396,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeon-now-loading.pw.toml"
-hash = "26faef16a054240ffc0521b1604937ff584c7f7a6cdf88abb2eedec00757ddb0"
+hash = "a5c0b0ac50786d555954388c25596998dbe5b947f870f1fd3187cb8057ca651e"
 metafile = true
 
 [[files]]
@@ -726,7 +726,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "1838a508046ad1dd348f48a46ed774aabd7f2d039471498fc58a5cca06cc0d37"
+hash = "f703ac131b475073badfd553bcaaa69270e5b3db7bd75c76506cd748125eaaef"
 metafile = true
 
 [[files]]
@@ -926,12 +926,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "23063695dff072c1785d0de63884b3db2b38e6f2fcaf816968b9d453eafe4350"
+hash = "ff716169f9fa71dedf97b59b6025ba144049077206be5d96b522cbcf056ec1a3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5ac8d1cf597a2845ea7fcae4a961b10ed650da15c7a63861b8ae66ebce40253f"
+hash = "280962aa9a4a10df98efc16bf526d69b6ae85b9a45cb69c7375820e84962603f"
 metafile = true
 
 [[files]]
