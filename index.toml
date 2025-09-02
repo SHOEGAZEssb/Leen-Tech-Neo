@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
+file = "config/atmospheric-common.toml"
+hash = "fa7e11f2e81c4c8b8a717cb74711e1c9ab9efde769c152725993097c387d88ea"
+
+[[files]]
 file = "config/biomesoplenty/biome_toggles.json"
 hash = "6d0ce5a4ab8396c859f6b1897535d921a303bb7001bf8f489a371a43bf416c79"
 
@@ -19,6 +23,10 @@ hash = "639b921cc0692cbfb1e9ab2ef16c256105dad5fe70ee2bb1bab00191d50a5de2"
 [[files]]
 file = "config/blockswap/block_swap.json5"
 hash = "b679db24f1159d7e36de440c6d230634ef63ef3c1256c904cacdfb6b10b0b01e"
+
+[[files]]
+file = "config/environmental-common.toml"
+hash = "4a0e3df4ed36d629ca35fd66b1ed285f7236c655530e52e2b69f6f25356d86a9"
 
 [[files]]
 file = "config/grimoireofgaia-common.toml"
@@ -726,7 +734,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "f703ac131b475073badfd553bcaaa69270e5b3db7bd75c76506cd748125eaaef"
+hash = "5f6dbfd543e3da0fc4de6efe5cf065800d4e4b1c89e51a80fa112134451fbfb4"
 metafile = true
 
 [[files]]
@@ -926,7 +934,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ff716169f9fa71dedf97b59b6025ba144049077206be5d96b522cbcf056ec1a3"
+hash = "70a589728a39c2eed80ec0eac478c7e50008a069c4e3e80a23a9739f6a969d08"
 metafile = true
 
 [[files]]
