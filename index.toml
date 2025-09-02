@@ -42,15 +42,15 @@ hash = "f9fc61921b3a06978d82e45443d80074c99e1e9de2e0e8edf8ce028a7a1fc7ac"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "0b5704a8bc4fe43a6d23986b1ba0e4731c2eac0a3e6cfb740f9168163345e40f"
+hash = "9480e7c93590acc9f9786f50b06566f872d060320e27f2b4256735f7c06bfc15"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "a7363fea0ecc1b69b3add3bc4cd3aad19e198b43c169a395fc77d77ddd7d5397"
+hash = "9cf5bf33b667e5e79d2365adf544db263a5809941fe082ba813f21fb5c40d8d2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "27ff1e8d528b5e5b61bc4a3bd61a5c822dad6165da92259a6311a3bb73c1a151"
+hash = "040045b6783c450017e9e1a67d64d85a0ed7c0b5d7ba8f58438f448416e8c399"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
@@ -660,6 +660,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "3ce766665d4581280fae88e8119ceb6bf685aabef16e4c4e6e7a7e97da8e472f"
 metafile = true
 
 [[files]]
