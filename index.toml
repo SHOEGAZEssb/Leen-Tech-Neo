@@ -14,11 +14,15 @@ hash = "fa7e11f2e81c4c8b8a717cb74711e1c9ab9efde769c152725993097c387d88ea"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
-hash = "6d0ce5a4ab8396c859f6b1897535d921a303bb7001bf8f489a371a43bf416c79"
+hash = "0bf2893a1ca6092e6da7d7a1d2553d5c540ef8c4533a088881577831d27a818f"
+
+[[files]]
+file = "config/biomesoplenty/gameplay.toml"
+hash = "c48cf5d4b895aae33a2e757aa7b46768d3c30b93f7f09c7a2a3156d5622ec0f1"
 
 [[files]]
 file = "config/biomesoplenty/generation.toml"
-hash = "639b921cc0692cbfb1e9ab2ef16c256105dad5fe70ee2bb1bab00191d50a5de2"
+hash = "28ddec50c06b7b64c614184ce153bd05a0ef1a0b7cbd38d17a35039bbfd00698"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
