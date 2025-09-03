@@ -85,14 +85,33 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
+		// biomes o plenty
 		"biomesoplenty:spanish_moss": "regions_unexplored:spanish_moss",
 		"biomesoplenty:spanish_moss_plant": "regions_unexplored:spanish_moss_plant",
-		"biomesoplenty:barley": "regions_unexplored:barley",
-		"regions_unexplored:dead_leaves": "biomesoplenty:dead_leaves",
-		"regions_unexplored:dead_log": "biomesoplenty:dead_log",
-		"regions_unexplored:stripped_dead_log": "biomesoplenty:stripped_dead_log",
-		"regions_unexplored:dead_wood": "biomesoplenty:dead_wood",
-		"regions_unexplored:stripped_dead_wood": "biomesoplenty:stripped_dead_wood",
-		"regions_unexplored:dead_sapling": "biomesoplenty:dead_sapling"
+
+		// regions unexplored
+		"regions_unexplored:acacia_branch": "minecraft:air",
+		"regions_unexplored:baobab_branch": "minecraft:air",
+		"regions_unexplored:birch_branch": "minecraft:air",
+		"regions_unexplored:blackwood_branch": "minecraft:air",
+		"regions_unexplored:cypress_branch": "minecraft:air",
+		"regions_unexplored:cherry_branch": "minecraft:air",
+		"regions_unexplored:dark_oak_branch": "minecraft:air",
+		"regions_unexplored:dead_branch": "minecraft:air",
+		"regions_unexplored:eucalyptus_branch": "minecraft:air",
+		"regions_unexplored:jungle_branch": "minecraft:air",
+		"regions_unexplored:kapok_branch": "minecraft:air",
+		"regions_unexplored:larch_branch": "minecraft:air",
+		"regions_unexplored:mangrove_branch": "minecraft:air",
+		"regions_unexplored:maple_branch": "minecraft:air",
+		"regions_unexplored:mauve_branch": "minecraft:air",
+		"regions_unexplored:oak_branch": "minecraft:air",
+		"regions_unexplored:pine_branch": "minecraft:air",
+		"regions_unexplored:redwood_branch": "minecraft:air",
+		"regions_unexplored:magnolia_branch": "minecraft:air",
+		"regions_unexplored:silver_birch_branch": "minecraft:air",
+		"regions_unexplored:socotra_branch": "minecraft:air",
+		"regions_unexplored:spruce_branch": "minecraft:air",
+		"regions_unexplored:willow_branch": "minecraft:air"
 	}
 }
