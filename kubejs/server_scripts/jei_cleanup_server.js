@@ -1,4 +1,4 @@
-function removeRecipesByPrefix(event, keyword) {
+function removeRecipesByItemIdPrefix(event, keyword) {
   var items = Ingredient.all.itemIds.filter(id => id.startsWith(keyword));
   items.forEach(id => {
     event.remove({ input: id });
@@ -6,30 +6,49 @@ function removeRecipesByPrefix(event, keyword) {
   });
 }
 
-function removeRecipesById(event, id) {
+// remove any recipe where input or output id matches a wildcard pattern
+function removeRecipesByItemWildcard(event, pattern) {
+  // convert simple wildcard "*" into ".*" for regex
+  var regex = new RegExp("^" + pattern.replace(/\*/g, ".*") + "$");
+
+  var items = Ingredient.all.itemIds.filter(id => regex.test(id));
+  items.forEach(id => {
+    event.remove({ input: id });
+    event.remove({ output: id });
+  });
+}
+
+function removeRecipesByItemId(event, id) {
   event.remove({ input: id });
   event.remove({ output: id });
 }
 
+function removeRecipesByRecipeId(event, recipeId) {
+  event.remove({ id: recipeId });
+}
+
 ServerEvents.recipes(event => {
   // ae2
-  removeRecipesByPrefix(event, "ae2:facade")
+  removeRecipesByItemIdPrefix(event, "ae2:facade")
 
   // biomes o plenty
-  removeRecipesByPrefix(event, "biomesoplenty:redwood")
-  removeRecipesById(event, "biomesoplenty:stripped_redwood_wood");
-  removeRecipesById(event, "biomesoplenty:stripped_redwood_log");
-  removeRecipesById(event, "biomesoplenty:spanish_moss")
-  removeRecipesById(event, "biomesoplenty:spanish_moss_plant")
+  removeRecipesByItemIdPrefix(event, "biomesoplenty:redwood")
+  removeRecipesByItemId(event, "biomesoplenty:stripped_redwood_wood");
+  removeRecipesByItemId(event, "biomesoplenty:stripped_redwood_log");
+  removeRecipesByItemId(event, "biomesoplenty:spanish_moss")
+  removeRecipesByItemId(event, "biomesoplenty:spanish_moss_plant")
 
   // mekanism
-  removeRecipesById(event, "mekanism:uranium_ore");
-  removeRecipesById(event, "mekanism:deepslate_uranium_ore");
+  removeRecipesByItemId(event, "mekanism:uranium_ore");
+  removeRecipesByItemId(event, "mekanism:deepslate_uranium_ore");
 
   // productive bees
-  removeRecipesById(event, "productivebees:advanced_biomesoplenty_redwood_beehive")
-  removeRecipesById(event, "productivebees:expansion_box_biomesoplenty_redwood")
+  removeRecipesByItemId(event, "productivebees:advanced_biomesoplenty_redwood_beehive")
+  removeRecipesByItemId(event, "productivebees:expansion_box_biomesoplenty_redwood")
+
+  // regions unexplored
+  removeRecipesByItemWildcard(event, "regions_unexplored:*_branch");
 
   // supplementaries
-  removeRecipesById(event, "supplementaries:biomesoplenty/sign_post_redwood")
+  removeRecipesByItemId(event, "supplementaries:biomesoplenty/sign_post_redwood")
 })

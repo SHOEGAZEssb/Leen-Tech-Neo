@@ -4,6 +4,14 @@ function hideByPrefix(event, prefix) {
   items.forEach(id => event.hide(id));
 }
 
+// helper function: hide all items matching a wildcard pattern
+function hideByWildcard(event, pattern) {
+  // turn into a regex
+  var regex = new RegExp("^" + pattern.replace(/\*/g, ".*") + "$")
+  var items = Ingredient.all.itemIds.filter(id => regex.test(id))
+  items.forEach(id => event.hide(id))
+}
+
 JEIEvents.hideItems(event => {
   // ae2
   event.hide('ae2:facade')
@@ -25,6 +33,9 @@ JEIEvents.hideItems(event => {
   event.hide('mekanism:uranium_ore')
   event.hide('mekanism:deepslate_uranium_ore')
   event.hide('mekanism:raw_uranium')
+
+  // regions unexplored
+  hideByWildcard(event, "regions_unexplored:*_branch")
 
   // supplementaries
   event.hide("supplementaries:biomesoplenty/sign_post_redwood")
