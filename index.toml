@@ -26,7 +26,7 @@ hash = "28ddec50c06b7b64c614184ce153bd05a0ef1a0b7cbd38d17a35039bbfd00698"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "b679db24f1159d7e36de440c6d230634ef63ef3c1256c904cacdfb6b10b0b01e"
+hash = "a2749b7cd2e3c88e4d3b66501653172bdebdc56cb197bb8d09ed3339a3722b4d"
 
 [[files]]
 file = "config/environmental-common.toml"
@@ -46,11 +46,15 @@ hash = "f9fc61921b3a06978d82e45443d80074c99e1e9de2e0e8edf8ce028a7a1fc7ac"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "9480e7c93590acc9f9786f50b06566f872d060320e27f2b4256735f7c06bfc15"
+hash = "e54c41903c5fe910398cd32bf7a4136057e84657cf1ee1c41bc76947c96bff78"
+
+[[files]]
+file = "kubejs/server_scripts/bee_cleanup.js"
+hash = "1c6a1f7ba2eee5ca699c2ef18f9df3d13e8649aef1d19be4cd4edd5cdffa7239"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "9cf5bf33b667e5e79d2365adf544db263a5809941fe082ba813f21fb5c40d8d2"
+hash = "936768bec52f8fbe69f48627f5eb4177482df6c69f4918d08717f9b0c89ef732"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
@@ -883,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "2bff9341fdba31491a0b53e2b84660eb94147ff07de1f48a6bb2bd7e745ebb86"
+hash = "19fe2027439d4d9050519a915b6dffad162510eab3bd9ddd91b0e3e17b6b001c"
 metafile = true
 
 [[files]]
@@ -943,7 +947,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "70a589728a39c2eed80ec0eac478c7e50008a069c4e3e80a23a9739f6a969d08"
+hash = "6aff8e966a5105bc15e518182caabb72d3e10dc07b52cb2f1a037b7783a44f95"
 metafile = true
 
 [[files]]
@@ -963,7 +967,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "ba9ddc250210fab424d416460d4eee7ec01a2fc6326070baf8585bf3813acb82"
+hash = "8073f07e93108f18253049bc98686b2dba059f79a0e43edbce7f52403ad099d7"
 metafile = true
 
 [[files]]
