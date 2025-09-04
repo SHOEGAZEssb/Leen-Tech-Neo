@@ -166,6 +166,11 @@ hash = "e7db17e6c0d6a1bfbc16a58426e00f7794dc1d5888fe127980979cdd2cfdc5ca"
 metafile = true
 
 [[files]]
+file = "mods/araxers-bestiary.pw.toml"
+hash = "b2cbb7efaa67a2e7b696e58eb8d062c2a2583dbd2fd254c73a8a8bf83ad9851c"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
@@ -268,11 +273,6 @@ metafile = true
 [[files]]
 file = "mods/cataclysmic-combat.pw.toml"
 hash = "62092b0bd3a87a53a26bc6254721965ab0041a7254af0a69dd44119e46dc54b0"
-metafile = true
-
-[[files]]
-file = "mods/caves-and-creatures.pw.toml"
-hash = "fe9a421e83314814e9eecea846d7f5f15d511760c30b7f956e4bb84819451fdc"
 metafile = true
 
 [[files]]
@@ -441,13 +441,13 @@ hash = "d24a843aef46cdafc0589373a63b03ccd8147577cbfe9acea8a3a5db84f9c562"
 metafile = true
 
 [[files]]
-file = "mods/end-remastered.pw.toml"
-hash = "64096adab2c70e812b574669bf362c64268914c4ac5a8f0f3fc4129e0a974df0"
+file = "mods/enderman-overhaul.pw.toml"
+hash = "40dfe8514891337adca9c8775d80ad60ee39957e596d9791497047c85c823b11"
 metafile = true
 
 [[files]]
-file = "mods/enderman-overhaul.pw.toml"
-hash = "40dfe8514891337adca9c8775d80ad60ee39957e596d9791497047c85c823b11"
+file = "mods/endremastered.pw.toml"
+hash = "93bf825c7f42cc48cb0d3dc3e08d2c57fa5fae975e20a2494e1c5fb26bd7e35d"
 metafile = true
 
 [[files]]
@@ -483,11 +483,6 @@ metafile = true
 [[files]]
 file = "mods/falling-leaves-forge.pw.toml"
 hash = "df05d62fc50f3f523d12bb0beb3a5dc73b17caff2550a41f1a86e42ea0e95eba"
-metafile = true
-
-[[files]]
-file = "mods/falling-tree.pw.toml"
-hash = "8f84febf03c9f40c87ff9fdbf7bf22568957dbdf538e511dcf20fe97ffbb82c6"
 metafile = true
 
 [[files]]
@@ -826,6 +821,16 @@ hash = "24c3fad88cd07730fd48f876e470cd3aaea06a83b00874449e46d62c9063de94"
 metafile = true
 
 [[files]]
+file = "mods/pandalib.pw.toml"
+hash = "3dc8bc9517c293b59b91930fd3dcf9e080d06af9e80a18b41c645a5186261585"
+metafile = true
+
+[[files]]
+file = "mods/pandas-falling-trees.pw.toml"
+hash = "1722332dfbf31eb19a12246299b990803372522690b48d6dcdbde3691b6dc72f"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
@@ -947,12 +952,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "6aff8e966a5105bc15e518182caabb72d3e10dc07b52cb2f1a037b7783a44f95"
+hash = "e197cabfb14ba3f8757e8c2e3b1987c64be7988197e9b7d388051bc5a8372180"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "280962aa9a4a10df98efc16bf526d69b6ae85b9a45cb69c7375820e84962603f"
+hash = "86d7422f2e44ea9eaa8a589e2a1c1dafd56d76dd6612b8516004675d13bccc03"
 metafile = true
 
 [[files]]
@@ -1043,6 +1048,11 @@ metafile = true
 [[files]]
 file = "mods/whaleborne.pw.toml"
 hash = "ad22c58ad1b158846ecde7661b8e0ae4f9a93f3f25afe88872c0b60e455262ec"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "e654d650dcb66b6c8af29a717e6e7c55d20d220fdfc8d46b22d6219bacaff6fb"
 metafile = true
 
 [[files]]
