@@ -1,0 +1,14 @@
+{
+  "description": "Custom Valkyrie entry override.",
+  "loot": [
+    {
+      "item": "minecraft:blaze_rod",
+      "dropChance": 0.7,
+      "override": false
+    }
+  ],
+  "attributes": {
+    "health": 30,
+    "override": true
+  }
+}

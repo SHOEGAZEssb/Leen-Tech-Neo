@@ -49,6 +49,10 @@ file = "kubejs/client_scripts/jei_cleanup_client.js"
 hash = "e54c41903c5fe910398cd32bf7a4136057e84657cf1ee1c41bc76947c96bff78"
 
 [[files]]
+file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
+hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
+
+[[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
 hash = "1c6a1f7ba2eee5ca699c2ef18f9df3d13e8649aef1d19be4cd4edd5cdffa7239"
 
@@ -347,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "1d4067d31d91d1d53557a4d4a493094da34f88752ef7b638eb39db07301459f1"
+hash = "a3f0acb8e8f174555b615ff1da684ebfe0817dc4d43df12b6d8def9214c759ed"
 metafile = true
 
 [[files]]
