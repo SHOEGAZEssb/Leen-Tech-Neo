@@ -5,10 +5,6 @@ file = "config/Mekanism/world.toml"
 hash = "a404cbf0b63fea4463ccb8a8fb4936df4896f003f391c6759652e09d37a66aa7"
 
 [[files]]
-file = "config/Obscuria/obscure-api-client.toml"
-hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
-
-[[files]]
 file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
