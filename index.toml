@@ -5,12 +5,32 @@ file = "config/Mekanism/world.toml"
 hash = "a404cbf0b63fea4463ccb8a8fb4936df4896f003f391c6759652e09d37a66aa7"
 
 [[files]]
+file = "config/Obscuria/obscure-api-client.toml"
+hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
+
+[[files]]
 file = "config/ae2/common.json"
 hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
+file = "config/alexscaves-general.toml"
+hash = "0873344f76b6a00e39f47498503bc5ae798ae197502251360b640127b8ca9f9b"
+
+[[files]]
+file = "config/alexscavesexemplified-general.toml"
+hash = "c28797cd90fe8a587f99fd2b5a8b56f3e95fb0e5f744e9a54d80ee6adb3e6f42"
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "256b39f31d862b9c938ff64cada14810aebee2622ccc460eab5b9c2e7666912a"
+
+[[files]]
+file = "config/alexsmobsinteraction-general.toml"
+hash = "7e63e31af5d48aadef04659c46654deb19bb85d4c3c7b7f99f3c356901bfc2f3"
+
+[[files]]
 file = "config/atmospheric-common.toml"
-hash = "fa7e11f2e81c4c8b8a717cb74711e1c9ab9efde769c152725993097c387d88ea"
+hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -29,8 +49,16 @@ file = "config/blockswap/block_swap.json5"
 hash = "a2749b7cd2e3c88e4d3b66501653172bdebdc56cb197bb8d09ed3339a3722b4d"
 
 [[files]]
+file = "config/ecologics-common.toml"
+hash = "5a31c69fa8bbf54065dca162c49c19aacdf162593134c4391ce36a7a4dcf2f21"
+
+[[files]]
 file = "config/environmental-common.toml"
-hash = "4a0e3df4ed36d629ca35fd66b1ed285f7236c655530e52e2b69f6f25356d86a9"
+hash = "8f49e0c07c453bc18ca5e8c2be32d21dbd2494e44ce3817978a77e8966e58c35"
+
+[[files]]
+file = "config/fishingreal-common.toml"
+hash = "28879bfc6f24a3bd1c2c323cac1cdf5296aab7fa9b36b4fad175ac09bfae9bbb"
 
 [[files]]
 file = "config/grimoireofgaia-common.toml"
