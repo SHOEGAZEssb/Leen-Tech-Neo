@@ -57,6 +57,10 @@ file = "config/environmental-common.toml"
 hash = "8f49e0c07c453bc18ca5e8c2be32d21dbd2494e44ce3817978a77e8966e58c35"
 
 [[files]]
+file = "config/farmersdelight-common.toml"
+hash = "13e405efcee7ee1564f8bb2adee2893737c6473c389619089cd529323a4d18a1"
+
+[[files]]
 file = "config/fishingreal-common.toml"
 hash = "28879bfc6f24a3bd1c2c323cac1cdf5296aab7fa9b36b4fad175ac09bfae9bbb"
 
@@ -66,7 +70,7 @@ hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "4661cb90e5eb98f646570d23a663568b40e4e660bc34ef0b1af9c47c5a512451"
+hash = "b23c524e7db509c7afed3fb1325551fa54139594c0e87f80a05058e2820a8bce"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
