@@ -25,6 +25,10 @@ file = "config/alexsmobsinteraction-general.toml"
 hash = "7e63e31af5d48aadef04659c46654deb19bb85d4c3c7b7f99f3c356901bfc2f3"
 
 [[files]]
+file = "config/amendments-common.toml"
+hash = "f4c7411c3dab4a15c775433df0897cc7eb4132c49a66226532c01ec4b56ce857"
+
+[[files]]
 file = "config/atmospheric-common.toml"
 hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
@@ -38,7 +42,7 @@ hash = "c48cf5d4b895aae33a2e757aa7b46768d3c30b93f7f09c7a2a3156d5622ec0f1"
 
 [[files]]
 file = "config/biomesoplenty/generation.toml"
-hash = "28ddec50c06b7b64c614184ce153bd05a0ef1a0b7cbd38d17a35039bbfd00698"
+hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -67,6 +71,14 @@ hash = "4661cb90e5eb98f646570d23a663568b40e4e660bc34ef0b1af9c47c5a512451"
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
 hash = "f9fc61921b3a06978d82e45443d80074c99e1e9de2e0e8edf8ce028a7a1fc7ac"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "eb6c79790b9f38010b8d298fa1885dfc4cdabb7a74c9bb32568808c05ad634da"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "2baf54b1a0a85353514d021eb91727d3769ec206e31624a21606e5f53ee3b09f"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
@@ -195,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "b2cbb7efaa67a2e7b696e58eb8d062c2a2583dbd2fd254c73a8a8bf83ad9851c"
+hash = "a2efe2f78d4fe36238ac85966e38574d76118b3e805ef4e8f7e1a620f88f073a"
 metafile = true
 
 [[files]]
@@ -780,7 +792,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
-hash = "ff72550f89a60a4026211513e514a446a635f8a39389dc88c15ffb994a69692f"
+hash = "02a63d4e27e917f2e99c8c8ae72679a0d110e7b3633a6ced26a49f9e45a77d52"
 metafile = true
 
 [[files]]
@@ -985,7 +997,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "86d7422f2e44ea9eaa8a589e2a1c1dafd56d76dd6612b8516004675d13bccc03"
+hash = "5e484c5eb69d7073dd77eae395897e30d2788f66b353ec05ad2a517e8ea90d9e"
 metafile = true
 
 [[files]]
