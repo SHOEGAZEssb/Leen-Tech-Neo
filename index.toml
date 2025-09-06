@@ -98,11 +98,15 @@ hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "eb6c79790b9f38010b8d298fa1885dfc4cdabb7a74c9bb32568808c05ad634da"
+hash = "305e406cb4b75ae2162e12525b6330ea6aa85418ab5d2c1ced0357f501b9271a"
 
 [[files]]
 file = "config/terrablender.toml"
 hash = "2baf54b1a0a85353514d021eb91727d3769ec206e31624a21606e5f53ee3b09f"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "f42ad652123633bb2e15fc7b43122d40a68e317a399c4f7d9c28a517c9e80433"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -450,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
-hash = "d9c3f29ab7fec67e5f2fc6a38e26bfb48033c2e7470d8505350e22d43f531d27"
+hash = "201641d82c2448c7c89302cc71bc5e98b3e8f8e383eca9a47e2418315a32123e"
 metafile = true
 
 [[files]]
