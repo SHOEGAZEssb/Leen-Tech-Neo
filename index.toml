@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "a2efe2f78d4fe36238ac85966e38574d76118b3e805ef4e8f7e1a620f88f073a"
+hash = "79d7a872d5e4b1307d51a486d4edce324c634226135089f556731439ba545d24"
 metafile = true
 
 [[files]]
@@ -1040,7 +1040,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "8073f07e93108f18253049bc98686b2dba059f79a0e43edbce7f52403ad099d7"
+hash = "0a77ca550434b95663293f193f0450760c955c37da8323bee0aab07e659700e4"
 metafile = true
 
 [[files]]
