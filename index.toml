@@ -13,6 +13,14 @@ file = "config/aeroblender-common.toml"
 hash = "5b12e49412c01d5ded3045bda83d0227b3b066444c7f40429fd840f865caec33"
 
 [[files]]
+file = "config/aether-common.toml"
+hash = "9efbf1417416a14768df0b0c22f09ebb1cf78f6c89aa6517f9dab5f85de9ecfc"
+
+[[files]]
+file = "config/aether_redux_common.toml"
+hash = "48b7396e6ba9a78ef5378fd455f1b114309a3bcfc1fd638f991e616a2a832d7b"
+
+[[files]]
 file = "config/alexscaves-general.toml"
 hash = "0873344f76b6a00e39f47498503bc5ae798ae197502251360b640127b8ca9f9b"
 
@@ -83,6 +91,10 @@ hash = "28879bfc6f24a3bd1c2c323cac1cdf5296aab7fa9b36b4fad175ac09bfae9bbb"
 [[files]]
 file = "config/grimoireofgaia-common.toml"
 hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
+
+[[files]]
+file = "config/netherexp-common.toml"
+hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
 [[files]]
 file = "config/quark-common.toml"
