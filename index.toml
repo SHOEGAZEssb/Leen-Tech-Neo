@@ -50,7 +50,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "a2749b7cd2e3c88e4d3b66501653172bdebdc56cb197bb8d09ed3339a3722b4d"
+hash = "87cc4ef9ea2890e6f1524d604d924986fdcc4259ca87b3835cd0459c14ec258d"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -121,12 +121,16 @@ file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
 hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
 
 [[files]]
+file = "kubejs/server_scripts/add_removed_tag.js"
+hash = "6048c1cc7d92c5aacc3a498c27e58796416e894497bdb84387e50dbd16e66a14"
+
+[[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
-hash = "1c6a1f7ba2eee5ca699c2ef18f9df3d13e8649aef1d19be4cd4edd5cdffa7239"
+hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "936768bec52f8fbe69f48627f5eb4177482df6c69f4918d08717f9b0c89ef732"
+hash = "f142510f688b51fc42126d51cfc4c11532e1f179b58735cc8b4f530efc0f6a6c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"

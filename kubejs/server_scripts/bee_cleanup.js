@@ -1,9 +1,16 @@
 // define blacklist with exact IDs or wildcards (*)
 var ruBlacklist = [
+  "biomesoplenty:*maple*",
   "biomesoplenty:*redwood*",
+  "environmental:*pine*",
   "environmental:*willow*",
   "regions_unexplored:*_branch",
+  "regions_unexplored:*alpha*",
+  "regions_unexplored:ashen_wood",
+  "regions_unexplored:ashen_log",
   "regions_unexplored:*dead*",
+  "regions_unexplored:*maple*",
+  "regions_unexplored:*palm*",
   "regions_unexplored:*willow*"
 ]
 
