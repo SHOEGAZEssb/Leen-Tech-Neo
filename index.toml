@@ -126,7 +126,7 @@ hash = "b88d4785b1c505c7b70b0fbfbc30e7a9ade8fb3c6ea314ca87f7435172f4433c"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "e54c41903c5fe910398cd32bf7a4136057e84657cf1ee1c41bc76947c96bff78"
+hash = "c33038f5476fe8114268d6c9820b685c9384db38f49c0cc5f941b49d79c3ce6b"
 
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
@@ -142,7 +142,7 @@ hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "f142510f688b51fc42126d51cfc4c11532e1f179b58735cc8b4f530efc0f6a6c"
+hash = "7e2cc104c7733f5dee709d70fa4b142568ba93ed72b142c6cd366134a165f170"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"

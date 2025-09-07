@@ -52,11 +52,38 @@ ServerEvents.recipes(event => {
   removeRecipesByItemTag(event, "#ae2:facade")
   event.remove({input: "ae2:cable_anchor", output: "ae2:facade"})
 
+  // atmospheric
+  removeRecipesByItemId(event, "atmospheric:arid_sprouts")
+
   // biomes o plenty
   removeRecipesByItemIdWildcard(event, "biomesoplents:*maple*", ["biomesoplenty:yellow_maple_leaf_pile", "biomesoplenty:yellow_maple_leaves", "biomesoplenty:yellow_maple_sapling"])
   removeRecipesByItemIdWildcard(event, "biomesoplenty:*redwood*")
+  removeRecipesByItemId(event, "biomesoplenty:algal_end_stone")
+  removeRecipesByItemId(event, "biomesoplenty:anomaly")
+  removeRecipesByItemId(event, "biomesoplenty:barley")
+  removeRecipesByItemId(event, "biomesoplenty:barnacles")
+  removeRecipesByItemId(event, "biomesoplenty:cattail")
+  removeRecipesByItemId(event, "biomesoplenty:cypress_leaves")
+  removeRecipesByItemId(event, "biomesoplenty:cypress_sapling")
+  removeRecipesByItemId(event, "biomesoplenty:dried_salt")
+  removeRecipesByItemId(event, "biomesoplenty:enderphyte")
+  removeRecipesByItemId(event, "biomesoplenty:huge_lily_pad")
+  removeRecipesByItemId(event, "biomesoplenty:null_block")
+  removeRecipesByItemId(event, "biomesoplenty:null_end_stone")
+  removeRecipesByItemId(event, "biomesoplenty:null_leaves")
+  removeRecipesByItemId(event, "biomesoplenty:null_plant")
   removeRecipesByItemId(event, "biomesoplenty:spanish_moss")
   removeRecipesByItemId(event, "biomesoplenty:spanish_moss_plant")
+  removeRecipesByItemId(event, "biomesoplenty:thermal_calcite")
+  removeRecipesByItemId(event, "biomesoplenty:thermal_calcite_vent")
+  removeRecipesByItemId(event, "biomesoplenty:tiny_cactus")
+  removeRecipesByItemId(event, "biomesoplenty:unmapped_end_stone")
+  removeRecipesByItemId(event, "biomesoplenty:wispjelly")
+
+  // create: steam n rails
+  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove")
+  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove_narrow")
+  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove_wide")
 
   // environmental
   removeRecipesByItemIdWildcard(event, "environmental:*pine*")
@@ -91,18 +118,25 @@ ServerEvents.recipes(event => {
   removeRecipesByItemIdWildcard(event, "regions_unexplored:*palm*")
   removeRecipesByItemIdWildcard(event, "regions_unexplored:*willow*")
 
+  removeRecipesByItemId(event, "regions_unexplored:barrel_cactus")
+  removeRecipesByItemTag(event, "regions_unexplored:cattail")
   removeRecipesByItemId(event, "regions_unexplored:clover")
+  removeRecipesByItemId(event, "regions_unexplored:sandy_grass")
+  removeRecipesByItemId(event, "regions_unexplored:sandy_tall_grass")
+  removeRecipesByItemId(event, "regions_unexplored:volcanic_ash")
 
   // supplementaries
   removeRecipesByItemId(event, "supplementaries:biomesoplenty/sign_post_maple")
   removeRecipesByItemId(event, "supplementaries:biomesoplenty/sign_post_redwood")
   removeRecipesByItemId(event, "supplementaries:environmental/sign_post_pine")
   removeRecipesByItemId(event, "supplementaries:environmental/sign_post_willow")
+  removeRecipesByItemId(event, "supplementaries:quark/sign_post_azalea")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_alpha")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_dead")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_palm")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_maple")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_willow")
+  removeRecipesByItemId(event, "supplementaries:twilightforest/sign_post_mangrove")
 
   // twilight forest
   removeRecipesByItemIdWildcard(event, "twilightforest:*mangrove*")
