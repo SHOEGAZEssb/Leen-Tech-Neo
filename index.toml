@@ -61,10 +61,6 @@ file = "config/blockswap/block_swap.json5"
 hash = "87cc4ef9ea2890e6f1524d604d924986fdcc4259ca87b3835cd0459c14ec258d"
 
 [[files]]
-file = "config/blue_skies-common.toml"
-hash = "e52a8b6230de8981315538dc14b3302d307f140b9197f7b7dadb680f856d0177"
-
-[[files]]
 file = "config/carryon-common.toml"
 hash = "49c4ae6c1b084bc8e649b9d6c02c24c0fd9e0208f193eb5353e84805f1e4a187"
 
