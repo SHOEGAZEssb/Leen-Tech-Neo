@@ -324,6 +324,11 @@ hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
 metafile = true
 
 [[files]]
+file = "mods/boks-butterflies.pw.toml"
+hash = "ef4a68eb3234fb39baf6d4cbf349330c23316274c784d883dd4ace91c7b6ae65"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
@@ -571,6 +576,11 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "46750aab14ecee77f0f946b58ea35152acb292d06242ff5ab07f10aaff390a1d"
+metafile = true
+
+[[files]]
+file = "mods/extra-compat.pw.toml"
+hash = "2b3148d77fbc22a068d7f1afd44de9d261ca35538da52025747ca2b0bf02ff67"
 metafile = true
 
 [[files]]
@@ -889,11 +899,6 @@ hash = "abc49dcefcdc419d4e7749bd315e2c6d5ecd1cef273ee93b0951f10c24523d22"
 metafile = true
 
 [[files]]
-file = "mods/nyfs-spiders.pw.toml"
-hash = "77feb6db0d3c4c430518f35637b141d1e8266429a06cf184f82b823bbdb11b03"
-metafile = true
-
-[[files]]
 file = "mods/ob-aquamirae.pw.toml"
 hash = "ac85a0c018e8ddb627c1432bae86bd339de2de66623a25cb086239a2d2a31879"
 metafile = true
@@ -1091,6 +1096,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "f30a5dbb82739f295e663bec0663a99b9d1ad00fc6c60327c98e25cc2d53eee6"
+metafile = true
+
+[[files]]
+file = "mods/temporal-api.pw.toml"
+hash = "5de05a202728f03c38b7280275b6020645bc61d757d1ec671524f04c265036b9"
 metafile = true
 
 [[files]]
