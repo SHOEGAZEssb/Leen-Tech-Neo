@@ -1,12 +1,13 @@
 name = "Relics: Artifacts Compat"
-filename = "rarcompat-1.20.1-0.1.7.jar"
+filename = "rarcompat-1.20.1-0.1.9.jar"
 side = "both"
+
 [download]
 hash-format = "sha1"
-hash = "e4b54c90abf55a67c200ff3703d581ac33186b41"
+hash = "0a8df5c100aafb79cd94c9f9a69748e412f0de55"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5766971
+file-id = 6976298
 project-id = 1100379

@@ -395,7 +395,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
-hash = "d7f157a2ed5b985b545a281e5890b642dc7102368c40f77849cd11c41f142b95"
+hash = "eda88d895232fa88c15851fa23225bf51e5ef006505e9a48d437f00635eb03e6"
 metafile = true
 
 [[files]]
@@ -460,7 +460,7 @@ metafile = true
 
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
-hash = "b7670b35f71ff6162407ab9072efdca603f671d5b0d5c66cf195037684bfebcc"
+hash = "27952a529894cbd520c0dab7abbd2e02c7f840ffc8d773161dcd1f37a4812942"
 metafile = true
 
 [[files]]
@@ -686,6 +686,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-lanterns.pw.toml"
 hash = "1e8e262109c0e2e567d25cc4eff6da805ea37c1a2b96ef901008cbad5eb14abe"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "d6b0e5661287d85f55ac44240366da807f242e40f96f01e8780326dcc5551267"
 metafile = true
 
 [[files]]
@@ -970,7 +975,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "a710606593c77d6909ac25f3baeb04ba554ed8a8f076d4a4c5f30b5d4f838d8c"
+hash = "a1492547489054b98ba2725774df0ac8c74b092c4478889c1e7a671d87675312"
 metafile = true
 
 [[files]]
@@ -985,7 +990,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "19fe2027439d4d9050519a915b6dffad162510eab3bd9ddd91b0e3e17b6b001c"
+hash = "99e2227840dc493736535ac7350401da956ac2754130c495596aff35abfec157"
 metafile = true
 
 [[files]]
@@ -1085,7 +1090,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "64e8143e1b158f1eb3ead424853951af3b9db0907a8e5b47da61048943038b29"
+hash = "f30a5dbb82739f295e663bec0663a99b9d1ad00fc6c60327c98e25cc2d53eee6"
 metafile = true
 
 [[files]]
