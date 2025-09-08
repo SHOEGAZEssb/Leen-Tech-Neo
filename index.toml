@@ -61,6 +61,10 @@ file = "config/blockswap/block_swap.json5"
 hash = "87cc4ef9ea2890e6f1524d604d924986fdcc4259ca87b3835cd0459c14ec258d"
 
 [[files]]
+file = "config/blue_skies-common.toml"
+hash = "e52a8b6230de8981315538dc14b3302d307f140b9197f7b7dadb680f856d0177"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "49c4ae6c1b084bc8e649b9d6c02c24c0fd9e0208f193eb5353e84805f1e4a187"
 
@@ -131,6 +135,22 @@ hash = "c33038f5476fe8114268d6c9820b685c9384db38f49c0cc5f941b49d79c3ce6b"
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
 hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
+
+[[files]]
+file = "kubejs/data/darwiniv/dimension/darwin_iv_orbit.json"
+hash = "91630079ccb88aa53e7f3fcfaac85939e0d175e522aec6611d4bcee185ff1525"
+
+[[files]]
+file = "kubejs/data/darwiniv/dimension_type/darwin_iv_orbit.json"
+hash = "ccb3d2ac2d2f1e5bd72713849bea024c7e0730594cec8072caab19baff265589"
+
+[[files]]
+file = "kubejs/data/darwiniv/planets/darwin_iv.json"
+hash = "954da718537845489c4d884293880f8fc2ce308906cfd77e629717833e6c5993"
+
+[[files]]
+file = "kubejs/data/darwiniv/planets/darwin_iv_orbit.json"
+hash = "0fb260a8c89b712204c9b78ab195344566815f38fa2f0c2436585f5c8bac7eca"
 
 [[files]]
 file = "kubejs/server_scripts/add_removed_tag.js"
@@ -325,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/boks-butterflies.pw.toml"
-hash = "ef4a68eb3234fb39baf6d4cbf349330c23316274c784d883dd4ace91c7b6ae65"
+hash = "1116eb3ec0e1dc4f260b41606a7a937537384457e2489547a06c0876c7c917bd"
 metafile = true
 
 [[files]]
@@ -475,7 +495,7 @@ metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
-hash = "d9c3f29ab7fec67e5f2fc6a38e26bfb48033c2e7470d8505350e22d43f531d27"
+hash = "4c5328de9fa679f674b49db158f51a1607ba6b9a373b37b36e47d2fe2eda66f6"
 metafile = true
 
 [[files]]
@@ -580,7 +600,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-compat.pw.toml"
-hash = "2b3148d77fbc22a068d7f1afd44de9d261ca35538da52025747ca2b0bf02ff67"
+hash = "1ecab0d42e2d272feee5335cc53725890c8238fd0448115e6449961529933c21"
 metafile = true
 
 [[files]]
@@ -700,7 +720,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "d6b0e5661287d85f55ac44240366da807f242e40f96f01e8780326dcc5551267"
+hash = "c9c7f2f65ee4ee0316d1b2e7863798bc3a2ab33e4d67dceda92aa513f1fff9e6"
 metafile = true
 
 [[files]]
