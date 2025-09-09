@@ -1203,11 +1203,6 @@ hash = "52b482f80304b3f409a6f4ea1ba9a3596c4bb036c35453a67c53dd3754b2cded"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-strongholds.pw.toml"
-hash = "b7f268238ef4b9c99789831cd1a753fb54e2810aa35f24ff8523eb525372ff23"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "affc88f980f2545c46bedc7fe6e47f22b9b15a508a7d59c69596af20bb0f7f45"
 metafile = true
