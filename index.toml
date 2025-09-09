@@ -169,6 +169,10 @@ file = "kubejs/server_scripts/recipes.js"
 hash = "040045b6783c450017e9e1a67d64d85a0ed7c0b5d7ba8f58438f448416e8c399"
 
 [[files]]
+file = "kubejs/server_scripts/remove_startup_items.js"
+hash = "e96ce8ad62c75da1d76e9ef9af9b6025aae810e20d58686ed38e2e2d2468bb59"
+
+[[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
 hash = "eaea364f31acc82bc5bd7cd0834b5499c7407c34b3573a41bff8619108594384"
 metafile = true
