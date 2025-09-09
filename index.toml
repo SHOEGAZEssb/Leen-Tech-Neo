@@ -61,6 +61,10 @@ file = "config/blockswap/block_swap.json5"
 hash = "87cc4ef9ea2890e6f1524d604d924986fdcc4259ca87b3835cd0459c14ec258d"
 
 [[files]]
+file = "config/butterflies-common.toml"
+hash = "d13a457be0843ab9ea386af00f9a9f95144d2593c913dd3afef59518d24a60d4"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "49c4ae6c1b084bc8e649b9d6c02c24c0fd9e0208f193eb5353e84805f1e4a187"
 
@@ -262,11 +266,6 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "f44ea751fe59cb853834aba3f0ae4c9a20f02f36020ae40f4c38d073fd2a257b"
-metafile = true
-
-[[files]]
-file = "mods/applied-mekanistics.pw.toml"
-hash = "e7db17e6c0d6a1bfbc16a58426e00f7794dc1d5888fe127980979cdd2cfdc5ca"
 metafile = true
 
 [[files]]
@@ -695,11 +694,6 @@ hash = "71445c31f3ce5272d2d6730e094e369c3c27b632239ed3780dd2723e87f165b4"
 metafile = true
 
 [[files]]
-file = "mods/hellions-sniffer.pw.toml"
-hash = "df41fb86bbe2e923cda1e91a38ccc13a8f9e7e74a7f3be013abf068a4013e2a9"
-metafile = true
-
-[[files]]
 file = "mods/idas.pw.toml"
 hash = "e9a2acd5b3c4cdde9c548195fb221e620e92a7f79d849c816dcedcbc11bc8e5f"
 metafile = true
@@ -842,16 +836,6 @@ metafile = true
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
 hash = "17834f653e75591d3e82f4f188f8d9ca2a9e8e1ffe5a2086f64fc2ef35b85a5b"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-generators.pw.toml"
-hash = "c1166f11515ddf73376ac223988e8a1686d4394b824d87ef5b1cbad3b8ee6a28"
-metafile = true
-
-[[files]]
-file = "mods/mekanism.pw.toml"
-hash = "1cf2b1758411b8dd3e3c87a51b4f1f8451312dbd62dae2f9282bea3d90062a11"
 metafile = true
 
 [[files]]
