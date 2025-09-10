@@ -1,5 +1,3 @@
-// server_scripts/remove_annoying_book.js
-
 PlayerEvents.loggedIn(event => {
   var player = event.player
 

@@ -1,3 +1,5 @@
+// priority: 100
+
 // global storage for items to hide in JEI (shared with client)
 if (!global.itemsToHideInJei) global.itemsToHideInJei = []
 
@@ -89,10 +91,6 @@ ServerEvents.recipes(event => {
   removeRecipesByItemIdWildcard(event, "environmental:*pine*")
   removeRecipesByItemIdWildcard(event, "environmental:*willow*")
 
-  // mekanism
-  removeRecipesByItemId(event, "mekanism:uranium_ore")
-  removeRecipesByItemId(event, "mekanism:deepslate_uranium_ore")
-
   // productive bees
   removeRecipesByItemId(event, "productivebees:advanced_biomesoplenty_redwood_beehive")
   removeRecipesByItemId(event, "productivebees:expansion_box_biomesoplenty_redwood")
@@ -140,4 +138,6 @@ ServerEvents.recipes(event => {
 
   // twilight forest
   removeRecipesByItemIdWildcard(event, "twilightforest:*mangrove*")
+  removeRecipesByItemId(event, "twilightforest:huge_lily_pad")
+  removeRecipesByItemId(event, "twilightforest:clover_patch")
 })

@@ -102,23 +102,23 @@ to make editing this file much easier.
 		"biomesoplenty:stripped_maple_log":		"blue_skies:stripped_maple_log",
 		"biomesoplenty:stripped_maple_wood":	"blue_skies:stripped_maple_wood",
 
-		"biomesoplenty:redwood_button": "regions_unexplored:redwood_button",
-		"biomesoplenty:redwood_door": "regions_unexplored:redwood_door",
-		"biomesoplenty:redwood_fence": "regions_unexplored:redwood_fence",
-		"biomesoplenty:redwood_fence_gate": "regions_unexplored:redwood_fence_gate",
-		"biomesoplenty:redwood_hanging_sign": "regions_unexplored:redwood_hanging_sign",
-		"biomesoplenty:redwood_leaves": "regions_unexplored:redwood_leaves",
-		"biomesoplenty:redwood_log": "regions_unexplored:redwood_log",
-		"biomesoplenty:redwood_planks": "regions_unexplored:redwood_planks",
-		"biomesoplenty:redwood_pressure_plate": "regions_unexplored:redwood_pressure_plate",
-		"biomesoplenty:redwood_sapling": "regions_unexplored:redwood_sapling",
-		"biomesoplenty:redwood_sign": "regions_unexplored:redwood_sign",
-		"biomesoplenty:redwood_slab": "regions_unexplored:redwood_slab",
-		"biomesoplenty:redwood_stairs": "regions_unexplored:redwood_stairs",
-		"biomesoplenty:redwood_trapdoor": "regions_unexplored:redwood_trapdoor",
-		"biomesoplenty:redwood_wood": "regions_unexplored:redwood_wood",
-		"biomesoplenty:stripped_redwood_log": "regions_unexplored:stripped_redwood_log",
-		"biomesoplenty:stripped_redwood_wood": "regions_unexplored:stripped_redwood_wood",
+		"biomesoplenty:redwood_button":			"regions_unexplored:redwood_button",
+		"biomesoplenty:redwood_door":			"regions_unexplored:redwood_door",
+		"biomesoplenty:redwood_fence":			"regions_unexplored:redwood_fence",
+		"biomesoplenty:redwood_fence_gate":		"regions_unexplored:redwood_fence_gate",
+		"biomesoplenty:redwood_hanging_sign":	"regions_unexplored:redwood_hanging_sign",
+		"biomesoplenty:redwood_leaves":			"regions_unexplored:redwood_leaves",
+		"biomesoplenty:redwood_log":			"regions_unexplored:redwood_log",
+		"biomesoplenty:redwood_planks":			"regions_unexplored:redwood_planks",
+		"biomesoplenty:redwood_pressure_plate":	"regions_unexplored:redwood_pressure_plate",
+		"biomesoplenty:redwood_sapling":		"regions_unexplored:redwood_sapling",
+		"biomesoplenty:redwood_sign":			"regions_unexplored:redwood_sign",
+		"biomesoplenty:redwood_slab":			"regions_unexplored:redwood_slab",
+		"biomesoplenty:redwood_stairs":			"regions_unexplored:redwood_stairs",
+		"biomesoplenty:redwood_trapdoor":		"regions_unexplored:redwood_trapdoor",
+		"biomesoplenty:redwood_wood":			"regions_unexplored:redwood_wood",
+		"biomesoplenty:stripped_redwood_log":	"regions_unexplored:stripped_redwood_log",
+		"biomesoplenty:stripped_redwood_wood":	"regions_unexplored:stripped_redwood_wood",
 
 		"biomesoplenty:spanish_moss":			"regions_unexplored:spanish_moss",
 		"biomesoplenty:spanish_moss_plant":		"regions_unexplored:spanish_moss_plant",
@@ -174,8 +174,8 @@ to make editing this file much easier.
 		"regions_unexplored:apple_oak_leaves":	"minecraft:oak_leaves",
 		"regions_unexplored:apple_oak_sapling": "minecraft:oak_sapling",
 
-		"regions_unexplored:ashen_wood":	"quark:ancient_wood",
-		"regions_unexplored:ashen_log":		"quark:ancient_log",
+		"regions_unexplored:ashen_wood":		"quark:ancient_wood",
+		"regions_unexplored:ashen_log":			"quark:ancient_log",
 
 		"regions_unexplored:dead_button":			"biomesoplenty:dead_button",
 		"regions_unexplored:dead_door":				"biomesoplenty:dead_door",
@@ -277,10 +277,11 @@ to make editing this file much easier.
 		"regions_unexplored:spruce_branch":			"minecraft:air",
 		"regions_unexplored:willow_branch":			"minecraft:air",
 
-		"regions_unexplored:clover":	"biomesoplenty:clover",
+		"regions_unexplored:clover":				"biomesoplenty:clover",
 
 		// twilight forest
 		// "twilightforest:hollow_mangrove_log":		"quark:hollow_mangrove_log",
+		"twilightforest:mangrove_banister":			"twilightforest:vangrove_banister",
 		"twilightforest:mangrove_button":			"minecraft:mangrove_button",
 		"twilightforest:mangrove_chest":			"quark:mangrove_chest",
 		"twilightforest:mangrove_door":				"minecraft:mangrove_door",
@@ -298,6 +299,9 @@ to make editing this file much easier.
 		"twilightforest:mangrove_trapdoor":			"minecraft:mangrove_trapdoor",
 		"twilightforest:mangrove_wood":				"minecraft:mangrove_wood",
 		"twilightforest:stripped_mangrove_log":		"minecraft:stripped_mangrove_log",
-		"twilightforest:stripped_mangrove_wood":	"minecraft:stripped_mangrove_wood"
+		"twilightforest:stripped_mangrove_wood":	"minecraft:stripped_mangrove_wood",
+
+		"twilightforest:clover_patch":				"biomesoplenty:clover",
+		"twilightforest_huge_lily_pad":				"environmental:large_lily_pad"
 	}
 }

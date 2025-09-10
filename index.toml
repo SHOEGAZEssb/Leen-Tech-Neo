@@ -58,7 +58,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "87cc4ef9ea2890e6f1524d604d924986fdcc4259ca87b3835cd0459c14ec258d"
+hash = "86dcebaf16b3019cb33f4d1fa2259785e4be63456063369d08381a7614690733"
 
 [[files]]
 file = "config/butterflies-common.toml"
@@ -134,7 +134,7 @@ hash = "b88d4785b1c505c7b70b0fbfbc30e7a9ade8fb3c6ea314ca87f7435172f4433c"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "c33038f5476fe8114268d6c9820b685c9384db38f49c0cc5f941b49d79c3ce6b"
+hash = "247427536bbe4fdfc5f73c862a4854e1bd9835f002954bf118c90d403dccf4ba"
 
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
@@ -166,15 +166,15 @@ hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "7e2cc104c7733f5dee709d70fa4b142568ba93ed72b142c6cd366134a165f170"
+hash = "0f5b0cd2f45ad7686a3ab1f799e698d7d7e475c293f834ccdeebbd764f41dc89"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "040045b6783c450017e9e1a67d64d85a0ed7c0b5d7ba8f58438f448416e8c399"
+hash = "e0a325a0af16aa828fc440643e7c87ddb2d7f341ff593b81dc192dcf79e67a2a"
 
 [[files]]
 file = "kubejs/server_scripts/remove_startup_items.js"
-hash = "e96ce8ad62c75da1d76e9ef9af9b6025aae810e20d58686ed38e2e2d2468bb59"
+hash = "8dc5dec7a48900fcd72e17af340744b65a1ac57b4e95b5904dc03d331639ea7a"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
