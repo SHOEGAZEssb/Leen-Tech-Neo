@@ -97,6 +97,10 @@ file = "config/grimoireofgaia-common.toml"
 hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
 
 [[files]]
+file = "config/incontrol/spawn.json"
+hash = "63312e5b1d47f14ba9c1da93defcbbebccdb79c0949526a7868b18fc7a07b577"
+
+[[files]]
 file = "config/netherexp-common.toml"
 hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
