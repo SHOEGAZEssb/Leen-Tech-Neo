@@ -438,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-alexs-caves-compat.pw.toml"
-hash = "1d926285c10f7336971ec7ac1b05bbea62a0af8a8565b2e083dddfaf469680d3"
+hash = "79ece2a7e6664cd3a14e7ae10cd47fb69df053af81feb2828521fa2ee6f87973"
 metafile = true
 
 [[files]]
@@ -1063,12 +1063,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e197cabfb14ba3f8757e8c2e3b1987c64be7988197e9b7d388051bc5a8372180"
+hash = "355947ff28a033bc53276e08d23cb9e351e28e562cff0a7c814946d7edaa0e91"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5e484c5eb69d7073dd77eae395897e30d2788f66b353ec05ad2a517e8ea90d9e"
+hash = "1cce1af190d34f8db672e5fc1232b0d20a64cbdf1df351a22f87fed719d75fc8"
 metafile = true
 
 [[files]]
