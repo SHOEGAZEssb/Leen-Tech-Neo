@@ -293,6 +293,10 @@ file = "kubejs/server_scripts/add_removed_tag.js"
 hash = "6048c1cc7d92c5aacc3a498c27e58796416e894497bdb84387e50dbd16e66a14"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_meteors.js"
+hash = "380134db2e8a504bfc62dffbf396dce9b0c3714f72930203ec907fb287c73f3b"
+
+[[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
 hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
