@@ -302,6 +302,6 @@ to make editing this file much easier.
 		"twilightforest:stripped_mangrove_wood":	"minecraft:stripped_mangrove_wood",
 
 		"twilightforest:clover_patch":				"biomesoplenty:clover",
-		"twilightforest_huge_lily_pad":				"environmental:large_lily_pad"
+		"twilightforest:huge_lily_pad":				"environmental:large_lily_pad"
 	}
 }
