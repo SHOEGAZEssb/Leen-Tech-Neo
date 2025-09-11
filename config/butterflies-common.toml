@@ -3,7 +3,7 @@
 [butterfly_options]
 	#Chance a butterfly has double eggs (0-1).
 	#Range: 0.0 ~ 1.0
-	double_egg_chance = 0.0625
+	double_egg_chance = 0.05
 	#Eggs per butterfly (0-1024).
 	#Range: 0 ~ 1024
 	egg_limit = 1
