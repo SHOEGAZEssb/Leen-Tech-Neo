@@ -269,6 +269,10 @@ file = "kubejs/client_scripts/jei_cleanup_client.js"
 hash = "247427536bbe4fdfc5f73c862a4854e1bd9835f002954bf118c90d403dccf4ba"
 
 [[files]]
+file = "kubejs/client_scripts/rename_biomes.js"
+hash = "7e5e00455ce810232769b36175063ad0bb19c8ef3ac148a901a548779043422c"
+
+[[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
 hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
 
@@ -290,7 +294,7 @@ hash = "0fb260a8c89b712204c9b78ab195344566815f38fa2f0c2436585f5c8bac7eca"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra/ad_astra_meteors.js"
-hash = "2930ec365bdbcb5ec9e586f20db7b35dbedde60ef55fbd2222989b879be79054"
+hash = "21b172abf8c80f8ca7d4fe6896739058775a93a43b0a0ac25a419fd31883ac86"
 
 [[files]]
 file = "kubejs/server_scripts/add_removed_tag.js"
