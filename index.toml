@@ -270,7 +270,7 @@ hash = "247427536bbe4fdfc5f73c862a4854e1bd9835f002954bf118c90d403dccf4ba"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
-hash = "7e5e00455ce810232769b36175063ad0bb19c8ef3ac148a901a548779043422c"
+hash = "bfa27eb63266cfd5c483c48e514c6b8fb622b95b80fe6817dd3dc9bf26465c92"
 
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"

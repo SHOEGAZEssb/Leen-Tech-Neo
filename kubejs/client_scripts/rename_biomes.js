@@ -1,3 +1,10 @@
 ClientEvents.lang("en_us", event => {
-    event.renameBiome("atmospheric:rainforest", "Fuckforest")
+    event.renameBiome("atmospheric:rainforest", "Monkey Grove")
+    event.renameBiome("atmospheric:rainforest_basin", "Flooded Forest")
+    event.renameBiome("atmospheric:sparse_rainforest", "Sparse Monkey Grove")
+    event.renameBiome("atmospheric:sparse_rainforest_basin", "Sparse Flooded Forest")
+    event.renameBiome("environmental:marsh", "Morass")
+    event.renameBiome("environmental:pine_barrens", "Young Pine Barrens")
+    event.renameBiome("environmental:pine_slopes", "Young Pine Slopes")
+    event.renameBiome("environmental:snowy_pine_barrens", "Snowy Young Pine Barrens")
 })
