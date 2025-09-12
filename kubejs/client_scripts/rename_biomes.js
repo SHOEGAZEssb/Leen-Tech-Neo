@@ -7,4 +7,6 @@ ClientEvents.lang("en_us", event => {
     event.renameBiome("environmental:pine_barrens", "Young Pine Barrens")
     event.renameBiome("environmental:pine_slopes", "Young Pine Slopes")
     event.renameBiome("environmental:snowy_pine_barrens", "Snowy Young Pine Barrens")
+    event.renameBiome("regions_unexplored:bamboo_forest", "Bamboo Thicket")
+    event.renameBiome("regions_unexplored:redwoods", "Redwood Forest")
 })
