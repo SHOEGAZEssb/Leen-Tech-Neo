@@ -289,11 +289,15 @@ file = "kubejs/data/darwiniv/planets/darwin_iv_orbit.json"
 hash = "0fb260a8c89b712204c9b78ab195344566815f38fa2f0c2436585f5c8bac7eca"
 
 [[files]]
+file = "kubejs/server_scripts/ad_astra/ad_astra_meteors.js"
+hash = "2930ec365bdbcb5ec9e586f20db7b35dbedde60ef55fbd2222989b879be79054"
+
+[[files]]
 file = "kubejs/server_scripts/add_removed_tag.js"
 hash = "6048c1cc7d92c5aacc3a498c27e58796416e894497bdb84387e50dbd16e66a14"
 
 [[files]]
-file = "kubejs/server_scripts/ae2_meteors.js"
+file = "kubejs/server_scripts/ae2/ae2_meteors.js"
 hash = "380134db2e8a504bfc62dffbf396dce9b0c3714f72930203ec907fb287c73f3b"
 
 [[files]]
@@ -1004,7 +1008,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
-hash = "02a63d4e27e917f2e99c8c8ae72679a0d110e7b3633a6ced26a49f9e45a77d52"
+hash = "b7304ef2266635a37ee6375d25f2216db10b49c790a9f146867df0be8d302dbd"
 metafile = true
 
 [[files]]
@@ -1199,12 +1203,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "92c1a4dc9551692e448f625d482c4ed39bbbd881e3dc03cee63984433560730a"
+hash = "7a12f0754ad975f03e4ddd17eaad3d55afea11db1df8cd7e8ad7bf762068c3dc"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "1cce1af190d34f8db672e5fc1232b0d20a64cbdf1df351a22f87fed719d75fc8"
+hash = "d7155dafeb9728f5aa3eb871e171303d2002e4db518637a70c6c23cf30861bcb"
 metafile = true
 
 [[files]]
