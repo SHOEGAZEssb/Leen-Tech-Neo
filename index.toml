@@ -161,6 +161,14 @@ file = "config/incontrol/spawn.json"
 hash = "63312e5b1d47f14ba9c1da93defcbbebccdb79c0949526a7868b18fc7a07b577"
 
 [[files]]
+file = "config/incontrol/spawner.json"
+hash = "3440050dae34d2e744d37f0acb59a5224bf03c8b1242c03ec63d379215cdf33e"
+
+[[files]]
+file = "config/incontrol/spawner_readme.md"
+hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
+
+[[files]]
 file = "config/knightlib.toml"
 hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
 
@@ -917,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "6272ef7de73f7a6879883991e48346faeab1e45291ba644f1b943fc98aed22fe"
+hash = "3b8e16c89123a508c53a77b2942fb10b8e0e62fef7351ac46ffc78505dce1b60"
 metafile = true
 
 [[files]]

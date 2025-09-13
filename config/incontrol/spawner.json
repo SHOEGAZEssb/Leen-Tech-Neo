@@ -1,0 +1,24 @@
+[
+  {
+    "mob": "minecraft:ghast",
+    "persecond": 0.05,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 120,
+      "minheight": 80,
+      "maxheight": 256,
+      "norestrictions": true,
+      "inair": true,
+      "maxthis": 5,
+      "and": {
+        "biome": ["minecraft:plains", "minecraft:desert"]
+      }
+    }
+  }
+]
