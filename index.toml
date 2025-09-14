@@ -86,7 +86,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "1f217563d0d634ebc217aee1847e8db614cc8143066d64bcc1d1dae3971b14e5"
+hash = "65bd2204ce92f99054e40b7642f123522347dc5d7707eb91d6df2d25fa3e1176"
 
 [[files]]
 file = "config/blue_skies-common.toml"
@@ -289,6 +289,10 @@ file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
 hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
 
 [[files]]
+file = "kubejs/data/ars_nouveau/forge/biome_modifier/remove_archwood.json"
+hash = "d8c3219f7c15baff2101af81e10dd635d758740ad39602e15723d04b487e83f8"
+
+[[files]]
 file = "kubejs/data/darwiniv/dimension/darwin_iv_orbit.json"
 hash = "91630079ccb88aa53e7f3fcfaac85939e0d175e522aec6611d4bcee185ff1525"
 
@@ -313,16 +317,12 @@ file = "kubejs/server_scripts/add_removed_tag.js"
 hash = "6048c1cc7d92c5aacc3a498c27e58796416e894497bdb84387e50dbd16e66a14"
 
 [[files]]
-file = "kubejs/server_scripts/ae2/ae2_meteors.js"
-hash = "380134db2e8a504bfc62dffbf396dce9b0c3714f72930203ec907fb287c73f3b"
-
-[[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
 hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "0f5b0cd2f45ad7686a3ab1f799e698d7d7e475c293f834ccdeebbd764f41dc89"
+hash = "fb601a0d685ac1477155978dfca8222e55a655dad28ab276dde50fbd52c37380"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
