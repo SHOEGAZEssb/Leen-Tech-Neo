@@ -10,6 +10,8 @@ ClientEvents.lang("en_us", event => {
     event.renameBiome("environmental:snowy_pine_barrens", "Snowy Young Pine Barrens")
     event.renameBiome("regions_unexplored:bamboo_forest", "Bamboo Thicket")
     event.renameBiome("regions_unexplored:redwoods", "Redwood Forest")
+    event.renameBiome("deep_aether:golden_grove", "Sunroot Grove")
+    event.renameBiome("deep_aether:golden_heights", "Gilded Heights")
     event.renameBiome("darwiniv:pocketforest", "Alien Forest")
     event.renameBiome("darwiniv:prairie", "Alien Prairie")
     event.renameBiome("darwiniv:salt_shore", "Amoebic Shore")
