@@ -1,4 +1,5 @@
 ClientEvents.lang("en_us", event => {
+    event.renameBiome("minecraft:dark_forest", "Dark Oak Forest")
     event.renameBiome("atmospheric:rainforest", "Monkey Grove")
     event.renameBiome("atmospheric:rainforest_basin", "Flooded Forest")
     event.renameBiome("atmospheric:sparse_rainforest", "Sparse Monkey Grove")
@@ -9,4 +10,8 @@ ClientEvents.lang("en_us", event => {
     event.renameBiome("environmental:snowy_pine_barrens", "Snowy Young Pine Barrens")
     event.renameBiome("regions_unexplored:bamboo_forest", "Bamboo Thicket")
     event.renameBiome("regions_unexplored:redwoods", "Redwood Forest")
+    event.renameBiome("darwiniv:pocketforest", "Alien Forest")
+    event.renameBiome("darwiniv:prairie", "Alien Prairie")
+    event.renameBiome("darwiniv:salt_shore", "Amoebic Shore")
+    event.renameBiome("darwiniv:litoralzone", "Saline Valley")
 })

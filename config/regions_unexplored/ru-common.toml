@@ -40,7 +40,7 @@
 	toggle_flower_field = true
 	toggle_frozen_pine_taiga = true
 	toggle_frozen_tundra = true
-	toggle_fungal_fen = true
+	toggle_fungal_fen = false
 	toggle_golden_boreal_taiga = false
 	toggle_grassland = false
 	toggle_grassy_beach = false
@@ -75,11 +75,11 @@
 	toggle_sparse_redwoods = false
 	toggle_spires = true
 	toggle_steppe = true
-	toggle_temperate_grove = true
+	toggle_temperate_grove = false
 	toggle_towering_cliffs = true
 	toggle_tropical_river = true
 	toggle_tropics = true
-	toggle_willow_forest = true
+	toggle_willow_forest = false
 	#cave_biomes
 	toggle_ancient_delta = true
 	toggle_bioshroom_caves = true

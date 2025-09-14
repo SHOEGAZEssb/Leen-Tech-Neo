@@ -78,7 +78,7 @@ hash = "67e7e94693c7ca0945fe1b7e08639cdf4faad9a8e1eec2b029bf414539113753"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
-hash = "0bf2893a1ca6092e6da7d7a1d2553d5c540ef8c4533a088881577831d27a818f"
+hash = "ee5f59dd7b2aeb89908e094fc3b458075be459d4e01d3cf7c230da03d8658e2f"
 
 [[files]]
 file = "config/biomesoplenty/generation.toml"
@@ -182,7 +182,7 @@ hash = "b23c524e7db509c7afed3fb1325551fa54139594c0e87f80a05058e2820a8bce"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
-hash = "f9fc61921b3a06978d82e45443d80074c99e1e9de2e0e8edf8ce028a7a1fc7ac"
+hash = "caf1ee9d23eaa0c0e390e241ec82bc274411fc9082fc288925e9e02bd2f3e4df"
 
 [[files]]
 file = "config/ribbits-options.json"
@@ -278,7 +278,7 @@ hash = "247427536bbe4fdfc5f73c862a4854e1bd9835f002954bf118c90d403dccf4ba"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
-hash = "da8ae195ad3ca9012e0ec11d0834b9435a470da3f51dae7ea0475ad971a7d39b"
+hash = "6aa16e423d7a0bc6433b2f71c64a9f87251605ea37d9246bc6c17b3d439ccf86"
 
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
