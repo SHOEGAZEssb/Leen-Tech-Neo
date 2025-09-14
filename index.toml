@@ -50,7 +50,7 @@ hash = "256b39f31d862b9c938ff64cada14810aebee2622ccc460eab5b9c2e7666912a"
 
 [[files]]
 file = "config/alexsmobsinteraction-general.toml"
-hash = "7e63e31af5d48aadef04659c46654deb19bb85d4c3c7b7f99f3c356901bfc2f3"
+hash = "398eb46645466d4f851c7144321454cadf71afe00a3720b1057463d3a49a3401"
 
 [[files]]
 file = "config/amendments-common.toml"
@@ -193,6 +193,10 @@ file = "config/storagedrawers-common.v2.toml"
 hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
+file = "config/structurify.json"
+hash = "08e0a4a80fd54c30f455c2b23a0fbabe4309cb7d302e888c036d7923f95a4640"
+
+[[files]]
 file = "config/supplementaries-common.toml"
 hash = "305e406cb4b75ae2162e12525b6330ea6aa85418ab5d2c1ced0357f501b9271a"
 
@@ -217,59 +221,59 @@ file = "config/zombieawareness/MobLists.toml"
 hash = "02082d3145ed03b4ae0931084661a0b0cc8de32b8c78bec61853722db71c248d"
 
 [[files]]
-file = "defaultconfig/Obscuria/obscure-api-client.toml"
+file = "defaultconfigs/Obscuria/obscure-api-client.toml"
 hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
 
 [[files]]
-file = "defaultconfig/ae2/client.json"
+file = "defaultconfigs/ae2/client.json"
 hash = "743a039266ee201f8a02fdf2f99c61f39aa9ea6744a8c5230094fb46abf87c7e"
 
 [[files]]
-file = "defaultconfig/aether-client.toml"
+file = "defaultconfigs/aether-client.toml"
 hash = "85f7083450fb160a9e9098576e255c0cd09e8162dc4c423fb3d80458fe6fb089"
 
 [[files]]
-file = "defaultconfig/aether_redux_client.toml"
+file = "defaultconfigs/aether_redux_client.toml"
 hash = "807319ea7df310e674912d8361cb267f0a02a61cf1abcd556a56d9459ccefc1e"
 
 [[files]]
-file = "defaultconfig/alexscavesexemplified-client.toml"
+file = "defaultconfigs/alexscavesexemplified-client.toml"
 hash = "8c3641123481ccae0572b99d3c662d1331c73335b62fbfe6e9f92df1d5e28488"
 
 [[files]]
-file = "defaultconfig/alexsmobsinteraction-client.toml"
+file = "defaultconfigs/alexsmobsinteraction-client.toml"
 hash = "021faa38625a6013550a1d99e311170fb89e54206cd5768f3b1f6297a61c5c7e"
 
 [[files]]
-file = "defaultconfig/blue_skies-client.toml"
+file = "defaultconfigs/blue_skies-client.toml"
 hash = "071d402fc522364f0bbbe1cce75c96800c5f4bf0236dcf6766a948180d7ed595"
 
 [[files]]
-file = "defaultconfig/blueprint-client.toml"
+file = "defaultconfigs/blueprint-client.toml"
 hash = "7c5a01b061e28846f34ddb47d5e112f37283215f8a11b8bd1dfc4acf9628911d"
 
 [[files]]
-file = "defaultconfig/cumulus_menus-client.toml"
+file = "defaultconfigs/cumulus_menus-client.toml"
 hash = "eef65041207c827c172508b73c494bdc1f2562627a39975c7f351a3ef07b8ba9"
 
 [[files]]
-file = "defaultconfig/deep_aether-client.toml"
+file = "defaultconfigs/deep_aether-client.toml"
 hash = "2249fc1048fc1a9afc3438ae6cc5794401c7feeff53c8f944fb0f88f39bd3c0d"
 
 [[files]]
-file = "defaultconfig/jei/ingredient-list-mod-sort-order.ini"
-hash = "4d04666c936b960a32e113ed16fcf7d4ba063416d9fa5921f077d9305b4d5974"
+file = "defaultconfigs/jei/ingredient-list-mod-sort-order.ini"
+hash = "64acb1c7561e3321cd3ce03aa3001703765e9ff23005815944d537b8a84e8a3a"
 
 [[files]]
-file = "defaultconfig/lost_aether_content-client.toml"
+file = "defaultconfigs/lost_aether_content-client.toml"
 hash = "cbac225d78fa315f44d2006c1d3f7f9ec14f54883ae93775fc71fa54aae865a3"
 
 [[files]]
-file = "defaultconfig/sodiumdynamiclights-client.toml"
+file = "defaultconfigs/sodiumdynamiclights-client.toml"
 hash = "a07f02d32ca757d3aab93dbff71081a33ea30300d85a0e5defee53eb83e7161f"
 
 [[files]]
-file = "defaultconfig/zombieawareness/ClientConfig.toml"
+file = "defaultconfigs/zombieawareness/ClientConfig.toml"
 hash = "e3d0e5585b27f8c8e2a2f58d985cec82f2daa86463f33fec7e4029666ab04067"
 
 [[files]]
@@ -789,11 +793,6 @@ hash = "9d7b25c208427196de5f5110bcc6d27ff31264c8132576cf8fde7cc68f4b2d9d"
 metafile = true
 
 [[files]]
-file = "mods/fishing-real.pw.toml"
-hash = "252de046d26ebe46feae03b18f3baac8af8e85f08920b35663d91a570b97867c"
-metafile = true
-
-[[files]]
 file = "mods/framework.pw.toml"
 hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
@@ -860,7 +859,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "9d074e2dc0cd72cea3cb2cd6dfec85fcc5503ab35b43317942a8eba8c4c263be"
+hash = "84bd7e01a080d9089b5a99ffc0314f9b5a64f4e4ff38d9904bc65564270d54a2"
 metafile = true
 
 [[files]]
@@ -1199,6 +1198,11 @@ hash = "06a7be1f8131fcc34952acbb82baa064c0f252d72551749b1367b20cf79343ae"
 metafile = true
 
 [[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "c4492c3cf595b8fe3b09cf2b614d12c13138cc47b5eb4b5f0c0dc80db93f529e"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "1b10c1a74b5f55db66398563ac908e9590ac102c837a07ce7d7566b0a0051541"
 metafile = true
@@ -1235,12 +1239,17 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "0a77ca550434b95663293f193f0450760c955c37da8323bee0aab07e659700e4"
+hash = "371b68e257eaca322ca4e95f4aa8d95441d84110b69243dda818f743a0111ba5"
 metafile = true
 
 [[files]]
 file = "mods/structure-gel-api.pw.toml"
 hash = "5dfd5e42573659ad84a5d870082aae38aaa8469aba2655e5b2cb14de4ca4cbdd"
+metafile = true
+
+[[files]]
+file = "mods/structurify.pw.toml"
+hash = "b999885707089bd5f3694192aa94a96d4e6acfaf923dcfeb0587be5a3db44edd"
 metafile = true
 
 [[files]]
@@ -1281,6 +1290,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "8308f909baa0bdfb27cae80b867da72a876a15c2fdc73fabb9290a6165d8db36"
+metafile = true
+
+[[files]]
+file = "mods/true-fishing.pw.toml"
+hash = "54063f6f982f6b0825b363cf323f47ebef670b356099190e3ec842424a55cef8"
 metafile = true
 
 [[files]]
