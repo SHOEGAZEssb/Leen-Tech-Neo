@@ -293,7 +293,7 @@
 		#Skreecher souls can be used on a Screacher block to allow it to spawn wardens
 		SKREECHER_WARD_ENABLED = false
 		#New potion effect that spawns a Warden on the player's position when it is about to ware off
-		SKREECH_YOUR_LAST_ENABLED = false
+		SKREECH_YOUR_LAST_ENABLED = true
 
 	[Mobs."Snow Leopard"]
 		#Snow Leopard can cause certain animals to drop certain items related to the prey
