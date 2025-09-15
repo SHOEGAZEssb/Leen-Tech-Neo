@@ -141,10 +141,6 @@ file = "config/farmersdelight-common.toml"
 hash = "13e405efcee7ee1564f8bb2adee2893737c6473c389619089cd529323a4d18a1"
 
 [[files]]
-file = "config/fishingreal-common.toml"
-hash = "28879bfc6f24a3bd1c2c323cac1cdf5296aab7fa9b36b4fad175ac09bfae9bbb"
-
-[[files]]
 file = "config/friendsandfoes.json"
 hash = "df93dbd6994b265a3fdd13961dc58cb6c465d413b315e749520ecfcd590a5f45"
 
