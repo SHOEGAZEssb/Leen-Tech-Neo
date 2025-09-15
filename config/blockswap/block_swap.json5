@@ -160,6 +160,22 @@ to make editing this file much easier.
 		"environmental:stripped_willow_log":	"biomesoplenty:stripped_willow_log",
 		"environmental:stripped_willow_wood":	"biomesoplenty:stripped_willow_wood",
 
+		// exotic birds
+		"exoticbirds:hummingbird_feeder":		"alexsmobs:hummingbird_feeder",
+
+		// quark
+		"quark:rope":							"supplementaries:rope",
+
+		// rainbowreef
+		"rainbowreef:carmine_starfish":			"minecraft:air",
+		"rainbowreef:cerulean_starfish":		"minecraft:air",
+		"rainbowreef:chartreuse_starfish":		"minecraft:air",
+		"rainbowreef:fuchsia_starfish":			"minecraft:air",
+		"rainbowreef:saffron_starfish":			"minecraft:air",
+		"rainbowreef:tangerine_starfish":		"minecraft:air",
+		"rainbowreef:umber_starfish":			"minecraft:air",
+		"rainbowreef:violet_starfish":			"minecraft:air",
+
 		// regions unexplored
 		"regions_unexplored:alpha_dandelion":	"minecraft:dandelion",
 		"regions_unexplored:alpha_grass_block":	"minecraft:grass_block",
@@ -292,6 +308,7 @@ to make editing this file much easier.
 		"twilightforest:mangrove_log":				"minecraft:mangrove_log",
 		"twilightforest:mangrove_planks":			"minecraft:mangrove_planks",
 		"twilightforest:mangrove_pressure_plate":	"minecraft:mangrove_pressure_plate",
+		"twilightforest:mangrove_roots":			"minecraft:muddy_mangrove_roots",
 		"twilightforest:mangrove_sapling":			"minecraft:mangrove_propagule",
 		"twilightforest:mangrove_sign":				"minecraft:mangrove_sign",
 		"twilightforest:mangrove_slab":				"minecraft:mangrove_slab",

@@ -117,6 +117,7 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "exoticbirds:eggshell")
   removeRecipesByItemId(event, "exoticbirds:gull_egg")
   removeRecipesByItemId(event, "exoticbirds:hummingbird_egg")
+  removeRecipesByItemId(event, "exoticbirds:hummingbird_feeder")
   removeRecipesByItemId(event, "exoticbirds:penguin_egg")
   removeRecipesByItemId(event, "exoticbirds:roadrunner_egg")
   removeRecipesByItemId(event, "exoticbirds:toucan_egg")
@@ -244,14 +245,13 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "productivebees:expansion_box_biomesoplenty_redwood")
   removeRecipesByItemId(event, "productivebees:advanced_regions_unexplored_dead_beehive")
   removeRecipesByItemId(event, "productivebees:expansion_box_regions_unexplored_dead")
-  removeRecipesByItemId(event, "productivebees:advanced_regions_unexplored_maple_beehive")
-  removeRecipesByItemId(event, "productivebees:expansion_box_regions_unexplored_maple")
   removeRecipesByItemId(event, "productivebees:advanced_regions_unexplored_palm_beehive")
   removeRecipesByItemId(event, "productivebees:expansion_box_regions_unexplored_palm")
   removeRecipesByItemId(event, "productivebees:advanced_regions_unexplored_willow_beehive")
   removeRecipesByItemId(event, "productivebees:expansion_box_regions_unexplored_willow")
 
   // rainbow reef
+  removeRecipesByItemIdWildcard(event, "rainbowreef:*starfish")
   removeRecipesByItemId(event, "rainbowreef:raw_angelfish")
   removeRecipesByItemId(event, "rainbowreef:raw_basslet")
   removeRecipesByItemId(event, "rainbowreef:raw_butterflyfish")
