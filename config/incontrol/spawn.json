@@ -2,6 +2,18 @@
     { 
         "mob": 
         [
+            "ambientadditions:chocolate_chip_starfish",
+            "ambientadditions:marten",
+            "ambientadditions:siamang_gibbon",
+
+            "exoticbirds:bluejay",
+            "exoticbirds:duck",
+            "exoticbirds:gull",
+            "exoticbirds:hummingbird",
+            "exoticbirds:penguin",
+            "exoticbirds:roadrunner",
+            "exoticbirds:toucan",
+
             "grimoireofgaia:ant_hill",
             "grimoireofgaia:ant_salvager",
             "grimoireofgaia:ant",
