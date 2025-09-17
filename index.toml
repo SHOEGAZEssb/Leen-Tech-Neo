@@ -86,7 +86,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "0da95ad1fcaa43256af854d346cd34a31d2eb53aed7d800abe96e2d0c2f9b53d"
+hash = "f6295de7e7d53d7d24db194e39442d6131e52e8f1b3861daf4c12bdefc391384"
 
 [[files]]
 file = "config/blue_skies-common.toml"
@@ -165,6 +165,10 @@ file = "config/incontrol/spawner_readme.md"
 hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
 
 [[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "64acb1c7561e3321cd3ce03aa3001703765e9ff23005815944d537b8a84e8a3a"
+
+[[files]]
 file = "config/knightlib.toml"
 hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
 
@@ -190,7 +194,7 @@ hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
 file = "config/structurify.json"
-hash = "08e0a4a80fd54c30f455c2b23a0fbabe4309cb7d302e888c036d7923f95a4640"
+hash = "e62f1ec5db7569e46bdfc3e80c487355d7fba59eb843d42dadf68880deb08b07"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -255,10 +259,6 @@ hash = "eef65041207c827c172508b73c494bdc1f2562627a39975c7f351a3ef07b8ba9"
 [[files]]
 file = "defaultconfigs/deep_aether-client.toml"
 hash = "2249fc1048fc1a9afc3438ae6cc5794401c7feeff53c8f944fb0f88f39bd3c0d"
-
-[[files]]
-file = "defaultconfigs/jei/ingredient-list-mod-sort-order.ini"
-hash = "64acb1c7561e3321cd3ce03aa3001703765e9ff23005815944d537b8a84e8a3a"
 
 [[files]]
 file = "defaultconfigs/lost_aether_content-client.toml"
