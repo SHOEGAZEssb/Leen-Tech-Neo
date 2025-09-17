@@ -1,0 +1,144 @@
+{
+  "villagerMaps" : {
+    "minecraft:cartographer": [
+      {
+        "tradeLevel": 3,
+        "structure": "idas:castle",
+        "mapName": "Castle Map",
+        "mapIcon": "BANNER_CYAN",
+        "emeraldsRequired": 29,
+        "tradesAllowed": 1,
+        "xpReward": 10,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 4,
+        "structure" : "idas:labyrinth",
+        "mapName": "Desert Labyrinth Map",
+        "mapIcon": "BANNER_YELLOW",
+        "emeraldsRequired": 25,
+        "tradesAllowed": 1,
+        "xpReward": 20,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 4,
+        "structure": "idas:pillager_fortress",
+        "mapName": "Pillager Fortress Map",
+        "mapIcon": "MANSION",
+        "emeraldsRequired": 25,
+        "tradesAllowed": 1,
+        "xpReward": 20,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 5,
+        "structure": "idas:ancient_mines",
+        "mapName": "Ancient Mines Map",
+        "mapIcon": "BANNER_RED",
+        "emeraldsRequired": 30,
+        "tradesAllowed": 1,
+        "xpReward": 30,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 4,
+        "structure": "idas:tinkers_workshop",
+        "mapName": "Tinker's Workshop Map",
+        "mapIcon": "BANNER_CYAN",
+        "emeraldsRequired": 25,
+        "tradesAllowed": 1,
+        "xpReward": 20,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 5,
+        "structure": "idas:tinkers_citadel",
+        "mapName": "Tinker's Citadel Map",
+        "mapIcon": "BANNER_ORANGE",
+        "emeraldsRequired": 30,
+        "tradesAllowed": 1,
+        "xpReward": 30,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "tradeLevel": 5,
+        "structure": "idas:ruins_of_the_deep",
+        "mapName": "Ruins of the Deep Map",
+        "mapIcon": "BANNER_CYAN",
+        "emeraldsRequired": 30,
+        "tradesAllowed": 1,
+        "xpReward": 30,
+        "spawnRegionSearchRadius": 300
+      }
+    ]
+  },
+  "wanderingTraderMap" : {
+    "rare": [],
+    "common": [
+      {
+        "structure": "idas:treetop_tavern",
+        "mapName": "Treetop Tavern Map",
+        "mapIcon": "BANNER_ORANGE",
+        "emeraldsRequired": 30,
+        "tradesAllowed": 1,
+        "xpReward": 10,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure": "idas:tree_of_wisdom",
+        "mapName": "Wisdom Map",
+        "mapIcon": "BANNER_ORANGE",
+        "emeraldsRequired": 50,
+        "tradesAllowed": 1,
+        "xpReward": 40,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure": "idas:bearclaw_inn",
+        "mapName": "Bearclaw Inn Map",
+        "mapIcon": "BANNER_BROWN",
+        "emeraldsRequired": 25,
+        "tradesAllowed": 1,
+        "xpReward": 10,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure": "idas:bazaar",
+        "mapName": "Bazaar Map",
+        "mapIcon": "BANNER_YELLOW",
+        "emeraldsRequired": 30,
+        "tradesAllowed": 1,
+        "xpReward": 10,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure" : "idas:labyrinth",
+        "mapName": "Desert Labyrinth Map",
+        "mapIcon": "BANNER_YELLOW",
+        "emeraldsRequired": 35,
+        "tradesAllowed": 1,
+        "xpReward": 20,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure": "idas:ancient_mines",
+        "mapName": "Ancient Mines Map",
+        "mapIcon": "BANNER_RED",
+        "emeraldsRequired": 40,
+        "tradesAllowed": 1,
+        "xpReward": 30,
+        "spawnRegionSearchRadius": 300
+      },
+      {
+        "structure": "idas:tinkers_workshop",
+        "mapName": "Tinker's Workshop Map",
+        "mapIcon": "BANNER_CYAN",
+        "emeraldsRequired": 35,
+        "tradesAllowed": 1,
+        "xpReward": 20,
+        "spawnRegionSearchRadius": 300
+      }
+    ]
+  }
+}
