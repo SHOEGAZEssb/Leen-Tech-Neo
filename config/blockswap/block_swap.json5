@@ -166,16 +166,6 @@ to make editing this file much easier.
 		// quark
 		"quark:rope":							"supplementaries:rope",
 
-		// rainbowreef
-		"rainbowreef:carmine_starfish":			"minecraft:air",
-		"rainbowreef:cerulean_starfish":		"minecraft:air",
-		"rainbowreef:chartreuse_starfish":		"minecraft:air",
-		"rainbowreef:fuchsia_starfish":			"minecraft:air",
-		"rainbowreef:saffron_starfish":			"minecraft:air",
-		"rainbowreef:tangerine_starfish":		"minecraft:air",
-		"rainbowreef:umber_starfish":			"minecraft:air",
-		"rainbowreef:violet_starfish":			"minecraft:air",
-
 		// regions unexplored
 		"regions_unexplored:alpha_dandelion":	"minecraft:dandelion",
 		"regions_unexplored:alpha_grass_block":	"minecraft:grass_block",
