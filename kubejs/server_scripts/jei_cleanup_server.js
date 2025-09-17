@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "atmospheric:arid_sprouts")
 
   // biomes o plenty
-  removeRecipesByItemIdWildcard(event, "biomesoplents:*maple*", ["biomesoplenty:yellow_maple_leaf_pile", "biomesoplenty:yellow_maple_leaves", "biomesoplenty:yellow_maple_sapling"])
+  removeRecipesByItemIdWildcard(event, "biomesoplenty:*maple*", ["biomesoplenty:yellow_maple_leaf_pile", "biomesoplenty:yellow_maple_leaves", "biomesoplenty:yellow_maple_sapling"])
   removeRecipesByItemIdWildcard(event, "biomesoplenty:*redwood*")
   removeRecipesByItemId(event, "biomesoplenty:algal_end_stone")
   removeRecipesByItemId(event, "biomesoplenty:anomaly")
