@@ -84,5 +84,15 @@
         ],
         "when": "onjoin",
         "result": "deny"
+    },
+    {
+        "mob": "grimoireofgaia:valkyrie",
+        "result": "deny"
+    },
+    {
+        "mob": "aether:valkyrie",
+        "when": "onjoin",
+        "result": "deny_with_actions",
+        "customevent": "replace_with_gog_valkyrie"
     }
 ]

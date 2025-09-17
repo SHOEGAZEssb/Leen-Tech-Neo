@@ -1,0 +1,17 @@
+[
+  {
+    "on": "custom",
+    "parameters": {
+      "name": "replace_with_gog_valkyrie"
+    },
+    "spawn": {
+      "mob": "grimoireofgaia:valkyrie",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 20,
+      "norestrictions": true
+    }
+  }
+]
