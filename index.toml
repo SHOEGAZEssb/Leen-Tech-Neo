@@ -153,8 +153,12 @@ file = "config/grimoireofgaia-common.toml"
 hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
 
 [[files]]
+file = "config/incontrol/events.json"
+hash = "fd703d26ba755341c88fc3914f1b69622452400d0673ee5e836a329fdbebdce9"
+
+[[files]]
 file = "config/incontrol/spawn.json"
-hash = "5e3a8a965ce29d28aac4545a4bf60dd5e2ab4c8d14dc419a065c63ccc872199f"
+hash = "09570fe9085ae6a38d0d969f66caf85e828bbfec520bdcf3ae8eba09dff9aefd"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -3456,7 +3460,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambient-additions.pw.toml"
-hash = "10455cd2dabbddbd04d821e6dbe0596422db6aaeff5c700c8cd21d09a4b3a4a1"
+hash = "bf59e2fa22d86775030dd0ae1e7d7bd627e29bc9d6ebb0bd7d69e41d3e2bbaa0"
 metafile = true
 
 [[files]]
@@ -3476,7 +3480,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "90d85f519e3e2f09fff65a26a5528e78eec14a3772171458340ad478d3fd746d"
+hash = "996bcdca15e510d8082da82f061304ab42e0ec92d861290ecc6b6f6f907fa564"
 metafile = true
 
 [[files]]
@@ -3486,7 +3490,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "eda356e505916128c7547895f6d2cafaab5a890bdaad282e5c340d5f653c2d39"
+hash = "59c06838120418ab7977db6cc87c8bd3737f33bdcfb3562e3e1087faf4e98e2a"
 metafile = true
 
 [[files]]
@@ -3556,7 +3560,7 @@ metafile = true
 
 [[files]]
 file = "mods/boks-butterflies.pw.toml"
-hash = "1116eb3ec0e1dc4f260b41606a7a937537384457e2489547a06c0876c7c917bd"
+hash = "3dbbf3e656aec1342a02e0d4d16d952b2adfbb6b2cea3944279362728f10cca3"
 metafile = true
 
 [[files]]
@@ -3861,7 +3865,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "cdb49cbc2bf1bd15a0be40373b6bc5c4cbd550d78896ab9317f72ce72858f712"
+hash = "a73ec11104bababe339b793beb89f283687d86b668ecd9ae20487e4164037dcc"
 metafile = true
 
 [[files]]
@@ -3896,7 +3900,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "0ffd4cabc4d73f62891f6a663da56691d720f395de1379586807f7b96cdbe239"
+hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
 metafile = true
 
 [[files]]
@@ -3961,7 +3965,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "51023e43eb617cebf8336d3e3b763c46bf92b45eb0f3767e567ab644b4e0f34d"
+hash = "f83c325baff8ca64e5901060c3734dac88939f8f6bf4a384805c674058416201"
 metafile = true
 
 [[files]]
@@ -4246,7 +4250,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "135a9b386d4db892881cc245b60db7b35baf0dd9c2fc6fa76853eba060d8b48f"
+hash = "247da169be2ab513ad48b5c1e8d1d8ec56add8e2380d7ff44e641a4c17d0ddea"
 metafile = true
 
 [[files]]
@@ -4256,7 +4260,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "1b10c1a74b5f55db66398563ac908e9590ac102c837a07ce7d7566b0a0051541"
+hash = "0fbc029a4af907726538d2cb5e4531f143a21a0d3d6166d548a8a818f5b5af5f"
 metafile = true
 
 [[files]]
@@ -4271,17 +4275,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "418891b43d45e9095441b823561ea763ef53b7ae43f97d0a9a9454d7f0cd5fe4"
+hash = "b4776d3fff9bc3aaa1ab75a2e203bd063f4e4a95f6f3b5aee41d46e6b4515588"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f29ebd5c74fd60b84eac8473af05d63c8da1a76bed0586ba660696f4840e7eaf"
+hash = "9213096e2e5d1fdaf4e7d7a335737bacaed9505b86283abbc4e9e7fbd262c426"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "c0b00994b84ccd854524d4cd96a0b8e9721dea2e345a5216173b2b96a4a4667e"
+hash = "54c2547f4a905582be7a5d5c0d01413d8ed3583e94363aad67033f2d4e6cdedb"
 metafile = true
 
 [[files]]
@@ -4316,7 +4320,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "f30a5dbb82739f295e663bec0663a99b9d1ad00fc6c60327c98e25cc2d53eee6"
+hash = "ee06d2e29fb1709048c1759b55ba6add3fde55d09c1dbc07b2db41e92a531c53"
 metafile = true
 
 [[files]]
