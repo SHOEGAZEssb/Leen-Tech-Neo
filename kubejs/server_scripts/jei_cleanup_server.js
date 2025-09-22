@@ -1,4 +1,4 @@
-// priority: 100
+// priority: 0
 
 // global storage for items to hide in JEI (shared with client)
 if (!global.itemsToHideInJei) global.itemsToHideInJei = []

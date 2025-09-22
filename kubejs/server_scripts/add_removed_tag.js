@@ -1,4 +1,5 @@
 ServerEvents.tags("block", event => {
+  console.log("Tag event running. itemsToHideInJei =", global.itemsToHideInJei)
   global.itemsToHideInJei.forEach(id => {
     // remove from all other block tags
     event.removeAllTagsFrom(id)
@@ -12,6 +13,7 @@ ServerEvents.tags("block", event => {
 })
 
 ServerEvents.tags("item", event => {
+  console.log("Tag event running. itemsToHideInJei =", global.itemsToHideInJei)
   global.itemsToHideInJei.forEach(id => {
     // remove from all other item tags
     event.removeAllTagsFrom(id)
