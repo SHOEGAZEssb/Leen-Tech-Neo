@@ -3385,6 +3385,10 @@ file = "kubejs/server_scripts/jei_cleanup_server.js"
 hash = "2b630ff71bb8a222a0e026dba590983aadb88b6da424264d79156945ef8bbfc5"
 
 [[files]]
+file = "kubejs/server_scripts/meowzie/make_biome_mowzie_boss_spawnable.js"
+hash = "45c563549fc3fc16cebbadda18d1c8b77b32f4c90b3257da5dc593aa1f5a08db"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
 hash = "4fd4efe4d21f9e9f1d5c66a30bf4b13a35d7c13cdf75f895ad91d18b11014fa9"
 
