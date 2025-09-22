@@ -90,7 +90,7 @@ hash = "f6295de7e7d53d7d24db194e39442d6131e52e8f1b3861daf4c12bdefc391384"
 
 [[files]]
 file = "config/blue_skies-common.toml"
-hash = "26c5d9d7169ee8646e367616bfc65c4e957690d1d000ef40b88ba361d0fe085a"
+hash = "e61a8957f228397ec954763ccac367511f46afca6b8a7eff32669033518a0062"
 
 [[files]]
 file = "config/butterflies-common.toml"
@@ -178,7 +178,7 @@ hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "1e735262139d5bca7fb2b4f692875b1a6df426228c9cb9a1c0a8e62efec34da4"
+hash = "eee9652c644f4de1fb5b6fa629591703e98ce7c9c1d0ec9ea153b4147f90493f"
 
 [[files]]
 file = "config/netherexp-common.toml"
@@ -202,7 +202,7 @@ hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
 file = "config/structurify.json"
-hash = "e62f1ec5db7569e46bdfc3e80c487355d7fba59eb843d42dadf68880deb08b07"
+hash = "699b31081a465f0a2b7ba3ecc9e45fd7287ef346d1a8139a96ca95ed4f4ea0dd"
 
 [[files]]
 file = "config/supplementaries-common.toml"

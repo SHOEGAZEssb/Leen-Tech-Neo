@@ -285,9 +285,9 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = []
+			biome_tags = ["blue_skies:everbright", "blue_skies:everdawn"]
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["blue_skies:snow_covered_pines", "blue_skies:rising_creek", "blue_skies:brumble_forest", "blue_skies:shaded_woodlands", "blue_skies:polar_highland", "blue_skies:frostbitten_forest_clearing", "blue_skies:brisk_meadow", "blue_skies:crescent_orchard", "blue_skies:frostbitten_forest", "blue_skies:searing_grassland", "blue_skies:crystal_roughs", "blue_skies:calming_skies", "blue_skies:sunset_maple_forest", "blue_skies:crystal_dunes", "blue_skies:crystal_dunes_spikes", "blue_skies:unorthodox_valley", "blue_skies:slushlands", "blue_skies:brightlands"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -305,10 +305,10 @@
 			generation_separation = 5
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_max = 40.0
+			height_max = -65.0
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_min = 10.0
+			height_min = -65.0
 			#Names of structures this mob/structure will avoid when generating.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			avoid_structures = []
@@ -635,7 +635,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = ["minecraft:is_jungle"]
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = []
+			biome_whitelist = ["regions_unexplored:ancient_delta", "alexscaves:primordial_caves"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -656,7 +656,7 @@
 			#Names of dimensions this mob can spawn in
 			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = []
+			allowed_blocks = ["regions_unexplored:argillite", "regions_unexplored:argillite_grass_block"]
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
@@ -664,7 +664,7 @@
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 60
+			height_min = -65
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.

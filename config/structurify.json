@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-09-15_22-13-16",
+  "config_datetime": "2025-09-18_23-46-40",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -8,6 +8,178 @@
     "global_spacing_and_separation_modifier": 1.2
   },
   "structures": [
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "regions_unexplored:redwoods"
+      ]
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "atmospheric:scrubland",
+        "atmospheric:rocky_dunes",
+        "atmospheric:petrified_dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:dunes",
+        "regions_unexplored:saguaro_desert"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "atmospheric:aspen_parkland",
+        "regions_unexplored:shrubland",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:mauve_hills",
+        "regions_unexplored:flower_fields",
+        "regions_unexplored:barley_fields",
+        "biomesoplenty:pasture",
+        "biomesoplenty:overgrown_greens",
+        "biomesoplenty:lavender_field",
+        "biomesoplenty:field"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "biomesoplenty:mediterranean_forest",
+        "biomesoplenty:prairie",
+        "biomesoplenty:shrubland",
+        "regions_unexplored:grassland",
+        "regions_unexplored:prairie",
+        "regions_unexplored:willow_forest",
+        "regions_unexplored:temperate_grove",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:rocky_meadow",
+        "regions_unexplored:eucalyptus_forest",
+        "ars_nouveau:archwood_forest"
+      ]
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:prairie",
+        "biomesoplenty:lush_savanna",
+        "minecraft:savanna_plateau",
+        "regions_unexplored:eucalyptus_forest"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:scrubland",
+        "regions_unexplored:outback"
+      ]
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:icy_heights",
+        "regions_unexplored:frozen_pine_taiga",
+        "regions_unexplored:cold_deciduous_forest",
+        "biomesoplenty:snowy_maple_woods",
+        "biomesoplenty:snowy_fir_clearing",
+        "biomesoplenty:snowy_coniferous_forest",
+        "biomesoplenty:snowblossom_grove",
+        "biomesoplenty:muskeg",
+        "biomesoplenty:auroral_garden",
+        "minecraft:snowy_taiga",
+        "minecraft:snowy_slopes",
+        "minecraft:snowy_beach",
+        "minecraft:grove"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "atmospheric:laurel_forest",
+        "environmental:pine_slopes",
+        "environmental:pine_barrens",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:autumnal_maple_forest",
+        "biomesoplenty:mediterranean_forest",
+        "biomesoplenty:forested_field",
+        "biomesoplenty:jacaranda_glade"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:snowy_coniferous_forest",
+        "regions_unexplored:shrubland",
+        "regions_unexplored:blackwood_taiga",
+        "regions_unexplored:golden_boreal_taiga",
+        "regions_unexplored:sparse_redwoods"
+      ]
+    },
     {
       "name": "ad_astra:oil_well",
       "is_disabled": true,
@@ -710,6 +882,40 @@
       ]
     },
     {
+      "name": "atmospheric:arid_garden",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "atmospheric:kousa_sanctum",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "atmospheric:village_scrubland",
       "is_disabled": false,
       "enable_flatness_check": false,
@@ -728,7 +934,7 @@
       ],
       "blacklisted_biomes": []
     },
-{
+    {
       "name": "betterarcheology:archeologist_camp_grassy",
       "is_disabled": false,
       "enable_flatness_check": false,
@@ -1075,6 +1281,7 @@
         "atmospheric:rainforest"
       ],
       "blacklisted_biomes": [
+        "biomesoplenty:floodplain",
         "biomesoplenty:rainforest"
       ]
     },
@@ -1413,8 +1620,8 @@
     {
       "name": "betterarcheology:temple_jungle",
       "is_disabled": false,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 80,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
@@ -1626,8 +1833,8 @@
     {
       "name": "betterdeserttemples:desert_temple",
       "is_disabled": false,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 116,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 116,
@@ -1640,6 +1847,9 @@
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "biomesoplenty:dryland",
+        "regions_unexplored:outback",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
         "atmospheric:scrubland",
         "atmospheric:snowy_scrubland",
         "atmospheric:spiny_thicket"
@@ -2030,7 +2240,7 @@
     {
       "name": "betterjungletemples:jungle_temple",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 128,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -2513,7 +2723,7 @@
     {
       "name": "call_of_yucutan:deadly_crypt",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -2534,7 +2744,7 @@
     {
       "name": "call_of_yucutan:overgrown_temple",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -2623,6 +2833,23 @@
         "regions_unexplored:redstone_abyss",
         "regions_unexplored:infernal_holt"
       ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "cataclysm:cursed_pyramid",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 256,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
     {
@@ -2733,6 +2960,23 @@
       ]
     },
     {
+      "name": "deeperdarker:ancient_temple",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "dungeonnowloading:labyrinth",
       "is_disabled": false,
       "enable_flatness_check": false,
@@ -2820,7 +3064,7 @@
     {
       "name": "environmental:log_cabin",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -3237,6 +3481,51 @@
       ]
     },
     {
+      "name": "idas:collectors_museum",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:redwoods"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "biomesoplenty:old_growth_woodland",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:orchard",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "regions_unexplored:silver_birch_forest",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:prairie",
+        "regions_unexplored:grassland",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:shrubland",
+        "minecraft:meadow",
+        "biomesoplenty:field",
+        "biomesoplenty:highland",
+        "biomesoplenty:rocky_shrubland",
+        "regions_unexplored:highland_fields"
+      ]
+    },
+    {
       "name": "idas:iceandfire/dread_citadel",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -3614,6 +3903,209 @@
       ]
     },
     {
+      "name": "mowziesmobs:monastery",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:the_void",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:snowy_plains",
+        "minecraft:ice_spikes",
+        "minecraft:desert",
+        "minecraft:swamp",
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:jungle",
+        "minecraft:sparse_jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:badlands",
+        "minecraft:wooded_badlands",
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "minecraft:stony_shore",
+        "minecraft:warm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:mushroom_fields",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "biomesoplenty:bog",
+        "biomesoplenty:coniferous_forest",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:field",
+        "biomesoplenty:fir_clearing",
+        "biomesoplenty:hot_springs",
+        "biomesoplenty:maple_woods",
+        "biomesoplenty:old_growth_dead_forest",
+        "biomesoplenty:ominous_woods",
+        "biomesoplenty:tundra",
+        "environmental:pine_barrens",
+        "environmental:snowy_pine_barrens",
+        "environmental:old_growth_pine_barrens",
+        "environmental:snowy_old_growth_pine_barrens",
+        "regions_unexplored:blackwood_taiga",
+        "regions_unexplored:boreal_taiga",
+        "regions_unexplored:golden_boreal_taiga",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:redwoods",
+        "regions_unexplored:sparse_redwoods",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river",
+        "alexscaves:abyssal_chasm",
+        "regions_unexplored:hyacinth_deeps",
+        "regions_unexplored:rocky_reef",
+        "regions_unexplored:mountains",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
+        "biomesoplenty:rocky_rainforest",
+        "regions_unexplored:rainforest",
+        "regions_unexplored:sparse_rainforest",
+        "regions_unexplored:eucalyptus_forest",
+        "vanillabackport:pale_garden",
+        "biomesoplenty:aspen_glade",
+        "biomesoplenty:jacaranda_glade",
+        "biomesoplenty:mediterranean_forest",
+        "biomesoplenty:mystic_grove",
+        "biomesoplenty:orchard",
+        "biomesoplenty:pumpkin_patch",
+        "biomesoplenty:redwood_forest",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "environmental:blossom_woods",
+        "environmental:blossom_valleys",
+        "regions_unexplored:alpha_grove",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:bamboo_forest",
+        "regions_unexplored:magnolia_woodland",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:mauve_hills",
+        "regions_unexplored:orchard",
+        "regions_unexplored:silver_birch_forest",
+        "regions_unexplored:temperate_grove",
+        "regions_unexplored:willow_forest",
+        "atmospheric:rainforest",
+        "atmospheric:sparse_rainforest",
+        "atmospheric:rainforest_basin",
+        "atmospheric:sparse_rainforest_basin",
+        "atmospheric:laurel_forest",
+        "atmospheric:grimwoods",
+        "ars_nouveau:archwood_forest",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:mangrove_swamp",
+        "minecraft:deep_dark",
+        "biomesoplenty:auroral_garden",
+        "biomesoplenty:bayou",
+        "biomesoplenty:cold_desert",
+        "biomesoplenty:dryland",
+        "biomesoplenty:forested_field",
+        "biomesoplenty:glowing_grotto",
+        "biomesoplenty:grassland",
+        "biomesoplenty:lavender_field",
+        "biomesoplenty:lush_desert",
+        "biomesoplenty:lush_savanna",
+        "biomesoplenty:marsh",
+        "biomesoplenty:muskeg",
+        "biomesoplenty:old_growth_woodland",
+        "biomesoplenty:origin_valley",
+        "biomesoplenty:overgrown_greens",
+        "biomesoplenty:pasture",
+        "biomesoplenty:prairie",
+        "biomesoplenty:rocky_shrubland",
+        "biomesoplenty:scrubland",
+        "biomesoplenty:shrubland",
+        "biomesoplenty:snowblossom_grove",
+        "biomesoplenty:snowy_coniferous_forest",
+        "biomesoplenty:snowy_fir_clearing",
+        "biomesoplenty:snowy_maple_woods",
+        "biomesoplenty:spider_nest",
+        "biomesoplenty:tropics",
+        "biomesoplenty:volcanic_plains",
+        "biomesoplenty:wasteland",
+        "biomesoplenty:wasteland_steppe",
+        "biomesoplenty:wetland",
+        "biomesoplenty:wintry_origin_valley",
+        "yungscavebiomes:frosted_caves",
+        "yungscavebiomes:lost_caves",
+        "environmental:marsh",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:flower_fields",
+        "regions_unexplored:grassland",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:prairie",
+        "regions_unexplored:pumpkin_fields",
+        "regions_unexplored:shrubland",
+        "regions_unexplored:bayou",
+        "regions_unexplored:fen",
+        "regions_unexplored:marsh",
+        "regions_unexplored:fungal_fen",
+        "regions_unexplored:old_growth_bayou",
+        "regions_unexplored:baobab_savanna",
+        "regions_unexplored:dry_bushland",
+        "regions_unexplored:joshua_desert",
+        "regions_unexplored:outback",
+        "regions_unexplored:saguaro_desert",
+        "regions_unexplored:steppe",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:ashen_woodland",
+        "regions_unexplored:tropics",
+        "regions_unexplored:cold_boreal_taiga",
+        "regions_unexplored:cold_deciduous_forest",
+        "regions_unexplored:frozen_pine_taiga",
+        "regions_unexplored:frozen_tundra",
+        "regions_unexplored:spires",
+        "regions_unexplored:bioshroom_caves",
+        "regions_unexplored:ancient_delta",
+        "regions_unexplored:prismachasm",
+        "regions_unexplored:redstone_caves",
+        "regions_unexplored:scorching_caves",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:rocky_dunes",
+        "atmospheric:petrified_dunes",
+        "atmospheric:aspen_parkland",
+        "atmospheric:kousa_jungle",
+        "atmospheric:scrubland",
+        "atmospheric:spiny_thicket",
+        "quark:glimmering_weald"
+      ]
+    },
+    {
       "name": "netherexp:chapel",
       "is_disabled": false,
       "enable_flatness_check": false,
@@ -3656,6 +4148,40 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "repurposed_structures:ancient_city_nether",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:crimson_forest",
+        "minecraft:warped_forest",
+        "minecraft:basalt_deltas",
+        "netherexp:black_ice_glaciers",
+        "biomesoplenty:crystalline_chasm",
+        "biomesoplenty:erupting_inferno",
+        "biomesoplenty:undergrowth",
+        "biomesoplenty:visceral_heap",
+        "biomesoplenty:withered_abyss",
+        "regions_unexplored:mycotoxic_undergrowth",
+        "regions_unexplored:blackstone_basin",
+        "regions_unexplored:infernal_holt",
+        "regions_unexplored:glistering_meadow",
+        "regions_unexplored:redstone_abyss"
+      ]
+    },
+    {
       "name": "repurposed_structures:ancient_city_ocean",
       "is_disabled": false,
       "enable_flatness_check": false,
@@ -3676,6 +4202,93 @@
         "minecraft:deep_ocean",
         "minecraft:deep_lukewarm_ocean",
         "regions_unexplored:hyacinth_deeps"
+      ]
+    },
+    {
+      "name": "repurposed_structures:bastion_underground",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:aspen_glade",
+        "regions_unexplored:alpha_grove",
+        "regions_unexplored:orchard",
+        "regions_unexplored:temperate_grove",
+        "regions_unexplored:willow_forest",
+        "atmospheric:grimwoods",
+        "minecraft:deep_dark",
+        "regions_unexplored:sparse_redwoods",
+        "biomesoplenty:rainforest",
+        "regions_unexplored:mountains",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:prairie",
+        "biomesoplenty:bayou",
+        "regions_unexplored:marsh"
+      ]
+    },
+    {
+      "name": "repurposed_structures:city_nether",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:soul_sand_valley",
+        "minecraft:basalt_deltas",
+        "netherexp:black_ice_glaciers",
+        "biomesoplenty:undergrowth"
+      ]
+    },
+    {
+      "name": "repurposed_structures:city_overworld",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "minecraft:old_growth_birch_forest",
+        "environmental:old_growth_pine_barrens",
+        "environmental:snowy_old_growth_pine_barrens",
+        "biomesoplenty:old_growth_woodland",
+        "biomesoplenty:old_growth_dead_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "biomesoplenty:redwood_forest",
+        "biomesoplenty:coniferous_forest",
+        "regions_unexplored:boreal_taiga",
+        "regions_unexplored:cold_boreal_taiga",
+        "regions_unexplored:old_growth_bayou",
+        "regions_unexplored:sparse_redwoods",
+        "regions_unexplored:golden_boreal_taiga"
       ]
     },
     {
@@ -3704,6 +4317,316 @@
         "regions_unexplored:rainforest",
         "regions_unexplored:sparse_rainforest",
         "regions_unexplored:eucalyptus_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_grassy",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "biomesoplenty:old_growth_woodland",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:orchard",
+        "minecraft:meadow",
+        "biomesoplenty:field",
+        "biomesoplenty:highland",
+        "biomesoplenty:rocky_shrubland",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:shrubland",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:prairie",
+        "regions_unexplored:grassland",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:poppy_fields"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_mangrove",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:mangrove_swamp"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_mushroom",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "regions_unexplored:fungal_fen"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_stone",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "minecraft:windswept_hills",
+        "minecraft:windswept_gravelly_hills",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:towering_cliffs",
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:highland",
+        "minecraft:stony_peaks",
+        "minecraft:jagged_peaks"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "biomesoplenty:redwood_forest",
+        "regions_unexplored:redwoods",
+        "regions_unexplored:sparse_redwoods",
+        "regions_unexplored:mountains"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "regions_unexplored:silver_birch_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:desert",
+        "biomesoplenty:lush_desert",
+        "biomesoplenty:dryland",
+        "regions_unexplored:joshua_desert",
+        "regions_unexplored:saguaro_desert",
+        "regions_unexplored:outback",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:rocky_dunes",
+        "atmospheric:petrified_dunes",
+        "atmospheric:scrubland",
+        "atmospheric:snowy_scrubland",
+        "atmospheric:spiny_thicket"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "minecraft:sparse_jungle",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
+        "biomesoplenty:rocky_rainforest",
+        "regions_unexplored:rainforest",
+        "regions_unexplored:sparse_rainforest",
+        "regions_unexplored:eucalyptus_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_mangrove",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "atmospheric:sparse_rainforest_basin",
+        "atmospheric:rainforest_basin"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mansion_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "biomesoplenty:old_growth_woodland",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:orchard"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_savanna",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:windswept_savanna",
+        "biomesoplenty:lush_savanna",
+        "biomesoplenty:scrubland",
+        "regions_unexplored:steppe",
+        "regions_unexplored:baobab_savanna",
+        "regions_unexplored:dry_bushland"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_snowy",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:snowy_plains",
+        "biomesoplenty:snowy_fir_clearing",
+        "regions_unexplored:frozen_tundra"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:taiga",
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:old_growth_dead_forest",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:willow_forest"
       ]
     },
     {
@@ -4196,6 +5119,266 @@
       ]
     },
     {
+      "name": "repurposed_structures:outpost_badlands",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:outback",
+        "regions_unexplored:arid_mountains"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:outpost_crimson",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:crimson_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_desert",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:desert",
+        "regions_unexplored:outback",
+        "atmospheric:scrubland",
+        "atmospheric:snowy_scrubland",
+        "atmospheric:spiny_thicket"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_end",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:the_end",
+        "minecraft:end_highlands",
+        "minecraft:end_midlands",
+        "minecraft:small_end_islands",
+        "minecraft:end_barrens"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_giant_tree_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:redwood_forest",
+        "regions_unexplored:sparse_redwoods"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "minecraft:sparse_jungle",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
+        "biomesoplenty:rocky_rainforest",
+        "regions_unexplored:rainforest",
+        "regions_unexplored:sparse_rainforest",
+        "regions_unexplored:eucalyptus_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_mangrove",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:floodplain",
+        "atmospheric:sparse_rainforest_basin",
+        "atmospheric:rainforest_basin"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:outpost_nether_brick",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:crimson_forest",
+        "minecraft:warped_forest",
+        "minecraft:basalt_deltas",
+        "netherexp:black_ice_glaciers",
+        "biomesoplenty:crystalline_chasm",
+        "biomesoplenty:erupting_inferno",
+        "biomesoplenty:undergrowth",
+        "biomesoplenty:visceral_heap",
+        "biomesoplenty:withered_abyss",
+        "regions_unexplored:mycotoxic_undergrowth",
+        "regions_unexplored:blackstone_basin",
+        "regions_unexplored:infernal_holt",
+        "regions_unexplored:glistering_meadow",
+        "regions_unexplored:redstone_abyss"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "biomesoplenty:old_growth_woodland",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:orchard"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:bog",
+        "regions_unexplored:frozen_tundra",
+        "biomesoplenty:tundra"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:jade_cliffs",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:willow_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_warped",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:warped_forest"
+      ]
+    },
+    {
       "name": "repurposed_structures:pyramid_badlands",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -4243,10 +5426,27 @@
       ]
     },
     {
+      "name": "repurposed_structures:pyramid_end",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "repurposed_structures:pyramid_flower_forest",
       "is_disabled": false,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -4294,8 +5494,8 @@
     {
       "name": "repurposed_structures:pyramid_icy",
       "is_disabled": false,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -4341,8 +5541,8 @@
     {
       "name": "repurposed_structures:pyramid_mushroom",
       "is_disabled": false,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -4453,6 +5653,118 @@
         "regions_unexplored:cold_deciduous_forest",
         "regions_unexplored:frozen_pine_taiga",
         "minecraft:snowy_slopes"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ruins_land_cold",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:windswept_hills",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_gravelly_hills",
+        "biomesoplenty:highland",
+        "regions_unexplored:towering_cliffs",
+        "regions_unexplored:icy_heights",
+        "minecraft:meadow",
+        "biomesoplenty:field",
+        "biomesoplenty:rocky_shrubland",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:shrubland",
+        "minecraft:taiga",
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:old_growth_dead_forest",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:willow_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ruins_land_hot",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:desert",
+        "biomesoplenty:lush_desert",
+        "biomesoplenty:dryland",
+        "regions_unexplored:joshua_desert",
+        "regions_unexplored:saguaro_desert",
+        "regions_unexplored:outback",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:rocky_dunes",
+        "atmospheric:petrified_dunes",
+        "atmospheric:scrubland",
+        "atmospheric:snowy_scrubland",
+        "atmospheric:spiny_thicket"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ruins_land_warm",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:volcano",
+        "biomesoplenty:volcanic_plains",
+        "regions_unexplored:ashen_woodland"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:prairie",
+        "regions_unexplored:grassland",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:shrubland",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "biomesoplenty:bayou",
+        "biomesoplenty:bog",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:marsh",
+        "biomesoplenty:moor",
+        "biomesoplenty:muskeg",
+        "biomesoplenty:wetland",
+        "environmental:marsh",
+        "regions_unexplored:bayou",
+        "regions_unexplored:fen",
+        "regions_unexplored:fungal_fen",
+        "regions_unexplored:marsh",
+        "regions_unexplored:old_growth_bayou"
       ]
     },
     {
@@ -4585,6 +5897,271 @@
       ]
     },
     {
+      "name": "repurposed_structures:temple_nether_basalt",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:temple_nether_crimson",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:crimson_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_nether_soul",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:soul_sand_valley"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_nether_warped",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:warped_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_nether_wasteland",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:crimson_forest",
+        "minecraft:warped_forest",
+        "minecraft:basalt_deltas",
+        "netherexp:black_ice_glaciers",
+        "biomesoplenty:crystalline_chasm",
+        "biomesoplenty:erupting_inferno",
+        "biomesoplenty:undergrowth",
+        "biomesoplenty:visceral_heap",
+        "biomesoplenty:withered_abyss",
+        "regions_unexplored:mycotoxic_undergrowth",
+        "regions_unexplored:blackstone_basin",
+        "regions_unexplored:infernal_holt",
+        "regions_unexplored:glistering_meadow",
+        "regions_unexplored:redstone_abyss"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_ocean",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "alexscaves:abyssal_chasm",
+        "regions_unexplored:hyacinth_deeps"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:frozen_tundra",
+        "biomesoplenty:muskeg"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:taiga",
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:old_growth_dead_forest",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:willow_forest",
+        "minecraft:snowy_taiga",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "biomesoplenty:coniferous_forest",
+        "biomesoplenty:field",
+        "biomesoplenty:fir_clearing",
+        "biomesoplenty:hot_springs",
+        "biomesoplenty:maple_woods",
+        "biomesoplenty:ominous_woods",
+        "environmental:pine_barrens",
+        "environmental:snowy_pine_barrens",
+        "environmental:old_growth_pine_barrens",
+        "environmental:snowy_old_growth_pine_barrens",
+        "regions_unexplored:boreal_taiga",
+        "regions_unexplored:golden_boreal_taiga",
+        "regions_unexplored:redwoods",
+        "regions_unexplored:sparse_redwoods",
+        "minecraft:grove",
+        "biomesoplenty:redwood_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_badlands",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:baobab_savanna",
+        "regions_unexplored:outback"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:village_bamboo",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "atmospheric:kousa_jungle"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:village_birch",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:village_cherry",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "environmental:blossom_woods",
+        "environmental:blossom_valleys"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:flower_forest",
+        "biomesoplenty:lavender_field",
+        "regions_unexplored:magnolia_woodland",
+        "regions_unexplored:flower_fields",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:mauve_hills",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:temperate_grove"
+      ]
+    },
+    {
       "name": "repurposed_structures:village_crimson",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -4601,6 +6178,208 @@
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:crimson_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_dark_forest",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:old_growth_dead_forest",
+        "biomesoplenty:dead_forest",
+        "under_the_moon:creep_forest"
+      ],
+      "blacklisted_biomes": [
+        "regions_unexplored:blackwood_taiga",
+        "regions_unexplored:pumpkin_fields",
+        "minecraft:deep_dark",
+        "biomesoplenty:spider_nest",
+        "alexscaves:forlorn_hollows"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_giant_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "environmental:old_growth_pine_barrens"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:redwood_forest",
+        "regions_unexplored:sparse_redwoods"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_jungle",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:volcanic_plains",
+        "atmospheric:sparse_rainforest",
+        "atmospheric:rainforest",
+        "regions_unexplored:tropics"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:bamboo_jungle",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
+        "regions_unexplored:eucalyptus_forest"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mountains",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 50,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:rocky_meadow",
+        "regions_unexplored:highland_fields",
+        "biomesoplenty:jade_cliffs",
+        "minecraft:meadow",
+        "biomesoplenty:moor",
+        "biomesoplenty:crag",
+        "minecraft:stony_peaks"
+      ],
+      "blacklisted_biomes": [
+        "regions_unexplored:icy_heights"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mushroom",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:glowing_grotto",
+        "regions_unexplored:bioshroom_caves",
+        "regions_unexplored:fungal_fen",
+        "quark:glimmering_weald"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_oak",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "regions_unexplored:magnolia_woodland",
+        "minecraft:flower_forest"
+      ],
+      "blacklisted_biomes": [
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:orchard"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_ocean",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:gravel_beach",
+        "biomesoplenty:dune_beach",
+        "minecraft:stony_shore",
+        "minecraft:beach"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "alexscaves:abyssal_chasm",
+        "regions_unexplored:hyacinth_deeps"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_swamp",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:bayou",
+        "biomesoplenty:moor",
+        "biomesoplenty:muskeg",
+        "regions_unexplored:fungal_fen",
+        "regions_unexplored:marsh"
       ]
     },
     {
