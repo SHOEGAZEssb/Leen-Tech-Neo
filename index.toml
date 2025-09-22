@@ -177,6 +177,10 @@ file = "config/knightlib.toml"
 hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
 
 [[files]]
+file = "config/mowziesmobs-common.toml"
+hash = "1e735262139d5bca7fb2b4f692875b1a6df426228c9cb9a1c0a8e62efec34da4"
+
+[[files]]
 file = "config/netherexp-common.toml"
 hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
@@ -3370,7 +3374,7 @@ hash = "21b172abf8c80f8ca7d4fe6896739058775a93a43b0a0ac25a419fd31883ac86"
 
 [[files]]
 file = "kubejs/server_scripts/add_removed_tag.js"
-hash = "7c6469df4890c8d7bec49748d44c0c28b6855057ac7af2b156cd79b9e8c46ee7"
+hash = "68f0ec6ced7720b6ee12fa8f31435368f2749c585ac826b4da50b732e380b436"
 
 [[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
@@ -3378,7 +3382,7 @@ hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "1b07eaa884729d507e6e466496abf268f10b12ab7a2cecb18b9c820bbff6036c"
+hash = "2b630ff71bb8a222a0e026dba590983aadb88b6da424264d79156945ef8bbfc5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
