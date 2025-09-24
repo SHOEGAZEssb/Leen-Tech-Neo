@@ -202,7 +202,7 @@ hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
 file = "config/structurify.json"
-hash = "699b31081a465f0a2b7ba3ecc9e45fd7287ef346d1a8139a96ca95ed4f4ea0dd"
+hash = "b2423f7e5f94c573293bf07c731d81e218509834abda1c59c5ef7c891d1883ba"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -3873,7 +3873,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "a73ec11104bababe339b793beb89f283687d86b668ecd9ae20487e4164037dcc"
+hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
 
 [[files]]
@@ -4258,7 +4258,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "247da169be2ab513ad48b5c1e8d1d8ec56add8e2380d7ff44e641a4c17d0ddea"
+hash = "46ec2f81b9426aaf381f5310aae30a3d07b356714890419d6926bce537583c57"
 metafile = true
 
 [[files]]
@@ -4288,7 +4288,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9213096e2e5d1fdaf4e7d7a335737bacaed9505b86283abbc4e9e7fbd262c426"
+hash = "dc24a14067dff2953d8bee1b8b121c36c7d0a87788b19b5012dc669a2fb202da"
 metafile = true
 
 [[files]]
