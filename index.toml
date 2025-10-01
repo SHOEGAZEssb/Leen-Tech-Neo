@@ -197,6 +197,14 @@ file = "config/ribbits-options.json"
 hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
+file = "config/spawnbalanceutility-common.toml"
+hash = "83d4dfe21b22c6dda262f3a86110adef16661d810a3276fc999fe80cabfa4a26"
+
+[[files]]
+file = "config/spawncapcontrolutility-common.toml"
+hash = "d2f22afa87db2e1758963a65cc4eaaa6d5e917059fe261e020806b05e13e8d81"
+
+[[files]]
 file = "config/storagedrawers-common.v2.toml"
 hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
