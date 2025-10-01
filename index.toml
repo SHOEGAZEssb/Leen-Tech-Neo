@@ -3029,12 +3029,12 @@ file = "kubejs/data/minecraft/tags/items/music_discs.json"
 hash = "99e6003c63dc862719e458aa19aedec1798b77f1cd17041f574389c60784788f"
 
 [[files]]
-file = "kubejs/data/rainbowreef/worldgen/configured_feature/floor_star.json"
-hash = "387f04f5a44938e2ef419b81033f770a75e802beb69fd8d6dfb8a4286359dc06"
+file = "kubejs/data/rainbowreef/forge/biome_modifier/floor_star.json"
+hash = "ec5c2ed87c310f7b32dab09c263b4889c5e4cc2dad48194cc871fdccb6cade6f"
 
 [[files]]
-file = "kubejs/data/rainbowreef/worldgen/configured_feature/reef_star.json"
-hash = "e3fff06aaf7e16f6226f0fce43c878fa59f37f115e1e4760c2c4a088f7c7c708"
+file = "kubejs/data/rainbowreef/forge/biome_modifier/reef_star.json"
+hash = "ec5c2ed87c310f7b32dab09c263b4889c5e4cc2dad48194cc871fdccb6cade6f"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/badlands/houses.json"
