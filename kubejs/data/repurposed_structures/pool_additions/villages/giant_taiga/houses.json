@@ -3,7 +3,7 @@
   "fallback": "repurposed_structures:villages/giant_taiga/terminators",
   "elements": [
     {
-      "weight": 5,
+      "weight": 3,
       "element": {
         "location": "farmersdelight:villages/giant_taiga/houses/compost_pile_1",
         "processors": "repurposed_structures:villages/giant_taiga/mossify",
@@ -24,6 +24,15 @@
       "weight": 1,
       "element": {
         "location": "friendsandfoes:villages/giant_taiga/copper_golem_area",
+        "processors": "repurposed_structures:villages/giant_taiga/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "domesticationinnovation:villages/giant_taiga/petshop",
         "processors": "repurposed_structures:villages/giant_taiga/mossify",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

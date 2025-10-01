@@ -1,11 +1,11 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-09-24_15-57-39",
+  "config_datetime": "2025-10-01_16-48-51",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 1.2
+    "global_spacing_and_separation_modifier": 1.1
   },
   "structures": [
     {
@@ -963,6 +963,18 @@
         "under_the_moon:creep_forest"
       ],
       "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "minecraft:deep_dark",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:bayou",
         "biomesoplenty:hot_springs",
@@ -987,6 +999,11 @@
         "regions_unexplored:grassy_beach",
         "regions_unexplored:gravel_beach",
         "regions_unexplored:alpha_grove",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:hyacinth_deeps",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river",
+        "regions_unexplored:rocky_reef",
         "atmospheric:grimwoods"
       ]
     },
@@ -1011,7 +1028,7 @@
       "name": "ars_additions:nexus_tower",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 32,
+      "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
@@ -3528,13 +3545,13 @@
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
-        "regions_unexplored:grassland",
+        "regions_unexplored:willow_forest",
         "biomesoplenty:shrubland",
-        "regions_unexplored:prairie",
-        "regions_unexplored:temperate_grove",
         "ars_nouveau:archwood_forest",
+        "regions_unexplored:temperate_grove",
+        "regions_unexplored:grassland",
         "biomesoplenty:scrubland",
-        "regions_unexplored:willow_forest"
+        "regions_unexplored:prairie"
       ]
     },
     {
@@ -4028,7 +4045,7 @@
     {
       "name": "friendsandfoes:iceologer_cabin",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -4045,7 +4062,6 @@
         "blue_skies:frostbitten_forest_clearing",
         "blue_skies:frostbitten_forest",
         "blue_skies:calming_skies",
-        "blue_skies:brumble_forest",
         "blue_skies:brisk_meadow",
         "blue_skies:brightlands"
       ],
@@ -4064,7 +4080,7 @@
     {
       "name": "friendsandfoes:illusioner_shack",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -4076,13 +4092,11 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
+        "blue_skies:shaded_woodlands",
+        "blue_skies:moonlit_reservoir",
         "blue_skies:unorthodox_valley",
         "blue_skies:sunset_maple_forest",
         "blue_skies:searing_grassland",
-        "blue_skies:rising_creek",
-        "blue_skies:crystal_roughs",
-        "blue_skies:crystal_dunes_spikes",
-        "blue_skies:crystal_dunes",
         "blue_skies:crescent_orchard"
       ],
       "blacklisted_biomes": [
@@ -4116,7 +4130,7 @@
     {
       "name": "friendsandfoes:illusioner_training_grounds",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -4128,7 +4142,9 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "blue_skies:shaded_woodlands"
+        "blue_skies:crystal_roughs",
+        "blue_skies:crystal_dunes_spikes",
+        "blue_skies:crystal_dunes"
       ],
       "blacklisted_biomes": [
         "minecraft:taiga",
@@ -4716,13 +4732,17 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "under_the_moon:creep_forest",
-        "regions_unexplored:mauve_hills",
-        "biomesoplenty:mystic_grove",
-        "biomesoplenty:jacaranda_glade"
+        "blue_skies:unorthodox_valley",
+        "blue_skies:sunset_maple_forest",
+        "blue_skies:shaded_woodlands",
+        "blue_skies:crescent_orchard"
       ],
       "blacklisted_biomes": [
+        "minecraft:dark_forest",
+        "biomesoplenty:ominous_woods",
+        "regions_unexplored:blackwood_taiga",
         "regions_unexplored:pumpkin_fields",
+        "regions_unexplored:ashen_woodland",
         "minecraft:deep_dark",
         "biomesoplenty:spider_nest",
         "alexscaves:forlorn_hollows",
@@ -4744,7 +4764,7 @@
       "name": "idas:ars_nouveau/archmages_tower",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 128,
+      "flatness_check_distance": 64,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -4755,7 +4775,9 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "twilightforest:final_plateau"
+        "twilightforest:glacier",
+        "twilightforest:dark_forest_center",
+        "twilightforest:fire_swamp"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -5115,7 +5137,6 @@
         "minecraft:beach"
       ],
       "blacklisted_biomes": [
-        "minecraft:forest",
         "biomesoplenty:orchard",
         "biomesoplenty:seasonal_forest",
         "biomesoplenty:woodland",
@@ -5438,17 +5459,12 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
+        "blue_skies:midday_shore",
         "blue_skies:snow_covered_pines",
-        "blue_skies:sunset_maple_forest",
-        "blue_skies:slushlands",
         "blue_skies:shaded_woodlands",
         "blue_skies:searing_grassland",
         "blue_skies:moonlit_reservoir",
         "blue_skies:frostbitten_forest_clearing",
-        "blue_skies:frostbitten_forest",
-        "blue_skies:crescent_orchard",
-        "blue_skies:brumble_forest",
-        "blue_skies:brisk_meadow",
         "blue_skies:brightlands"
       ],
       "blacklisted_biomes": [
@@ -5668,7 +5684,11 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "minecraft:dark_forest"
+        "blue_skies:snow_covered_pines",
+        "blue_skies:slushlands",
+        "blue_skies:frostbitten_forest_clearing",
+        "blue_skies:frostbitten_forest",
+        "blue_skies:brightlands"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -6070,6 +6090,33 @@
         "regions_unexplored:infernal_holt",
         "regions_unexplored:glistering_meadow",
         "regions_unexplored:redstone_abyss"
+      ]
+    },
+    {
+      "name": "idas:nether_pump_camp",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 8,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:soul_sand_valley",
+        "minecraft:crimson_forest",
+        "minecraft:warped_forest",
+        "netherexp:black_ice_glaciers",
+        "biomesoplenty:undergrowth",
+        "biomesoplenty:visceral_heap",
+        "biomesoplenty:withered_abyss",
+        "regions_unexplored:mycotoxic_undergrowth",
+        "regions_unexplored:glistering_meadow"
       ]
     },
     {
@@ -6536,7 +6583,7 @@
       "name": "idas:ruins_of_the_deep",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 128,
+      "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -6673,10 +6720,41 @@
       ]
     },
     {
+      "name": "idas:the_log",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:orchard",
+        "minecraft:taiga",
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:old_growth_dead_forest",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:willow_forest",
+        "biomesoplenty:redwood_forest",
+        "regions_unexplored:sparse_redwoods"
+      ]
+    },
+    {
       "name": "idas:tinkers_citadel",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 128,
+      "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -6740,7 +6818,7 @@
       "name": "idas:tinkers_workshop",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 64,
+      "flatness_check_distance": 32,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -6751,19 +6829,9 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "deep_aether:mystic_aerglow_forest",
-        "deep_aether:luminescent_forest",
-        "deep_aether:blue_aerglow_forest",
-        "deep_aether:aerlavender_fields",
-        "deep_aether:aerglow_forest",
-        "aether_redux:skyroot_shrublands",
-        "aether_redux:glacial_tundra",
-        "aether_redux:skyfields",
-        "aether_redux:frosted_forests",
-        "aether:skyroot_woodland",
-        "aether:skyroot_meadow",
-        "aether:skyroot_grove",
-        "aether:skyroot_forest"
+        "biomesoplenty:wasteland",
+        "biomesoplenty:volcano",
+        "biomesoplenty:volcanic_plains"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -7151,7 +7219,7 @@
       "name": "idas:wizard_tower",
       "is_disabled": false,
       "enable_flatness_check": true,
-      "flatness_check_distance": 32,
+      "flatness_check_distance": 8,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -10352,7 +10420,7 @@
     {
       "name": "ribbits:ribbit_village",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 80,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
@@ -10593,25 +10661,6 @@
       ]
     },
     {
-      "name": "twilightforest:final_castle",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 0,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 0,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [
-        "twilightforest:final_plateau"
-      ]
-    },
-    {
       "name": "twilightforest:mushroom_tower",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -10635,7 +10684,7 @@
     {
       "name": "ad_astra:lunar_tower",
       "salt": 1460175004,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 34,
       "separation": 13
@@ -10643,7 +10692,7 @@
     {
       "name": "ad_astra:lunarian_village",
       "salt": 2118452159,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 30,
       "separation": 14
@@ -10651,7 +10700,7 @@
     {
       "name": "ad_astra:mars_temple",
       "salt": 486424619,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 40,
       "separation": 27
@@ -10659,7 +10708,7 @@
     {
       "name": "ad_astra:moon_dungeon",
       "salt": 1361819893,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 32,
       "separation": 14
@@ -10667,7 +10716,7 @@
     {
       "name": "ad_astra:pygro_tower",
       "salt": 1360696494,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 29,
       "separation": 19
@@ -10675,46 +10724,22 @@
     {
       "name": "ad_astra:pygro_village",
       "salt": 302103168,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 24,
       "separation": 17
     },
     {
-      "name": "ad_astra:venus_bullet",
-      "salt": 1539450951,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 27,
-      "separation": 14
-    },
-    {
       "name": "ad_astra_more_structures:abandoned_base",
       "salt": 215645,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 38,
       "separation": 23
     },
     {
-      "name": "ad_astra_more_structures:glacio_tower_dungeon",
-      "salt": 564863200,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 38,
-      "separation": 29
-    },
-    {
       "name": "ad_astra_more_structures:mars_tower_dungeon",
       "salt": 26542,
-      "frequency": 0.79999995,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 38,
-      "separation": 29
-    },
-    {
-      "name": "ad_astra_more_structures:mercury_arena_dungeon",
-      "salt": 85642,
       "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 38,
@@ -10723,7 +10748,7 @@
     {
       "name": "ad_astra_more_structures:moon_tower_dungeon",
       "salt": 654128,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 38,
       "separation": 29
@@ -10731,7 +10756,7 @@
     {
       "name": "ad_astra_more_structures:rocket_launch_t1",
       "salt": 564521,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 27,
       "separation": 18
@@ -10739,7 +10764,7 @@
     {
       "name": "ad_astra_more_structures:venus_tree_dungeon",
       "salt": 2642315,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 38,
       "separation": 29
@@ -10747,7 +10772,7 @@
     {
       "name": "ae2:meteorite",
       "salt": 124895654,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 32,
       "separation": 8
@@ -10763,7 +10788,7 @@
     {
       "name": "ars_additions:nexus_tower",
       "salt": 72147935,
-      "frequency": 0.7,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 80,
       "separation": 20
@@ -10771,55 +10796,23 @@
     {
       "name": "ars_additions:ruined_portal",
       "salt": 30981980,
-      "frequency": 0.59999996,
+      "frequency": 0.7,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 40,
       "separation": 15
     },
     {
-      "name": "betterarcheology:archeology_sites",
-      "salt": 990880770,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 32,
-      "separation": 16
-    },
-    {
       "name": "betterdeserttemples:desert_temples",
       "salt": 92746251,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 30,
       "separation": 20
     },
     {
-      "name": "betterdungeons:skeleton_dungeons",
-      "salt": 732581671,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 46,
-      "separation": 23
-    },
-    {
-      "name": "betterdungeons:spider_dungeons",
-      "salt": 596523129,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 44,
-      "separation": 22
-    },
-    {
-      "name": "betterdungeons:zombie_dungeons",
-      "salt": 280667671,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 48,
-      "separation": 24
-    },
-    {
       "name": "betterjungletemples:jungle_temples",
       "salt": 996971851,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 24,
       "separation": 8
@@ -10867,7 +10860,7 @@
     {
       "name": "blue_skies:village",
       "salt": 1306458484,
-      "frequency": 0.79999995,
+      "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 28,
       "separation": 27
@@ -10887,14 +10880,6 @@
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 35,
       "separation": 24
-    },
-    {
-      "name": "cataclysm:ancient_factory",
-      "salt": 319514301,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 112,
-      "separation": 70
     },
     {
       "name": "cataclysm:burning_arena",
@@ -10921,28 +10906,12 @@
       "separation": 50
     },
     {
-      "name": "dungeonnowloading:labyrinth",
-      "salt": 269766545,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 80,
-      "separation": 20
-    },
-    {
       "name": "idas:idas_common",
       "salt": 169480670,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 25,
       "separation": 14
-    },
-    {
-      "name": "idas:idas_nether",
-      "salt": 169481692,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 35,
-      "separation": 20
     },
     {
       "name": "idas:idas_small",
@@ -10953,25 +10922,33 @@
       "separation": 20
     },
     {
-      "name": "idas:idas_small_nether",
-      "salt": 169263692,
-      "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 30,
-      "separation": 25
-    },
-    {
       "name": "idas:idas_underground",
       "salt": 18918169,
-      "frequency": 0.79999995,
+      "frequency": 0.9,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 25,
       "separation": 15
     },
     {
+      "name": "lost_aether_content:platinum_dungeon",
+      "salt": 1312935463,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 40,
+      "separation": 15
+    },
+    {
+      "name": "minecraft:ruined_portals",
+      "salt": 34222645,
+      "frequency": 0.79999995,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 40,
+      "separation": 15
+    },
+    {
       "name": "more_critters:collector_wagon_badlands",
       "salt": 887282644,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -10979,7 +10956,7 @@
     {
       "name": "more_critters:collector_wagon_desert",
       "salt": 1350097792,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -10987,7 +10964,7 @@
     {
       "name": "more_critters:collector_wagon_jungle",
       "salt": 1827338639,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -10995,7 +10972,7 @@
     {
       "name": "more_critters:collector_wagon_ocean",
       "salt": 1105063770,
-      "frequency": 0.59999996,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 120,
       "separation": 2
@@ -11003,7 +10980,7 @@
     {
       "name": "more_critters:collector_wagon_plains",
       "salt": 1414629709,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -11011,7 +10988,7 @@
     {
       "name": "more_critters:collector_wagon_savanna",
       "salt": 970549049,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -11019,7 +10996,7 @@
     {
       "name": "more_critters:collector_wagon_swamp",
       "salt": 1444352349,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -11027,7 +11004,7 @@
     {
       "name": "more_critters:collector_wagon_tundra",
       "salt": 333108446,
-      "frequency": 0.7,
+      "frequency": 0.79999995,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 45,
       "separation": 2
@@ -11063,6 +11040,14 @@
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 51,
       "separation": 29
+    },
+    {
+      "name": "species:libra",
+      "salt": 165745296,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 64,
+      "separation": 16
     }
   ]
 }

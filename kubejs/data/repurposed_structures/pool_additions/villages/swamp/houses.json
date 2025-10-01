@@ -28,6 +28,15 @@
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "domesticationinnovation:villages/swamp/petshop",
+        "processors": "repurposed_structures:villages/swamp/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
     }
   ]
 }

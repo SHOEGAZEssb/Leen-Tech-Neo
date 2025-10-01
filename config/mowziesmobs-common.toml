@@ -455,7 +455,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["twilightforest:enchanted_forest", "twilightforest:mushroom_forest", "twilightforest:forest", "twilightforest:oak_savannah", "twilightforest:dense_forest", "twilightforest:firefly_forest", "twilightforest:spooky_forest", "twilightforest:clearing", "twilightforest:dense_mushroom_forest"]
+			biome_whitelist = ["twilightforest:enchanted_forest", "twilightforest:forest", "twilightforest:dense_forest", "twilightforest:firefly_forest", "twilightforest:dense_mushroom_forest"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -472,7 +472,7 @@
 			max_group_size = 4
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 1.0
+			extra_rarity = 0.5
 			#Names of dimensions this mob can spawn in
 			dimensions = ["twilightforest:twilight_forest"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
@@ -484,11 +484,11 @@
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = -65
+			height_min = 15
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
-			needs_darkness = false
+			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = true
+			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.

@@ -1,13 +1,13 @@
 name = "Araxer's Bestiary"
-filename = "AraxersBestiary-1.20.1-forge-1.3.4d.jar"
+filename = "AraxersBestiary-1.20.1-forge-1.3.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e6ff61409a9c5e873db68ff73c684bc545a1abe2"
+hash = "eac60e32e0ef981524f4f03218bc3b32e74acc6f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7012619
+file-id = 7050649
 project-id = 1305235

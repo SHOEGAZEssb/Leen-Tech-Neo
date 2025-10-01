@@ -3,7 +3,7 @@
   "fallback": "repurposed_structures:villages/birch/terminators",
   "elements": [
     {
-      "weight": 5,
+      "weight": 3,
       "element": {
         "location": "farmersdelight:villages/birch/houses/compost_pile_1",
         "processors": "repurposed_structures:villages/birch/mossify",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 3,
       "element": {
         "location": "friendsandfoes:villages/birch/beekeeper_area",
         "processors": "repurposed_structures:villages/birch/mossify",
@@ -24,6 +24,15 @@
       "weight": 1,
       "element": {
         "location": "friendsandfoes:villages/birch/copper_golem_area",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "domesticationinnovation:villages/birch/petshop",
         "processors": "repurposed_structures:villages/birch/mossify",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

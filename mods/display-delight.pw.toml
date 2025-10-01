@@ -1,0 +1,12 @@
+name = "Display Delight"
+filename = "displaydelight-1.3.0.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "fda7719ef61fc2de3e2b19456ffc08cbbf945e93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7027844
+project-id = 1144296

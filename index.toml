@@ -178,7 +178,7 @@ hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "eee9652c644f4de1fb5b6fa629591703e98ce7c9c1d0ec9ea153b4147f90493f"
+hash = "e3cd1155943ef8f8611ef22d290ce7148f0a29a8b18095972c36957fbda0547e"
 
 [[files]]
 file = "config/netherexp-common.toml"
@@ -202,7 +202,7 @@ hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
 
 [[files]]
 file = "config/structurify.json"
-hash = "b2423f7e5f94c573293bf07c731d81e218509834abda1c59c5ef7c891d1883ba"
+hash = "046312077152b45de2943c458bd723a7858649612686593f2eaf0898c81233a1"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -455,6 +455,186 @@ hash = "954da718537845489c4d884293880f8fc2ce308906cfd77e629717833e6c5993"
 [[files]]
 file = "kubejs/data/darwiniv/planets/darwin_iv_orbit.json"
 hash = "0fb260a8c89b712204c9b78ab195344566815f38fa2f0c2436585f5c8bac7eca"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/badlands/petshop.nbt"
+hash = "e36673b89be8a4d44485a6ff45e847d2cbef7d2e70e564290469ce1f41384d8a"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/bamboo/petshop.nbt"
+hash = "a30cb94c01a1f179cece94ea5bb6fa8269383190e119ba2283a65fb3b821c74f"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/birch/petshop.nbt"
+hash = "7d8df08a151a35d1e24587e6410833d6224aa151302c828b2423867ca8c4f255"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/cherry/petshop.nbt"
+hash = "2f2b5c96d96187ce3b450ed4731fa140b2e97e11479d6e202eb0f26850d681b7"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/dark_forest/petshop.nbt"
+hash = "212d3436ee957f5fb9057ce17db39de87c27b62c5d301a15b808cc01bdafcf69"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/giant_taiga/petshop.nbt"
+hash = "e9d8194c3e7d9697c430745c121969e44a0d7b51a454d62f0115ba19aed853f0"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/jungle/petshop.nbt"
+hash = "a83e3d27bcef0c51584723247b96d7add19a42aa878f36bf5789271bfa160903"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/mountains/petshop.nbt"
+hash = "984c40b372fec60fd213f398ff5622b90e78961c07b11f27c89a61dff36f1f2f"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/mushroom/petshop.nbt"
+hash = "dabc6615fa81d0982a5079555ad2fbd0ce3ea281ef890084a343001ac34b3754"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/oak/petshop.nbt"
+hash = "12653d96e5c22e492e57967e0012694917c64d7d8b6c54980c03fa90b8d9a703"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/2_foxes.nbt"
+hash = "219ce8eac48124dc885b164943dee5e3ae5a9846531bac2ba6a8e91e51c75d69"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/2_frogs.nbt"
+hash = "55db6dbff9c80a116013c00228b52fa24e1a328fd831c3542db5cdab2fc6cc57"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/2_rabbits.nbt"
+hash = "63f5510d584e5488f669c355fe9f5a85257016fe9f64206a378a068b18853261"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/2_wolves.nbt"
+hash = "14f9373e744c9cb5cbaba0a0d809f35c748d7a1cbe6e7d4d03011d1860b7cd14"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/black.nbt"
+hash = "af1723b7f547c713912bd9814580494a4a2d1ee4531ff7337db56db46e0757ee"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/british.nbt"
+hash = "2db1bf933f0a6d1fec4f48ed3e312099d8250dbbed93e5e90d266c94b2c9f2ca"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/calico.nbt"
+hash = "f871aef988f74f4181e85889c9be9e495baa1e7809f8d47554e18c144349c285"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/black.nbt"
+hash = "ec4779cdca2d4b8aa0448aa71b054846f296c70e96aa5e5d70358be91e3773e1"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/british.nbt"
+hash = "826ddec976618b45b4c5e11dfce8ae3e39c6f572749a1a06982e7848f7df86c6"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/calico.nbt"
+hash = "38771feabc37d70745abe10cddb97bc5ad4bc33d78982f19565eb2a72e5a98d4"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/jellie.nbt"
+hash = "c4adfc055048f3dd581d4f5c68583b206964dfed1f28a353bdc754e560dc2547"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/persian.nbt"
+hash = "21c563b36ce05a901b1f798d3d4265181ca5a92012b224ae70d92868e3ff969d"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/ragdoll.nbt"
+hash = "7f981f8abc3d8a1b51c7289d689b95dc2796df5e8c6727acd06fdf1b02486e37"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/red.nbt"
+hash = "a249f991c3e453a58823483b70671eb6f788ce34c156dd35f977c02e07a30ded"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/siamese.nbt"
+hash = "bc085c4e97e556d334a0570906da727c4b3166a8ba0467909ac42961556f1f29"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/tabby.nbt"
+hash = "b7566bd81ac6fe98e7f4a17e6b2d294d9c75e243c484c04c20fba44d9f1d6522"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/down/white.nbt"
+hash = "c270dbd7281b490eebc6523e0ee8f18e94a87156141396152abdab3c3bb138c0"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/jellie.nbt"
+hash = "2ee35f69af61a82d237ae6f16cd5c23ddd0a07b95cae06d83dd987b8702b5e0c"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/persian.nbt"
+hash = "e0b0dcc925f372111a56e0341b6b8081b682953b0a4a4ee9494e704ffe144d82"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/ragdoll.nbt"
+hash = "e0174974b7132c87e62202d300ba5a5621eee092c7d9bd8d56f97a6cc08fbe72"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/red.nbt"
+hash = "8ea16123eda1e39b12bd2282fd8bafce39bc587b952ef484f4a9dd8b9e984099"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/siamese.nbt"
+hash = "9dc904f06f50677a315edd926d207324aca0aff3b983953092ee3b351a5bd2bf"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/tabby.nbt"
+hash = "f7c0f75343abeaac0a53295e566b4a50327c7c8640872353a6d26abaf0f7d88b"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/cats/white.nbt"
+hash = "786bf0a09c02663a93a44d2ec223d61a1d3ca974fb2aba3d21980b2d881bead0"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/fish/axolotl.nbt"
+hash = "3b737c626e3e4e6ff9442c4d89fcf17de33432faf7ad9e55e6b4bc8f46bfc5ee"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/fish/pufferfish.nbt"
+hash = "1f136fd5a564c6f313359fa8dab4f41dcea237868941addcccacb627658c93d3"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/fish/tadpole.nbt"
+hash = "1cf3089f310d2bd0dc08513d74ddb205cc5a9f0d30b403b68961590decf7a370"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/fish/tropical_fish.nbt"
+hash = "1b62b4d77b596b2f63db6ad9eefdb9e6147315ece7acaa2a90054b7daaf65aa7"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/fox.nbt"
+hash = "f89d18ec0e3bb5835f77976a677a84ab815e8554999f7963992ba95c4a2d5b05"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/frog.nbt"
+hash = "646082a39e86f9115cc5ea3c7d490ea50bca1cdb91bfec5181b45820224b031a"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/parrot.nbt"
+hash = "0552b738b883b93283bc9644fb562ef1cbe7390e4518639bb0f09d4cda9281bf"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/rabbit.nbt"
+hash = "729c854530c0d71cf6a4fe8b5d5d263e0214d71ca34efee1b2dec324ffda2622"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/turtle.nbt"
+hash = "865e64cbed3e42cb9749e405d09928849a88d26cf5bd729c35171c6fb8817415"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/pets/wolf.nbt"
+hash = "34f5a7fa34bac4cb866132a04e262d1d684015c9295fd4a0e2ba8df446d0f5af"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/structures/villages/swamp/petshop.nbt"
+hash = "4a28b48a37e60f88a64e57d1e408e84b6fdcadc293355b9268ce64d303d9cb04"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/ancient_door.json"
@@ -2789,6 +2969,14 @@ file = "kubejs/data/idas/worldgen/structure/labyrinth.json"
 hash = "3d8d352ea6b434f81f62ce88775c9be61f09e8e08721f659a12a90b2ac5d643c"
 
 [[files]]
+file = "kubejs/data/idas/worldgen/structure/tinkers_citadel.json"
+hash = "ae152ed3c7162f124fd3b7c4023a559828a8db313959130ba52a7920fb6bf0bb"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure/wizard_tower.json"
+hash = "bf460a363a3c8c6da1c69c0d222b5225cfd948069de1b1dd87667940dc64c8a4"
+
+[[files]]
 file = "kubejs/data/integrated_api/integrated_structure_map_trades/idas_maps.json"
 hash = "8fda001288f88484256f2e64c94b4a66adc87ce7ef484aacc1a2a1a969d42439"
 
@@ -2810,51 +2998,51 @@ hash = "99e6003c63dc862719e458aa19aedec1798b77f1cd17041f574389c60784788f"
 
 [[files]]
 file = "kubejs/data/rainbowreef/worldgen/configured_feature/floor_star.json"
-hash = "76964f9f0e0c71c1b1c323c14a3a5534fc541c2c0780b004fce9cef00b6b53ba"
+hash = "387f04f5a44938e2ef419b81033f770a75e802beb69fd8d6dfb8a4286359dc06"
 
 [[files]]
 file = "kubejs/data/rainbowreef/worldgen/configured_feature/reef_star.json"
-hash = "ad251bce8bc3535e6adafd26ee6655848f57cd7eaa9763879039b5557b69f41b"
+hash = "e3fff06aaf7e16f6226f0fce43c878fa59f37f115e1e4760c2c4a088f7c7c708"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/badlands/houses.json"
-hash = "93190b01a6713d59e96c5ae11f9700c652a4fdd07029f24905356ece1c01286a"
+hash = "008ffc5e7fd53f749e2657fdf7d02717d4a48438c7f95a2fd0e19317d1615a72"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/bamboo/houses.json"
-hash = "65a5d980e9f49cb4b50ae3e2dc3c8231e170d1f69793a1c01b4a3aafdd405b55"
+hash = "f0beddfc711b3f83b9a2ff8aec07fe7865e4fe6f1bbde2f8a9fdd3f93be6fbb0"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/birch/houses.json"
-hash = "3f983f0231e51d6a6e05cff05f17516986d8be59c2f421d931d7cc9af73c9464"
+hash = "a0d5025c4d6b99e18f13e91526afaa0f732989b8ac8928b671bd2e7944a5a881"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/cherry/houses.json"
-hash = "4a48cffd9e07ba4e783a5803efc24d53e0e74dbd0d28a612ee44c843101130a3"
+hash = "80e4274d4ffb1872f75b4b3ed831bd2290ac33476c2a00598161c1a00d253b23"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/dark_forest/houses.json"
-hash = "a4499c7b53afd31ff244706c37bf3b8c329d748fd6021f923c4379f88428f90e"
+hash = "f380e9d0620ac620b38750636c10b0b592092cfe8e63ec34b6e39961822fea69"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/giant_taiga/houses.json"
-hash = "9f0d8931c5a167fb3b0d8db226bc2aecbc81cbc8ef80ec8bfea01c4cc4066ded"
+hash = "971ff322c8e74e7a9c4a4e4b02e0948c926c1bc3fa47ae9b4def30c14756c218"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/jungle/houses.json"
-hash = "741cdeaafc6c590b782b273458e36ea53e09477e350b42f8c0365ac760ad34a5"
+hash = "849fc43d75a3b3c6d7c1830fb77d186955a1a5c8e6245f4164bc95d9d7157b88"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/mountains/houses.json"
-hash = "44e5d24c4056164d6c7df22ecedf663db5bb5e41f5dd8c3a464e8f19c31e1d95"
+hash = "cdca1dd2e06d7e2ae279d7caa87fb08e46ec41807ec3fe7039b66affe1d06dd7"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/mushroom/houses.json"
-hash = "caff59e9ab84f39601a596cb27280e5b4393b4397af3c3d067d0cf3bb54c2fa2"
+hash = "99b480f681108899493380a26273294f66bc8687a1fef4e9d777b70053612677"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/oak/houses.json"
-hash = "a1d47e118aa278a1f62ca2cb8cc9f829a18cfaba2569f52f84292f9b87cf1f53"
+hash = "c6a8b915d8ec3294da8315b7b62715684b75e2aad20a0dfb6391bdae4d3446d5"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/ocean/houses.json"
@@ -2862,7 +3050,7 @@ hash = "0469ab7dfb11161ec47a64e8468f66adae5a09662b3d6a4ff0c5838a1d2f049f"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/swamp/houses.json"
-hash = "486570e79737fb7f02b0d393fe695f88b06cc2ca5f9aa74820d74a6130e14d93"
+hash = "f7b05c56df3615486a2f26d51dfbd2bb220ccecc5754e495b13fef3b65455c52"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/rs_pieces_spawn_counts_additions/village_badlands.json"
@@ -3369,6 +3557,38 @@ file = "kubejs/data/repurposed_structures/worldgen/template_pool/pyramids/snowy.
 hash = "8cea8e34e41cd9aa6fd6044e7e9b17a296db10d68132460b04f74635b5013f7a"
 
 [[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_cat_extra.json"
+hash = "cfea3251a08802e38d5e9e195c34545d49ba063781c2421815a3fb955b8b70b4"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_cherry_cage.json"
+hash = "c93d94a2aaeb89cb63adc1debb5ff7ca37917d628f97f589979855ce965366d5"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_fish.json"
+hash = "aeb20c76358a1ccca65efccb97c4d3c113cae2824170d0b244746c230a7da681"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_glass_cage.json"
+hash = "c26b4464e04fc1843ed2c714e577f44df8c0d2ad29c93bcf04fdd2e77eb4bc9c"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_hay_cage.json"
+hash = "1a701032103dc04e8a1d52ec59e32f354819558c9d99fdd01aabf411cac57d52"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_muddy_cage.json"
+hash = "d191914dcc3e27114f2de74b4dbec6e2ef2d83da8f5fca57cc858fbfcc677724"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_stoney_cage.json"
+hash = "cb9493f2cbdce2156a58dacf22bb9320860b3db2daf5918b76b11545432728ae"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_trapdoor_cage.json"
+hash = "8a12329a0a9e975824d43c81fcda661804e1c1a76482a21117c2c24647c80ae2"
+
+[[files]]
 file = "kubejs/server_scripts/ad_astra/ad_astra_meteors.js"
 hash = "21b172abf8c80f8ca7d4fe6896739058775a93a43b0a0ac25a419fd31883ac86"
 
@@ -3417,6 +3637,11 @@ hash = "7885154390b9961ed757a8f2178a09ab00f20a90d53fa9ba13851474a3d6fbe8"
 metafile = true
 
 [[files]]
+file = "mods/aether-delight.pw.toml"
+hash = "eef03b57fad7062b5cbd769a9e78b550a4b5f06fdc1828c2becc52a8ff54e12f"
+metafile = true
+
+[[files]]
 file = "mods/aether-lost-content.pw.toml"
 hash = "ecd21dc072a8a18270075c6338eb58a58b5f3cd8e4265c3cfb3f73275635c4ee"
 metafile = true
@@ -3452,6 +3677,11 @@ hash = "30c944b1cdaef752bcfcfa914756ed041b9c207c34b284797f8e06fa39d3726b"
 metafile = true
 
 [[files]]
+file = "mods/alexs-delight.pw.toml"
+hash = "05ea33f964eb6dd96cae6091a352a51ae5fc604fe98b97790d6a3f02ad66e82b"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "04455df74804a725a315fecbdc57860394afb1ee7eb663aae40896d2e0fea961"
 metafile = true
@@ -3478,7 +3708,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "bcbdefc3141031a1d3acff9ef3ecd93dae5946c632f1675ba4c9a7cb875b369a"
+hash = "329ba04415403dbef1ef9ccae47e778dbe62fadcfa9de63bfefaff07b9864f95"
 metafile = true
 
 [[files]]
@@ -3498,7 +3728,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "59c06838120418ab7977db6cc87c8bd3737f33bdcfb3562e3e1087faf4e98e2a"
+hash = "f2b0a7564fbba49131cd6e131ddaf32b987a6b50a20ed7a67fbf9effb84ba0a6"
 metafile = true
 
 [[files]]
@@ -3533,7 +3763,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "b34ab3eeb165e1e89ea277a2bad3da0a4a0ee81d744b30c424e1a0eec7d5042b"
+hash = "9b286283ff04cc6100de5af162bc682826b8aaa7621e3386d7e9efc594459c02"
 metafile = true
 
 [[files]]
@@ -3747,6 +3977,16 @@ hash = "3414e4ee25726ec9abd08330c128c89eb677743e165f1f88e174e0c78d80af89"
 metafile = true
 
 [[files]]
+file = "mods/delightful.pw.toml"
+hash = "0013635908fbeddc4d0aab834231464d4f568b6d83a56a06be12f40d6c60fea3"
+metafile = true
+
+[[files]]
+file = "mods/display-delight.pw.toml"
+hash = "49d30e4ca4174305675c586d1a27a1c953a58361d5609faf2354a5c2f9d85bb3"
+metafile = true
+
+[[files]]
 file = "mods/domestication-innovation.pw.toml"
 hash = "70bb6f786bdb9c3132124acb1b20ea26e94b67d4373e089f2db97b6ef8d25ae6"
 metafile = true
@@ -3809,6 +4049,11 @@ metafile = true
 [[files]]
 file = "mods/environmental.pw.toml"
 hash = "a49e5cc0f772b33254416c3eb5884235b46a23bedc6191dadf11a34de37c7715"
+metafile = true
+
+[[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "251faf6136177b40ebed28c3ddcd9cbb33c3a7d2f50904b3f28c185c8b6c02e4"
 metafile = true
 
 [[files]]
@@ -3892,6 +4137,11 @@ hash = "a6728fc8f3bbaab45a951b764d558661900fcd18e5b998e2dd6244ab4ba80691"
 metafile = true
 
 [[files]]
+file = "mods/glodium.pw.toml"
+hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
+metafile = true
+
+[[files]]
 file = "mods/goblin-traders.pw.toml"
 hash = "b4b02c56cd70ee5bd802cedb5b4d7ae164c1145c250f4b08e2a655e8de68973b"
 metafile = true
@@ -3918,7 +4168,7 @@ metafile = true
 
 [[files]]
 file = "mods/idas.pw.toml"
-hash = "e9a2acd5b3c4cdde9c548195fb221e620e92a7f79d849c816dcedcbc11bc8e5f"
+hash = "610f503efd40d471552a9abceb56ea0d2c98982f186e1a68b6b832961b3a26d8"
 metafile = true
 
 [[files]]
@@ -3943,7 +4193,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-cataclysm.pw.toml"
-hash = "2feec2dc0327ab8a93ed9ecad8bbf898b867f644c785250f8f5c60d994bd3055"
+hash = "f27119e6d95e46b4943ec7af13ff5a68f8344c6f0344e86a22fe686512c754f7"
 metafile = true
 
 [[files]]
@@ -3973,7 +4223,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "f83c325baff8ca64e5901060c3734dac88939f8f6bf4a384805c674058416201"
+hash = "5c93a82eec8d7c98458e112533798402f9664f209d379fcc439f9e9aafe9421b"
 metafile = true
 
 [[files]]
@@ -4068,7 +4318,7 @@ metafile = true
 
 [[files]]
 file = "mods/monsters-girls-secrets-of-mermaids.pw.toml"
-hash = "3f76151faf586eb5211b99a96b28b1c33666bc8524ef847d6166dbd8a023dca6"
+hash = "53e5d0a86bdb956cd42c5eb7089918b194b4a71219b6a3fa59b82a17ab1e3586"
 metafile = true
 
 [[files]]
@@ -4083,7 +4333,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
-hash = "b7304ef2266635a37ee6375d25f2216db10b49c790a9f146867df0be8d302dbd"
+hash = "d347c194d6593e32df99d159270795c0a00b66abbeed8b45e6698390dab508f2"
 metafile = true
 
 [[files]]
@@ -4123,7 +4373,7 @@ metafile = true
 
 [[files]]
 file = "mods/ob-aquamirae.pw.toml"
-hash = "ac85a0c018e8ddb627c1432bae86bd339de2de66623a25cb086239a2d2a31879"
+hash = "8579dd84c2ddb45e94c755e5f6d9538c224d1ccc73a75fd6a94d36091c119c23"
 metafile = true
 
 [[files]]
@@ -4283,17 +4533,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b4776d3fff9bc3aaa1ab75a2e203bd063f4e4a95f6f3b5aee41d46e6b4515588"
+hash = "7a722ab83422df74fafc04241d851410dc707fee97b5e1a1547a37dfa9916db5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "dc24a14067dff2953d8bee1b8b121c36c7d0a87788b19b5012dc669a2fb202da"
+hash = "41ec336e8f9bc8084bdeda8bbbcdbee2cf7cc22bfe62abd80ba77f95e5ba9eea"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "54c2547f4a905582be7a5d5c0d01413d8ed3583e94363aad67033f2d4e6cdedb"
+hash = "01d628d71fd20a235492879b37853c2301066aee4234df0acd62c6990b319d26"
 metafile = true
 
 [[files]]
@@ -4328,7 +4578,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "ee06d2e29fb1709048c1759b55ba6add3fde55d09c1dbc07b2db41e92a531c53"
+hash = "7ff5441d2e7ef66d8c5b3b518266189eca0de0b7f3f5e37cdeab9a7c2147beed"
 metafile = true
 
 [[files]]
@@ -4354,11 +4604,6 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "8308f909baa0bdfb27cae80b867da72a876a15c2fdc73fabb9290a6165d8db36"
-metafile = true
-
-[[files]]
-file = "mods/true-fishing.pw.toml"
-hash = "54063f6f982f6b0825b363cf323f47ebef670b356099190e3ec842424a55cef8"
 metafile = true
 
 [[files]]

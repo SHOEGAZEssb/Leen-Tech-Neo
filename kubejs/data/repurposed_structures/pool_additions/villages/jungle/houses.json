@@ -3,7 +3,7 @@
   "fallback": "repurposed_structures:villages/jungle/terminators",
   "elements": [
     {
-      "weight": 5,
+      "weight": 3,
       "element": {
         "location": "farmersdelight:villages/jungle/houses/compost_pile_1",
         "processors": "repurposed_structures:villages/jungle/mossify",
@@ -24,6 +24,15 @@
       "weight": 1,
       "element": {
         "location": "friendsandfoes:villages/jungle/copper_golem_area",
+        "processors": "repurposed_structures:villages/jungle/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "domesticationinnovation:villages/jungle/petshop",
         "processors": "repurposed_structures:villages/jungle/mossify",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
