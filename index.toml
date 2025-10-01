@@ -170,7 +170,7 @@ hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "64acb1c7561e3321cd3ce03aa3001703765e9ff23005815944d537b8a84e8a3a"
+hash = "7b1e514fc8a1d00436333a80ba8ebf2ce0b8275d7899f8c03641d93e5927f5fc"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -241,6 +241,10 @@ file = "defaultconfigs/aether-client.toml"
 hash = "85f7083450fb160a9e9098576e255c0cd09e8162dc4c423fb3d80458fe6fb089"
 
 [[files]]
+file = "defaultconfigs/aether-server.toml"
+hash = "2755788eb25ccadeddd25089200c6534889c20e8a8b77387c961eaff3af0cd0b"
+
+[[files]]
 file = "defaultconfigs/aether_redux_client.toml"
 hash = "807319ea7df310e674912d8361cb267f0a02a61cf1abcd556a56d9459ccefc1e"
 
@@ -269,8 +273,28 @@ file = "defaultconfigs/deep_aether-client.toml"
 hash = "2249fc1048fc1a9afc3438ae6cc5794401c7feeff53c8f944fb0f88f39bd3c0d"
 
 [[files]]
+file = "defaultconfigs/dungeonnowloading-server.toml"
+hash = "4f0682572c60f92818bdb98be15bc1b95d59d1017dac9b24352ddf8db51ff3d3"
+
+[[files]]
+file = "defaultconfigs/gemsnjewels-server.toml"
+hash = "9ebe21d8d1485d4f9dc273b0d293fb033b8e24737e8cef15d1e98baa1aa6fca1"
+
+[[files]]
+file = "defaultconfigs/gravestone-server.toml"
+hash = "6500478389e356ce3046c32425d7c7cc954d24cd7b34857171c3562f8bb3b497"
+
+[[files]]
+file = "defaultconfigs/jei/ingredient-list-mod-sort-order.ini"
+hash = "7b1e514fc8a1d00436333a80ba8ebf2ce0b8275d7899f8c03641d93e5927f5fc"
+
+[[files]]
 file = "defaultconfigs/lost_aether_content-client.toml"
 hash = "cbac225d78fa315f44d2006c1d3f7f9ec14f54883ae93775fc71fa54aae865a3"
+
+[[files]]
+file = "defaultconfigs/productivebees-server.toml"
+hash = "cba4e13080e2fcd022fc8281a92cabc6c46ca2c278539760434fd466d6aacd79"
 
 [[files]]
 file = "defaultconfigs/sodiumdynamiclights-client.toml"
@@ -4544,6 +4568,16 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "01d628d71fd20a235492879b37853c2301066aee4234df0acd62c6990b319d26"
+metafile = true
+
+[[files]]
+file = "mods/spawn-balance-utility.pw.toml"
+hash = "a8254a2e6307025fdd929556d062c2c0de40a0f758cfae5e55b7906daaf56b77"
+metafile = true
+
+[[files]]
+file = "mods/spawncapcontrolutility.pw.toml"
+hash = "7a73371d751809b514d878ca1ebc653d5e67f91e15be3672579da4a055ec266b"
 metafile = true
 
 [[files]]
