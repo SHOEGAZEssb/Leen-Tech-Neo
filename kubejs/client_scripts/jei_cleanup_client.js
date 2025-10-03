@@ -37,7 +37,6 @@ JEIEvents.hideItems(event => {
   event.hide("aether_redux:locked_polished_sentrite")
   event.hide("aether_redux:locked_runelight")
 
-
   // aether: lost content
   hideWildcard(event, "lost_aether_content:*gale_stone", ["lost_aether_content:gale_stone"])
 
@@ -48,6 +47,12 @@ JEIEvents.hideItems(event => {
   // deep aether
   hideWildcard(event, "deep_aether:*nimbus_stone", ["deep_aether:nimbus_stone", "deep_aether:light_nimbus_stone"])
   hideWildcard(event, "deep_aether:*nimbus_pillar", ["deep_aether:nimbus_pillar", "deep_aether:light_nimbus_pillar"])
+
+  // spawn eggs
+  hideWildcard(event, "*_spawn_egg")
+  hideWildcard(event, "alexscaves:spawn_egg_*")
+  hideWildcard(event, "alexsmobs:spawn_egg_*")
+  hideWildcard(event, "ars_noveau:*_se")
 
   // species
   event.hide("species:spectralibur_pedestal")
