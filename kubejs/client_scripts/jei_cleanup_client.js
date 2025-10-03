@@ -48,6 +48,13 @@ JEIEvents.hideItems(event => {
   hideWildcard(event, "deep_aether:*nimbus_stone", ["deep_aether:nimbus_stone", "deep_aether:light_nimbus_stone"])
   hideWildcard(event, "deep_aether:*nimbus_pillar", ["deep_aether:nimbus_pillar", "deep_aether:light_nimbus_pillar"])
 
+  // minecraft
+  hideWildcard(event, "minecraft:infested_*")
+  event.hide("minecraft:bedrock")
+  event.hide("minecraft:end_portal_frame")
+  event.hide("minecraft:spawner")
+  event.hide("minecraft:reinforced_deepslate")
+
   // spawn eggs
   hideWildcard(event, "*_spawn_egg")
   hideWildcard(event, "alexscaves:spawn_egg_*")
