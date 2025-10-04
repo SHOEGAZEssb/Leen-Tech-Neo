@@ -446,7 +446,7 @@ hash = "a68b82b1b4108dfc9a9549d7fcd2893c790ea153174c40ebe86eee3d0ab98cf2"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "247427536bbe4fdfc5f73c862a4854e1bd9835f002954bf118c90d403dccf4ba"
+hash = "12cd196800b31ea1d12aa1cc908b540c882e914838520bc69211d2b73a6df545"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
@@ -3633,6 +3633,10 @@ file = "kubejs/server_scripts/bee_cleanup.js"
 hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
 
 [[files]]
+file = "kubejs/server_scripts/debug_tag.js"
+hash = "387dfe16cb0c07e5f9624f9dfa8a9e57bb0749df2fa0be887401d19bea6b0b7e"
+
+[[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
 hash = "2b630ff71bb8a222a0e026dba590983aadb88b6da424264d79156945ef8bbfc5"
 
@@ -3760,7 +3764,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "f2b0a7564fbba49131cd6e131ddaf32b987a6b50a20ed7a67fbf9effb84ba0a6"
+hash = "a625a030bc5b91a3f80f69d833a2f2872f5f745305d4bdc394259daba8f93726"
 metafile = true
 
 [[files]]
@@ -4080,12 +4084,12 @@ metafile = true
 
 [[files]]
 file = "mods/environmental.pw.toml"
-hash = "a49e5cc0f772b33254416c3eb5884235b46a23bedc6191dadf11a34de37c7715"
+hash = "9825060ebdf517eaa5e9d341fcb13816698aa0a39c21953439681e61c36943ff"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "251faf6136177b40ebed28c3ddcd9cbb33c3a7d2f50904b3f28c185c8b6c02e4"
+hash = "b16779d890d9d8fd5f2a1bce670a13698ab8bef58851b4a43b0044495d22d313"
 metafile = true
 
 [[files]]
@@ -4270,7 +4274,7 @@ metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "88779705844d3cf6feceed85f669483c8732da79987423ba243a6794f87b635d"
+hash = "01410c911c56b8a230d7fb89b1424b2c7c90b79376b9e4cf7aeb126d5f738fa3"
 metafile = true
 
 [[files]]
@@ -4485,7 +4489,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "b56d0d3ae11c4a26e14a1342d7f1ebaf01dc8396f631a86f2a377ef9148341e8"
+hash = "8e3335fee8370dc85b8306a055658bca611a4309ab6ffe8f13fbbed28f33f194"
 metafile = true
 
 [[files]]
@@ -4565,12 +4569,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "7a722ab83422df74fafc04241d851410dc707fee97b5e1a1547a37dfa9916db5"
+hash = "8d7b790266865c226a319a1c57a4b63a541607232fac8b16d8f4920b05b9bf68"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "41ec336e8f9bc8084bdeda8bbbcdbee2cf7cc22bfe62abd80ba77f95e5ba9eea"
+hash = "950b622cb35ab9c7dfe669447d0c57de253290b29c600457478280744a3fbf9a"
 metafile = true
 
 [[files]]

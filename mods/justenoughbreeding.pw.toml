@@ -1,13 +1,13 @@
 name = "Just Enough Breeding (JEBr)"
-filename = "justenoughbreeding-forge-1.20-1.20.1-2.1.1.jar"
+filename = "justenoughbreeding-forge-1.20-1.20.1-2.2.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "7884304852066f8f4d2535d4e6c88d23d994d280"
+hash = "2557d7678f7753391098548406da306a86cae57e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7005727
+file-id = 7056485
 project-id = 899386
