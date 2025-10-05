@@ -205,8 +205,12 @@ file = "config/spawnbalanceutility-common.toml"
 hash = "83d4dfe21b22c6dda262f3a86110adef16661d810a3276fc999fe80cabfa4a26"
 
 [[files]]
+file = "config/spawnbalanceutility/BiomeMobWeight - BiomeMobWeight.csv"
+hash = "6c39306adafb9115043383d22030b8d33f2b7987d731bc2d815a5ca95f0f1c0f"
+
+[[files]]
 file = "config/spawncapcontrolutility-common.toml"
-hash = "d2f22afa87db2e1758963a65cc4eaaa6d5e917059fe261e020806b05e13e8d81"
+hash = "7d8827dc4fcff05ee50a48e9fd987ea7de07b5e91f9229357f5a41bcc18d48e2"
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
@@ -4497,7 +4501,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "8e3335fee8370dc85b8306a055658bca611a4309ab6ffe8f13fbbed28f33f194"
+hash = "c07adaeb1102a66d92cffc9f642a3a250718e833d046775dcb4f20315254a870"
 metafile = true
 
 [[files]]
