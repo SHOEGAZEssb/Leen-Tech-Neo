@@ -1458,7 +1458,7 @@
 					"Is Blacklist" = false
 
 	[mobs.stonelings]
-		"Max Y Level" = 0
+		"Max Y Level" = 40
 		"Enable Diamond Heart" = true
 		#When enabled, stonelings are much more aggressive in checking for players
 		"Cautious Stonelings" = false
@@ -1491,7 +1491,7 @@
 					"Is Blacklist" = true
 
 	[mobs.toretoise]
-		"Max Y Level" = 0
+		"Max Y Level" = 40
 		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
 		"Cooldown Ticks" = 2400
 		#The items that can be fed to toretoises to make them regrow ores.
