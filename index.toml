@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "BiomeMobWeight.csv"
+hash = "26cf82a8fed82d418b8a568c19823e14f87ebe246523036b064a6ccaa569e130"
+
+[[files]]
 file = "config/aeroblender-common.toml"
 hash = "5b12e49412c01d5ded3045bda83d0227b3b066444c7f40429fd840f865caec33"
 
@@ -186,7 +190,7 @@ hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "b23c524e7db509c7afed3fb1325551fa54139594c0e87f80a05058e2820a8bce"
+hash = "e6509b9857e8330fdea5b3568cc86391c12406d3d00e44448c081a520b3306d3"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
@@ -213,8 +217,12 @@ file = "config/structurify.json"
 hash = "046312077152b45de2943c458bd723a7858649612686593f2eaf0898c81233a1"
 
 [[files]]
+file = "config/supplementaries-client.toml"
+hash = "9cd7be20f73096929365b24c3556f3c3547cb9393848d9df083e753abda1ab45"
+
+[[files]]
 file = "config/supplementaries-common.toml"
-hash = "305e406cb4b75ae2162e12525b6330ea6aa85418ab5d2c1ced0357f501b9271a"
+hash = "d2aded73f8c0edb895098f368557455e377df4910cd02e7674079efda24ea29a"
 
 [[files]]
 file = "config/terrablender.toml"

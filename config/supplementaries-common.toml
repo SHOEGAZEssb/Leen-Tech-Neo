@@ -155,7 +155,7 @@
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		#Range: 0 ~ 50
-		sack_increment = 2
+		sack_increment = 1
 		#How many slots should a sack have
 		#Range: 1 ~ 27
 		slots = 9
@@ -324,7 +324,7 @@
 		enabled = true
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
 		#Range: 0.0 ~ 100.0
-		crystal_enchanting = 3.0
+		crystal_enchanting = 5.0
 
 	[building.ash]
 		enabled = true
@@ -408,13 +408,15 @@
 		#Arrow stacks that can fit inside a quiver. Requires reboot
 		#Range: 1 ~ 9
 		slots = 6
-		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn.
 		#Range: 0.0 ~ 1.0
-		quiver_skeleton_spawn_chance = 0.03
+		quiver_skeleton_spawn_chance = 0.01
 		#Allows quiver to only be used when in offhand or in curio slot
-		only_works_in_curio = false
+		only_works_in_curio = true
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
+		#If the chance for a skeleton to spawn with a quiver will be affected by local difficulty. If true, you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		quiver_skeleton_spawn_affected_by_local_difficulty = false
 
 	[tools.lunch_basket]
 		enabled = true
@@ -428,7 +430,7 @@
 		enabled = true
 		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
 		#Range: 0.0 ~ 1.0
-		range_multiplier = 0.25
+		range_multiplier = 0.5
 
 	[tools.bubble_blower]
 		enabled = true
@@ -475,7 +477,7 @@
 		explosion_radius = 2.0
 		#Do bombs break blocks like tnt?
 		#Allowed Values: ALL, WEAK, NONE
-		break_blocks = "WEAK"
+		break_blocks = "ALL"
 		#Put here any number other than 0 to have your bombs explode after a certain amount of ticks instead than on contact
 		#Range: 0 ~ 100000
 		bomb_fuse = 0
@@ -488,7 +490,7 @@
 			explosion_radius = 5.15
 			#Do bombs break blocks like tnt?
 			#Allowed Values: ALL, WEAK, NONE
-			break_blocks = "WEAK"
+			break_blocks = "ALL"
 
 	[tools.slingshot]
 		enabled = true
@@ -616,7 +618,7 @@
 		quill_vanilla_maps = true
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
 		#Range: 10 ~ 600
-		min_search_radius = 75
+		min_search_radius = 500
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
 
@@ -667,8 +669,6 @@
 		enabled = true
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
-		#Show a slime overlay when you hit an entity with a slimeball
-		overlay = true
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"

@@ -5,7 +5,7 @@
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
-	"Advancement Visibility Depth" = 2
+	"Advancement Visibility Depth" = 1
 	#Blocks that Quark should treat as Shulker Boxes.
 	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
@@ -283,7 +283,7 @@
 
 [management]
 	"Automatic Tool Restock" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Expanded Item Interactions" = false
 	"Hotbar Changer" = false
 	"Inventory Sorting" = false
@@ -348,7 +348,7 @@
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
 	Pickarang = true
-	"Seed Pouch" = true
+	"Seed Pouch" = false
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
 	"Torch Arrow" = true
@@ -1132,7 +1132,7 @@
 		"Hollow Chance" = 0.3
 		Rarity = 5
 		#Chance for logs to spawn on water
-		"On Water Chance" = 0.1
+		"On Water Chance" = 0
 		"Sparse Biome Rarity" = 12
 		#Tags that define which biomes can have which wood types
 		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
@@ -1394,7 +1394,7 @@
 
 		[mobs.foxhound.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 30
+			"Spawn Weight" = 10
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1409,7 +1409,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.foxhound.spawn_config.biomes.biomes]
-					Biomes = []
+					Biomes = ["biomesoplenty:undergrowth", "regions_unexplored:infernal_holt", "regions_unexplored:glistering_meadow"]
 					"Is Blacklist" = false
 
 		[mobs.foxhound.lesser_spawn_config]
@@ -1439,7 +1439,7 @@
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 40
+			"Spawn Weight" = 20
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1450,12 +1450,12 @@
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[mobs.shiba.spawn_config.biomes.tags]
 					"Biome Tags" = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.shiba.spawn_config.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["minecraft:cherry_grove", "environmental:blossom_valleys", "environmental:blossom_woods", "atmospheric:kousa_jungle"]
+					"Is Blacklist" = false
 
 	[mobs.stonelings]
 		"Max Y Level" = 0
@@ -1472,7 +1472,7 @@
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 50
+			"Spawn Weight" = 5
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1488,7 +1488,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.stonelings.spawn_config.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 	[mobs.toretoise]
 		"Max Y Level" = 0
@@ -1506,7 +1506,7 @@
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 40
+			"Spawn Weight" = 15
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1533,7 +1533,7 @@
 			"Max Cost" = 0.7
 			"Spawn Cost" = 0.15
 			#Allowed values: (0,)
-			"Spawn Weight" = 5
+			"Spawn Weight" = 15
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1548,7 +1548,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.wraith.spawn_config.biomes.biomes]
-					Biomes = []
+					Biomes = ["minecraft:soul_sand_valley", "netherexp:black_ice_glaciers"]
 					"Is Blacklist" = false
 
 [client]
@@ -1565,7 +1565,7 @@
 	"Soul Candles" = true
 	"Usage Ticker" = false
 	"Uses For Curses" = false
-	"Variant Animal Textures" = false
+	"Variant Animal Textures" = true
 	"Wool Shuts Up Minecarts" = true
 
 	[client.auto_walk_keybind]
@@ -1649,17 +1649,17 @@
 		"Bind Armor Stands With Player Heads" = true
 
 	[client.variant_animal_textures]
-		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
+		"Enable Cow" = false
+		"Enable Pig" = false
+		"Enable Chicken" = false
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
 		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
+		"Shiny Animal Chance" = 1000
 		#If a shiny animal should emit occasional sparkles.
 		"Shiny Sparkles" = true
 
