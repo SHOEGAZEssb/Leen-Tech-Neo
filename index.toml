@@ -118,7 +118,7 @@ hash = "59cabc658f36e11e6ddd3ee196e107d988aebc1df47d11ce4e779a04eca70093"
 
 [[files]]
 file = "config/domestication-innovation.toml"
-hash = "f7c87048c42a86697983fc53aded72b2faced52108bf1b21d31046ad21b8f5bd"
+hash = "cc37708100e74800fb01380eb057ba0964aec227172cf8777688846cdb02b1af"
 
 [[files]]
 file = "config/ecologics-common.toml"
@@ -190,7 +190,7 @@ hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "e6509b9857e8330fdea5b3568cc86391c12406d3d00e44448c081a520b3306d3"
+hash = "218f11ebf169bb87c2a1596b6a6df9b5ea92098432ea334526338f1e6b7e240e"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
@@ -199,6 +199,10 @@ hash = "caf1ee9d23eaa0c0e390e241ec82bc274411fc9082fc288925e9e02bd2f3e4df"
 [[files]]
 file = "config/ribbits-options.json"
 hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "1d11e68a181d2bba7869e9184cd298a8922f4f8c3efc51db2e62080ef7e6da15"
 
 [[files]]
 file = "config/spawnbalanceutility-common.toml"
@@ -214,7 +218,7 @@ hash = "7d8827dc4fcff05ee50a48e9fd987ea7de07b5e91f9229357f5a41bcc18d48e2"
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
-hash = "07c4eda2320576c2518aadf2ae8191765bf9cfc913efa43930ced802d3e9fb71"
+hash = "e36a7b95358a0a6d2897a4374ace460cf23b4dead7894b87149402b893ac44cc"
 
 [[files]]
 file = "config/structurify.json"
@@ -319,6 +323,10 @@ hash = "cba4e13080e2fcd022fc8281a92cabc6c46ca2c278539760434fd466d6aacd79"
 [[files]]
 file = "defaultconfigs/sodiumdynamiclights-client.toml"
 hash = "a07f02d32ca757d3aab93dbff71081a33ea30300d85a0e5defee53eb83e7161f"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "a9bf83e11fdf72b91bdea02245c813b5a33173a8254d4379d003abec8ab73d49"
 
 [[files]]
 file = "defaultconfigs/zombieawareness/ClientConfig.toml"

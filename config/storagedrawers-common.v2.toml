@@ -70,12 +70,12 @@
 		# 
 		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
 		# Debuff can be mitigated with portability upgrade, if it's enabled.
-		heavyDrawers = false
+		heavyDrawers = true
 		# 
 		# Drawers track the capacity upgrades from the block they were taken from.
 		# When enabled, drawers can only be placed back into a block with the same or lower max capacity.
 		# Drawers can still only be inserted into a block with enough capacity for the items held.
-		forceMaxCapacityCheck = false
+		forceMaxCapacityCheck = true
 		# 
 		# Allows detached drawers to be stored in containers like bundles and shulker boxes.
 		# Due to current limitation, this rule will also apply to storing empty drawers in those containers.
@@ -85,7 +85,7 @@
 	[Drawers.Filled]
 		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
 		# Debuff can be mitigated with portability upgrade, if it's enabled.
-		heavyDrawers = false
+		heavyDrawers = true
 		# 
 		# Allows filled drawers to be stored in other drawer blocks.
 		canStoreInDrawers = false
@@ -118,6 +118,17 @@
 		# Each entry should be a namespace or fully namespaced item, e.g. minecraft:cobblestone
 		# Any items on the deny list are prevented from being stored in drawers
 		storeDenyList = ["storagedrawers:creative_vending_upgrade"]
+		# 
+		# What a drawer should do with its items when broken.  Acceptable values are:
+		# KEEP: Drawer retains all items in the dropped item, like shulker boxes.  This is the default behavior.
+		# DROP: Drawer drops items into the world, up to the dropStackLimit value.  Stored items over that limit are voided.
+		# VOID: Drawer voids all items when dropped.
+		#Allowed Values: KEEP, DROP, VOID
+		dropMode = "KEEP"
+		# 
+		# If dropMode is set to DROP, this is the maximum number of stacks that can be spilled into the world
+		# from the entire block.  By default, this is set to the amount a vanilla chest could drop.
+		dropStackLimit = 32
 
 # Configuration around the controller and drawer networks.
 [Controller]
@@ -193,11 +204,11 @@
 
 	# Allows storing ~2.1 billion (MAX_INT) items in each drawer slot.
 	[Upgrades.CreativeStorage]
-		enableUpgrade = true
+		enableUpgrade = false
 
 	# Allows vending infinite amounts of the items in each drawer slot.
 	[Upgrades.CreativeVending]
-		enableUpgrade = true
+		enableUpgrade = false
 
 	# Adds fill bars to the face of drawers.
 	[Upgrades.FillLevel]
@@ -347,19 +358,19 @@
 	# Adds support for a CoFH groups personal key.
 	[Integration.CoFHCore]
 		# Enables CoFH Core integration if mod is present.
-		enable = true
+		enable = false
 
 	# Configuration around the FTB Chunks mod.
 	# Improves support for claimed chunks.
 	[Integration.FTBChunks]
 		# Enables FTB Chunks integration if mod is present.
-		enable = true
+		enable = false
 
 	# Configuration around the FTB Teams mod.
 	# Adds support for a teams personal key.
 	[Integration.FTBTeams]
 		# Enables FTB Teams integration if mod is present.
-		enable = true
+		enable = false
 		# 
 		# Enables recipe to obtain key from another supported personal key in crafting grid.
 		enableCycleRecipe = true

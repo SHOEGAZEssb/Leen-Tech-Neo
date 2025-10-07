@@ -26,29 +26,29 @@
 	animal_tamer_villager = true
 	#the spawn weight of the pet store in villages, set to 0 to disable it entirely
 	#Range: 0 ~ 1000
-	petstore_village_weight = 10
+	petstore_village_weight = 5
 
 [loot]
 	#true if pet curse enchantments should only appear in loot, and not the enchanting table.
 	pet_curse_enchantments_loot_only = true
 	#percent chance of woodland mansion loot table containing sinister carrot:
 	#Range: 0.0 ~ 1.0
-	sinister_carrot_loot_chance = 0.3
+	sinister_carrot_loot_chance = 0.2
 	#percent chance of burried treasure loot table containing Bubbling book:
 	#Range: 0.0 ~ 1.0
-	bubbling_loot_chance = 0.65
+	bubbling_loot_chance = 0.5
 	#percent chance of woodland mansion loot table containing Vampire book:
 	#Range: 0.0 ~ 1.0
-	vampirism_loot_chance = 0.22
+	vampirism_loot_chance = 0.2
 	#percent chance of end city loot table containing Void Cloud book:
 	#Range: 0.0 ~ 1.0
-	void_cloud_loot_chance = 0.19
+	void_cloud_loot_chance = 0.2
 	#percent chance of mineshaft loot table containing Ore Scenting book:
 	#Range: 0.0 ~ 1.0
-	ore_scenting_loot_chance = 0.15
+	ore_scenting_loot_chance = 0.05
 	#percent chance of ancient city loot table containing Muffled book:
 	#Range: 0.0 ~ 1.0
-	muffled_loot_chance = 0.19
+	muffled_loot_chance = 0.1
 	#percent chance of nether fortress loot table containing Blazing Protection book:
 	#Range: 0.0 ~ 1.0
 	blazing_protection_loot_chance = 0.2
