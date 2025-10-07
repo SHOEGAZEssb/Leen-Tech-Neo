@@ -481,6 +481,10 @@ file = "kubejs/data/ars_nouveau/forge/biome_modifier/remove_archwood.json"
 hash = "d8c3219f7c15baff2101af81e10dd635d758740ad39602e15723d04b487e83f8"
 
 [[files]]
+file = "kubejs/data/ars_nouveau/tags/worldgen/biome/berry_spawn.json"
+hash = "70d8745c24e569acc65abd66c1cf389031725812a881e9789ccc55a7b7f49a80"
+
+[[files]]
 file = "kubejs/data/betterdeserttemples.zip"
 hash = "879bbf4aaf0b323dfab0e906727a023910a8b189ba912bfa2991b924d11206ac"
 
