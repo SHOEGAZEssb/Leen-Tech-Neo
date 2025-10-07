@@ -210,7 +210,7 @@ hash = "83d4dfe21b22c6dda262f3a86110adef16661d810a3276fc999fe80cabfa4a26"
 
 [[files]]
 file = "config/spawnbalanceutility/BiomeMobWeight.csv"
-hash = "6c39306adafb9115043383d22030b8d33f2b7987d731bc2d815a5ca95f0f1c0f"
+hash = "444bc645e48cc63c9d2d4c808247d3595faf79b9fb549e4f560859fcb469a939"
 
 [[files]]
 file = "config/spawncapcontrolutility-common.toml"
