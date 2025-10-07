@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "BiomeMobWeight.csv"
-hash = "26cf82a8fed82d418b8a568c19823e14f87ebe246523036b064a6ccaa569e130"
-
-[[files]]
 file = "config/aeroblender-common.toml"
 hash = "5b12e49412c01d5ded3045bda83d0227b3b066444c7f40429fd840f865caec33"
 
