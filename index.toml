@@ -113,6 +113,10 @@ file = "config/deeperdarker-common.toml"
 hash = "59cabc658f36e11e6ddd3ee196e107d988aebc1df47d11ce4e779a04eca70093"
 
 [[files]]
+file = "config/delightful-common.toml"
+hash = "0152abf705ebcbfed535ded37ae84fdb993e2e3ceca5ba356c4124276c3bd22c"
+
+[[files]]
 file = "config/domestication-innovation.toml"
 hash = "cc37708100e74800fb01380eb057ba0964aec227172cf8777688846cdb02b1af"
 
