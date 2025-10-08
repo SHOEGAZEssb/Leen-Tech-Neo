@@ -174,7 +174,7 @@ hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "7b1e514fc8a1d00436333a80ba8ebf2ce0b8275d7899f8c03641d93e5927f5fc"
+hash = "939ec52c7f1c0078365d790950547362a4f23415254f7d5c7704d2ab6e0c9dfd"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -199,6 +199,10 @@ hash = "caf1ee9d23eaa0c0e390e241ec82bc274411fc9082fc288925e9e02bd2f3e4df"
 [[files]]
 file = "config/ribbits-options.json"
 hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
+
+[[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "0bca349dafbfbb2762b6156404d2cf06005a2d2a6a93201eede67589452ec6e4"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
@@ -3929,11 +3933,6 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
-metafile = true
-
-[[files]]
-file = "mods/cooking-for-blockheads.pw.toml"
-hash = "eda88d895232fa88c15851fa23225bf51e5ef006505e9a48d437f00635eb03e6"
 metafile = true
 
 [[files]]
