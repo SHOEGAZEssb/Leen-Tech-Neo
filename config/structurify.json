@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-01_16-48-51",
+  "config_datetime": "2025-10-09_19-43-43",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -3547,11 +3547,11 @@
       "blacklisted_biomes": [
         "regions_unexplored:willow_forest",
         "biomesoplenty:shrubland",
-        "ars_nouveau:archwood_forest",
-        "regions_unexplored:temperate_grove",
         "regions_unexplored:grassland",
+        "regions_unexplored:prairie",
+        "regions_unexplored:temperate_grove",
         "biomesoplenty:scrubland",
-        "regions_unexplored:prairie"
+        "ars_nouveau:archwood_forest"
       ]
     },
     {
@@ -4702,12 +4702,9 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "minecraft:frozen_river",
         "atmospheric:snowy_scrubland",
         "environmental:snowy_old_growth_pine_barrens",
-        "environmental:snowy_pine_barrens",
-        "minecraft:snowy_beach",
-        "minecraft:frozen_ocean"
+        "environmental:snowy_pine_barrens"
       ],
       "blacklisted_biomes": [
         "biomesoplenty:snowy_maple_woods",

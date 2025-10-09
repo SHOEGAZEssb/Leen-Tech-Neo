@@ -78,7 +78,7 @@ hash = "67e7e94693c7ca0945fe1b7e08639cdf4faad9a8e1eec2b029bf414539113753"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
-hash = "ee5f59dd7b2aeb89908e094fc3b458075be459d4e01d3cf7c230da03d8658e2f"
+hash = "b05a29cd4c8616327ab811bdf2426c8da6b726d4c9648ac23dad9dc1be95677d"
 
 [[files]]
 file = "config/biomesoplenty/generation.toml"
@@ -226,7 +226,7 @@ hash = "e36a7b95358a0a6d2897a4374ace460cf23b4dead7894b87149402b893ac44cc"
 
 [[files]]
 file = "config/structurify.json"
-hash = "046312077152b45de2943c458bd723a7858649612686593f2eaf0898c81233a1"
+hash = "edfeeaff17aba041e5536c09b0b2108cde7d43d65d9f6035ab262989b883f81c"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -3666,7 +3666,7 @@ hash = "387dfe16cb0c07e5f9624f9dfa8a9e57bb0749df2fa0be887401d19bea6b0b7e"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "2b630ff71bb8a222a0e026dba590983aadb88b6da424264d79156945ef8bbfc5"
+hash = "354a165aaa359c3b5539952fcfcd2f8daa35836d6be13a34687e4b8d6a2cad2b"
 
 [[files]]
 file = "kubejs/server_scripts/meowzie/make_biome_mowzie_boss_spawnable.js"

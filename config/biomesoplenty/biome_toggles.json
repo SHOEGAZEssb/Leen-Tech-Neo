@@ -39,7 +39,7 @@
   "ominous_woods_enabled": true,
   "orchard_enabled": true,
   "origin_valley_enabled": true,
-  "overgrown_greens_enabled": true,
+  "overgrown_greens_enabled": false,
   "pasture_enabled": true,
   "prairie_enabled": true,
   "pumpkin_patch_enabled": true,
