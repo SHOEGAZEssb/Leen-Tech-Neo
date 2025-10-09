@@ -3677,6 +3677,10 @@ file = "kubejs/server_scripts/recipes.js"
 hash = "4fd4efe4d21f9e9f1d5c66a30bf4b13a35d7c13cdf75f895ad91d18b11014fa9"
 
 [[files]]
+file = "kubejs/server_scripts/reload_workaround.js"
+hash = "0cb2d2e7fc26d6bed4581af73bffde83a199d94ed7f6891ab259c8231ad8003c"
+
+[[files]]
 file = "kubejs/server_scripts/remove_startup_items.js"
 hash = "f48a2efed04e6e584a1a63203373b70378fae23ef431cba862e2614144c77ec9"
 
@@ -3827,7 +3831,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9b286283ff04cc6100de5af162bc682826b8aaa7621e3386d7e9efc594459c02"
+hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
 metafile = true
 
 [[files]]
