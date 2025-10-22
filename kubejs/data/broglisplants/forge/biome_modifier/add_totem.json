@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:sparse_jungle",
+    "atmospheric:rainforest",
+    "atmospheric:sparse_rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "regions_unexplored:sparse_rainforest"
+  ],
+  "features": "broglisplants:totem_placed",
+  "step": "vegetal_decoration"
+}

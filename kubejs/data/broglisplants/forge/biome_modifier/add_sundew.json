@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou",
+    "regions_unexplored:tropics",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:marsh",
+    "environmental:marsh"
+  ],
+  "features": "broglisplants:sundew_placed",
+  "step": "vegetal_decoration"
+}

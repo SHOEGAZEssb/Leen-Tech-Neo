@@ -501,6 +501,46 @@ file = "kubejs/data/bettertemples.zip"
 hash = "88b1a189b5b3d4901b12e16cdc8fe98d41f7dccf32b99f5d6aada8577ea336db"
 
 [[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_flytrap.json"
+hash = "ef9b97b8c3c2b349d204369c1e9232036f81016137b550e6f0c1a9b863a65173"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_giant_lily.json"
+hash = "c5a17791942b3219706a0a58a9da020e15198db981998ca4c7d4591e75fe3e89"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_mandrake.json"
+hash = "17d0d6901516a35ff7dd5362225417ef79cc528deec4255102ef287935a91046"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_pitcher_plant.json"
+hash = "67f5dcbeb117e4f5de8586f059158d627e237fde429ea79ec603e4ad6221d249"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_sandbox_tree.json"
+hash = "a9399b33eab4a4131f944118751d8bf2d760683fab74713b7645429ad00fbc34"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_stinky_plant.json"
+hash = "2f86c38d891a433ee340d769386b625c7161e892929b5185203e1d6d8be5bbe3"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_sundew.json"
+hash = "5b8a935ff84cbe8988de811059c70151d7b64c62b4c20710b887cb265934b789"
+
+[[files]]
+file = "kubejs/data/broglisplants/forge/biome_modifier/add_totem.json"
+hash = "31c883b3a0e262c715c00f97b91745a8da2ff96d94a923658ef3dfdfe4c96557"
+
+[[files]]
+file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_lush_spawns.json"
+hash = "e38d80d11813da86c359f11b53744536d8f09faa379b69aca0f44f5f812f9dcf"
+
+[[files]]
+file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_spawns.json"
+hash = "2afef0accd0c7642dc4a7c4c6401d4fc6c4a03860a55fc27f3e43281f7ce44dd"
+
+[[files]]
 file = "kubejs/data/darwiniv/dimension/darwin_iv_orbit.json"
 hash = "91630079ccb88aa53e7f3fcfaac85939e0d175e522aec6611d4bcee185ff1525"
 

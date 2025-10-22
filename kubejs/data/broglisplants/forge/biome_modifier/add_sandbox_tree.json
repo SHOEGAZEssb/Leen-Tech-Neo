@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:sparse_jungle",
+    "biomesoplenty:rocky_rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:baobab_savanna"
+    
+  ],
+  "features": "broglisplants:sandbox_tree_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:old_growth_birch_forest",
+    "atmospheric:laurel_forest",
+    "biomesoplenty:jacaranda_glade"
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:seasonal_forest",
+    "environmental:blossom_valleys",
+    "environmental:blossom_woods",
+    "regions_unexplored:autumnal_maple_forest",
+    "regions_unexplored:magnolia_woodland",
+    "regions_unexplored:silver_birch_forest"   
+  ]
+}

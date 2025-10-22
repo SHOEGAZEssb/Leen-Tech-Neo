@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:marsh",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou"
+  ],
+  "features": "broglisplants:flytrap_placed",
+  "step": "vegetal_decoration"
+}
