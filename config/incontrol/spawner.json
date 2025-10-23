@@ -20,5 +20,68 @@
         "biome": ["minecraft:plains", "minecraft:desert"]
       }
     }
+  },
+  {
+    "mob": "exoticbirds:pigeon",
+    "persecond": 0.7,
+    "attempts": 50,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 0,
+      "maxheight": 256,
+      "norestrictions": true,
+      "maxthis": 10,
+      "and": {
+        "structuretags": "minecraft:village"
+      }
+    }
+  },
+  {
+    "mob": "ambientadditions:cardigan_corgi",
+    "persecond": 0.5,
+    "attempts": 50,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 0,
+      "maxheight": 256,
+      "norestrictions": true,
+      "maxthis": 2,
+      "and": {
+        "structuretags": "minecraft:village"
+      }
+    }
+  },
+  {
+    "mob": "ambientadditions:pembroke_corgi",
+    "persecond": 0.5,
+    "attempts": 50,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 0,
+      "maxheight": 256,
+      "norestrictions": true,
+      "maxthis": 2,
+      "and": {
+        "structuretags": "minecraft:village"
+      }
+    }
   }
 ]

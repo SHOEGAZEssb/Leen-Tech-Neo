@@ -11,6 +11,7 @@
             "exoticbirds:gull",
             "exoticbirds:hummingbird",
             "exoticbirds:penguin",
+            
             "exoticbirds:roadrunner",
             "exoticbirds:toucan",
 
@@ -86,7 +87,13 @@
         "result": "deny"
     },
     {
-        "mob": "grimoireofgaia:valkyrie",
+        "mob":
+        [
+            "ambientadditions:cardigan_corgi",
+            "ambientadditions:pembroke_corgi",
+            "exoticbirds:pigeon",
+            "grimoireofgaia:valkyrie"
+        ],
         "result": "deny"
     },
     {
