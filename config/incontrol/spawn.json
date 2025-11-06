@@ -1,105 +1,192 @@
 [
-    { 
-        "mob": 
-        [
-            "ambientadditions:chocolate_chip_starfish",
-            "ambientadditions:marten",
-            "ambientadditions:siamang_gibbon",
+  {
+    "mob": "exoticbirds:duck",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_environmental_duck"
+  },
+  {
+    "mob": "environmental:duck",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
 
-            "exoticbirds:bluejay",
-            "exoticbirds:duck",
-            "exoticbirds:gull",
-            "exoticbirds:hummingbird",
-            "exoticbirds:penguin",
-            
-            "exoticbirds:roadrunner",
-            "exoticbirds:toucan",
+  {
+    "mob": "exoticbirds:bluejay",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_alexs_baby_bluejay"
+  },
+  {
+    "mob": "alexsmobs:blue_jay",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
 
-            "grimoireofgaia:ant_hill",
-            "grimoireofgaia:ant_salvager",
-            "grimoireofgaia:ant",
-            "grimoireofgaia:anubis",
-            "grimoireofgaia:banshee",
-            "grimoireofgaia:behender",
-            "grimoireofgaia:bone_knight",
-            "grimoireofgaia:cecaelia",
-            "grimoireofgaia:centaur",
-            "grimoireofgaia:chest",
-            "grimoireofgaia:cobble_golem",
-            "grimoireofgaia:cobblestone_golem",
-            "grimoireofgaia:creep",
-            "grimoireofgaia:creeper_girl",
-            "grimoireofgaia:cyan_flower",
-            "grimoireofgaia:cyclops",
-            "grimoireofgaia:deathword",
-            "grimoireofgaia:dullahan",
-            "grimoireofgaia:dwarf",
-            "grimoireofgaia:ender_dragon_girl",
-            "grimoireofgaia:ender_eye",
-            "grimoireofgaia:ender_girl",
-            "grimoireofgaia:goblin_feral",
-            "grimoireofgaia:flesh_lich",
-            "grimoireofgaia:gelatinous_slime",
-            "grimoireofgaia:goblin",
-            "grimoireofgaia:gravemite",
-            "grimoireofgaia:gryphon",
-            "grimoireofgaia:bee",
-            "grimoireofgaia:hunter",
-            "grimoireofgaia:kobold",
-            "grimoireofgaia:mandragora",
-            "grimoireofgaia:matango",
-            "grimoireofgaia:mermaid",
-            "grimoireofgaia:mimic",
-            "grimoireofgaia:minotaur",
-            "grimoireofgaia:minotaurus",
-            "grimoireofgaia:mummy",
-            "grimoireofgaia:naga",
-            "grimoireofgaia:oni",
-            "grimoireofgaia:orc",
-            "grimoireofgaia:satyress",
-            "grimoireofgaia:shaman",
-            "grimoireofgaia:sharko",
-            "grimoireofgaia:siren",
-            "grimoireofgaia:slime_girl",
-            "grimoireofgaia:sphinx",
-            "grimoireofgaia:sporeling",
-            "grimoireofgaia:spriggan",
-            "grimoireofgaia:succubus",
-            "grimoireofgaia:toad",
-            "grimoireofgaia:trader",
-            "grimoireofgaia:werecat",
-            "grimoireofgaia:horse",
-            "grimoireofgaia:witch",
-            "grimoireofgaia:wither_cow",
-            "grimoireofgaia:wizard_harpy",
+  {
+    "mob": "exoticbirds:gull",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_alexs_baby_gull"
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
 
-            "minecraft:tropical_fish",
+  {
+    "mob": "exoticbirds:hummingbird",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_alexs_baby_hummingbird"
+  },
+  {
+    "mob": "alexsmobs:hummingbird",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
 
-            "mg_secrets_of_mermaids:crab_girl",
+  {
+    "mob": "exoticbirds:penguin",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_ecologics_baby_penguin"
+  },
+  {
+    "mob": "ecologics:penguin",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
 
-            "twilightforest:deer",
-            "twilightforest:penguin",
-            "twilightforest:raven",
-            "twilightforest:squirrel",
-            "twilightforest:tiny_bird"
-        ],
-        "when": "onjoin",
-        "result": "deny"
-    },
-    {
-        "mob":
-        [
-            "ambientadditions:cardigan_corgi",
-            "ambientadditions:pembroke_corgi",
-            "exoticbirds:pigeon",
-            "grimoireofgaia:valkyrie"
-        ],
-        "result": "deny"
-    },
-    {
-        "mob": "aether:valkyrie",
-        "when": "onjoin",
-        "result": "deny_with_actions",
-        "customevent": "replace_with_gog_valkyrie"
-    }
+  {
+    "mob": "exoticbirds:roadrunner",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_alexs_baby_roadrunner"
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
+
+  {
+    "mob": "exoticbirds:toucan",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_alexs_baby_toucan"
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "eventspawn": true,
+    "when": "finalize",
+    "result": "allow",
+    "nbt": { "Age": -24000, "Baby": 1b }
+  },
+
+  {
+    "mob": [
+      "ambientadditions:chocolate_chip_starfish",
+      "ambientadditions:marten",
+      "ambientadditions:siamang_gibbon",
+
+      "grimoireofgaia:ant_hill",
+      "grimoireofgaia:ant_salvager",
+      "grimoireofgaia:ant",
+      "grimoireofgaia:anubis",
+      "grimoireofgaia:banshee",
+      "grimoireofgaia:behender",
+      "grimoireofgaia:bone_knight",
+      "grimoireofgaia:cecaelia",
+      "grimoireofgaia:centaur",
+      "grimoireofgaia:chest",
+      "grimoireofgaia:cobble_golem",
+      "grimoireofgaia:cobblestone_golem",
+      "grimoireofgaia:creep",
+      "grimoireofgaia:creeper_girl",
+      "grimoireofgaia:cyan_flower",
+      "grimoireofgaia:cyclops",
+      "grimoireofgaia:deathword",
+      "grimoireofgaia:dullahan",
+      "grimoireofgaia:dwarf",
+      "grimoireofgaia:ender_dragon_girl",
+      "grimoireofgaia:ender_eye",
+      "grimoireofgaia:ender_girl",
+      "grimoireofgaia:goblin_feral",
+      "grimoireofgaia:flesh_lich",
+      "grimoireofgaia:gelatinous_slime",
+      "grimoireofgaia:goblin",
+      "grimoireofgaia:gravemite",
+      "grimoireofgaia:gryphon",
+      "grimoireofgaia:bee",
+      "grimoireofgaia:hunter",
+      "grimoireofgaia:kobold",
+      "grimoireofgaia:mandragora",
+      "grimoireofgaia:matango",
+      "grimoireofgaia:mermaid",
+      "grimoireofgaia:mimic",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:minotaurus",
+      "grimoireofgaia:mummy",
+      "grimoireofgaia:naga",
+      "grimoireofgaia:oni",
+      "grimoireofgaia:orc",
+      "grimoireofgaia:satyress",
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:sharko",
+      "grimoireofgaia:siren",
+      "grimoireofgaia:slime_girl",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:sporeling",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:succubus",
+      "grimoireofgaia:toad",
+      "grimoireofgaia:trader",
+      "grimoireofgaia:werecat",
+      "grimoireofgaia:horse",
+      "grimoireofgaia:witch",
+      "grimoireofgaia:wither_cow",
+      "grimoireofgaia:wizard_harpy",
+
+      "minecraft:tropical_fish",
+
+      "mg_secrets_of_mermaids:crab_girl",
+
+      "twilightforest:deer",
+      "twilightforest:penguin",
+      "twilightforest:raven",
+      "twilightforest:squirrel",
+      "twilightforest:tiny_bird"
+    ],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "ambientadditions:cardigan_corgi",
+      "ambientadditions:pembroke_corgi",
+      "exoticbirds:pigeon",
+      "grimoireofgaia:valkyrie"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "aether:valkyrie",
+    "when": "onjoin",
+    "result": "deny_with_actions",
+    "customevent": "replace_with_gog_valkyrie"
+  }
 ]

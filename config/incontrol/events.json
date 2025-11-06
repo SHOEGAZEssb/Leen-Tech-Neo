@@ -1,9 +1,7 @@
 [
   {
     "on": "custom",
-    "parameters": {
-      "name": "replace_with_gog_valkyrie"
-    },
+    "parameters": { "name": "replace_with_gog_valkyrie" },
     "spawn": {
       "mob": "grimoireofgaia:valkyrie",
       "mindistance": 0,
@@ -11,6 +9,97 @@
       "mincount": 1,
       "maxcount": 1,
       "attempts": 20,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_environmental_duck" },
+    "spawn": {
+      "mob": "environmental:duck",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_alexs_baby_bluejay" },
+    "spawn": {
+      "mob": "alexsmobs:blue_jay",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_alexs_baby_gull" },
+    "spawn": {
+      "mob": "alexsmobs:seagull",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_alexs_baby_hummingbird" },
+    "spawn": {
+      "mob": "alexsmobs:hummingbird",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_ecologics_baby_penguin" },
+    "spawn": {
+      "mob": "ecologics:penguin",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_alexs_baby_roadrunner" },
+    "spawn": {
+      "mob": "alexsmobs:roadrunner",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
+      "norestrictions": true
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": { "name": "replace_with_alexs_baby_toucan" },
+    "spawn": {
+      "mob": "alexsmobs:toucan",
+      "mindistance": 0,
+      "maxdistance": 0,
+      "mincount": 1,
+      "maxcount": 1,
+      "attempts": 10,
       "norestrictions": true
     }
   }

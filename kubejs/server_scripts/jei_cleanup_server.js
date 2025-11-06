@@ -112,15 +112,7 @@ ServerEvents.recipes(event => {
 
   // exotic birds
   removeRecipesByItemId(event, "exoticbirds:bird_book")
-  removeRecipesByItemId(event, "exoticbirds:bluejay_egg")
-  removeRecipesByItemId(event, "exoticbirds:duck_egg")
   removeRecipesByItemId(event, "exoticbirds:eggshell")
-  removeRecipesByItemId(event, "exoticbirds:gull_egg")
-  removeRecipesByItemId(event, "exoticbirds:hummingbird_egg")
-  removeRecipesByItemId(event, "exoticbirds:hummingbird_feeder")
-  removeRecipesByItemId(event, "exoticbirds:penguin_egg")
-  removeRecipesByItemId(event, "exoticbirds:roadrunner_egg")
-  removeRecipesByItemId(event, "exoticbirds:toucan_egg")
 
   // farmers delight
   removeRecipesByItemId(event, "farmersdelight:rope")
