@@ -1,0 +1,12 @@
+name = "Capybaras+"
+filename = "capybara-1.20.1-0.3.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "4ed836bdea027dc78e4991e1375e9023c08b956f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7118484
+project-id = 1345431
