@@ -98,7 +98,7 @@ hash = "e61a8957f228397ec954763ccac367511f46afca6b8a7eff32669033518a0062"
 
 [[files]]
 file = "config/butterflies-common.toml"
-hash = "47143ce4d22d9e033df1c2b2bdf1d37a35928a7dbad2db14c9acd73f2c6f91ba"
+hash = "cb95eb7854cce30ac32696ef62841b341a20c45ab7fb07632bed14f833799948"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -198,7 +198,7 @@ hash = "218f11ebf169bb87c2a1596b6a6df9b5ea92098432ea334526338f1e6b7e240e"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
-hash = "caf1ee9d23eaa0c0e390e241ec82bc274411fc9082fc288925e9e02bd2f3e4df"
+hash = "58489a06391bb0eccd4f1b3a95d3a195ccd82713d305ea4780d5d784b43631b3"
 
 [[files]]
 file = "config/ribbits-options.json"
@@ -222,7 +222,7 @@ hash = "96f498329fbf4252839e8d5450f9ec78f5182ade42bba7409e03000d30805a02"
 
 [[files]]
 file = "config/spawncapcontrolutility-common.toml"
-hash = "7d8827dc4fcff05ee50a48e9fd987ea7de07b5e91f9229357f5a41bcc18d48e2"
+hash = "97a3b9ac8f1b92fb771ec3d227ef5ddfe02b048c5ea39f76aa46f8c973a9439e"
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
@@ -3691,6 +3691,14 @@ hash = "cb9493f2cbdce2156a58dacf22bb9320860b3db2daf5918b76b11545432728ae"
 [[files]]
 file = "kubejs/data/repurposed_structures/worldgen/template_pool/villages/pets_trapdoor_cage.json"
 hash = "8a12329a0a9e975824d43c81fcda661804e1c1a76482a21117c2c24647c80ae2"
+
+[[files]]
+file = "kubejs/data/seafarer/tags/worldgen/biome/is_beach_biome.json"
+hash = "3415d44694bcad52307d61c2d29ea26a80f3670c8b3e2de5c7a61da19e6b6099"
+
+[[files]]
+file = "kubejs/data/seafarer/tags/worldgen/biome/is_sandy_beach_biome.json"
+hash = "b31811bdf3dc9d8b49cd6b00823bb0cf720e34c5a482cf4d52f415145bc84c2d"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra/ad_astra_meteors.js"

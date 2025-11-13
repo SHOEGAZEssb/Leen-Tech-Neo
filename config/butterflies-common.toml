@@ -13,5 +13,5 @@
 	#If true, butterflies will die naturally.
 	enable_lifespan = false
 	#If true, butterflies will pollinate flowers.
-	enable_pollination = true
+	enable_pollination = false
 
