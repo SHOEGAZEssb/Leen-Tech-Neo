@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+            "minecraft:warm_ocean",
+            "regions_unexplored:rocky_reef"
+  ],
+  "features": "rainbowreef:ore_coralstone",
+  "step": "raw_generation"
+}

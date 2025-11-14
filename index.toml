@@ -178,7 +178,7 @@ hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "939ec52c7f1c0078365d790950547362a4f23415254f7d5c7704d2ab6e0c9dfd"
+hash = "45f8d8b7c051a8e616886b8e815dae571dba9db2c9f0b10ddfe7aef0c0707608"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -3101,12 +3101,24 @@ file = "kubejs/data/minecraft/tags/items/music_discs.json"
 hash = "99e6003c63dc862719e458aa19aedec1798b77f1cd17041f574389c60784788f"
 
 [[files]]
+file = "kubejs/data/rainbowreef/forge/biome_modifier/coralstone_generation.json"
+hash = "acbb2839f88f9df63174f1b2e50d55443dab7546c80de6588f13ea8093e71067"
+
+[[files]]
+file = "kubejs/data/rainbowreef/forge/biome_modifier/floor_nem.json"
+hash = "3f2452e631e94568abff4dd365404255abd14b41042e1d88d588a082acae8c76"
+
+[[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/floor_star.json"
-hash = "ec5c2ed87c310f7b32dab09c263b4889c5e4cc2dad48194cc871fdccb6cade6f"
+hash = "ccc452ef6ed78181527f84cd25e708418038581c19b4c91ec3ee718c50f5394e"
+
+[[files]]
+file = "kubejs/data/rainbowreef/forge/biome_modifier/reef_nem.json"
+hash = "8ff4e21ff7c7c56df1a532258b8b2e150a512c31710aa223db17bbda31fc5c03"
 
 [[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/reef_star.json"
-hash = "ec5c2ed87c310f7b32dab09c263b4889c5e4cc2dad48194cc871fdccb6cade6f"
+hash = "6dcdbc38a87feb84f146876d0dc9cff4800cd871473191a2cf4b564e984864db"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/badlands/houses.json"

@@ -1,7 +1,6 @@
 {
-  "replace": true,
   "type": "forge:add_features",
-  "biomes": [],
-  "features": [],
+  "biomes": ,
+  "features": "rainbowreef:floor_star",
   "step": "vegetal_decoration"
 }
