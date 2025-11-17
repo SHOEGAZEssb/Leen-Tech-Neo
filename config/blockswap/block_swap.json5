@@ -86,6 +86,9 @@ to make editing this file much easier.
 	*/
 	"swapper": {
 		// biomes o plenty
+		"biomesoplenty:cypress_leaves":			"regions_unexplored:cypress_leaves",
+		"biomesoplenty:cypress_sapling":		"regions_unexplored:cypress_sapling",
+
 		"biomesoplenty:maple_button":			"blue_skies:maple_button",
 		"biomesoplenty:maple_door":				"blue_skies:maple_door",
 		"biomesoplenty:maple_fence":			"blue_skies:maple_fence",
