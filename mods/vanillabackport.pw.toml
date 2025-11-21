@@ -1,12 +1,13 @@
-name = "Vanilla Backport: Chase the Skies, The Garden Awakens"
-filename = "vanillabackport-forge-1.20.1-1.1.4.3.jar"
+name = "Vanilla Backport"
+filename = "vanillabackport-forge-1.20.1-1.1.5.1.jar"
 side = "both"
+
 [download]
 hash-format = "sha1"
-hash = "5b45e8d6da3bfd9e67cfe1ffbe31094c02812e95"
+hash = "77551f2c12f9ad1db0bcc4c2819e0914b0111326"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6696334
+file-id = 7227619
 project-id = 417430

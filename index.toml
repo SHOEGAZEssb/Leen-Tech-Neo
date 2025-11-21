@@ -166,11 +166,11 @@ hash = "81dd67a2f63c44d3ce20e45ff2579bf220f918fdb3e1122a84cef06d8a49b03d"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "9844c47286a535577578866cce7fb479ab562fad8cdc6460a4001354887fde8e"
+hash = "bb564e025a896cb436cd15f5df7193a81f09011546090cc7b8c53810e2386e42"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "e990a3e5a8d8624f5948f355f6fe4d97522887eeabb0ad046432c019d7fd4b35"
+hash = "cc14958aaf5d4e833b8192c5f8c57cc9e53c92d5aa2b6dcc177cf4d003047714"
 
 [[files]]
 file = "config/incontrol/spawner_readme.md"
@@ -474,7 +474,7 @@ hash = "a68b82b1b4108dfc9a9549d7fcd2893c790ea153174c40ebe86eee3d0ab98cf2"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "12cd196800b31ea1d12aa1cc908b540c882e914838520bc69211d2b73a6df545"
+hash = "cf1cb4249b4b8999ef0b6eae64aa413613ea75ef52c125b699c0fc8dd254a18f"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
@@ -3840,7 +3840,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "329ba04415403dbef1ef9ccae47e778dbe62fadcfa9de63bfefaff07b9864f95"
+hash = "a966c425617e0583ccadc2fe7f521a53833c93f4aacd9c89c24ad7cc76eca97a"
 metafile = true
 
 [[files]]
@@ -3860,7 +3860,7 @@ metafile = true
 
 [[files]]
 file = "mods/araxers-bestiary.pw.toml"
-hash = "b80a034837e915d31bd86dd2bddd60d32b5cdbdd4102ef2cad924754bd551b70"
+hash = "f183c051b3b9fceff4790d91b243a097b69392b2c195f3ae9aa1b2fb1a9c36d3"
 metafile = true
 
 [[files]]
@@ -4030,7 +4030,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-industry.pw.toml"
-hash = "562018ced34c312a66849bdf8351dacd1f8890a4a9f06fd06cef2bee49d47b80"
+hash = "4d2884baecdb748f042d3d68afc46a6c993546004aebe0bf17d7af5adf7da28f"
 metafile = true
 
 [[files]]
@@ -4350,7 +4350,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a4aeae853d270fbeef356436886065e8d5ca7baee9ae02d12dc79c14d169647b"
+hash = "5cd8a8cb84bcc096bf8ed3827ad02b9a4ed7400f67d631d6ac40c09c35d17fde"
 metafile = true
 
 [[files]]
@@ -4540,7 +4540,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "8e6f9da3604aa92c239cb8f1a91ffd4aa574b0cbd5d01d9779b6a95cb144a9f2"
+hash = "bd56624f00cda9e544281d2c247e5479f6f1c315f8d8088cfee86e8b61f69dac"
 metafile = true
 
 [[files]]
@@ -4700,7 +4700,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "f6dd606054c545ec5ee056b88097e14f991faf85c27c408e2e3560672adf54ec"
+hash = "e4ed4736f581d4448218a02d662b0f1a0890eaa272bacf4f4a37a138958f02c3"
 metafile = true
 
 [[files]]
@@ -4765,7 +4765,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "952e9451bb9b0a8e3d674f5500621ef9f8a8b3d741a6fc9f4b48837d31b84171"
+hash = "7e730b980a0d8aea7a573b53885e7b3939912868da20b780673fbbaed4d1f488"
 metafile = true
 
 [[files]]
