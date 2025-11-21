@@ -90,7 +90,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "f6295de7e7d53d7d24db194e39442d6131e52e8f1b3861daf4c12bdefc391384"
+hash = "39c12e6daa9e4b376fe3d576c9edfe9eb14dcf76c415927d3c66b3803e902bda"
 
 [[files]]
 file = "config/blue_skies-common.toml"
@@ -218,7 +218,7 @@ hash = "83d4dfe21b22c6dda262f3a86110adef16661d810a3276fc999fe80cabfa4a26"
 
 [[files]]
 file = "config/spawnbalanceutility/BiomeMobWeight.csv"
-hash = "96f498329fbf4252839e8d5450f9ec78f5182ade42bba7409e03000d30805a02"
+hash = "224ed42eef42c824b712c350371a77f0775663eb272a15c26666c1588772d0cc"
 
 [[files]]
 file = "config/spawncapcontrolutility-common.toml"
