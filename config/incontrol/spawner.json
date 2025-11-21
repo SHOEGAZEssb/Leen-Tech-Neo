@@ -1,27 +1,5 @@
 [
   {
-    "mob": "minecraft:ghast",
-    "persecond": 0.05,
-    "attempts": 2,
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "mindist": 40,
-      "maxdist": 120,
-      "minheight": 80,
-      "maxheight": 256,
-      "norestrictions": true,
-      "inair": true,
-      "maxthis": 5,
-      "and": {
-        "biome": ["minecraft:plains", "minecraft:desert"]
-      }
-    }
-  },
-  {
     "mob": "exoticbirds:pigeon",
     "persecond": 0.7,
     "attempts": 50,
@@ -81,6 +59,52 @@
       "maxthis": 2,
       "and": {
         "structuretags": "minecraft:village"
+      }
+    }
+  },
+  {
+    "mob": "fintastic:coelacanth",
+    "persecond": 0.02,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": -64,
+      "maxheight": -50,
+      "norestrictions": true,
+      "inwater": true,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "whaleborne:hullback",
+    "persecond": 0.01,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "maxdist": 100,
+      "minheight": 20,
+      "maxheight": 63,
+      "norestrictions": true,
+      "inwater": true,
+      "maxthis": 1,
+      "and": {
+        "biome": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean",
+          "minecraft:deep_frozen_ocean"
+        ]
       }
     }
   }
