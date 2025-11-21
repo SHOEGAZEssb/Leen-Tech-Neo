@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:lush_caves",
     "regions_unexplored:ancient_delta"

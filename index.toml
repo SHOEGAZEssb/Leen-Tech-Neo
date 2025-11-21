@@ -538,11 +538,11 @@ hash = "31c883b3a0e262c715c00f97b91745a8da2ff96d94a923658ef3dfdfe4c96557"
 
 [[files]]
 file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_lush_spawns.json"
-hash = "e38d80d11813da86c359f11b53744536d8f09faa379b69aca0f44f5f812f9dcf"
+hash = "39217422202917ea30018b19579251d6ea1c331385c8e6fcaac0d73cc44282a0"
 
 [[files]]
 file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_spawns.json"
-hash = "2afef0accd0c7642dc4a7c4c6401d4fc6c4a03860a55fc27f3e43281f7ce44dd"
+hash = "e03b7f941ff3327e7eb4406840352cee4e1e01aec22941087cb163751e0fc9f6"
 
 [[files]]
 file = "kubejs/data/darwiniv/dimension/darwin_iv_orbit.json"
@@ -3110,7 +3110,7 @@ hash = "3f2452e631e94568abff4dd365404255abd14b41042e1d88d588a082acae8c76"
 
 [[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/floor_star.json"
-hash = "ccc452ef6ed78181527f84cd25e708418038581c19b4c91ec3ee718c50f5394e"
+hash = "77f634c672b1372340480c4b3a0742a735a039cf9a52108bc697e8eae7344aed"
 
 [[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/reef_nem.json"
@@ -3118,7 +3118,7 @@ hash = "8ff4e21ff7c7c56df1a532258b8b2e150a512c31710aa223db17bbda31fc5c03"
 
 [[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/reef_star.json"
-hash = "6dcdbc38a87feb84f146876d0dc9cff4800cd871473191a2cf4b564e984864db"
+hash = "abea72e9a2832a314fddf340c188584c92d2a5b379844216b7e12ad7e17e6e04"
 
 [[files]]
 file = "kubejs/data/repurposed_structures/pool_additions/villages/badlands/houses.json"
