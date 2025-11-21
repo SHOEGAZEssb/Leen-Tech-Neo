@@ -48,6 +48,9 @@ JEIEvents.hideItems(event => {
   hideWildcard(event, "deep_aether:*nimbus_stone", ["deep_aether:nimbus_stone", "deep_aether:light_nimbus_stone"])
   hideWildcard(event, "deep_aether:*nimbus_pillar", ["deep_aether:nimbus_pillar", "deep_aether:light_nimbus_pillar"])
 
+  // display delight
+  hideWildcard(event, "displaydelight:*")
+
   // minecraft
   hideWildcard(event, "minecraft:infested_*")
   event.hide("minecraft:bedrock")
@@ -60,6 +63,7 @@ JEIEvents.hideItems(event => {
   hideWildcard(event, "alexscaves:spawn_egg_*")
   hideWildcard(event, "alexsmobs:spawn_egg_*")
   hideWildcard(event, "ars_noveau:*_se")
+  hideWildcard(event, "butterflies:spawn_egg_egg_*")
 
   // species
   event.hide("species:spectralibur_pedestal")
