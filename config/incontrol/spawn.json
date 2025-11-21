@@ -105,7 +105,7 @@
 
       "minecraft:tropical_fish",
 
-      "mg_secrets_of_mermaids:crab_girl",
+      "mg_secrets_of_mermaids:crab_girl"
     ],
     "when": "onjoin",
     "result": "deny"
