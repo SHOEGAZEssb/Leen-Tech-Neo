@@ -78,7 +78,7 @@
 	toggle_temperate_grove = false
 	toggle_towering_cliffs = true
 	toggle_tropical_river = true
-	toggle_tropics = true
+	toggle_tropics = false
 	toggle_willow_forest = false
 	#cave_biomes
 	toggle_ancient_delta = true

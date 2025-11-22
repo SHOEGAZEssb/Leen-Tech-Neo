@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-20_18-21-29",
+  "config_datetime": "2025-11-22_17-23-13",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -76,7 +76,6 @@
         "biomesoplenty:old_growth_woodland"
       ],
       "blacklisted_biomes": [
-        "vanillabackport:pale_garden",
         "biomesoplenty:dead_forest",
         "biomesoplenty:ominous_woods",
         "biomesoplenty:woodland",
@@ -299,7 +298,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:tropics"
+        "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
         "regions_unexplored:gravel_beach",
@@ -714,7 +713,6 @@
         "minecraft:dripstone_caves",
         "minecraft:lush_caves",
         "minecraft:deep_dark",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:auroral_garden",
         "biomesoplenty:bayou",
@@ -983,7 +981,7 @@
         "biomesoplenty:rocky_shrubland",
         "biomesoplenty:scrubland",
         "biomesoplenty:shrubland",
-        "biomesoplenty:tropics",
+        "regions_unexplored:tropics",
         "regions_unexplored:maple_forest",
         "regions_unexplored:orchard",
         "regions_unexplored:temperate_grove",
@@ -1092,7 +1090,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -1359,7 +1356,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -1607,7 +1603,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -1666,7 +1661,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -1770,7 +1764,6 @@
       ],
       "blacklisted_biomes": [
         "minecraft:dark_forest",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:mystic_grove",
         "biomesoplenty:pumpkin_patch",
@@ -1964,7 +1957,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mystic_grove",
@@ -2039,7 +2031,6 @@
         "biomesoplenty:wasteland"
       ],
       "blacklisted_biomes": [
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "regions_unexplored:alpha_grove",
         "regions_unexplored:maple_forest",
@@ -2135,7 +2126,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -2190,7 +2180,6 @@
         "minecraft:flower_forest",
         "minecraft:birch_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:pumpkin_patch",
@@ -2302,7 +2291,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -2389,7 +2377,6 @@
         "minecraft:birch_forest",
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -2477,7 +2464,6 @@
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "regions_unexplored:alpha_grove",
         "regions_unexplored:autumnal_maple_forest",
@@ -2907,7 +2893,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -3005,7 +2990,6 @@
         "regions_unexplored:sparse_rainforest",
         "regions_unexplored:eucalyptus_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:pumpkin_patch",
         "biomesoplenty:redwood_forest",
@@ -3095,7 +3079,7 @@
       ],
       "whitelisted_biomes": [
         "biomesoplenty:fungal_jungle",
-        "regions_unexplored:tropics",
+        "biomesoplenty:tropics",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest"
       ],
@@ -3207,7 +3191,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:tropics",
+        "biomesoplenty:tropics",
         "atmospheric:sparse_rainforest_basin",
         "atmospheric:rainforest_basin",
         "atmospheric:sparse_rainforest",
@@ -3326,7 +3310,6 @@
       "blacklisted_biomes": [
         "minecraft:forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:mediterranean_forest",
         "biomesoplenty:pumpkin_patch",
@@ -3363,7 +3346,6 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:redstone_caves",
         "regions_unexplored:outback",
         "regions_unexplored:eucalyptus_forest"
       ],
@@ -3545,13 +3527,13 @@
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
-        "regions_unexplored:grassland",
+        "regions_unexplored:prairie",
         "ars_nouveau:archwood_forest",
         "biomesoplenty:shrubland",
-        "regions_unexplored:temperate_grove",
-        "biomesoplenty:scrubland",
+        "regions_unexplored:grassland",
         "regions_unexplored:willow_forest",
-        "regions_unexplored:prairie"
+        "regions_unexplored:temperate_grove",
+        "biomesoplenty:scrubland"
       ]
     },
     {
@@ -3644,7 +3626,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:tropics",
+        "biomesoplenty:tropics",
         "regions_unexplored:sparse_rainforest",
         "regions_unexplored:rainforest"
       ],
@@ -3669,7 +3651,7 @@
         "regions_unexplored:eucalyptus_forest",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest",
-        "regions_unexplored:tropics"
+        "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
         "minecraft:jungle",
@@ -4329,7 +4311,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -4637,7 +4618,6 @@
         "minecraft:old_growth_birch_forest",
         "regions_unexplored:silver_birch_forest",
         "minecraft:flower_forest",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:mystic_grove",
         "biomesoplenty:redwood_forest",
@@ -6138,7 +6118,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -6579,8 +6558,8 @@
     {
       "name": "idas:ruins_of_the_deep",
       "is_disabled": false,
-      "enable_flatness_check": true,
-      "flatness_check_distance": 32,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
@@ -6591,7 +6570,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:tropics"
+        "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -6958,7 +6937,7 @@
       "whitelisted_biomes": [
         "atmospheric:sparse_rainforest_basin",
         "atmospheric:rainforest_basin",
-        "regions_unexplored:tropics"
+        "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
         "minecraft:bamboo_jungle",
@@ -7365,7 +7344,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "regions_unexplored:tropics",
+        "biomesoplenty:tropics",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest",
         "minecraft:bamboo_jungle",
@@ -7731,7 +7710,6 @@
         "regions_unexplored:rainforest",
         "regions_unexplored:sparse_rainforest",
         "regions_unexplored:eucalyptus_forest",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -10146,7 +10124,7 @@
         "biomesoplenty:volcanic_plains",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest",
-        "regions_unexplored:tropics"
+        "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
         "minecraft:bamboo_jungle",
@@ -10566,7 +10544,6 @@
         "minecraft:old_growth_birch_forest",
         "minecraft:dark_forest",
         "minecraft:grove",
-        "vanillabackport:pale_garden",
         "biomesoplenty:aspen_glade",
         "biomesoplenty:jacaranda_glade",
         "biomesoplenty:mediterranean_forest",
@@ -10657,7 +10634,6 @@
         "biomesoplenty:scrubland",
         "biomesoplenty:shrubland",
         "biomesoplenty:spider_nest",
-        "biomesoplenty:tropics",
         "yungscavebiomes:frosted_caves",
         "yungscavebiomes:lost_caves",
         "regions_unexplored:orchard",
