@@ -1,13 +1,13 @@
 name = "Bok's Banging Butterflies"
-filename = "butterflies-6.6.6.jar"
+filename = "butterflies-6.8.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5f602b76f5ce16b701b9abfbbe980235bf86728e"
+hash = "d96da49664950608a7dc2e86a81bda267431cc68"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7163478
+file-id = 7372357
 project-id = 929419

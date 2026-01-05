@@ -1,13 +1,13 @@
 name = "Feature Recycler"
-filename = "Feature-Recycler-forge-1.0.1.jar"
+filename = "Feature-Recycler-forge-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "09cc3ac393731861427da593a54fe5628d44eab7"
+hash = "2d874b0910e13cdca1f9432528d5495870d2888d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5610347
+file-id = 7415510
 project-id = 1077985

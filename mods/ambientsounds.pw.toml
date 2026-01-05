@@ -1,16 +1,18 @@
 name = "AmbientSounds 6"
-filename = "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar"
+filename = "AmbientSounds_FORGE_v6.3.1_mc1.20.1.jar"
 side = "client"
+
 [download]
 hash-format = "sha1"
-hash = "af412170c07febfb5c611b7237d806230dc83584"
+hash = "b6c676fbe4e586de6c266190943c069a0a49104d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6570130
+file-id = 7321586
 project-id = 254284
+
 [option]
 optional = true
-default = true
 description = "Immersive ambient sounds (client-only)"
+default = true
