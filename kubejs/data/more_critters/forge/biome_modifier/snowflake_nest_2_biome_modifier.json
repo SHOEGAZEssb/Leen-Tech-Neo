@@ -1,9 +1,13 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "ice_spikes",
-    "snowy_plains",
-    "snowy_slopes"
+        "biomesoplenty:spider_nest",
+        "blue_skies:brightlands",
+        "blue_skies:frostbitten_forest",
+        "blue_skies:frostbitten_forest_clearing",
+        "blue_skies:polar_highland",
+        "blue_skies:snow_covered_pines",
+        "yungscavebiomes:frosted_caves"
   ],
   "features": "more_critters:snowflake_nest_2",
   "step": "surface_structures"

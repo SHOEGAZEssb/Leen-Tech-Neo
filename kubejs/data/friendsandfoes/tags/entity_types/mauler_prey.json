@@ -1,0 +1,12 @@
+{
+        "replace": true,
+	"values": [
+		"minecraft:chicken",
+		"minecraft:rabbit",
+		"minecraft:frog",
+		"minecraft:slime",
+		"minecraft:zombie",
+                "minecraft:husk",
+                "more_critters:bunbug"
+	]
+}

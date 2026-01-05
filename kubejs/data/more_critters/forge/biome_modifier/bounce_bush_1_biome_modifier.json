@@ -1,8 +1,11 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "jungle",
-    "sparse_jungle"
+      "aether_redux:skyfields",
+      "deep_aether:aerglow_forest",
+      "deep_aether:blue_aerglow_forest",
+      "deep_aether:luminescent_forest",
+      "deep_aether:mystic_aerglow_forest"
   ],
   "features": "more_critters:bounce_bush_1",
   "step": "surface_structures"
