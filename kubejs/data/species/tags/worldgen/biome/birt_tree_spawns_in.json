@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:old_growth_birch_forest",
+    "regions_unexplored:silver_birch_forest",
+    "atmospheric:aspen_parkland"
+  ]
+}

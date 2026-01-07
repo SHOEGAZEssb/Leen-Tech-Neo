@@ -3773,6 +3773,14 @@ file = "kubejs/data/seafarer/tags/worldgen/biome/is_sandy_beach_biome.json"
 hash = "b31811bdf3dc9d8b49cd6b00823bb0cf720e34c5a482cf4d52f415145bc84c2d"
 
 [[files]]
+file = "kubejs/data/species/tags/worldgen/biome/birt_tree_spawns_in.json"
+hash = "ec783b6e3a8e9bcffe656810b91cfd077608c11da0ed8bf3e2fca397700220ce"
+
+[[files]]
+file = "kubejs/data/species/tags/worldgen/biome/mammutilation_remnant_spawns_in.json"
+hash = "17f4563ce58939d2db0b307df0926e417715595f1cf503d44412d5efdd3bd7da"
+
+[[files]]
 file = "kubejs/server_scripts/ad_astra/ad_astra_meteors.js"
 hash = "21b172abf8c80f8ca7d4fe6896739058775a93a43b0a0ac25a419fd31883ac86"
 
