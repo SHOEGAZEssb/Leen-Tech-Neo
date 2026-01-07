@@ -261,6 +261,10 @@ file = "config/waystones-common.toml"
 hash = "b88d4785b1c505c7b70b0fbfbc30e7a9ade8fb3c6ea314ca87f7435172f4433c"
 
 [[files]]
+file = "config/whaleborne-client.toml"
+hash = "6d60d1f7215600802b77fcdf4a2d48eae0c49bc002c55664f372a2099b086576"
+
+[[files]]
 file = "config/zombieawareness/Features.toml"
 hash = "4627895a2c591f505547b3a028a608bcead51085fa92f751146cae879fc2db9e"
 
