@@ -680,7 +680,7 @@
 	beachedCachalotWhaleSpawnDelay = 24000
 	#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 	#Range: 0.0 ~ 1.0
-	leafcutterAnthillSpawnChance = 0.004999999888241291
+	leafcutterAnthillSpawnChance = 0.005
 	#Minimum world y-level that gelada monkeys can spawn at
 	#Range: -64 ~ 320
 	geladaMonkeySpawnRolls = 0
@@ -688,7 +688,7 @@
 	restrictPupfishSpawns = true
 	#The maximum distance a pupfish spawn chunk is from world spawn(0, 0) in blocks.
 	#Range: 2 ~ 1000000000
-	pupfishChunkSpawnDistance = 2000
+	pupfishChunkSpawnDistance = 5000
 	#Whether to restrict all skelewag spawns to shipwreck structures.
 	restrictSkelewagSpawns = true
 	#Whether to restrict all farseer spawns to near the world border.

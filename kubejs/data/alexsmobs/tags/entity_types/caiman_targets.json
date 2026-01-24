@@ -1,0 +1,18 @@
+{
+  "__comment": "all non-player targets of the caiman mob.",
+  "replace": true,
+  "values": [
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:frog",
+    "alexsmobs:terrapin",
+    "alexsmobs:catfish",
+    "alexsmobs:rain_frog",
+    "fintastic:catfish",
+    "fintastic:featherback",
+    "fintastic:freshwater_shark",
+    "fintastic:gourami",
+    "rainbowreef:crab"
+  ]
+}

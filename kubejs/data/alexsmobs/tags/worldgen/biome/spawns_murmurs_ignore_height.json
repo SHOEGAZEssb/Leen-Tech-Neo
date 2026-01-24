@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cherry_grove",
+    "atmospheric:kousa_jungle",
+    "environmental:blossom_valleys",
+    "environmental:blossom_woods"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "#comment": "For the savanna pet store cage",
+  "replace": true,
+  "values": [
+    "minecraft:frog",
+    "minecraft:parrot",
+    "alexsmobs:seagull",
+    "alexsmobs:toucan",
+    "alexsmobs:crow",
+    "alexsmobs:sugar_glider",
+    "exoticbirds:budgerigar",
+    "exoticbirds:cockatoo",
+    "exoticbirds:kiwi",
+    "exoticbirds:macaw",
+    "exoticbirds:pigeon",
+    "crittersandcompanions:jumping_spider"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "#comment": "For the snowy pet store cage",
+  "replace": true,
+  "values": [
+    "minecraft:fox",
+    "minecraft:goat",
+    "ecologics:penguin",
+    "alexsmobs:snow_leopard",
+    "environmental:deer"
+  ]
+}

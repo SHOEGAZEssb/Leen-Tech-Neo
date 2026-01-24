@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Obscuria/obscure-api-client.toml"
+hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "743a039266ee201f8a02fdf2f99c61f39aa9ea6744a8c5230094fb46abf87c7e"
 
@@ -9,8 +13,16 @@ file = "config/aeroblender-common.toml"
 hash = "5b12e49412c01d5ded3045bda83d0227b3b066444c7f40429fd840f865caec33"
 
 [[files]]
+file = "config/aether-client.toml"
+hash = "85f7083450fb160a9e9098576e255c0cd09e8162dc4c423fb3d80458fe6fb089"
+
+[[files]]
 file = "config/aether-common.toml"
 hash = "9efbf1417416a14768df0b0c22f09ebb1cf78f6c89aa6517f9dab5f85de9ecfc"
+
+[[files]]
+file = "config/aether_redux_client.toml"
+hash = "807319ea7df310e674912d8361cb267f0a02a61cf1abcd556a56d9459ccefc1e"
 
 [[files]]
 file = "config/aether_redux_common.toml"
@@ -46,11 +58,15 @@ hash = "3c08a549db7459c0ac8fa6d58dd13119cd6048fa7471810e5bf79f11b1972509"
 
 [[files]]
 file = "config/alexscavesexemplified-general.toml"
-hash = "c28797cd90fe8a587f99fd2b5a8b56f3e95fb0e5f744e9a54d80ee6adb3e6f42"
+hash = "58014ee9610d3d023c489a2bd1e5c85695f233ca0ce1e94dee3c7bdd29f451b5"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "256b39f31d862b9c938ff64cada14810aebee2622ccc460eab5b9c2e7666912a"
+hash = "51402baf714fcf1f5ace2ce46b6e67e753df93b6783bc933a3c7f9eddaa3bd89"
+
+[[files]]
+file = "config/alexsmobsinteraction-client.toml"
+hash = "021faa38625a6013550a1d99e311170fb89e54206cd5768f3b1f6297a61c5c7e"
 
 [[files]]
 file = "config/alexsmobsinteraction-general.toml"
@@ -93,8 +109,16 @@ file = "config/blockswap/block_swap.json5"
 hash = "39c12e6daa9e4b376fe3d576c9edfe9eb14dcf76c415927d3c66b3803e902bda"
 
 [[files]]
+file = "config/blue_skies-client.toml"
+hash = "071d402fc522364f0bbbe1cce75c96800c5f4bf0236dcf6766a948180d7ed595"
+
+[[files]]
 file = "config/blue_skies-common.toml"
 hash = "e61a8957f228397ec954763ccac367511f46afca6b8a7eff32669033518a0062"
+
+[[files]]
+file = "config/blueprint-client.toml"
+hash = "7c5a01b061e28846f34ddb47d5e112f37283215f8a11b8bd1dfc4acf9628911d"
 
 [[files]]
 file = "config/butterflies-common.toml"
@@ -111,6 +135,14 @@ hash = "ef7eebbb55b0c01934bba81d835b70d85b652c56c4ef4c0c360c94999f233bb5"
 [[files]]
 file = "config/combatroll/server.json5"
 hash = "897194f04e4698b6bbe577d02939c5cc9ab64515b0c7658bdab2c42769edc405"
+
+[[files]]
+file = "config/cumulus_menus-client.toml"
+hash = "eef65041207c827c172508b73c494bdc1f2562627a39975c7f351a3ef07b8ba9"
+
+[[files]]
+file = "config/deep_aether-client.toml"
+hash = "2249fc1048fc1a9afc3438ae6cc5794401c7feeff53c8f944fb0f88f39bd3c0d"
 
 [[files]]
 file = "config/deeperdarker-common.toml"
@@ -178,11 +210,15 @@ hash = "173150ee9b81c91643aea503a8c0a1d3c2c143ce0abfccc4fabdb57e9b0eab97"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "45f8d8b7c051a8e616886b8e815dae571dba9db2c9f0b10ddfe7aef0c0707608"
+hash = "674c5eff8fe4ff9426d88f5914473ba1d7a34c7ab8da8c6ad77177f89bce35a2"
 
 [[files]]
 file = "config/knightlib.toml"
 hash = "0ebd0903a61c51088deb64487ad50749d32da3598e0c5682bd6d6e0f62cd57b5"
+
+[[files]]
+file = "config/lost_aether_content-client.toml"
+hash = "cbac225d78fa315f44d2006c1d3f7f9ec14f54883ae93775fc71fa54aae865a3"
 
 [[files]]
 file = "config/morecritters-general.toml"
@@ -213,6 +249,10 @@ file = "config/sereneseasons/fertility.toml"
 hash = "0bca349dafbfbb2762b6156404d2cf06005a2d2a6a93201eede67589452ec6e4"
 
 [[files]]
+file = "config/sodiumdynamiclights-client.toml"
+hash = "a07f02d32ca757d3aab93dbff71081a33ea30300d85a0e5defee53eb83e7161f"
+
+[[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "1d11e68a181d2bba7869e9184cd298a8922f4f8c3efc51db2e62080ef7e6da15"
 
@@ -234,7 +274,7 @@ hash = "e36a7b95358a0a6d2897a4374ace460cf23b4dead7894b87149402b893ac44cc"
 
 [[files]]
 file = "config/structurify.json"
-hash = "919599129bf8a0e2d4abba4526f4bc2c501ddbe123e110271c7e013612d39a25"
+hash = "c824038b599f19705aa6db39d78173f8331734eeb0d5148b55b1d68ffc95d054"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -265,6 +305,10 @@ file = "config/whaleborne-client.toml"
 hash = "6d60d1f7215600802b77fcdf4a2d48eae0c49bc002c55664f372a2099b086576"
 
 [[files]]
+file = "config/zombieawareness/ClientConfig.toml"
+hash = "e3d0e5585b27f8c8e2a2f58d985cec82f2daa86463f33fec7e4029666ab04067"
+
+[[files]]
 file = "config/zombieawareness/Features.toml"
 hash = "4627895a2c591f505547b3a028a608bcead51085fa92f751146cae879fc2db9e"
 
@@ -273,48 +317,12 @@ file = "config/zombieawareness/MobLists.toml"
 hash = "02082d3145ed03b4ae0931084661a0b0cc8de32b8c78bec61853722db71c248d"
 
 [[files]]
-file = "defaultconfigs/Obscuria/obscure-api-client.toml"
-hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
-
-[[files]]
-file = "defaultconfigs/ae2/client.json"
-hash = "743a039266ee201f8a02fdf2f99c61f39aa9ea6744a8c5230094fb46abf87c7e"
-
-[[files]]
-file = "defaultconfigs/aether-client.toml"
-hash = "85f7083450fb160a9e9098576e255c0cd09e8162dc4c423fb3d80458fe6fb089"
-
-[[files]]
 file = "defaultconfigs/aether-server.toml"
 hash = "2755788eb25ccadeddd25089200c6534889c20e8a8b77387c961eaff3af0cd0b"
 
 [[files]]
-file = "defaultconfigs/aether_redux_client.toml"
-hash = "807319ea7df310e674912d8361cb267f0a02a61cf1abcd556a56d9459ccefc1e"
-
-[[files]]
-file = "defaultconfigs/alexscavesexemplified-client.toml"
-hash = "8c3641123481ccae0572b99d3c662d1331c73335b62fbfe6e9f92df1d5e28488"
-
-[[files]]
-file = "defaultconfigs/alexsmobsinteraction-client.toml"
-hash = "021faa38625a6013550a1d99e311170fb89e54206cd5768f3b1f6297a61c5c7e"
-
-[[files]]
-file = "defaultconfigs/blue_skies-client.toml"
-hash = "071d402fc522364f0bbbe1cce75c96800c5f4bf0236dcf6766a948180d7ed595"
-
-[[files]]
-file = "defaultconfigs/blueprint-client.toml"
-hash = "7c5a01b061e28846f34ddb47d5e112f37283215f8a11b8bd1dfc4acf9628911d"
-
-[[files]]
-file = "defaultconfigs/cumulus_menus-client.toml"
-hash = "eef65041207c827c172508b73c494bdc1f2562627a39975c7f351a3ef07b8ba9"
-
-[[files]]
-file = "defaultconfigs/deep_aether-client.toml"
-hash = "2249fc1048fc1a9afc3438ae6cc5794401c7feeff53c8f944fb0f88f39bd3c0d"
+file = "defaultconfigs/araxers_bestiary-server.toml"
+hash = "29a61286a91fec602ea7d84900de62e62d3437689080e24c65397bc100816224"
 
 [[files]]
 file = "defaultconfigs/dungeonnowloading-server.toml"
@@ -329,28 +337,12 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "6500478389e356ce3046c32425d7c7cc954d24cd7b34857171c3562f8bb3b497"
 
 [[files]]
-file = "defaultconfigs/jei/ingredient-list-mod-sort-order.ini"
-hash = "7b1e514fc8a1d00436333a80ba8ebf2ce0b8275d7899f8c03641d93e5927f5fc"
-
-[[files]]
-file = "defaultconfigs/lost_aether_content-client.toml"
-hash = "cbac225d78fa315f44d2006c1d3f7f9ec14f54883ae93775fc71fa54aae865a3"
-
-[[files]]
 file = "defaultconfigs/productivebees-server.toml"
 hash = "cba4e13080e2fcd022fc8281a92cabc6c46ca2c278539760434fd466d6aacd79"
 
 [[files]]
-file = "defaultconfigs/sodiumdynamiclights-client.toml"
-hash = "a07f02d32ca757d3aab93dbff71081a33ea30300d85a0e5defee53eb83e7161f"
-
-[[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "a9bf83e11fdf72b91bdea02245c813b5a33173a8254d4379d003abec8ab73d49"
-
-[[files]]
-file = "defaultconfigs/zombieawareness/ClientConfig.toml"
-hash = "e3d0e5585b27f8c8e2a2f58d985cec82f2daa86463f33fec7e4029666ab04067"
 
 [[files]]
 file = "kubejs/assets/cataclysm/lang/en_us.json"
@@ -491,6 +483,62 @@ hash = "cf1cb4249b4b8999ef0b6eae64aa413613ea75ef52c125b699c0fc8dd254a18f"
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
 hash = "091bb304bda4fadb411eeddbc2907d25db128304f105396516a40a18225e752e"
+
+[[files]]
+file = "kubejs/data/alexsmobs/loot_modifiers/banana_drop.json"
+hash = "1e2376209f2a949e3c7897e88b7b853f0caac04f1d2ce0e1a59421c0bf3eb8b8"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/blocks/drops_bananas.json"
+hash = "2f029c72ec64547fd9a7968877db752d5edce3959bd6cead15eb7e7c6b97b433"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/blocks/rocky_roller_spawns.json"
+hash = "a6d7a948fd6ec56495c7a6f29d8a458517c6565bdb5a3065cb2caebcc338a41f"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/caiman_targets.json"
+hash = "3188d8424edb39cc6371df151d7174ca224731d3e717aee66908643a7626ad7a"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/catfish_ignore_eating.json"
+hash = "a7cffcc3d452081273f995ae497684a631be0e2194fb591ac9a3770a8f46ff1b"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/crocodile_targets.json"
+hash = "fe2475daa4df7fa7cd68501df640ff180bc2ed95f33cae8c825fb73a37ab1f9f"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/froststalker_targets.json"
+hash = "d14aa52a3a96457ed99c8a0b4adf56c1e983b8acf883e0fe3e03739b3267e96a"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/mantis_shrimp_targets.json"
+hash = "ffee608b927c9672675b8d0ee5a0d490519fd6922e1754d93e9ec907d82ee2f7"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/orca_targets.json"
+hash = "1c9fb023dc6335139516000696de0c31582cc17592be1f749efdbd72aec08c40"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/snow_leopard_targets.json"
+hash = "e8fd6a908c2f18b778f00b14711c07c06ed992fc8f8f24ad486d439ffd8029a5"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/entity_types/sunbird_scorch_targets.json"
+hash = "1c9d5ae84064a32d08df95ba220ab2410047f761d2f81e92d7eb04b33923487b"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/worldgen/biome/spawns_huge_catfish.json"
+hash = "39edc06a8c2129a4c3495f286fa442c841febfc85a5944ee2ba8f0109d83ca4a"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/worldgen/biome/spawns_murmurs_ignore_height.json"
+hash = "af648dc9fcecf0542b057b5ae3b1341081dd102323a98d9692458ad6d26e0505"
+
+[[files]]
+file = "kubejs/data/alexsmobs/tags/worldgen/biome/spawns_red_gusters.json"
+hash = "51b80d5fa38130900ba2e4ee9e6c314694302f83e056b70c602cf46a3b36f885"
 
 [[files]]
 file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
@@ -751,6 +799,26 @@ hash = "34f5a7fa34bac4cb866132a04e262d1d684015c9295fd4a0e2ba8df446d0f5af"
 [[files]]
 file = "kubejs/data/domesticationinnovation/structures/villages/swamp/petshop.nbt"
 hash = "4a28b48a37e60f88a64e57d1e408e84b6fdcadc293355b9268ce64d303d9cb04"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_0.json"
+hash = "418a3a937e09b787149e09efaa726c8847b649459df0e94d66bf6ae4bbe1344d"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_1.json"
+hash = "e36ad11d8e7f56ad04a1157f854db69e327e8095b6e64d6064da8f01999fb89a"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_2.json"
+hash = "f827b7c4d6cfe67c91fef6682103f19b6fddff037e489d93dbc271a812e82579"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_3.json"
+hash = "512b595009c5434ba472c1af7d2c4826fbc86a39f86f3ab49102672b86b26ce3"
+
+[[files]]
+file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_fishtank.json"
+hash = "b255812d097506ae42d29857d470182b983446ed6185723b5c9292018a23181e"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/ancient_door.json"

@@ -1,0 +1,21 @@
+{
+  "type": "alexsmobs:banana_drop",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/jungle_leaves"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "atmospheric:blocks/rosewood_leaves"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "atmospheric:blocks/morado_leaves"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "regions_unexplored:blocks/kapok_leaves"
+    }
+  ]
+}

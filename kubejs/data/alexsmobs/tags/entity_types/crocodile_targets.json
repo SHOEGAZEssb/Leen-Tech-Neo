@@ -1,0 +1,18 @@
+{
+  "__comment": "all non-player targets of the crocodile mob.",
+  "replace": true,
+  "values": [
+    "minecraft:chicken",
+    "minecraft:pig",
+    "minecraft:squid",
+    "alexsmobs:capuchin_monkey",
+    "alexsmobs:catfish",
+    "alexsmobs:caiman",
+    "alexsmobs:gazelle",
+    "environmental:deer",
+    "environmental:zebra",
+    "fintastic:arapaima",
+    "fintastic:catfish",
+    "unusualfishmod:jungleshark"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "#comment": "For the desert pet store cage",
+  "replace": false,
+  "values": [
+    "minecraft:armadillo",
+    "minecraft:frog",
+    "minecraft:rabbit",
+    "ecologics:coconut_crab",
+    "more_critters:bunbug",
+    "more_critters:balloon_rat"
+  ]
+}

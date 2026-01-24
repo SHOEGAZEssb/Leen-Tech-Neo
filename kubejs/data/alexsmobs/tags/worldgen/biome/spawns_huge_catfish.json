@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "regions_unexplored:muddy_river",
+    "minecraft:swamp",
+    "regions_unexplored:old_growth_bayou"
+  ]
+}

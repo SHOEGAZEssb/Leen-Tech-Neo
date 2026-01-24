@@ -1,0 +1,21 @@
+{
+  "#comment": "For the plain pet store fish tank",
+  "replace": true,
+  "values": [
+    "alexsmobs:lobster",
+    "alexsmobs:devils_hole_pupfish",
+    "alexsmobs:mudskipper",
+    "atmospheric:tetra",
+    "fintastic:guppy",
+    "fintastic:minnow",
+    "fintastic:moony",
+    "fintastic:pleco",
+    "rainbowreef:basslet",
+    "rainbowreef:butterflyfish",
+    "rainbowreef:clownfish",
+    "rainbowreef:dwarf_angelfish",
+    "rainbowreef:goby",
+    "rainbowreef:seahorse",
+    "unusualfishmod:sneep_snorp"
+  ]
+}

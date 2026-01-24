@@ -957,9 +957,7 @@
         "#is_ocean",
         "#is_beach"
       ],
-      "whitelisted_biomes": [
-        "under_the_moon:creep_forest"
-      ],
+      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:deep_frozen_ocean",
         "minecraft:frozen_ocean",
@@ -1127,7 +1125,6 @@
         "minecraft:snowy_plains",
         "minecraft:plains",
         "minecraft:sunflower_plains",
-        "under_the_moon:creep_forest",
         "biomesoplenty:auroral_garden",
         "biomesoplenty:dryland",
         "biomesoplenty:scrubland",
@@ -1393,7 +1390,6 @@
         "minecraft:snowy_plains",
         "minecraft:plains",
         "minecraft:sunflower_plains",
-        "under_the_moon:creep_forest",
         "biomesoplenty:auroral_garden",
         "biomesoplenty:dryland",
         "biomesoplenty:scrubland",
@@ -2800,9 +2796,7 @@
         "#is_ocean",
         "#is_beach"
       ],
-      "whitelisted_biomes": [
-        "under_the_moon:creep_forest"
-      ],
+      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "regions_unexplored:mountains",
         "biomesoplenty:hot_springs",
@@ -2948,9 +2942,7 @@
         "#is_ocean",
         "#is_beach"
       ],
-      "whitelisted_biomes": [
-        "under_the_moon:creep_forest"
-      ],
+      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:frozen_peaks",
         "minecraft:jagged_peaks",
@@ -3453,7 +3445,6 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "under_the_moon:creep_forest",
         "biomesoplenty:ominous_woods",
         "biomesoplenty:mystic_grove"
       ],
@@ -3833,48 +3824,6 @@
       ]
     },
     {
-      "name": "darwiniv:theporaaal",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 64,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 64,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [
-        "minecraft:badlands",
-        "minecraft:bamboo_jungle",
-        "minecraft:beach",
-        "minecraft:birch_forest",
-        "minecraft:dark_forest",
-        "minecraft:desert",
-        "minecraft:eroded_badlands",
-        "minecraft:flower_forest",
-        "minecraft:forest",
-        "minecraft:frozen_peaks",
-        "minecraft:grove",
-        "minecraft:ice_spikes",
-        "minecraft:jagged_peaks",
-        "minecraft:jungle",
-        "minecraft:mangrove_swamp",
-        "minecraft:meadow",
-        "minecraft:taiga",
-        "minecraft:swamp",
-        "minecraft:sparse_jungle",
-        "minecraft:snowy_taiga",
-        "minecraft:windswept_gravelly_hills",
-        "minecraft:windswept_forest",
-        "minecraft:windswept_savanna",
-        "minecraft:wooded_badlands"
-      ]
-    },
-    {
       "name": "deeperdarker:ancient_temple",
       "is_disabled": false,
       "enable_flatness_check": true,
@@ -4234,7 +4183,6 @@
         "biomesoplenty:pumpkin_patch",
         "minecraft:dark_forest",
         "biomesoplenty:ominous_woods",
-        "under_the_moon:creep_forest",
         "biomesoplenty:maple_woods",
         "biomesoplenty:old_growth_dead_forest",
         "biomesoplenty:dead_forest"
@@ -5057,7 +5005,6 @@
         "environmental:snowy_old_growth_pine_barrens",
         "environmental:old_growth_pine_barrens",
         "biomesoplenty:old_growth_dead_forest",
-        "under_the_moon:creep_forest",
         "regions_unexplored:redwoods"
       ],
       "blacklisted_biomes": [
@@ -5587,7 +5534,6 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "under_the_moon:creep_forest",
         "vanillabackport:pale_garden"
       ],
       "blacklisted_biomes": [
@@ -6423,7 +6369,6 @@
       ],
       "whitelisted_biomes": [
         "biomesoplenty:wasteland",
-        "under_the_moon:creep_forest",
         "vanillabackport:pale_garden",
         "biomesoplenty:volcanic_plains",
         "regions_unexplored:ashen_woodland",
@@ -6476,7 +6421,6 @@
         "minecraft:stony_shore",
         "regions_unexplored:ashen_woodland",
         "biomesoplenty:wasteland",
-        "under_the_moon:creep_forest"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -7172,7 +7116,6 @@
         "environmental:marsh",
         "biomesoplenty:marsh",
         "biomesoplenty:mystic_grove",
-        "under_the_moon:creep_forest"
       ],
       "blacklisted_biomes": [
         "minecraft:forest",
@@ -10074,7 +10017,6 @@
       "whitelisted_biomes": [
         "biomesoplenty:old_growth_dead_forest",
         "biomesoplenty:dead_forest",
-        "under_the_moon:creep_forest"
       ],
       "blacklisted_biomes": [
         "regions_unexplored:blackwood_taiga",
@@ -10608,9 +10550,7 @@
         "#is_ocean",
         "#is_beach"
       ],
-      "whitelisted_biomes": [
-        "under_the_moon:creep_forest"
-      ],
+      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:deep_frozen_ocean",
         "minecraft:frozen_ocean",

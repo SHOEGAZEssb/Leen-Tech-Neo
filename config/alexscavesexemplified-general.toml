@@ -84,7 +84,7 @@
 	#Whether most forlorn mammals are effected when a player holds light
 	FORLORN_LIGHT_EFFECT_ENABLED = true
 	#Whether breaking Forlorn Hollows blocks has a chance to burst out Underzealots or Corrodents
-	BURST_OUT_ENABLED = false
+	BURST_OUT_ENABLED = true
 	#Rabies Effects for Forlorn Hollows
 	RABIES_ENABLED = false
 	#Whether guano slows you down
@@ -150,7 +150,7 @@
 
 	["Toxic Caves".Radgill]
 		#Whether fish have a chance to turn into radgill when dowsed in acid
-		FISH_MUTATION_ENABLED = true
+		FISH_MUTATION_ENABLED = false
 
 	["Toxic Caves".Raycat]
 		#Whether cats have a chance to turn into raycat when dowsed in acid
@@ -250,7 +250,7 @@
 		CATTASTROPHE_ENABLED = false
 		#--Compatible with Alexs Mobs--
 		#Roaches are nuke proof
-		TOUGH_ROACHES_ENABLED = false
+		TOUGH_ROACHES_ENABLED = true
 		#Shotgum shoots nukes
 		SHOTNUKE_ENABLED = false
 

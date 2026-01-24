@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:pointed_dripstone",
+    "minecraft:dripstone_block",
+    "yungscavebiomes:layered_ancient_sandstone",
+    "yungscavebiomes:ancient_sandstone",
+    "regions_unexplored:prismoss"
+  ]
+}

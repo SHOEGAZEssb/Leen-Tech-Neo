@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    "atmospheric:spiny_thicket",
+    "regions_unexplored:outback"
+  ]
+}

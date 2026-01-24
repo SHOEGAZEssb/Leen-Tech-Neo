@@ -1,0 +1,15 @@
+{
+  "__comment": "all non-player targets of the orca mob.",
+  "replace": true,
+  "values": [
+    "ecologics:penguin",
+    "alexsmobs:seal",
+    "minecraft:dolphin",
+    "minecraft:drowned",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "aquamirae:anglerfish",
+    "aquamirae:maw",
+    "aquamirae:eel"
+  ]
+}
