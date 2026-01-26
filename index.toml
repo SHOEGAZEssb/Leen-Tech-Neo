@@ -601,22 +601,6 @@ file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_spawns
 hash = "e03b7f941ff3327e7eb4406840352cee4e1e01aec22941087cb163751e0fc9f6"
 
 [[files]]
-file = "kubejs/data/darwiniv/dimension/darwin_iv_orbit.json"
-hash = "91630079ccb88aa53e7f3fcfaac85939e0d175e522aec6611d4bcee185ff1525"
-
-[[files]]
-file = "kubejs/data/darwiniv/dimension_type/darwin_iv_orbit.json"
-hash = "ccb3d2ac2d2f1e5bd72713849bea024c7e0730594cec8072caab19baff265589"
-
-[[files]]
-file = "kubejs/data/darwiniv/planets/darwin_iv.json"
-hash = "954da718537845489c4d884293880f8fc2ce308906cfd77e629717833e6c5993"
-
-[[files]]
-file = "kubejs/data/darwiniv/planets/darwin_iv_orbit.json"
-hash = "0fb260a8c89b712204c9b78ab195344566815f38fa2f0c2436585f5c8bac7eca"
-
-[[files]]
 file = "kubejs/data/domesticationinnovation/structures/villages/badlands/petshop.nbt"
 hash = "e36673b89be8a4d44485a6ff45e847d2cbef7d2e70e564290469ce1f41384d8a"
 
