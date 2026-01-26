@@ -4576,7 +4576,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "11cd7da81a933aab04f091e2c25447b6d11ebe98bfeed244426a86dd31f3df04"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
@@ -4801,7 +4801,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "098a1cd00ea41ca039bfe3c348148095e0a9c0736eefdaee4c36904f913a2b97"
+hash = "bf3723a14e38304c4cbbb9537368a5a67e718da813d9543cac4c56138f82428d"
 metafile = true
 
 [[files]]
@@ -4836,7 +4836,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "6111261092adaa06cad5095d907e0e2eefc42c625abb9fcdebb52de03f432cf1"
+hash = "7cedcc143bd9e491aec15a3cb171e0854ead2fae66eeb41dde18cb31a7c762ac"
 metafile = true
 
 [[files]]
@@ -4846,7 +4846,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "76e4681bea67f97c8cd0b14c289cf1fbc71a6b475929fafc4132040becdc9047"
+hash = "40a73f377f8dcf95c0e801bdc69e68bc4a2d29ec0bcf17f4dcb1a78f887021d1"
 metafile = true
 
 [[files]]
