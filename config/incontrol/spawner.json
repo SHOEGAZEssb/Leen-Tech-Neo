@@ -9,14 +9,20 @@
     },
     "conditions": {
       "dimension": "minecraft:overworld",
-      "mindist": 25,
-      "maxdist": 100,
-      "minheight": 0,
+      "mindist": 32,
+      "maxdist": 80,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
+      "minheight": 60,
       "maxheight": 256,
       "norestrictions": true,
-      "maxthis": 10,
+      "maxlocal": 2,
       "and": {
-        "structuretags": "minecraft:village"
+        "structuretags": "minecraft:village",
+        "seesky": true
+      },
+      "not": {
+        "cave": true
       }
     }
   },
@@ -30,14 +36,20 @@
     },
     "conditions": {
       "dimension": "minecraft:overworld",
-      "mindist": 25,
-      "maxdist": 100,
-      "minheight": 0,
+      "mindist": 32,
+      "maxdist": 80,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
+      "minheight": 60,
       "maxheight": 256,
       "norestrictions": true,
-      "maxthis": 2,
+      "maxlocal": 2,
       "and": {
-        "structuretags": "minecraft:village"
+        "structuretags": "minecraft:village",
+        "seesky": true
+      },
+      "not": {
+        "cave": true
       }
     }
   },
@@ -51,14 +63,47 @@
     },
     "conditions": {
       "dimension": "minecraft:overworld",
-      "mindist": 25,
-      "maxdist": 100,
-      "minheight": 0,
+      "mindist": 32,
+      "maxdist": 80,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
+      "minheight": 60,
       "maxheight": 256,
       "norestrictions": true,
-      "maxthis": 2,
+      "maxlocal": 2,
       "and": {
-        "structuretags": "minecraft:village"
+        "structuretags": "minecraft:village",
+        "seesky": true
+      },
+      "not": {
+        "cave": true
+      }
+    }
+  },
+  {
+    "mob": "species:stackatick",
+    "persecond": 0.6,
+    "attempts": 50,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 80,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
+      "minheight": 60,
+      "maxheight": 256,
+      "norestrictions": true,
+      "maxlocal": 10,
+      "and": {
+        "structuretags": "minecraft:village",
+        "seesky": true
+      },
+      "not": {
+        "cave": true
       }
     }
   },
@@ -74,11 +119,13 @@
       "dimension": "minecraft:overworld",
       "mindist": 25,
       "maxdist": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
       "minheight": -64,
       "maxheight": -50,
       "norestrictions": true,
       "inwater": true,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -93,11 +140,13 @@
       "dimension": "minecraft:overworld",
       "mindist": 50,
       "maxdist": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 32,
       "minheight": 20,
       "maxheight": 63,
       "norestrictions": true,
       "inwater": true,
-      "maxthis": 1,
+      "maxlocal": 1,
       "and": {
         "biome": [
           "minecraft:deep_ocean",
