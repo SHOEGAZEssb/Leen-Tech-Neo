@@ -206,7 +206,7 @@ hash = "1fd0b54103ecfcac0929083a473078e46b6e38a5161e994de757a3e3dda6338b"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "674c5eff8fe4ff9426d88f5914473ba1d7a34c7ab8da8c6ad77177f89bce35a2"
+hash = "428a875876991fe577646877145801d9f004904c3ea8cbb2a3a98d413c0d6777"
 
 [[files]]
 file = "config/knightlib.toml"
