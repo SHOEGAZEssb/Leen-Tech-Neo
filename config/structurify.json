@@ -5534,7 +5534,7 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [
-        "vanillabackport:pale_garden"
+        "minecraft:pale_garden"
       ],
       "blacklisted_biomes": [
         "regions_unexplored:blackwood_taiga",
@@ -6369,7 +6369,7 @@
       ],
       "whitelisted_biomes": [
         "biomesoplenty:wasteland",
-        "vanillabackport:pale_garden",
+        "minecraft:pale_garden",
         "biomesoplenty:volcanic_plains",
         "regions_unexplored:ashen_woodland",
         "biomesoplenty:pumpkin_patch"
