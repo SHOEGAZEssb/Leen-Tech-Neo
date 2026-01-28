@@ -1,0 +1,9 @@
+{
+    "allowSpawning": true,
+    "spawnBarrelGolems": true,
+    "spawnCoalGolems": false,
+    "spawnHayGolems": false,
+    "spawnHoneyGolems": true,
+    "spawnSlimeGolems": true,
+    "spawnTerracottaGolems": false
+}

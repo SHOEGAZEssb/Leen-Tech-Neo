@@ -36,6 +36,17 @@ preventDespawnIfNamed = true
 		[goblinTrader.trades.uncommon]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
+			includeChance = 0.8
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 2
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 3
+
+		[goblinTrader.trades.common]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
 			includeChance = 1.0
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
@@ -44,21 +55,10 @@ preventDespawnIfNamed = true
 			# Valid range: 0 to 2147483647 (inclusive)
 			manAmount = 5
 
-		[goblinTrader.trades.common]
-			# The chance this trade rarity will be included in the goblin's trades
-			# Valid range: 0 to 1 (inclusive)
-			includeChance = 1.0
-			# The minimum amount of trades that a golbin will have.
-			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 5
-			# The maximum amount of trades that a golbin can have.
-			# Valid range: 0 to 2147483647 (inclusive)
-			manAmount = 8
-
 		[goblinTrader.trades.legendary]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.25
+			includeChance = 0.2
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			minAmount = 1
@@ -69,10 +69,10 @@ preventDespawnIfNamed = true
 		[goblinTrader.trades.rare]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.75
+			includeChance = 0.6
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 2
+			minAmount = 1
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			manAmount = 3
@@ -80,7 +80,7 @@ preventDespawnIfNamed = true
 		[goblinTrader.trades.epic]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.5
+			includeChance = 0.4
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			minAmount = 1
@@ -125,26 +125,26 @@ preventDespawnIfNamed = true
 			includeChance = 1.0
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 3
+			minAmount = 2
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			manAmount = 5
+			manAmount = 3
 
 		[veinGoblinTrader.trades.common]
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 5
+			minAmount = 3
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
 			includeChance = 1.0
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			manAmount = 8
+			manAmount = 5
 
 		[veinGoblinTrader.trades.legendary]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.4
+			includeChance = 0.25
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			minAmount = 1
@@ -155,10 +155,10 @@ preventDespawnIfNamed = true
 		[veinGoblinTrader.trades.rare]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.8
+			includeChance = 0.75
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 2
+			minAmount = 1
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			manAmount = 3
@@ -169,7 +169,7 @@ preventDespawnIfNamed = true
 			minAmount = 1
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 0.6
+			includeChance = 0.5
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			manAmount = 2
