@@ -7,6 +7,7 @@
 		"minecraft:slime",
 		"minecraft:zombie",
                 "minecraft:husk",
-                "more_critters:bunbug"
+                "more_critters:bunbug",
+                "more_critters:balloon_rat"
 	]
 }
