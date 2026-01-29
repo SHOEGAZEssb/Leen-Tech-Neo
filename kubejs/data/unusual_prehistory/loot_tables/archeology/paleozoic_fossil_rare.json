@@ -69,6 +69,14 @@
         {
           "type": "minecraft:item",
           "name": "unusual_prehistory:jawless_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_10"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critterling_fossil_3"
         }
       ],
       "rolls": 1.0
@@ -76,5 +84,3 @@
   ],
   "random_sequence": "unusual_prehistory:archaeology/paleozoic_fossil_rare"
 }
-more_critters:critter_fossil_10
-more_critters:critterling_fossil_3

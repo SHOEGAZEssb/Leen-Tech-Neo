@@ -75,6 +75,10 @@
         {
           "type": "minecraft:item",
           "name": "unusual_prehistory:fossilized_bone_bark"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critterling_fossil_1"
         }
       ],
       "rolls": 1.0
@@ -82,4 +86,3 @@
   ],
   "random_sequence": "unusual_prehistory:archaeology/tar_pit_common"
 }
-more_critters:critterling_fossil_1

@@ -8,11 +8,19 @@
           "type": "minecraft:item",
           "name": "unusual_prehistory:aged_feather",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_2",
+          "weight": 1
         }
       ],
       "rolls": 1
     }
   ]
 }
-more_critters:critter_fossil_1
-more_critters:critter_fossil_2

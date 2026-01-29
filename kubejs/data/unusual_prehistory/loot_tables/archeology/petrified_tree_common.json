@@ -48,6 +48,14 @@
         {
           "type": "minecraft:item",
           "name": "unusual_prehistory:petrified_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:plant_fossil_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:plant_fossil_4"
         }
       ],
       "rolls": 1.0
@@ -55,5 +63,3 @@
   ],
   "random_sequence": "unusual_prehistory:archaeology/petrified_tree_common"
 }
-more_critters:plant_fossil_1
-more_critters:plant_fossil_4

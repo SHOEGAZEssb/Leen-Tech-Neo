@@ -74,6 +74,14 @@
         {
           "type": "minecraft:item",
           "name": "unusual_prehistory:rhynia_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:plant_fossil_2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:plant_fossil_3"
         }
       ],
       "rolls": 1.0
@@ -81,5 +89,3 @@
   ],
   "random_sequence": "unusual_prehistory:archaeology/petrified_tree_rare"
 }
-more_critters:plant_fossil_2
-more_critters:plant_fossil_3

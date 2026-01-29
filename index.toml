@@ -2390,7 +2390,7 @@ hash = "495fa2d9ab76b55adfc640ae041578f8c9c9e712e22a4417c474dea89928e1a7"
 
 [[files]]
 file = "kubejs/data/friendsandfoes/tags/entity_types/mauler_prey.json"
-hash = "c518620ac71cfd882c51749a37dcf9d76ead8616f240e2991a343db252b72f44"
+hash = "eedece1f49b07c3c2c1fefd60749d8c8552c9b22928eb9cecd14c25fe185eb48"
 
 [[files]]
 file = "kubejs/data/friendsandfoes/tags/items/crab_tempt_items.json"
@@ -3835,6 +3835,42 @@ hash = "ec783b6e3a8e9bcffe656810b91cfd077608c11da0ed8bf3e2fca397700220ce"
 [[files]]
 file = "kubejs/data/species/tags/worldgen/biome/mammutilation_remnant_spawns_in.json"
 hash = "17f4563ce58939d2db0b307df0926e417715595f1cf503d44412d5efdd3bd7da"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/holocene_common.json"
+hash = "add3c034fb2f05f872a74586027bba338481e23969c9a1dd6d513de94b335e34"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/mesozoic_fossil_common.json"
+hash = "d32d53635cc0ca56ed209bd07c64b341aef5766c919ff93038b6fe1b6448a611"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/mesozoic_fossil_rare.json"
+hash = "0b91cdbcc168baf8014b3b936a44cd2c66baf34398fd6b4d5a28bc1903e1937c"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/paleozoic_fossil_common.json"
+hash = "c9b47d3e6f778b416c5b9fbbd244892c2786042b4b865369a0c2f471babb068f"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/paleozoic_fossil_rare.json"
+hash = "528c45226bcdaf3a39a5bc933e6f18a4b549d70ffec22b9ae8cc4ec1d583602c"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/petrified_tree_common.json"
+hash = "079d9a8871e572d889e1522238a86be93570339c83fbeea83db5b0ba0c2a98c2"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/petrified_tree_rare.json"
+hash = "4c594e92975b226a88d77a51d918b55d508dd6496092e474fb1579c6577b1d5b"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/tar_pit_common.json"
+hash = "3323bcc84c662bdf92b05d10ec40186ba139903bcfebc26da20923ee4deef54f"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_tables/archeology/tar_pit_rare.json"
+hash = "2dd16beea5830a50a2644a67f7b6e4d45bf50a4f376e29bd94c106217c0d711f"
 
 [[files]]
 file = "kubejs/server_scripts/add_removed_tag.js"

@@ -48,6 +48,14 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_4"
         }
       ],
       "rolls": 1.0
@@ -55,5 +63,3 @@
   ],
   "random_sequence": "unusual_prehistory:archaeology/tar_pit_rare"
 }
-more_critters:critter_fossil_3
-more_critters:critter_fossil_4
