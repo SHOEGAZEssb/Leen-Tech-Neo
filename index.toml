@@ -206,6 +206,10 @@ hash = "bdaec9b6caf78f1ddf45c1d9dbc6e0f39d03d06eb1a8cd62770b2148044f2f55"
 
 [[files]]
 file = "config/incontrol/spawner.json"
+hash = "bdf30e502a17d5f563129c0a60382d1dfc6cd9402f96dfe10f7671f639ef97d4"
+
+[[files]]
+file = "config/incontrol/spawner.json.bak"
 hash = "248d0826396b35934830c1e9f1bbba36fb4f6f913ce5e81569951f6da027e04f"
 
 [[files]]
@@ -3991,7 +3995,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "a71d540041aa9018a64a88199213a1776f73764a42946e7971d1224bc88da31a"
+hash = "954ce576334df5de483ca1ff0dcbc7a8cda918e935a5dc243ceec010ab8282fd"
 metafile = true
 
 [[files]]
@@ -4391,7 +4395,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
+hash = "a1dba016bfd85fbabc5ff7c78f0302d3dd5b20026842231d6422947a7bb5f6f0"
 metafile = true
 
 [[files]]
@@ -4601,7 +4605,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "511f4917facdc13ad5bfe8b4ee2a7af77fe11f3e9f1f42ed6a45870b90fb1490"
+hash = "f025a730a5d9dc5aa362a349f581c0f9497f130c0be0516a8f0014de817e6a04"
 metafile = true
 
 [[files]]
@@ -4691,7 +4695,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "bd56624f00cda9e544281d2c247e5479f6f1c315f8d8088cfee86e8b61f69dac"
+hash = "851c351ec51ba92fed81960e63a1a07909010e2856368db93c299082c44ddd72"
 metafile = true
 
 [[files]]
@@ -4816,7 +4820,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "03f741073359c87a3a037e3e4c66d2bb5279738e461219d2868bc509c026af77"
+hash = "bebe125d02fa223bc7891ce7187cb6873840a19b37f616567dfda9f70d5da12f"
 metafile = true
 
 [[files]]
@@ -4851,7 +4855,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "ee2556ee9749fe73e2bb9cece0bf5cfd42fe35fdd8a00723e4b70a7b04bd27ca"
+hash = "3774e4a0c2fa73871db2d2cf69906c0774c4466eeb2d12ed9281288712d7cec4"
 metafile = true
 
 [[files]]
@@ -4916,7 +4920,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "7e730b980a0d8aea7a573b53885e7b3939912868da20b780673fbbaed4d1f488"
+hash = "810a21738338c5d4f96d18dacbd02f0cefaa0fa293fa3343e7e39165b4b994e6"
 metafile = true
 
 [[files]]
