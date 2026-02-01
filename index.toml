@@ -4189,11 +4189,6 @@ hash = "f01018ef369c2ec6126a1a0b9cc8285b1da891fc326e4677ba3853966709a77b"
 metafile = true
 
 [[files]]
-file = "mods/create-industry.pw.toml"
-hash = "04f84cbd5fd5408dd66d8bf48b6dffaee55baecfb84220e5dda82f43a36c3d85"
-metafile = true
-
-[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "dc384e174383ff657f27bd21b4208c58b2b207e1ff9270035e18f08f91e11c5d"
 metafile = true
