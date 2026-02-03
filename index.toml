@@ -214,7 +214,7 @@ hash = "248d0826396b35934830c1e9f1bbba36fb4f6f913ce5e81569951f6da027e04f"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8f08bf094b6194645b203f10699b599aa31f4cae8609b7921eb1163b02fbf889"
+hash = "85ede3796a3adb961f3b083293af94cbd712b75f6b5b92418c3edecfe8167b4a"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -230,7 +230,7 @@ hash = "91d8c5e61393a29252b25f865bc9ecd0dc8accc389bbc6983ace6e1838e6ebb3"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "e3cd1155943ef8f8611ef22d290ce7148f0a29a8b18095972c36957fbda0547e"
+hash = "a7cc3c5f89f547503f2ffd9f337fd4dccd7caaa095f24eae6208f4f5f96d081f"
 
 [[files]]
 file = "config/netherexp-common.toml"
@@ -3225,6 +3225,10 @@ file = "kubejs/data/more_critters/forge/biome_modifier/snowflake_nest_3_biome_mo
 hash = "d6385b59c5a53e2c628c6545db0cd318a2127c31e35fb4e874f95b82a54b212b"
 
 [[files]]
+file = "kubejs/data/mowziesmobs/tags/worldgen/biome/has_structure/has_mowzie_structure.json"
+hash = "80bc96fa289ea38a8a8d5856218b9d4a60396e8e13dda459548fcfe7e22fd454"
+
+[[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/coralstone_generation.json"
 hash = "acbb2839f88f9df63174f1b2e50d55443dab7546c80de6588f13ea8093e71067"
 
@@ -3893,10 +3897,6 @@ file = "kubejs/server_scripts/jei_cleanup_server.js"
 hash = "c2c92c545d785b6e6505ffd95b9abea9d74819ebd6efbcba7d87de5c05c10baf"
 
 [[files]]
-file = "kubejs/server_scripts/meowzie/make_biome_mowzie_boss_spawnable.js"
-hash = "45c563549fc3fc16cebbadda18d1c8b77b32f4c90b3257da5dc593aa1f5a08db"
-
-[[files]]
 file = "kubejs/server_scripts/recipes.js"
 hash = "4fd4efe4d21f9e9f1d5c66a30bf4b13a35d7c13cdf75f895ad91d18b11014fa9"
 
@@ -4090,7 +4090,7 @@ metafile = true
 
 [[files]]
 file = "mods/boks-butterflies.pw.toml"
-hash = "7f535ecea0bbf725e968296a209df36c196c8647621cd77bac2392299ec99705"
+hash = "bac3b19317541c1483c035969018dd2de04547317c1511c385026bf5b3e7cac9"
 metafile = true
 
 [[files]]
@@ -4480,7 +4480,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "18b3eb11650b65e2749b8b41541b1af7bd69d388d0f6b2a69f25501bcdc68844"
+hash = "5900123bd3234db14a14722f3a70b4cb89a9405b93820a402a74f8264919a466"
 metafile = true
 
 [[files]]
@@ -4600,7 +4600,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "f025a730a5d9dc5aa362a349f581c0f9497f130c0be0516a8f0014de817e6a04"
+hash = "7c8c982ed5f109bc74867645a0097b2aefe05ccf523a37144dd22af181b55dc4"
 metafile = true
 
 [[files]]
