@@ -11,7 +11,9 @@ var ruBlacklist = [
   "regions_unexplored:*dead*",
   "regions_unexplored:*maple*",
   "regions_unexplored:*palm*",
-  "regions_unexplored:*willow*"
+  "regions_unexplored:*willow*",
+  "regions_unexplored:peat_*",
+  "regions_unexplored:silt_*"
 ]
 
 // turn blacklist into regex list

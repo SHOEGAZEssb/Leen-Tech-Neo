@@ -106,7 +106,7 @@ hash = "96ba16e53bd1308a9e1612de6cda09e24443d3da986b2e8ba1fdcacb6c27b87f"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "39c12e6daa9e4b376fe3d576c9edfe9eb14dcf76c415927d3c66b3803e902bda"
+hash = "d48265c3027f3ebab7c3dba43ea65d8c4479216058b466e55cbfa2f01d704c2a"
 
 [[files]]
 file = "config/blue_skies-client.toml"
@@ -478,7 +478,7 @@ hash = "a68b82b1b4108dfc9a9549d7fcd2893c790ea153174c40ebe86eee3d0ab98cf2"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "cf1cb4249b4b8999ef0b6eae64aa413613ea75ef52c125b699c0fc8dd254a18f"
+hash = "1f4b6066866efc14d3f7eebf9ee1760c298f169c6e0ff007b7d66aacaab779c3"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
@@ -3910,7 +3910,7 @@ hash = "68f0ec6ced7720b6ee12fa8f31435368f2749c585ac826b4da50b732e380b436"
 
 [[files]]
 file = "kubejs/server_scripts/bee_cleanup.js"
-hash = "621b2b15653ad07173d8f7fbfca828bf229d2e74b595e1bba7ff6f34a7c5a2e9"
+hash = "a6a841354fad96df422bcb25d8df122c857c20bc3569882fbb7241eda207c012"
 
 [[files]]
 file = "kubejs/server_scripts/debug_tag.js"
@@ -3918,7 +3918,7 @@ hash = "387dfe16cb0c07e5f9624f9dfa8a9e57bb0749df2fa0be887401d19bea6b0b7e"
 
 [[files]]
 file = "kubejs/server_scripts/jei_cleanup_server.js"
-hash = "c2c92c545d785b6e6505ffd95b9abea9d74819ebd6efbcba7d87de5c05c10baf"
+hash = "fd3d8f8721efa7a8169942a53cb42888e1cbc04c1377909dc3184e33b2b2775f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"

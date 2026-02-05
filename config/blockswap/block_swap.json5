@@ -126,6 +126,8 @@ to make editing this file much easier.
 		"biomesoplenty:spanish_moss":			"regions_unexplored:spanish_moss",
 		"biomesoplenty:spanish_moss_plant":		"regions_unexplored:spanish_moss_plant",
 
+		"biomesoplenty:dried_salt":				"regions_unexplored:ash",
+
 		// environmental:
 		"environmental:pine_button":			"regions_unexplored:pine_button",
 		"environmental:pine_door":				"regions_unexplored:pine_door",
@@ -287,6 +289,12 @@ to make editing this file much easier.
 		"regions_unexplored:willow_branch":			"minecraft:air",
 
 		"regions_unexplored:clover":				"biomesoplenty:clover",
+		"regions_unexplored:flowering_leaves":		"biomesoplenty:flowering_oak_leaves",
+		"regions_unexplored:flowering_sapling":		"biomesoplenty:flowering_oak_sapling",
+		"regions_unexplored:orange_maple_leaf_pile":	"biomesoplenty:orange_maple_leaf_pile",
+		"regions_unexplored:orange_maple_leaves":	"biomesoplenty:orange_maple_leaves",
+		"regions_unexplored:orange_maple_sapling":	"biomesoplenty:orange_maple_sapling",
+		"regions_unexplored:salmonberry_bush":		"delightful:wild_salmonberries",
 
 		// twilight forest
 		// "twilightforest:hollow_mangrove_log":		"quark:hollow_mangrove_log",

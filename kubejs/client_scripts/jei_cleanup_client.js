@@ -40,6 +40,9 @@ JEIEvents.hideItems(event => {
   // aether: lost content
   hideWildcard(event, "lost_aether_content:*gale_stone", ["lost_aether_content:gale_stone"])
 
+  // better archeology
+  removeRecipesByItemId(event, "betterarcheology:infested_mud_bricks")
+
   // blue skies
   event.hide("blue_skies:everbright_portal")
   event.hide("blue_skies:everdawn_portal")
@@ -51,19 +54,33 @@ JEIEvents.hideItems(event => {
   // display delight
   hideWildcard(event, "displaydelight:*")
 
+  // dungeon now loading
+  event.hide("dungeonnowloading:dnl_logo")
+  event.hide("dungeonnowloading:fairkeeper_spawner")
+
   // minecraft
   hideWildcard(event, "minecraft:infested_*")
+  event.hide("minecraft:air")
   event.hide("minecraft:bedrock")
   event.hide("minecraft:end_portal_frame")
+  event.hide("minecraft:fire")
   event.hide("minecraft:spawner")
   event.hide("minecraft:reinforced_deepslate")
+
+  // more sniffer flowers
+  hideWildcard(event, "moresnifferflowers:giant_*")
+
+  // opposing force
+  event.hide("opposing_force:infested_amethyst_block")
 
   // spawn eggs
   hideWildcard(event, "*_spawn_egg")
   hideWildcard(event, "alexscaves:spawn_egg_*")
   hideWildcard(event, "alexsmobs:spawn_egg_*")
-  hideWildcard(event, "ars_noveau:*_se")
+  hideWildcard(event, "ars_nouveau:*_se")
   hideWildcard(event, "butterflies:spawn_egg_egg_*")
+  hideWildcard(event, "dungeonnowloading:spawn_egg_*")
+  hideWildcard(event, "productivebees:spawn_egg_*")
 
   // species
   event.hide("species:spectralibur_pedestal")

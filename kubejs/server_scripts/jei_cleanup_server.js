@@ -81,6 +81,8 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "biomesoplenty:dried_salt")
   removeRecipesByItemId(event, "biomesoplenty:enderphyte")
   removeRecipesByItemId(event, "biomesoplenty:huge_lily_pad")
+  removeRecipesByItemId(event, "biomesoplenty:liquid_null")
+  removeRecipesByItemId(event, "biomesoplenty:liquid_null_bucket")
   removeRecipesByItemId(event, "biomesoplenty:null_block")
   removeRecipesByItemId(event, "biomesoplenty:null_end_stone")
   removeRecipesByItemId(event, "biomesoplenty:null_leaves")
@@ -270,8 +272,13 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "regions_unexplored:barrel_cactus")
   removeRecipesByItemTag(event, "regions_unexplored:cattail")
   removeRecipesByItemId(event, "regions_unexplored:clover")
+  removeRecipesByItemId(event, "regions_unexplored:flowering_leaves")
+  removeRecipesByItemId(event, "regions_unexplored:flowering_sapling")
+  removeRecipesByItemIdWildcard(event, "regions_unexplored:peat_*")
+  removeRecipesByItemId(event, "regions_unexplored:salmonberry_bush")
   removeRecipesByItemId(event, "regions_unexplored:sandy_grass")
   removeRecipesByItemId(event, "regions_unexplored:sandy_tall_grass")
+  removeRecipesByItemIdWildcard(event, "regions_unexplored:silt_*")
   removeRecipesByItemId(event, "regions_unexplored:volcanic_ash")
 
   // seafarer
