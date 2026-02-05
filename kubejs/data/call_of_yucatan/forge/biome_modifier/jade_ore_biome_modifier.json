@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:tropics"
+    "atmospheric:rainforest",
+    "atmospheric:sparse_rainforest",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropical_river"
+  ],
+  "features": "call_of_yucutan:jade_ore",
+  "step": "underground_ores"
+}

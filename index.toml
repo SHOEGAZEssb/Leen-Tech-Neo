@@ -214,7 +214,7 @@ hash = "248d0826396b35934830c1e9f1bbba36fb4f6f913ce5e81569951f6da027e04f"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "85ede3796a3adb961f3b083293af94cbd712b75f6b5b92418c3edecfe8167b4a"
+hash = "78cd3ff844f37cedca21afbc4599ae95b2371325d87c9e15bcc0c63bb3f8adc2"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -482,7 +482,7 @@ hash = "cf1cb4249b4b8999ef0b6eae64aa413613ea75ef52c125b699c0fc8dd254a18f"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
-hash = "091bb304bda4fadb411eeddbc2907d25db128304f105396516a40a18225e752e"
+hash = "6d6646c2575f4ea8ba6dd162902de36eb23250665cea12d68848c96d589d87bd"
 
 [[files]]
 file = "kubejs/data/alexsmobs/loot_modifiers/banana_drop.json"
@@ -595,6 +595,18 @@ hash = "e27db838c586e49b543c10137c8d1dc1b07a3c6e3a35620d29d63d556ef44884"
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_totem.json"
 hash = "31c883b3a0e262c715c00f97b91745a8da2ff96d94a923658ef3dfdfe4c96557"
+
+[[files]]
+file = "kubejs/data/call_of_yucatan/forge/biome_modifier/deepslate_jade_ore_biome_modifier.json"
+hash = "bd67cc03a2d2a6efbc2727a43102325751a650a7891642ff52f5968af08dec45"
+
+[[files]]
+file = "kubejs/data/call_of_yucatan/forge/biome_modifier/jade_ore_biome_modifier.json"
+hash = "19ed2f2a41896573792bd73e7b93782034ebf6410edd7d1e849efd3b42e59d63"
+
+[[files]]
+file = "kubejs/data/call_of_yucatan/forge/biome_modifier/red_limestone_biome_modifier.json"
+hash = "3b1367db0f7a9128e6662d7099b449cb2d3112476392befea7ec1ce9c259d7e6"
 
 [[files]]
 file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_lush_spawns.json"
