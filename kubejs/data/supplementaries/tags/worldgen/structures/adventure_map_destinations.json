@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:swamp_hut",
+    "minecraft:bastion_remnant",
+    "minecraft:jungle_pyramid",
+    "minecraft:desert_pyramid",
+    "minecraft:pillager_outpost",
+    "minecraft:igloo",
+    "minecraft:end_city"
+  ]
+}

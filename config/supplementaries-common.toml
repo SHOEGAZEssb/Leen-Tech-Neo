@@ -174,7 +174,7 @@
 		enabled = true
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
-		critter_spawn_chance = 0.01
+		critter_spawn_chance = 0.05
 		cave_urns = true
 
 	[functional.soap]
@@ -291,7 +291,7 @@
 		#Allows two iron gates to be opened simultaneously when on top of the other
 		double_opening = true
 		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
-		door-like_gates = false
+		door-like_gates = true
 
 	[building.item_shelf]
 		enabled = true
@@ -389,7 +389,7 @@
 	[building.flower_box]
 		enabled = true
 		#Makes so flower boxes can only contain one tall flower item per block
-		simple_mode = true
+		simple_mode = false
 
 	[building.netherite_doors]
 		door = true

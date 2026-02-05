@@ -238,7 +238,7 @@ hash = "18299feb9d94dc3a56ca1cf3e9484cb91f5b7bc9a462ee26f678f7db233056c4"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "218f11ebf169bb87c2a1596b6a6df9b5ea92098432ea334526338f1e6b7e240e"
+hash = "866afaa1ad9990922e2aaf95edcf4e2fa47defddeab83e1ee5986ff9a4a564f5"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
@@ -286,7 +286,7 @@ hash = "9cd7be20f73096929365b24c3556f3c3547cb9393848d9df083e753abda1ab45"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "d2aded73f8c0edb895098f368557455e377df4910cd02e7674079efda24ea29a"
+hash = "6a6326e3937aee9c12211343be5c898e8cd389d69535cb505ca31fcc1baab2c8"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -3229,6 +3229,10 @@ file = "kubejs/data/mowziesmobs/tags/worldgen/biome/has_structure/has_mowzie_str
 hash = "80bc96fa289ea38a8a8d5856218b9d4a60396e8e13dda459548fcfe7e22fd454"
 
 [[files]]
+file = "kubejs/data/quark/tags/items/glow_shroom_feedables.json"
+hash = "0a6600127b29a5b8a3fe1085cf0286d0e991e4618c088313a1bacb3d77b108d1"
+
+[[files]]
 file = "kubejs/data/rainbowreef/forge/biome_modifier/coralstone_generation.json"
 hash = "acbb2839f88f9df63174f1b2e50d55443dab7546c80de6588f13ea8093e71067"
 
@@ -3843,6 +3847,14 @@ hash = "ec783b6e3a8e9bcffe656810b91cfd077608c11da0ed8bf3e2fca397700220ce"
 [[files]]
 file = "kubejs/data/species/tags/worldgen/biome/mammutilation_remnant_spawns_in.json"
 hash = "17f4563ce58939d2db0b307df0926e417715595f1cf503d44412d5efdd3bd7da"
+
+[[files]]
+file = "kubejs/data/supplementaries/tags/entity_types/urn_spawn.json"
+hash = "fbaa0c326883e01911b16252b09c7d82d8720e68984f12d0be648eac97dbbc30"
+
+[[files]]
+file = "kubejs/data/supplementaries/tags/worldgen/structures/adventure_map_destinations.json"
+hash = "c1d6c2c39783e902bc3f340292339113e61bb04b1019e0d6c1271fb5daa96c43"
 
 [[files]]
 file = "kubejs/data/unusual_prehistory/loot_tables/archeology/holocene_common.json"
