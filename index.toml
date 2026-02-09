@@ -278,7 +278,7 @@ hash = "e36a7b95358a0a6d2897a4374ace460cf23b4dead7894b87149402b893ac44cc"
 
 [[files]]
 file = "config/structurify.json"
-hash = "a63f0302962bae7d6ff5494b4298bcd46d987852f11c4dfcf89eab3b2f8b8930"
+hash = "72a199625382f95867f02e1ffa4ce0181a4a47c227374aadd038b5f1ca4fdd90"
 
 [[files]]
 file = "config/supplementaries-client.toml"
