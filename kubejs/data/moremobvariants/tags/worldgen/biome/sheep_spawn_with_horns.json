@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:meadow",
+    "minecraft:grove",
+    "minecraft:snowy_slopes",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:snowy_taiga",
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "biomesoplenty:crag",
+    "biomesoplenty:jade_cliffs",
+    "biomesoplenty:auroral_garden",
+    "biomesoplenty:highland",
+    "biomesoplenty:moor",
+    "biomesoplenty:snowblossom_grove",
+    "environmental:pine_slopes",
+    "regions_unexplored:arid_mountains",
+    "regions_unexplored:icy_heights",
+    "regions_unexplored:towering_cliffs",
+    "regions_unexplored:pine_slopes",
+    "regions_unexplored:highland_fields",
+    "regions_unexplored:rocky_meadow"
+  ]
+}

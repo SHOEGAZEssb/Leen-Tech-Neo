@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:snowy_taiga",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:tundra",
+    "environmental:snowy_old_growth_pine_barrens",
+    "environmental:snowy_pine_barrens"
+  ]
+}

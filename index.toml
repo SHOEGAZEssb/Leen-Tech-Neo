@@ -262,15 +262,11 @@ hash = "1d11e68a181d2bba7869e9184cd298a8922f4f8c3efc51db2e62080ef7e6da15"
 
 [[files]]
 file = "config/spawnbalanceutility-common.toml"
-hash = "83d4dfe21b22c6dda262f3a86110adef16661d810a3276fc999fe80cabfa4a26"
+hash = "8063cf4fcf4555a274871d2703b10872be62d393556760b8138f10829cf67a33"
 
 [[files]]
 file = "config/spawnbalanceutility/BiomeMobWeight.csv"
-hash = "17831257c974003577ce3721327b8fc1aa588ba5856999f679320cd880dcb73a"
-
-[[files]]
-file = "config/spawncapcontrolutility-common.toml"
-hash = "68bad13a9daaf276716e9b96e5fb0571d36a8ee8f5c630524aed335afc6cc308"
+hash = "00dd4c8f54a92f5abcbe8fab8cd9157c62282c385ea366cfcc68e5b356259f9c"
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
@@ -3237,6 +3233,58 @@ file = "kubejs/data/more_critters/forge/biome_modifier/snowflake_nest_3_biome_mo
 hash = "d6385b59c5a53e2c628c6545db0cd318a2127c31e35fb4e874f95b82a54b212b"
 
 [[files]]
+file = "kubejs/data/moremobvariants/blacklist/chicken.json"
+hash = "1b7c767fe3dbf7517d07b5fec42e3753566d38f7c02c13c0f30f53c3ce975838"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/increased_sandy_skeletons.json"
+hash = "5d01aca0483f2b5711dd832d9bdbd6ef8dfb5decc184a6590d289ca49603a9f1"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/sheep_spawn_with_horns.json"
+hash = "9a5bd478aee5522e44a1b4ae9ea14f81df509601cf6b320b3e27ca3442b784b6"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/spawn_mossy_skeletons.json"
+hash = "a1d254824ba0451b68e18c4d0dd480910074ea4e17930fa57491a521fb833841"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_ashen_spawns.json"
+hash = "b15b08c64c1bd789ce83810cd7cd136e215c6827234ac15b6bb4de9db0faaa1c"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_black_spawns.json"
+hash = "0d97d21a14f12eaba018be0ec3060887b1f90af19c602da6bf2872ca0bacf213"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_chestnut_spawns.json"
+hash = "538188495feee370a8e0b0d7efc4b68a8a8dcd06b42513763e3581a8d888b91c"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_pale_spawns.json"
+hash = "61c11797b649f6962a0e5c5ae52b864b1ea8df9b60c6f96ac0120870b47d98ff"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_rusty_spawns.json"
+hash = "6fdf872bfe80b0573225761746ed04e3657e291fead33d84963ea0cb542a0b6c"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_snowy_spawns.json"
+hash = "637a3bbfce96ab31d15b1cda343a35159033302f7796a199f8cb12b43ef546e6"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_spotted_spawns.json"
+hash = "db787e5ac7c8e12df452871157c986c629fade6f04bcd6f44c1e1c3c4f15bdbd"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_striped_spawns.json"
+hash = "022774f52c489dbb63db9269d17eed17eb2290baf274611c3aa96bd5667c558a"
+
+[[files]]
+file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_woods_spawns.json"
+hash = "c28bdc0a5ecf9a0dfba30621e084dd47f3a9c97de3600dea741d95625e946395"
+
+[[files]]
 file = "kubejs/data/mowziesmobs/tags/worldgen/biome/has_structure/has_mowzie_structure.json"
 hash = "80bc96fa289ea38a8a8d5856218b9d4a60396e8e13dda459548fcfe7e22fd454"
 
@@ -4114,17 +4162,17 @@ metafile = true
 
 [[files]]
 file = "mods/boks-butterflies.pw.toml"
-hash = "bac3b19317541c1483c035969018dd2de04547317c1511c385026bf5b3e7cac9"
+hash = "c475fc74eaa437d24cc899e5941fd7affb6f6886ff87f8a8a961e40cbd6f077e"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
+hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
 metafile = true
 
 [[files]]
 file = "mods/botany-pots.pw.toml"
-hash = "7c83749cfd0cbe397ec943e1408d4061aad155db85db9796a9f0fa54b7479921"
+hash = "badd7f23d1df8151237d0afbc98f2e1fc83346237b0d407fc10215b4217c1cc4"
 metafile = true
 
 [[files]]
@@ -4264,7 +4312,7 @@ metafile = true
 
 [[files]]
 file = "mods/dark-paintings.pw.toml"
-hash = "d26a0147346e1a147b1af74fd44ed4cbea8dedeff1d1e48f53156b49af149c3f"
+hash = "e65164369f3331b4cf0b110287b1afbca5dcc73d70e1f33cbb474527c8616d7b"
 metafile = true
 
 [[files]]
@@ -4354,7 +4402,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "2cfa24333b06aeef827614a7f7ab7c11163a8c0ae785f5b95b369ce5f748e3fe"
+hash = "3242f1413350e3de9b70e11fd2dea74f92a0e877854f2830d20fd86b356a5fe9"
 metafile = true
 
 [[files]]
@@ -4379,7 +4427,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "067fc433511066d18b1795b86c9856246a8da7f9a4316afd6b25e5eee181f660"
+hash = "99876b4f4941ce79c052275c1b10530b1581cc86479c4b0252e9c8b0bc93f8b7"
 metafile = true
 
 [[files]]
@@ -4399,7 +4447,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
+hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
 metafile = true
 
 [[files]]
@@ -4424,7 +4472,7 @@ metafile = true
 
 [[files]]
 file = "mods/ghost.pw.toml"
-hash = "a6df5d77213f66f2e61e0e6d4fd44ee97a5bc81e1a2710d5e2cdfd9fc8c27a15"
+hash = "fcd0ea01d810fb2c87d23a25d24bad40677c795f34c62f5fab5430dd8898e60d"
 metafile = true
 
 [[files]]
@@ -4584,12 +4632,12 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "2435d25ba1cc042d85c27aaac36b0b5df08a6fa42f4dd3e340a0ecfe9069f338"
+hash = "48fd7031ccf8ecf2e16bddad85f5e53348137477ab465fb75cfd71fddc81bccc"
 metafile = true
 
 [[files]]
 file = "mods/macaws-doors.pw.toml"
-hash = "0846d410cd65cbf6e0c8b78fb37495d39e43a5b6e48b55b201a0789773b2fdd4"
+hash = "dedd63a029e779fa904ae374de5dea1d655bb5527701fe262f8bea2a0c1d0d3d"
 metafile = true
 
 [[files]]
@@ -4624,7 +4672,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-critters.pw.toml"
-hash = "7c8c982ed5f109bc74867645a0097b2aefe05ccf523a37144dd22af181b55dc4"
+hash = "7d130943c780da5ec1904ee92addfeb703f54e196ad27f39f0058255aae9a1bb"
 metafile = true
 
 [[files]]
@@ -4634,7 +4682,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
-hash = "7b560bf9699e1aa606c7e3a16f3bdd656e23a59c7ba9a903218c7a09c659858d"
+hash = "67e5caaa0866d9afd1b4bc70872b430e891b1afd9faf9ba7f04bd3f05cd3173b"
 metafile = true
 
 [[files]]
@@ -4714,7 +4762,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "851c351ec51ba92fed81960e63a1a07909010e2856368db93c299082c44ddd72"
+hash = "4063b849f554fa9708ac3317f17c4ce84aa573f7499baefcff5f8b34de160f20"
 metafile = true
 
 [[files]]
@@ -4834,12 +4882,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f4481788b54b8cc3b31e5f5a726168bb9e1692dd09b5ab6edc4f6bd161f2d092"
+hash = "5a736edc923128440da9678dfa785b98478ef68e69c98ae0bdd7feb6fce23e40"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bebe125d02fa223bc7891ce7187cb6873840a19b37f616567dfda9f70d5da12f"
+hash = "023c2cb041a7e05ddfbdb676513404b1c481311b9f87544dc397ab73b0241b14"
 metafile = true
 
 [[files]]
@@ -4850,11 +4898,6 @@ metafile = true
 [[files]]
 file = "mods/spawn-balance-utility.pw.toml"
 hash = "a8254a2e6307025fdd929556d062c2c0de40a0f758cfae5e55b7906daaf56b77"
-metafile = true
-
-[[files]]
-file = "mods/spawncapcontrolutility.pw.toml"
-hash = "7a73371d751809b514d878ca1ebc653d5e67f91e15be3672579da4a055ec266b"
 metafile = true
 
 [[files]]
@@ -4939,7 +4982,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "810a21738338c5d4f96d18dacbd02f0cefaa0fa293fa3343e7e39165b4b994e6"
+hash = "0bc8eabe4a22f40551d147a24a2b176fba0340fc6143eeb74427de885bbe8b16"
 metafile = true
 
 [[files]]

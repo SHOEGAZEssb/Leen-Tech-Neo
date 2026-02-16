@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:desert",
+    "minecraft:beach",
+    "biomesoplenty:dryland",
+    "biomesoplenty:lush_desert",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:saguaro_desert",
+    "atmospheric:laurel_forest",
+    "atmospheric:dunes",
+    "atmospheric:flourishing_dunes",
+    "atmospheric:petrified_dunes",
+    "atmospheric:rocky_dunes",
+    "yungscavebiomes:lost_caves"
+  ]
+}

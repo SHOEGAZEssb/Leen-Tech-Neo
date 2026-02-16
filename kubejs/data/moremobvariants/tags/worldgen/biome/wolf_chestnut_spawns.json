@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:snowy_coniferous_forest",
+    "environmental:old_growth_pine_barrens",
+    "environmental:pine_barrens",
+    "environmental:pine_slopes",
+    "regions_unexplored:boreal_taiga",
+    "regions_unexplored:pine_slopes",
+    "regions_unexplored:pine_taiga"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:lush_caves",
+    "atmospheric:rainforest",
+    "atmospheric:sparse_rainforest",
+    "atmospheric:rainforest_basin",
+    "atmospheric:sparse_rainforest_basin",
+    "environmental:marsh",
+    "biomesoplenty:marsh",
+    "biomesoplenty:muskeg",
+    "biomesoplenty:wetland",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:rocky_rainforest",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou",
+    "regions_unexplored:fen",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropical_river",
+    "regions_unexplored:ancient_delta",
+    "regions_unexplored:bioshroom_caves"   
+  ]
+}

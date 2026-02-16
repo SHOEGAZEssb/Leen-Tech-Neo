@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:forest",
+    "atmospheric:aspen_parkland",
+    "biomesoplenty:maple_woods",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:snowy_maple_woods",
+    "regions_unexplored:cold_deciduous_forest",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:silver_birch_forest"
+  ]
+}

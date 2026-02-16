@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "atmospheric:laurel_forest"
+  ]
+}

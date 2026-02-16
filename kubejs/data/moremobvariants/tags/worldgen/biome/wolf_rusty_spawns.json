@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "regions_unexplored:redwoods",
+    "regions_unexplored:sparse_rainforest",
+    "minecraft:sparse_jungle"
+  ]
+}

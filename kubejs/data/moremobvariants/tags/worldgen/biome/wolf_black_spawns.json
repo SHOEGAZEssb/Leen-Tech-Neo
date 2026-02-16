@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dark_forest",
+    "regions_unexplored:blackwood_taiga"
+  ]
+}
