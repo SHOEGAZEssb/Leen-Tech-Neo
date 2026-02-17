@@ -149,7 +149,7 @@ jobs:
           }
           trap cleanup EXIT
 
-          deadline=$((SECONDS + 240))
+          deadline=$((SECONDS + 900))
 
           while [ "$SECONDS" -lt "$deadline" ]; do
             if grep -E "Crash report saved to|Exception in thread|-- System Details --|A fatal error has been detected" server.log >/dev/null 2>&1; then
