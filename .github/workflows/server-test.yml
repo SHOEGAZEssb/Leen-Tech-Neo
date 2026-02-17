@@ -30,7 +30,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           go install github.com/packwiz/packwiz@latest
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
@@ -76,14 +75,43 @@ jobs:
           curl -fL -o packwiz-installer-bootstrap.jar \
             "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
-          # serve the pack locally so packwiz-installer can fetch pack.toml/index.toml/mods
-          packwiz serve --port 8080 --bind 127.0.0.1 >/tmp/packwiz-serve.log 2>&1 &
+          # start packwiz serve from repo root (must contain pack.toml)
+          if [ ! -f pack.toml ]; then
+            echo "pack.toml not found in repo root. Listing files:"
+            ls -la
+            exit 1
+          fi
+
+          packwiz serve --port 8080 --bind 127.0.0.1 > /tmp/packwiz-serve.log 2>&1 &
           SERVE_PID=$!
 
           cleanup() {
             kill "$SERVE_PID" >/dev/null 2>&1 || true
           }
           trap cleanup EXIT
+
+          # wait until the server actually answers
+          for i in {1..30}; do
+            if curl -fsS "http://127.0.0.1:8080/pack.toml" >/dev/null 2>&1; then
+              echo "packwiz serve is ready"
+              break
+            fi
+
+            if ! kill -0 "$SERVE_PID" >/dev/null 2>&1; then
+              echo "packwiz serve exited early. Log:"
+              cat /tmp/packwiz-serve.log || true
+              exit 1
+            fi
+
+            sleep 1
+          done
+
+          # final check, print log if still not reachable
+          if ! curl -fsS "http://127.0.0.1:8080/pack.toml" >/dev/null 2>&1; then
+            echo "packwiz serve never became reachable. Log:"
+            cat /tmp/packwiz-serve.log || true
+            exit 1
+          fi
 
           cd server
 
@@ -153,6 +181,8 @@ jobs:
           done
 
           echo "Server did not reach DONE within timeout."
+          echo "Last 200 lines of server.log:"
+          tail -n 200 server.log || true
           exit 1
 
       - name: Upload server log on failure
