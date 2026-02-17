@@ -1,0 +1,150 @@
+name: Packwiz smoke test (server boot)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java (17)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Cache packwiz downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/packwiz/cache
+          key: packwiz-cache-${{ runner.os }}-${{ hashFiles('**/pack.toml', '**/index.toml', '**/*.pw.toml') }}
+          restore-keys: |
+            packwiz-cache-${{ runner.os }}-
+
+      - name: Install packwiz
+        shell: bash
+        run: |
+          set -euo pipefail
+          PACKWIZ_VERSION="v0.10.14"
+          curl -L -o packwiz.zip "https://github.com/packwiz/packwiz/releases/download/${PACKWIZ_VERSION}/packwiz_linux_amd64.zip"
+          unzip -o packwiz.zip -d packwiz-bin
+          sudo install -m 0755 packwiz-bin/packwiz /usr/local/bin/packwiz
+          packwiz --version
+
+      - name: Refresh pack index
+        shell: bash
+        run: |
+          set -euo pipefail
+          packwiz refresh
+
+      - name: Export server pack (CurseForge format)
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f server-pack.zip
+          packwiz curseforge export -s server -o server-pack.zip
+
+      - name: Install Forge server from pack.toml
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          import tomllib, pathlib
+          data = tomllib.loads(pathlib.Path("pack.toml").read_text(encoding="utf-8"))
+          v = data.get("versions", {})
+          mc = v.get("minecraft")
+          forge = v.get("forge")
+          if not mc or not forge:
+            raise SystemExit(f"pack.toml must contain [versions] minecraft=... and forge=...; got: {v}")
+          pathlib.Path("ci_versions.env").write_text(f"MC={mc}\nFORGE={forge}\n", encoding="utf-8")
+          print(f"Using Minecraft {mc}, Forge {forge}")
+          PY
+
+          source ci_versions.env
+
+          mkdir -p server
+          cd server
+
+          FORGE_INSTALLER="forge-${MC}-${FORGE}-installer.jar"
+          curl -L -o "$FORGE_INSTALLER" "https://maven.minecraftforge.net/net/minecraftforge/forge/${MC}-${FORGE}/${FORGE_INSTALLER}"
+
+          java -jar "$FORGE_INSTALLER" --installServer
+
+          echo "eula=true" > eula.txt
+
+          cd ..
+          unzip -o server-pack.zip -d exported
+
+          # CurseForge export layout: manifest.json + overrides/
+          if [ -d exported/overrides ]; then
+            rsync -a exported/overrides/ server/
+          fi
+
+      - name: Boot server (timeout smoke test)
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd server
+
+          # Some Forge installers create run.sh, some create a forge-*-server.jar, some use libraries/ + unix_args.txt
+          # We'll prefer run.sh if it exists.
+          if [ -f "./run.sh" ]; then
+            chmod +x ./run.sh
+            BOOT_CMD=(./run.sh nogui)
+          else
+            # fallback: try to locate the server jar
+            JAR="$(ls -1 forge-*-server.jar 2>/dev/null | head -n 1 || true)"
+            if [ -z "$JAR" ]; then
+              echo "Couldn't find run.sh or forge-*-server.jar. Listing server dir:"
+              ls -la
+              exit 1
+            fi
+            BOOT_CMD=(java -jar "$JAR" nogui)
+          fi
+
+          # Boot and watch logs. We kill it once we see "Done" (successful startup).
+          # If it exits early or prints a crash marker, we fail.
+          set +e
+          timeout 180s "${BOOT_CMD[@]}" 2>&1 | tee server.log
+          code=${PIPESTATUS[0]}
+          set -e
+
+          if grep -E "Crash report saved to|Exception in thread|A fatal error has been detected|-- System Details --" -n server.log; then
+            echo "Detected crash markers in log"
+            exit 1
+          fi
+
+          if grep -E "Done \\(" -n server.log; then
+            echo "Server reached DONE - smoke test passed"
+            exit 0
+          fi
+
+          # If we timed out but no DONE, treat as failure (adjust if your pack is slow).
+          if [ "$code" -eq 124 ]; then
+            echo "Server did not reach DONE within timeout"
+            exit 1
+          fi
+
+          # Any other non-zero exit means fail
+          if [ "$code" -ne 0 ]; then
+            echo "Server exited with code $code"
+            exit 1
+          fi
+
+          echo "Server exited cleanly but never reached DONE"
+          exit 1
+
+      - name: Upload server log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-log
+          path: server/server.log
