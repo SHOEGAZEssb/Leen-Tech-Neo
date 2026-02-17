@@ -9,22 +9,19 @@ on:
 jobs:
   smoke:
     runs-on: ubuntu-latest
-
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Java 17 is correct for Forge 1.20.1
       - name: Setup Java (17)
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
 
-      # Install Go so we can build packwiz properly
-      - name: Setup Go
+      - name: Setup Go (for packwiz)
         uses: actions/setup-go@v5
         with:
           go-version: "1.22.x"
@@ -34,9 +31,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          # reproducible version (you can pin a commit if you want)
           go install github.com/packwiz/packwiz@latest
-
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
       - name: Cache packwiz downloads
@@ -49,74 +44,54 @@ jobs:
             packwiz-cache-${{ runner.os }}-
 
       - name: Refresh pack index
-        run: packwiz refresh
-
-      - name: Export server pack (CurseForge format)
+        shell: bash
         run: |
           set -euo pipefail
-          rm -f server-pack.zip
-          packwiz curseforge export -s server -o server-pack.zip
-          ls -lah server-pack.zip
+          packwiz refresh
 
-      - name: Read Minecraft & Forge versions from pack.toml
+      - name: Install Forge server (1.20.1 / 47.4.16)
         shell: bash
         run: |
           set -euo pipefail
 
-          python3 - <<'PY'
-          import tomllib, pathlib
+          MC="1.20.1"
+          FORGE="47.4.16"
 
-          data = tomllib.loads(pathlib.Path("pack.toml").read_text(encoding="utf-8"))
-          v = data.get("versions", {})
-          mc = v.get("minecraft")
-          forge = v.get("forge")
-
-          if not mc or not forge:
-              raise SystemExit(f"pack.toml missing versions.minecraft or versions.forge: {v}")
-
-          pathlib.Path("ci_versions.env").write_text(
-              f"MC={mc}\nFORGE={forge}\n",
-              encoding="utf-8"
-          )
-
-          print(f"Using Minecraft {mc}, Forge {forge}")
-          PY
-
-      - name: Install Forge server
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          source ci_versions.env
-
-          mkdir server
+          mkdir -p server
           cd server
 
           FORGE_INSTALLER="forge-${MC}-${FORGE}-installer.jar"
           FORGE_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/${MC}-${FORGE}/${FORGE_INSTALLER}"
 
-          echo "Downloading $FORGE_URL"
           curl -fL -o "$FORGE_INSTALLER" "$FORGE_URL"
-
           java -jar "$FORGE_INSTALLER" --installServer
 
           echo "eula=true" > eula.txt
 
-          cd ..
-
-      - name: Inject pack files into server
+      - name: Download server-side mods with packwiz-installer
         shell: bash
         run: |
           set -euo pipefail
 
-          unzip -o server-pack.zip -d exported
+          curl -fL -o packwiz-installer-bootstrap.jar \
+            "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
-          # CF export structure: manifest.json + overrides/
-          if [ -d exported/overrides ]; then
-            rsync -a exported/overrides/ server/
-          else
-            echo "No overrides folder found"
-          fi
+          # serve the pack locally so packwiz-installer can fetch pack.toml/index.toml/mods
+          packwiz serve --port 8080 --bind 127.0.0.1 >/tmp/packwiz-serve.log 2>&1 &
+          SERVE_PID=$!
+
+          cleanup() {
+            kill "$SERVE_PID" >/dev/null 2>&1 || true
+          }
+          trap cleanup EXIT
+
+          cd server
+
+          # -g: no GUI, -s server: only server/both mods
+          java -jar ../packwiz-installer-bootstrap.jar -g -s server "http://127.0.0.1:8080/pack.toml"
+
+          echo "Installed mods:"
+          ls -la mods || true
 
       - name: Boot server (smoke test)
         shell: bash
@@ -124,52 +99,60 @@ jobs:
           set -euo pipefail
           cd server
 
-          # Prefer run.sh if present
           if [ -f "./run.sh" ]; then
             chmod +x ./run.sh
             BOOT_CMD=(./run.sh nogui)
           else
             JAR="$(ls -1 forge-*-server.jar 2>/dev/null | head -n 1 || true)"
             if [ -z "$JAR" ]; then
-              echo "No run.sh or forge server jar found:"
+              echo "Couldn't find run.sh or forge-*-server.jar. Listing server dir:"
               ls -la
               exit 1
             fi
             BOOT_CMD=(java -Xmx4G -jar "$JAR" nogui)
           fi
 
-          echo "Starting server..."
+          rm -f server.log server.stdin
+          mkfifo server.stdin
 
-          set +e
-          timeout 240s "${BOOT_CMD[@]}" 2>&1 | tee server.log
-          code=${PIPESTATUS[0]}
-          set -e
+          (stdbuf -oL -eL "${BOOT_CMD[@]}" < server.stdin) > server.log 2>&1 &
+          SERVER_PID=$!
 
-          echo "Exit code: $code"
+          cleanup() {
+            if kill -0 "$SERVER_PID" >/dev/null 2>&1; then
+              echo "stop" > server.stdin || true
+              sleep 3
+              kill "$SERVER_PID" >/dev/null 2>&1 || true
+            fi
+            rm -f server.stdin
+          }
+          trap cleanup EXIT
 
-          # Crash markers
-          if grep -E "Crash report saved to|Exception in thread|-- System Details --|A fatal error has been detected" -n server.log; then
-            echo "Crash markers detected."
-            exit 1
-          fi
+          deadline=$((SECONDS + 240))
 
-          # Successful startup marker
-          if grep -E "Done \\(" -n server.log; then
-            echo "Server reached DONE — smoke test passed."
-            exit 0
-          fi
+          while [ "$SECONDS" -lt "$deadline" ]; do
+            if grep -E "Crash report saved to|Exception in thread|-- System Details --|A fatal error has been detected" -n server.log >/dev/null 2>&1; then
+              echo "Crash markers detected."
+              exit 1
+            fi
 
-          if [ "$code" -eq 124 ]; then
-            echo "Server did not reach DONE within timeout."
-            exit 1
-          fi
+            if grep -E "DedicatedServer\]: Done \\(" -n server.log >/dev/null 2>&1; then
+              echo "Server reached DONE — stopping server."
+              echo "stop" > server.stdin
 
-          if [ "$code" -ne 0 ]; then
-            echo "Server exited with non-zero code."
-            exit 1
-          fi
+              for _ in {1..30}; do
+                kill -0 "$SERVER_PID" >/dev/null 2>&1 || exit 0
+                sleep 1
+              done
 
-          echo "Server exited without reaching DONE."
+              echo "Server did not exit after stop; killing."
+              exit 0
+            fi
+
+            sleep 2
+          done
+
+          echo "Server did not reach DONE within timeout."
           exit 1
 
       - name: Upload server log on failure
