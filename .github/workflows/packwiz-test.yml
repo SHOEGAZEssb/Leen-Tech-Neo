@@ -1,0 +1,128 @@
+name: Packwiz validate (refresh + export)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go (for packwiz)
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22.x"
+
+      - name: Install packwiz
+        shell: bash
+        run: |
+          set -euo pipefail
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Cache packwiz downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ runner.os }}-${{ hashFiles('**/pack.toml', '**/index.toml', '**/*.pw.toml') }}
+          restore-keys: |
+            packwiz-cache-${{ runner.os }}-
+
+      - name: packwiz refresh
+        shell: bash
+        run: |
+          set -euo pipefail
+          packwiz refresh
+
+      - name: Export CurseForge zip
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f curseforge-pack.zip
+          packwiz curseforge export -o curseforge-pack.zip
+          ls -lah curseforge-pack.zip
+
+      - name: Metadata sanity checks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "=== checking for curseforge API-excluded mods (will require manual download in automated installers) ==="
+          # heuristic: these are the ones that will bite packwiz-installer in CI
+          # (mode metadata:curseforge isn't automatically "excluded", but it's the pool where exclusions occur)
+          grep -R --line-number 'mode = "metadata:curseforge"' mods/*.pw.toml || true
+
+          echo ""
+          echo "=== checking that each .pw.toml has a matching filename/hash ==="
+          python3 - <<'PY'
+          import glob, pathlib, re, sys
+
+          def read(p: str) -> str:
+            return pathlib.Path(p).read_text(encoding="utf-8", errors="replace")
+
+          def get_field(txt: str, key: str):
+            m = re.search(rf'^{re.escape(key)}\s*=\s*"(.*)"\s*$', txt, re.M)
+            return m.group(1) if m else None
+
+          def get_cf_ids(txt: str):
+            pid = None
+            fid = None
+            m = re.search(r'^\s*project-id\s*=\s*(\d+)\s*$', txt, re.M)
+            if m: pid = int(m.group(1))
+            m = re.search(r'^\s*file-id\s*=\s*(\d+)\s*$', txt, re.M)
+            if m: fid = int(m.group(1))
+            return pid, fid
+
+          errors = 0
+          for path in sorted(glob.glob("mods/*.pw.toml")):
+            txt = read(path)
+            name = get_field(txt, "name") or path
+            filename = get_field(txt, "filename")
+            hf = None
+            hm = re.search(r'^\s*hash\s*=\s*"(.*)"\s*$', txt, re.M)
+            if hm: hf = hm.group(1)
+            mode = None
+            mm = re.search(r'^\s*mode\s*=\s*"(.*)"\s*$', txt, re.M)
+            if mm: mode = mm.group(1)
+
+            if not filename:
+              print(f"[FAIL] {path}: missing filename")
+              errors += 1
+              continue
+
+            if not hf:
+              print(f"[FAIL] {path}: missing hash")
+              errors += 1
+
+            if mode == "metadata:curseforge":
+              pid, fid = get_cf_ids(txt)
+              if not pid or not fid:
+                print(f"[FAIL] {path}: curseforge mode but missing project-id/file-id")
+                errors += 1
+
+            # quick “TerraBlender-class” check: filename version vs file-id mismatch can’t be verified offline,
+            # but we can at least warn if filename looks versioned and file-id exists (so reviewers double-check).
+            if mode == "metadata:curseforge":
+              pid, fid = get_cf_ids(txt)
+              if pid and fid and re.search(r'\d+\.\d+(\.\d+)+', filename):
+                print(f"[WARN] {path}: versioned filename + CF file-id present; ensure they match ({name})")
+
+          if errors:
+            print(f"\n{errors} error(s) found.")
+            sys.exit(1)
+
+          print("\nOK: basic metadata checks passed.")
+          PY
+
+      - name: Upload exported zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: curseforge-export
+          path: curseforge-pack.zip
