@@ -39,8 +39,6 @@ jobs:
 
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
-          packwiz --version
-
       - name: Cache packwiz downloads
         uses: actions/cache@v4
         with:
