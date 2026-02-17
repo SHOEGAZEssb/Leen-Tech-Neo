@@ -3,9 +3,9 @@
 	#allow armadillos to generate in the overworld
 	armadillo = true
 	#allow variants for wolves to generate
-	wolf_variants = false
+	wolf_variants = true
 	#adds wolves to more biomes for natural spawning
-	updated_wolf_spawns = false
+	updated_wolf_spawns = true
 
 ["Bundles of Bravery"]
 	#toggle the updated controls and UI for bundles

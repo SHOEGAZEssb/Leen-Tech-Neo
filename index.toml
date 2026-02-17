@@ -294,7 +294,7 @@ hash = "f42ad652123633bb2e15fc7b43122d40a68e317a399c4f7d9c28a517c9e80433"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
-hash = "381fa74058222139d838967b64982ef8559902cbf9c82f3c9393488fec56dcd6"
+hash = "689841a4f1905f29c7b0003f31cd3626879a61df6f18ffc2a188bc30ea13e3be"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -593,16 +593,48 @@ file = "kubejs/data/broglisplants/forge/biome_modifier/add_totem.json"
 hash = "31c883b3a0e262c715c00f97b91745a8da2ff96d94a923658ef3dfdfe4c96557"
 
 [[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/ashen.json"
+hash = "b15b08c64c1bd789ce83810cd7cd136e215c6827234ac15b6bb4de9db0faaa1c"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/black.json"
+hash = "0d97d21a14f12eaba018be0ec3060887b1f90af19c602da6bf2872ca0bacf213"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/chestnut.json"
+hash = "538188495feee370a8e0b0d7efc4b68a8a8dcd06b42513763e3581a8d888b91c"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/rusty.json"
+hash = "6fdf872bfe80b0573225761746ed04e3657e291fead33d84963ea0cb542a0b6c"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/snowy.json"
+hash = "637a3bbfce96ab31d15b1cda343a35159033302f7796a199f8cb12b43ef546e6"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/spotted.json"
+hash = "db787e5ac7c8e12df452871157c986c629fade6f04bcd6f44c1e1c3c4f15bdbd"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/striped.json"
+hash = "022774f52c489dbb63db9269d17eed17eb2290baf274611c3aa96bd5667c558a"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/has_wolf/woods.json"
+hash = "c28bdc0a5ecf9a0dfba30621e084dd47f3a9c97de3600dea741d95625e946395"
+
+[[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/deepslate_jade_ore_biome_modifier.json"
-hash = "bd67cc03a2d2a6efbc2727a43102325751a650a7891642ff52f5968af08dec45"
+hash = "dd9b1d270f30da0dfdb5be1ec56f77e4fcb86a057ea4faf89cf6b99060153199"
 
 [[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/jade_ore_biome_modifier.json"
-hash = "19ed2f2a41896573792bd73e7b93782034ebf6410edd7d1e849efd3b42e59d63"
+hash = "c63ff265b2e98e7d068fa8bc0db030aaa2ecdd5e512233cbd076f37b2e72f119"
 
 [[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/red_limestone_biome_modifier.json"
-hash = "3b1367db0f7a9128e6662d7099b449cb2d3112476392befea7ec1ce9c259d7e6"
+hash = "65c9cfd658ff7de9c3f8f1e17c8f1e8555a56f77ca50a5657eb386afdff0dd6b"
 
 [[files]]
 file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_lush_spawns.json"
@@ -3247,42 +3279,6 @@ hash = "9a5bd478aee5522e44a1b4ae9ea14f81df509601cf6b320b3e27ca3442b784b6"
 [[files]]
 file = "kubejs/data/moremobvariants/tags/worldgen/biome/spawn_mossy_skeletons.json"
 hash = "a1d254824ba0451b68e18c4d0dd480910074ea4e17930fa57491a521fb833841"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_ashen_spawns.json"
-hash = "b15b08c64c1bd789ce83810cd7cd136e215c6827234ac15b6bb4de9db0faaa1c"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_black_spawns.json"
-hash = "0d97d21a14f12eaba018be0ec3060887b1f90af19c602da6bf2872ca0bacf213"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_chestnut_spawns.json"
-hash = "538188495feee370a8e0b0d7efc4b68a8a8dcd06b42513763e3581a8d888b91c"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_pale_spawns.json"
-hash = "61c11797b649f6962a0e5c5ae52b864b1ea8df9b60c6f96ac0120870b47d98ff"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_rusty_spawns.json"
-hash = "6fdf872bfe80b0573225761746ed04e3657e291fead33d84963ea0cb542a0b6c"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_snowy_spawns.json"
-hash = "637a3bbfce96ab31d15b1cda343a35159033302f7796a199f8cb12b43ef546e6"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_spotted_spawns.json"
-hash = "db787e5ac7c8e12df452871157c986c629fade6f04bcd6f44c1e1c3c4f15bdbd"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_striped_spawns.json"
-hash = "022774f52c489dbb63db9269d17eed17eb2290baf274611c3aa96bd5667c558a"
-
-[[files]]
-file = "kubejs/data/moremobvariants/tags/worldgen/biome/wolf_woods_spawns.json"
-hash = "c28bdc0a5ecf9a0dfba30621e084dd47f3a9c97de3600dea741d95625e946395"
 
 [[files]]
 file = "kubejs/data/mowziesmobs/tags/worldgen/biome/has_structure/has_mowzie_structure.json"
