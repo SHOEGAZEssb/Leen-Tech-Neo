@@ -36,17 +36,13 @@ jobs:
       - name: Cache packwiz downloads
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.cache/packwiz
+          path: ~/.cache/packwiz
           key: packwiz-cache-${{ runner.os }}-${{ hashFiles('**/pack.toml', '**/index.toml', '**/*.pw.toml') }}
           restore-keys: |
             packwiz-cache-${{ runner.os }}-
 
       - name: Refresh pack index
-        shell: bash
-        run: |
-          set -euo pipefail
-          packwiz refresh
+        run: packwiz refresh
 
       - name: Install Forge server (1.20.1 / 47.4.16)
         shell: bash
@@ -59,15 +55,13 @@ jobs:
           mkdir -p server
           cd server
 
-          FORGE_INSTALLER="forge-${MC}-${FORGE}-installer.jar"
-          FORGE_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/${MC}-${FORGE}/${FORGE_INSTALLER}"
+          curl -fL -o forge-installer.jar \
+            "https://maven.minecraftforge.net/net/minecraftforge/forge/${MC}-${FORGE}/forge-${MC}-${FORGE}-installer.jar"
 
-          curl -fL -o "$FORGE_INSTALLER" "$FORGE_URL"
-          java -jar "$FORGE_INSTALLER" --installServer
-
+          java -jar forge-installer.jar --installServer
           echo "eula=true" > eula.txt
 
-      - name: Download server-side mods with packwiz-installer
+      - name: Download server-side mods (with CF patch fallback)
         shell: bash
         run: |
           set -euo pipefail
@@ -75,13 +69,6 @@ jobs:
           curl -fL -o packwiz-installer-bootstrap.jar \
             "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
-          if [ ! -f pack.toml ]; then
-            echo "pack.toml not found in repo root. Listing files:"
-            ls -la
-            exit 1
-          fi
-
-          # start packwiz serve from repo root
           packwiz serve --port 8080 > /tmp/packwiz-serve.log 2>&1 &
           SERVE_PID=$!
 
@@ -90,35 +77,47 @@ jobs:
           }
           trap cleanup EXIT
 
-          # wait until the server actually answers
+          # wait until serve is reachable
           for i in {1..30}; do
             if curl -fsS "http://127.0.0.1:8080/pack.toml" >/dev/null 2>&1; then
-              echo "packwiz serve is ready"
               break
             fi
-
-            if ! kill -0 "$SERVE_PID" >/dev/null 2>&1; then
-              echo "packwiz serve exited early. Log:"
-              cat /tmp/packwiz-serve.log || true
-              exit 1
-            fi
-
             sleep 1
           done
 
-          if ! curl -fsS "http://127.0.0.1:8080/pack.toml" >/dev/null 2>&1; then
-            echo "packwiz serve never became reachable. Log:"
-            cat /tmp/packwiz-serve.log || true
-            exit 1
-          fi
-
           cd server
 
-          # -g: no GUI, -s server: only server/both mods
-          java -jar ../packwiz-installer-bootstrap.jar -g -s server "http://127.0.0.1:8080/pack.toml"
+          # first attempt
+          set +e
+          java -jar ../packwiz-installer-bootstrap.jar -g -s server \
+            "http://127.0.0.1:8080/pack.toml" 2>&1 | tee /tmp/installer.log
+          code=${PIPESTATUS[0]}
+          set -e
 
-          echo "Installed mods:"
-          ls -la mods || true
+          if grep -q "excluded from the CurseForge API" /tmp/installer.log; then
+            echo ""
+            echo "CurseForge API-blocked mods detected. Patching them to client-side for CI..."
+
+            # extract jar filenames from installer output
+            grep -Eo '/mods/[^ ]+\.jar' /tmp/installer.log | \
+              sed 's#.*/mods/##' | sort -u > /tmp/blocked-jars.txt
+
+            while read -r jar; do
+              pwfile=$(grep -Rl "filename = \"$jar\"" ../mods || true)
+              if [ -n "$pwfile" ]; then
+                echo "Patching $pwfile"
+                sed -i 's/^side = "both"/side = "client"/' "$pwfile"
+              else
+                echo "Could not find .pw.toml for $jar"
+              fi
+            done < /tmp/blocked-jars.txt
+
+            echo "Re-running installer after patch..."
+            java -jar ../packwiz-installer-bootstrap.jar -g -s server \
+              "http://127.0.0.1:8080/pack.toml"
+          else
+            exit "$code"
+          fi
 
       - name: Boot server (smoke test)
         shell: bash
@@ -131,11 +130,6 @@ jobs:
             BOOT_CMD=(./run.sh nogui)
           else
             JAR="$(ls -1 forge-*-server.jar 2>/dev/null | head -n 1 || true)"
-            if [ -z "$JAR" ]; then
-              echo "Couldn't find run.sh or forge-*-server.jar. Listing server dir:"
-              ls -la
-              exit 1
-            fi
             BOOT_CMD=(java -Xmx4G -jar "$JAR" nogui)
           fi
 
@@ -158,21 +152,15 @@ jobs:
           deadline=$((SECONDS + 240))
 
           while [ "$SECONDS" -lt "$deadline" ]; do
-            if grep -E "Crash report saved to|Exception in thread|-- System Details --|A fatal error has been detected" -n server.log >/dev/null 2>&1; then
+            if grep -E "Crash report saved to|Exception in thread|-- System Details --|A fatal error has been detected" server.log >/dev/null 2>&1; then
               echo "Crash markers detected."
               exit 1
             fi
 
-            if grep -E "DedicatedServer\]: Done \\(" -n server.log >/dev/null 2>&1; then
-              echo "Server reached DONE — stopping server."
+            if grep -E "DedicatedServer\]: Done \\(" server.log >/dev/null 2>&1; then
+              echo "Server reached DONE — stopping."
               echo "stop" > server.stdin
-
-              for _ in {1..30}; do
-                kill -0 "$SERVER_PID" >/dev/null 2>&1 || exit 0
-                sleep 1
-              done
-
-              echo "Server did not exit after stop; killing."
+              sleep 5
               exit 0
             fi
 
@@ -180,7 +168,6 @@ jobs:
           done
 
           echo "Server did not reach DONE within timeout."
-          echo "Last 200 lines of server.log:"
           tail -n 200 server.log || true
           exit 1
 
