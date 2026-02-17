@@ -75,14 +75,14 @@ jobs:
           curl -fL -o packwiz-installer-bootstrap.jar \
             "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
-          # start packwiz serve from repo root (must contain pack.toml)
           if [ ! -f pack.toml ]; then
             echo "pack.toml not found in repo root. Listing files:"
             ls -la
             exit 1
           fi
 
-          packwiz serve --port 8080 --bind 127.0.0.1 > /tmp/packwiz-serve.log 2>&1 &
+          # start packwiz serve from repo root
+          packwiz serve --port 8080 > /tmp/packwiz-serve.log 2>&1 &
           SERVE_PID=$!
 
           cleanup() {
@@ -106,7 +106,6 @@ jobs:
             sleep 1
           done
 
-          # final check, print log if still not reachable
           if ! curl -fsS "http://127.0.0.1:8080/pack.toml" >/dev/null 2>&1; then
             echo "packwiz serve never became reachable. Log:"
             cat /tmp/packwiz-serve.log || true
