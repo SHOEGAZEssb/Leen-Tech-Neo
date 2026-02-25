@@ -41,7 +41,7 @@ JEIEvents.hideItems(event => {
   hideWildcard(event, "lost_aether_content:*gale_stone", ["lost_aether_content:gale_stone"])
 
   // better archeology
-  removeRecipesByItemId(event, "betterarcheology:infested_mud_bricks")
+  event.hide("betterarcheology:infested_mud_bricks")
 
   // blue skies
   event.hide("blue_skies:everbright_portal")
