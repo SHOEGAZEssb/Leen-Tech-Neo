@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#blue_skies:everdawn",
+  "features": "ars_nouveau:placed_vexing_tree",
+  "step": "vegetal_decoration"
+}

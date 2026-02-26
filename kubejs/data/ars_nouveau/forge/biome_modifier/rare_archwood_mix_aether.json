@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "ars_nouveau:placed_flourishing_tree",
+  "step": "vegetal_decoration"
+}
