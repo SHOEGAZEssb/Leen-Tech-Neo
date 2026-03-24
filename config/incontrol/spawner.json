@@ -19,5 +19,328 @@
       "inwater": true,
       "maxlocal": 5
     }
+  },
+  {
+    "mob": "opposing_force:volt",
+    "persecond": 0.12,
+    "attempts": 30,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "aether:the_aether",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -64,
+      "maxheight": 320,
+      "norestrictions": true,
+      "validspawn": true,
+      "sturdy": true,
+      "maxlocal": 4,
+      "and": {
+        "maxlight_full": 7
+      },
+      "not": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mowziesmobs:naga",
+    "persecond": 0.01,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "aether:the_aether",
+      "mindist": 32,
+      "maxdist": 120,
+      "minverticaldist": 0,
+      "maxverticaldist": 64,
+      "minheight": -64,
+      "maxheight": 320,
+      "norestrictions": true,
+      "validspawn": true,
+      "sturdy": true,
+      "maxlocal": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "grimoireofgaia:harpy",
+    "persecond": 0.04,
+    "attempts": 30,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "aether:the_aether",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 64,
+      "minheight": -64,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inair": true,
+      "maxlocal": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "grimoireofgaia:nine_tails",
+    "persecond": 0.003,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": 50,
+      "maxheight": 160,
+      "norestrictions": true,
+      "validspawn": true,
+      "sturdy": true,
+      "maxlocal": 1,
+      "and": {
+        "biome": "regions_unexplored:bamboo_forest",
+        "maxlight_full": 7
+      },
+      "not": {
+        "cave": true
+      }
+    }
+  },
+  {
+    "mob": "grimoireofgaia:yuki_onna",
+    "persecond": 0.003,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": 50,
+      "maxheight": 160,
+      "norestrictions": true,
+      "validspawn": true,
+      "sturdy": true,
+      "maxlocal": 1,
+      "and": {
+        "biome": "atmospheric:kousa_jungle",
+        "maxlight_full": 7
+      },
+      "not": {
+        "cave": true
+      }
+    }
+  },
+  {
+    "mob": "unusualfishmod:bark_angelfish",
+    "persecond": 0.05,
+    "attempts": 20,
+    "amount": {
+      "minimum": 4,
+      "maximum": 8,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -9,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 12,
+      "and": {
+        "biome": "twilightforest:lake"
+      }
+    }
+  },
+  {
+    "mob": "unusualfishmod:wizard_jelly",
+    "persecond": 0.04,
+    "attempts": 20,
+    "amount": {
+      "minimum": 4,
+      "maximum": 8,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -9,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 10,
+      "and": {
+        "biome": "twilightforest:lake"
+      }
+    }
+  },
+  {
+    "mob": "unusualfishmod:freshwater_mantis",
+    "persecond": 0.02,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -9,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 3,
+      "and": {
+        "biome": "twilightforest:stream"
+      }
+    }
+  },
+  {
+    "mob": "unusualfishmod:porcupine_lobsta",
+    "persecond": 0.015,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -9,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 3,
+      "and": {
+        "biome": "twilightforest:swamp"
+      }
+    }
+  },
+  {
+    "mob": "grimoireofgaia:dryad",
+    "persecond": 0.004,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 32,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -64,
+      "maxheight": 320,
+      "norestrictions": true,
+      "validspawn": true,
+      "sturdy": true,
+      "maxlocal": 1,
+      "and": {
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "mob": "unusualfishmod:blindsailfin",
+    "persecond": 0.03,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -64,
+      "maxheight": -10,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 6
+    }
+  },
+  {
+    "mob": "unusualfishmod:mossthorn",
+    "persecond": 0.01,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -64,
+      "maxheight": -10,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 2
+    }
+  },
+  {
+    "mob": "unusualfishmod:picklefish",
+    "persecond": 0.04,
+    "attempts": 20,
+    "amount": {
+      "minimum": 3,
+      "maximum": 6,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 96,
+      "minverticaldist": 0,
+      "maxverticaldist": 48,
+      "minheight": -9,
+      "maxheight": 320,
+      "norestrictions": true,
+      "inwater": true,
+      "maxlocal": 10
+    }
   }
 ]

@@ -116,7 +116,20 @@
       "ambientadditions:pembroke_corgi",
       "exoticbirds:pigeon",
       "fintastic:coelacanth",
-      "grimoireofgaia:valkyrie"
+      "grimoireofgaia:valkyrie",
+      "opposing_force:volt",
+      "mowziesmobs:naga",
+      "grimoireofgaia:harpy",
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:yuki_onna",
+      "grimoireofgaia:dryad",
+      "unusualfishmod:bark_angelfish",
+      "unusualfishmod:wizard_jelly",
+      "unusualfishmod:freshwater_mantis",
+      "unusualfishmod:porcupine_lobsta",
+      "unusualfishmod:blindsailfin",
+      "unusualfishmod:mossthorn",
+      "unusualfishmod:picklefish"
     ],
     "result": "deny"
   },

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/packwiz-test.yml"
+hash = "3c9449cbcc9b4c5d8f172997eeac9fda3738f17343ff6dabc905f34870cccd00"
+
+[[files]]
 file = "config/Obscuria/obscure-api-client.toml"
 hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
 
@@ -202,11 +206,11 @@ hash = "81dd67a2f63c44d3ce20e45ff2579bf220f918fdb3e1122a84cef06d8a49b03d"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "bdaec9b6caf78f1ddf45c1d9dbc6e0f39d03d06eb1a8cd62770b2148044f2f55"
+hash = "ea0a1bafce69ef59524721b6e57cef6f23801d9cb10ebd8c9a1ba086090d7f58"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "bdf30e502a17d5f563129c0a60382d1dfc6cd9402f96dfe10f7671f639ef97d4"
+hash = "a17dc41db483596f0d2b5d2592efda4a866734c47ca759b5eb4b01bf2616412c"
 
 [[files]]
 file = "config/incontrol/spawner.json.bak"
@@ -474,7 +478,7 @@ hash = "a68b82b1b4108dfc9a9549d7fcd2893c790ea153174c40ebe86eee3d0ab98cf2"
 
 [[files]]
 file = "kubejs/client_scripts/jei_cleanup_client.js"
-hash = "1f4b6066866efc14d3f7eebf9ee1760c298f169c6e0ff007b7d66aacaab779c3"
+hash = "21fa92642c8f31a6e80dc6f703020f71fdbc35a72edfe163a1a1f21132e57aca"
 
 [[files]]
 file = "kubejs/client_scripts/rename_biomes.js"
@@ -541,8 +545,20 @@ file = "kubejs/data/araxers_bestiary/bestiary/grimoireofgaia/valkyrie.json"
 hash = "58636b89d2d8094d182e18e1dd864a65283ac4381f8c3399002e6f20c10c8ed2"
 
 [[files]]
-file = "kubejs/data/ars_nouveau/forge/biome_modifier/remove_archwood.json"
-hash = "d8c3219f7c15baff2101af81e10dd635d758740ad39602e15723d04b487e83f8"
+file = "kubejs/data/ars_nouveau/forge/biome_modifier/rare_archwood_mix.json"
+hash = "7ef5c348396eb6b0d1d58655626a5d3c067eae2d32d6841c0595443a228add0d"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/forge/biome_modifier/rare_archwood_mix_aether.json"
+hash = "dfb378d64d2c832c2afc3df405c5e2b697496abf1289f9146be50da181124e11"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/forge/biome_modifier/rare_archwood_mix_bright.json"
+hash = "6dc36d7f21a5406f0193373850a2d9d88cbf489bebb4d2a9973eb1bdc46b5e41"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/forge/biome_modifier/rare_archwood_mix_dawn.json"
+hash = "4a03b9af42e2d82ae65a3d8468bf193804cf06a4bcd8ebe0e65ecc5313a51d3c"
 
 [[files]]
 file = "kubejs/data/ars_nouveau/tags/worldgen/biome/berry_spawn.json"
@@ -3911,6 +3927,10 @@ hash = "fbaa0c326883e01911b16252b09c7d82d8720e68984f12d0be648eac97dbbc30"
 [[files]]
 file = "kubejs/data/supplementaries/tags/worldgen/structures/adventure_map_destinations.json"
 hash = "c1d6c2c39783e902bc3f340292339113e61bb04b1019e0d6c1271fb5daa96c43"
+
+[[files]]
+file = "kubejs/data/twilightforest/tags/items/portal/activator.json"
+hash = "9f8f459be1cfac6158f2337c4c46bff8daf2db90bbf36cd361a99705a5c93714"
 
 [[files]]
 file = "kubejs/data/unusual_prehistory/loot_tables/archeology/holocene_common.json"
