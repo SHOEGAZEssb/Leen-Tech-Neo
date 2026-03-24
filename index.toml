@@ -4132,11 +4132,6 @@ hash = "b6ef08847945afa578afe2b7f4a787d1b9ccdc87386103aed4eeb63f6aff0bb2"
 metafile = true
 
 [[files]]
-file = "mods/ars-technica.pw.toml"
-hash = "cdf91a11244c62f5a313adfd70e5f5fbc8f07e6ab15e3407534db660e09aed73"
-metafile = true
-
-[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "585e1b6e73687550552edb8d4013aa73581cd4ebf107f1c5fbef21945519a292"
 metafile = true
