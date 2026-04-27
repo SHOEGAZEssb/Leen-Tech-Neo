@@ -1,13 +1,13 @@
 name = "Create: Alex's Caves Compat"
-filename = "create_alexscaves_compat-1.5.1.jar"
+filename = "create_alexscaves_compat-1.6.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ed9c2f1d15c0ccd06b96b080c48e2e91d064c151"
+hash = "0938eefafa068e5b52b990621fd11cff49d4554e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6982765
+file-id = 7817856
 project-id = 1274783

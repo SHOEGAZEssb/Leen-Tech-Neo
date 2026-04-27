@@ -1,12 +1,13 @@
 name = "Alex's Mobs Interaction"
-filename = "alexsmobsinteraction-5.4-all.jar"
+filename = "alexsmobsinteraction-6.0-all.jar"
 side = "both"
+
 [download]
 hash-format = "sha1"
-hash = "4b5376f52539122e8eca84679a7aa540ad15e0d4"
+hash = "b702a2947d90e06127ac0ea11b5c5eddb14fbe39"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6410554
+file-id = 7964052
 project-id = 975640
