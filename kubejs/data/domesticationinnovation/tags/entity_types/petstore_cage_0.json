@@ -5,9 +5,8 @@
     "minecraft:wolf",
     "minecraft:cat",
     "minecraft:rabbit",
-    "ambientadditions:pembroke_corgi",
-    "ambientadditions:cardigan_corgi",
     "crittersandcompanions:ferret",
-    "environmental:duck"
+    "environmental:duck",
+    "species:stackatick"
   ]
 }

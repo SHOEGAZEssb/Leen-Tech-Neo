@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_nether",
-  "features": "ars_nouveau:placed_blazing_tree",
+  "biomes": "biomesoplenty:grassland",
+  "features": "ars_nouveau:placed_flourishing_tree",
   "step": "vegetal_decoration"
 }

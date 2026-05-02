@@ -5,8 +5,6 @@
     "minecraft:chicken",
     "minecraft:rabbit",
     "minecraft:goat",
-    "alexsmobs:gelada_monkey",
-    "exoticbirds:cardinal",
-    "exoticbirds:robin"
+    "alexsmobs:gelada_monkey"
   ]
 }

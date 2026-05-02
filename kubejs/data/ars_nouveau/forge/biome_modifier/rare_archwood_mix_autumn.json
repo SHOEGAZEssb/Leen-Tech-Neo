@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#blue_skies:everdawn",
+  "biomes": "biomesoplenty:mystic_grove",
   "features": "ars_nouveau:placed_vexing_tree",
   "step": "vegetal_decoration"
 }
