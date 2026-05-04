@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/packwiz-test.yml"
-hash = "3c9449cbcc9b4c5d8f172997eeac9fda3738f17343ff6dabc905f34870cccd00"
-
-[[files]]
 file = "config/Obscuria/obscure-api-client.toml"
 hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
 
@@ -4319,6 +4315,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "148bc9c5989ac676d91b6f07a5e871d7b5d11c1b7b46fe30c3894c1512069a88"
+metafile = true
+
+[[files]]
+file = "mods/temporal-api.pw.toml"
+hash = "7222ace4fba60f0553c6c6b895dae0b30d8f17e43f8d8637f5a1534e8ba07cfb"
 metafile = true
 
 [[files]]
