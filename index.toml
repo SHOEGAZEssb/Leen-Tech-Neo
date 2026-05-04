@@ -3773,11 +3773,6 @@ hash = "93bf825c7f42cc48cb0d3dc3e08d2c57fa5fae975e20a2494e1c5fb26bd7e35d"
 metafile = true
 
 [[files]]
-file = "mods/enlightend.pw.toml"
-hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
-metafile = true
-
-[[files]]
 file = "mods/entangled.pw.toml"
 hash = "42988dcd8f18c2473cf30f63996e331a680dc7df9145cbe26d3945222c928e4e"
 metafile = true
