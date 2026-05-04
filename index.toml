@@ -3658,11 +3658,6 @@ hash = "7ad6de203d4f99343353799abc2f28291a7c36c2957f89ad25ff0123f9be8a63"
 metafile = true
 
 [[files]]
-file = "mods/create-enlightend.pw.toml"
-hash = "f01018ef369c2ec6126a1a0b9cc8285b1da891fc326e4677ba3853966709a77b"
-metafile = true
-
-[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "dc384e174383ff657f27bd21b4208c58b2b207e1ff9270035e18f08f91e11c5d"
 metafile = true
