@@ -242,33 +242,6 @@ ServerEvents.recipes(event => {
     B: "#forge:honeycombs"
   })
 
-  // Advanced Maple Beehive
-  event.remove({ id: "productivebees:hives/advanced_regions_unexplored_maple_beehive" })
-
-  event.shaped("productivebees:advanced_regions_unexplored_maple_beehive", [
-    'SSS',
-    'ARA',
-    'BSC'
-  ], {
-    S: "blue_skies:maple_planks",
-    R: '#forge:hives',
-    A: '#forge:honeycombs',
-    B: "#forge:campfires",
-    C: "#forge:shears"
-  })
-
-  // Maple Expansion Box
-  event.remove({ id: "productivebees:expansion_boxes/expansion_box_regions_unexplored_maple" })
-
-  event.shaped("productivebees:expansion_box_regions_unexplored_maple", [
-    'AAA',
-    'ABA',
-    'AAA'
-  ], {
-    A: "blue_skies:maple_planks",
-    B: "#forge:honeycombs"
-  })
-
   // regions unexplored ---------------------------------------------------------------------------
   event.shaped("regions_unexplored:ashen_dirt", [
     ' A ',

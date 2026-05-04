@@ -59,12 +59,6 @@ ServerEvents.recipes(event => {
   // alexs mobs
   removeRecipesByItemId(event, "alexsmobs:animal_dictionary")
 
-  // ambient additions
-  removeRecipesByItemId(event, "ambientadditions:blowgun")
-  removeRecipesByItemId(event, "ambientadditions:chocolate_chip_starfish_bucket")
-  removeRecipesByItemId(event, "ambientadditions:dart")
-  removeRecipesByItemId(event, "ambientadditions:starfish_arm")
-
   // atmospheric
   removeRecipesByItemId(event, "atmospheric:arid_sprouts")
 
@@ -95,26 +89,13 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "biomesoplenty:unmapped_end_stone")
   removeRecipesByItemId(event, "biomesoplenty:wispjelly")
 
-  // blue skies
-  removeRecipesByItemId(event, "blue_skies:venison")
-  removeRecipesByItemId(event, "blue_skies:cooked_venison")
-
   // call of yucatan
   removeRecipesByItemId(event, "call_of_yucutan:blow_gun")
   removeRecipesByItemId(event, "call_of_yucutan:poisonous_dart")
 
-  // create: steam n rails
-  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove")
-  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove_narrow")
-  removeRecipesByItemId(event, "railways:track_twilightforest_mangrove_wide")
-
   // environmental
   removeRecipesByItemIdWildcard(event, "environmental:*pine*")
   removeRecipesByItemIdWildcard(event, "environmental:*willow*")
-
-  // exotic birds
-  removeRecipesByItemId(event, "exoticbirds:bird_book")
-  removeRecipesByItemId(event, "exoticbirds:eggshell")
 
   // farmers delight
   removeRecipesByItemId(event, "farmersdelight:rope")
@@ -296,21 +277,6 @@ ServerEvents.recipes(event => {
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_palm")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_maple")
   removeRecipesByItemId(event, "supplementaries:regions_unexplored/sign_post_willow")
-  removeRecipesByItemId(event, "supplementaries:twilightforest/sign_post_mangrove")
-
-  // the aether
-  removeRecipesByItemId(event, "aether:candy_cane")
-  removeRecipesByItemId(event, "aether:candy_cane_sword")
-  removeRecipesByItemId(event, "aether:gingerbread_man")
-
-  // the twilight forest
-  removeRecipesByItemIdWildcard(event, "twilightforest:*mangrove*")
-  removeRecipesByItemId(event, "twilightforest:huge_lily_pad")
-  removeRecipesByItemId(event, "twilightforest:clover_patch")
-  removeRecipesByItemId(event, "twilightforest:raw_venison")
-  removeRecipesByItemId(event, "twilightforest:transformation_powder")
-  removeRecipesByItemId(event, "twilightforest:cooked_venison")
-
   // vanilla
   removeRecipesByItemId(event, "minecraft:tropical_fish_bucket")
   removeRecipesByItemId(event, "minecraft:torchflower")
