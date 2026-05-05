@@ -155,6 +155,17 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.0
 
+	[tools_and_abilities.elokosa_paw]
+		#How long effects inflicted by Elokosa Paws last in ticks
+		#Range: > 1
+		effect_duration = 600
+		#How long players must wait between uses of Elokosa Paws in ticks
+		#Range: > 0
+		cooldown = 1800
+		#How many times players can use an Elokosa Paw before it breaks
+		#Range: > 1
+		number_of_uses = 5
+
 [mobs]
 
 	[mobs.frostmaw]
@@ -177,7 +188,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["ad_astra:glacio_ice_peaks", "ad_astra:glacio_snowy_barrens"]
+			biome_whitelist = ["minecraft:snowy_plains"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -206,10 +217,10 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar
@@ -217,7 +228,7 @@
 		#Disable/enable Umvuthi healing while not in combat
 		heals_out_of_battle = true
 		#Which item Umvuthi desires in exchange for the Sun's Blessing
-		trade_which_item = "deep_aether:skyjade_block"
+		trade_which_item = "minecraft:gold_block"
 		#How many of the item Umvuthi desires in exchange for the Sun's Blessing
 		#Range: 0 ~ 64
 		trade_how_many = 5
@@ -235,7 +246,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["aether_redux:gilded_grasslands", "aether_redux:gilded_groves", "deep_aether:golden_grove", "deep_aether:golden_heights"]
+			biome_whitelist = ["minecraft:savanna", "minecraft:savanna_plateau", "regions_unexplored:baobab_savanna"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -264,10 +275,10 @@
 		[mobs.umvuthi.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
@@ -285,7 +296,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["blue_skies:everbright", "blue_skies:everdawn"]
+			biome_tags = ["!minecraft:is_ocean"]
 			#Allow spawns in these biomes regardless of the biome tag settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
@@ -305,10 +316,10 @@
 			generation_separation = 5
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_max = -65.0
+			height_max = -40.0
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_min = -65.0
+			height_min = -10.0
 			#Names of structures this mob/structure will avoid when generating.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			avoid_structures = []
@@ -316,10 +327,10 @@
 		[mobs.ferrous_wroughtnaut.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.sculptor]
 		#How tall (in blocks) the Sculptor's test will be
@@ -379,10 +390,10 @@
 		[mobs.sculptor.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.grottol]
 
@@ -455,7 +466,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["twilightforest:enchanted_forest", "twilightforest:forest", "twilightforest:dense_forest", "twilightforest:firefly_forest", "twilightforest:dense_mushroom_forest"]
+			biome_whitelist = ["minecraft:dark_forest", "biomesoplenty:auroral_garden", "biomesoplenty:mystic_grove", "biomesoplenty:jacaranda_glade", "regions_unexplored:blackwood_taiga", "regions_unexplored:old_growth_bayou", "regions_unexplored:silver_birch_forest", "atmospheric:kousa_jungle"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -472,9 +483,9 @@
 			max_group_size = 4
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.5
+			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["twilightforest:twilight_forest"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -484,7 +495,7 @@
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 15
+			height_min = 60
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
@@ -517,7 +528,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["aether_redux:gilded_grasslands", "aether_redux:gilded_groves", "deep_aether:golden_grove", "deep_aether:golden_heights"]
+			biome_whitelist = ["minecraft:savanna", "minecraft:savanna_plateau", "regions_unexplored:baobab_savanna"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -525,7 +536,7 @@
 		[mobs.umvuthana.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 5
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -534,9 +545,9 @@
 			max_group_size = 1
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.1
+			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aether:the_aether"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = ["aether:enchanted_aether_grass_block", "aether:quicksoil", "deep_aether:golden_heights_grass_block"]
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -554,7 +565,7 @@
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
-			avoid_structures = ["mowziesmobs:umvuthana_groves"]
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts", "mowziesmobs:umvuthana_groves"]
 
 		[mobs.umvuthana.combat_config]
 			#Scale mob health by this value
@@ -574,9 +585,9 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["aether:is_aether"]
+			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = []
+			biome_whitelist = ["minecraft:stony_shore", "regions_unexplored:chalk_cliffs", "regions_unexplored:rocky_reef"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -584,36 +595,36 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 1
+			spawn_rate = 15
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 1
+			max_group_size = 2
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.0001
+			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aether:the_aether"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:base_stone_overworld"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = -65
+			height_min = 68
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
-			needs_darkness = false
+			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = true
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
 
 		[mobs.naga.combat_config]
 			#Scale mob health by this value
@@ -643,7 +654,7 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 70
+			spawn_rate = 60
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -740,4 +751,64 @@
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
+
+	[mobs.Elokosa]
+
+		[mobs.Elokosa.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = []
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = ["minecraft:jungle", "atmospheric:rainforest"]
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.Elokosa.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 5
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 1
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
+
+		[mobs.Elokosa.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
 
