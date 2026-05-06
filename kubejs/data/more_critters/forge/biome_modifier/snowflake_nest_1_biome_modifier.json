@@ -2,7 +2,9 @@
   "type": "forge:add_features",
   "biomes": [
         "biomesoplenty:spider_nest",
-        "yungscavebiomes:frosted_caves"
+        "yungscavebiomes:frosted_caves",
+        "minecraft:ice_spikes",
+        "regions_unexplored:spires"
   ],
   "features": "more_critters:snowflake_nest_1",
   "step": "surface_structures"

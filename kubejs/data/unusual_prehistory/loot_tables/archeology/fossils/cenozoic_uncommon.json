@@ -2,25 +2,26 @@
   "type": "minecraft:archaeology",
   "pools": [
     {
-      "bonus_rolls": 0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "unusual_prehistory:aged_feather",
+          "name": "unusual_prehistory:flipper_fossil",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "more_critters:critter_fossil_1",
+          "name": "more_critters:critter_fossil_3",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "more_critters:critter_fossil_2",
+          "name": "more_critters:critter_fossil_4",
           "weight": 1
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "unusual_prehistory:archaeology/fossils/cenozoic_uncommon"
 }

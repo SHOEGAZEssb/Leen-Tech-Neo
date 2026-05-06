@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "biomesoplenty:ominous_woods",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou"
+  ]
+}

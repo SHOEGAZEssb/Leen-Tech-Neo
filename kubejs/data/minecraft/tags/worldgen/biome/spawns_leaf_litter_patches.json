@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    "biomesoplenty:ominous_woods",
+    "regions_unexplored:blackwood_taiga"
+  ]
+}

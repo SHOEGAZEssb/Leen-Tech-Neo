@@ -769,7 +769,7 @@
 	"Ancient Wood" = true
 	"Azalea Wood" = false
 	"Big Stone Clusters" = true
-	"Blossom Trees" = false
+	"Blossom Trees" = true
 	"Chorus Vegetation" = false
 	Corundum = true
 	"Fairy Rings" = true
@@ -979,16 +979,16 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.blue.biome_config.tags]
-					"Biome Tags" = ["forge:is_snowy"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.blue.biome_config.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["biomesoplenty:jacaranda_glade", "regions_unexplored:mauve_hills"]
+					"Is Blacklist" = false
 
 		[world.blossom_trees.lavender]
-			Rarity = 100
+			Rarity = 200
 
 			[world.blossom_trees.lavender.dimensions]
 				"Is Blacklist" = false
@@ -998,16 +998,16 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.lavender.biome_config.tags]
-					"Biome Tags" = ["forge:is_swamp"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.lavender.biome_config.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["environmental:blossom_woods", "environmental:blossom_valleys"]
+					"Is Blacklist" = false
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 200
 
 			[world.blossom_trees.orange.dimensions]
 				"Is Blacklist" = false
@@ -1017,13 +1017,13 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.orange.biome_config.tags]
-					"Biome Tags" = ["minecraft:is_savanna"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.orange.biome_config.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["biomesoplenty:pumpkin_patch", "regions_unexplored:autumnal_maple_forest"]
+					"Is Blacklist" = false
 
 		[world.blossom_trees.yellow]
 			Rarity = 200
@@ -1036,16 +1036,16 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.yellow.biome_config.tags]
-					"Biome Tags" = ["forge:is_plains"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.yellow.biome_config.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["minecraft:savanna", "biomesoplenty:dryland"]
+					"Is Blacklist" = false
 
 		[world.blossom_trees.red]
-			Rarity = 30
+			Rarity = 200
 
 			[world.blossom_trees.red.dimensions]
 				"Is Blacklist" = false
@@ -1055,13 +1055,13 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.blossom_trees.red.biome_config.tags]
-					"Biome Tags" = ["minecraft:is_badlands"]
+					"Biome Tags" = []
 					"Is Blacklist" = false
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.red.biome_config.biomes]
-					Biomes = []
-					"Is Blacklist" = true
+					Biomes = ["biomesoplenty:rocky_rainforest", "minecraft:eroded_badlands"]
+					"Is Blacklist" = false
 
 	[world.chorus_vegetation]
 		Rarity = 150

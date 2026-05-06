@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "unusual_prehistory:plumage_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusual_prehistory:trunk_mouse_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critter_fossil_2",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "more_critters:critterling_fossil_1",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "unusual_prehistory:archaeology/fossils/cenozoic_common"
+}

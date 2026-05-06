@@ -1,0 +1,12 @@
+name = "Brazilian Expansion"
+filename = "brazilian_expansion-0.3.4.jar"
+side = "both"
+[download]
+hash-format = "sha1"
+hash = "a42ce4a48b6f489a0e1e99d6676ad03db09745f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7859603
+project-id = 1143074
