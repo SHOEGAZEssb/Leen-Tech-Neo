@@ -3597,6 +3597,11 @@ file = "kubejs/server_scripts/remove_startup_items.js"
 hash = "f48a2efed04e6e584a1a63203373b70378fae23ef431cba862e2614144c77ec9"
 
 [[files]]
+file = "mods/adorable-hamster-pets.pw.toml"
+hash = "2d4a452a00623eb1f43544d957e434b4840d38b71b44938b3f5a237d663e3826"
+metafile = true
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "3fc558b52ae9098fa4ab2e9033ef40d4692b4e3b2885a93751c7f0269c421e54"
 metafile = true
@@ -4019,6 +4024,11 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "06589069ab06903ab0ef48215bcc6e19d6ddbd427020e5a4e29eb3162f742049"
 metafile = true
 
 [[files]]
