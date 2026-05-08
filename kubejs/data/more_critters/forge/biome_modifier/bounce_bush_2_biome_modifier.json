@@ -3,7 +3,7 @@
   "biomes": [
       "biomesoplenty:rocky_rainforest",
       "biomesoplenty:tropics",
-      "regions_unexplored:rainforest,
+      "regions_unexplored:rainforest",
       "brazilian_expansion:amazon_forest" 
   ],
   "features": "more_critters:bounce_bush_2",

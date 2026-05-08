@@ -477,10 +477,6 @@ file = "kubejs/data/bettertemples.zip"
 hash = "88b1a189b5b3d4901b12e16cdc8fe98d41f7dccf32b99f5d6aada8577ea336db"
 
 [[files]]
-file = "kubejs/data/biomesoplenty/worldgen/biome/tropics.json"
-hash = "0a181464e5fd8a2d5af11e98427b44d1a088457f4281eef3234489c18722288a"
-
-[[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_flytrap.json"
 hash = "95b5c1e834659599e2a573804ee166cfad899ce68627fc77e366a406b8b90584"
 
@@ -2886,15 +2882,15 @@ hash = "25874cd3fcbc0249702f5fc74ff0c53cfb737461956b47c09af04f3c1aae0841"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_1_biome_modifier.json"
-hash = "081d8773c02002c83306e2c50b612d1292cd9fa30bdae3e5d62b8b181f2ceaad"
+hash = "f5a025cbd39972a76b99ff83d6a7a5e41490e384c62801e6c00328592982b893"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_2_biome_modifier.json"
-hash = "decabad7d23d94291b293c989e7bf80c2761f16d5b6d720e1913e8a43ff9ae6f"
+hash = "fef57992d31178d0f4747f8d8849a3e5ff9445c23466ca3ae63511b7a4cd1cc5"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_3_biome_modifier.json"
-hash = "efd4fc6cab78aef0e3a9c8f7225ee0a0f2de62f0d94308a94f0909b5b99de738"
+hash = "ee6d35d52862dad16fc4c72d99072af4197c2667a3e5254966e19f7ac088fa6f"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/eerie_birch_tree_biome_modifier.json"
