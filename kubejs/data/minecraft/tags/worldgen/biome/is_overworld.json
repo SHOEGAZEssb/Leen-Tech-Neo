@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "my_mod:my_biome"
+    "brazilian_expansion:amazon_forest",
+    "blastfromthepast:frostbite_forest",
+    "blastfromthepast:frostbite_river"
   ]
 }
