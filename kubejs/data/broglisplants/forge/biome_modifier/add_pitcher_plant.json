@@ -11,7 +11,8 @@
     "regions_unexplored:rocky_reef",
     "regions_unexplored:bayou",
     "regions_unexplored:old_growth_bayou",
-    "biomesoplenty:fungal_jungle"
+    "biomesoplenty:fungal_jungle",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "broglisplants:pitcher_plant_placed",
   "step": "vegetal_decoration"

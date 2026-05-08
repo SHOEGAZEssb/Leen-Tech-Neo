@@ -10,7 +10,8 @@
     "biomesoplenty:tropics",
     "biomesoplenty:fungal_jungle",
     "biomesoplenty:marsh",
-    "environmental:marsh"
+    "environmental:marsh",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "broglisplants:sundew_placed",
   "step": "vegetal_decoration"

@@ -1,7 +1,5 @@
 {
-  "biomes": [
-    "minecraft:cherry_grove"
-  ],
+  "biomes": "#minecraft:is_overworld",
   "spawners": [
     {
       "maxCount": 4,

@@ -1,9 +1,7 @@
 {
+  "replace": true,
   "values": [
     "#minecraft:is_jungle",
-    {
-      "id": "atmospheric:rainforest",
-      "required": false
-    }
+    "brazilian_expansion:amazon_forest"
   ]
 }

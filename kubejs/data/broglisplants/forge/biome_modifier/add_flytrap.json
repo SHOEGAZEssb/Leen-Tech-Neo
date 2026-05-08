@@ -10,7 +10,8 @@
     "biomesoplenty:rocky_rainforest",
     "biomesoplenty:marsh",
     "regions_unexplored:bayou",
-    "regions_unexplored:old_growth_bayou"
+    "regions_unexplored:old_growth_bayou",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "broglisplants:flytrap_placed",
   "step": "vegetal_decoration"

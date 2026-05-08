@@ -9,7 +9,8 @@
     "biomesoplenty:tropics",
     "biomesoplenty:fungal_jungle",
     "atmospheric:rainforest",
-    "atmospheric:sparse_rainforest"
+    "atmospheric:sparse_rainforest",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "broglisplants:stinky_flower_placed",
   "step": "vegetal_decoration"

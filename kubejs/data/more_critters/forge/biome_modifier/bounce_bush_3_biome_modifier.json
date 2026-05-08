@@ -1,7 +1,10 @@
 {
   "type": "forge:add_features",
   "biomes": [
-      "minecraft:jungle"
+      "biomesoplenty:rocky_rainforest",
+      "biomesoplenty:tropics",
+      "regions_unexplored:rainforest,
+      "brazilian_expansion:amazon_forest" 
   ],
   "features": "more_critters:bounce_bush_3",
   "step": "surface_structures"

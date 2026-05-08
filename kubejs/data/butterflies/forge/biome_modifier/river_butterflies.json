@@ -1,7 +1,5 @@
 {
-  "biomes": [
-    "minecraft:river"
-  ],
+  "biomes": "#minecraft:is_overworld",
   "spawners": [
     {
       "maxCount": 4,

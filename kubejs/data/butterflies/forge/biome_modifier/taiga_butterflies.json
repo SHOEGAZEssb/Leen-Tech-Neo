@@ -1,5 +1,5 @@
 {
-  "biomes": "#minecraft:is_taiga",
+  "biomes": "#minecraft:is_overworld",
   "spawners": [
     {
       "maxCount": 4,

@@ -3,8 +3,8 @@
   "replace": true,
   "values": [
     "minecraft:chicken",
-    "minecraft:cod",
-    "minecraft:salmon",
+    "fintastic:fintastic_cod",
+    "fintastic:fintastic_salmon",
     "minecraft:frog",
     "alexsmobs:terrapin",
     "alexsmobs:catfish",
@@ -13,6 +13,7 @@
     "fintastic:featherback",
     "fintastic:freshwater_shark",
     "fintastic:gourami",
+    "fintastic:dwarf_frog",
     "rainbowreef:crab"
   ]
 }

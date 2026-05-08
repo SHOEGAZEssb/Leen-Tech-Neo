@@ -1,0 +1,9 @@
+{
+        "replace": true,
+	"values": [
+                "atmospheric:morado_leaves",
+                "atmospheric:morado_log",
+                "atmospheric:rosewood_leaves",
+                "atmospheric:rosewood_log
+	]
+}

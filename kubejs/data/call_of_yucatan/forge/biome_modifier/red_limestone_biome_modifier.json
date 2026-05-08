@@ -12,7 +12,8 @@
     "atmospheric:sparse_rainforest",
     "regions_unexplored:rainforest",
     "regions_unexplored:sparse_rainforest",
-    "regions_unexplored:tropical_river"
+    "regions_unexplored:tropical_river",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "call_of_yucutan:red_limestone",
   "step": "underground_ores"

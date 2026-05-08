@@ -12,7 +12,8 @@
     "minecraft:bamboo_jungle",
     "atmospheric:rainforest",
     "atmospheric:sparse_rainforest",
-    "atmospheric:rainforest_basin"
+    "atmospheric:rainforest_basin",
+    "brazilian_expansion:amazon_forest"
   ],
   "features": "broglisplants:giant_lily_placed",
   "step": "vegetal_decoration"

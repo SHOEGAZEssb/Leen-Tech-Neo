@@ -1,10 +1,14 @@
 {
+  "replace": true,
   "values": [
     "fintastic:arapaima",
-    "fintastic:guppy",
     "fintastic:catfish",
     "fintastic:freshwater_shark",
     "fintastic:featherback",
-    "fintastic:minnow"
+    "brazilian_expansion:arowana",
+    "brazilian_expansion:piranha",
+    "unusualfishmod:clownthorn_shark",
+    "unusualfishmod:tiger_puffer",
+    "unusualfishmod:zebra_cornetfish"
   ]
 }

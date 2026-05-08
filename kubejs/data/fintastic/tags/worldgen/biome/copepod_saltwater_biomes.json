@@ -1,5 +1,11 @@
 {
   "values": [
-    "#minecraft:is_ocean"
+    "#minecraft:is_ocean",
+    "#minecraft:is_beach",
+    "minecraft:stony_shore",
+    "biomesoplenty:tropics",
+    "regions_unexplored:chalk_cliffs",
+    "atmospheric:rainforest_basin",
+    "atmospheric:sparse_rainforest_basin"
   ]
 }

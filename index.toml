@@ -5,6 +5,14 @@ file = "config/Obscuria/obscure-api-client.toml"
 hash = "00eb609cbd32dc70d9efaf4d67c8183aff921142e4b60ecb55cc73f798d62831"
 
 [[files]]
+file = "config/adorablehamsterpets/main.toml"
+hash = "44d6d986115a377511bf98702f28d597f2bcc5a183581b2d22bc8a61c9b96e69"
+
+[[files]]
+file = "config/adorablehamsterpets/worldgen.toml"
+hash = "4283134c64a62534210f19a342c29c5fbbd2255e16f262f597beb783f56528ec"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "743a039266ee201f8a02fdf2f99c61f39aa9ea6744a8c5230094fb46abf87c7e"
 
@@ -165,6 +173,10 @@ file = "config/grimoireofgaia-common.toml"
 hash = "cd57277868111dea42e24ce276e866ba751277ff82e0faaf57d0ff62a5589bd1"
 
 [[files]]
+file = "config/immersive_weathering-common.toml"
+hash = "609d74fb7d309b1ee87c91b3f3f539b3deb23025823b1f1d2b0a71ed7b2dda77"
+
+[[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
 hash = "fe48dfefce9c1d892ca23105b354e1bee5bceb74fc008b6cb1ba6a73eb8292a7"
 
@@ -178,7 +190,7 @@ hash = "91d8c5e61393a29252b25f865bc9ecd0dc8accc389bbc6983ace6e1838e6ebb3"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "210c31dfbc22d229a734a5ce0728f9fde98c9cb9cfa31f1b4d57f22e140c5ab7"
+hash = "9da135a2eeec196022e4cb6f41177c497091cd1543310b7d19bbdfe6e131cd9a"
 
 [[files]]
 file = "config/netherexp-common.toml"
@@ -191,6 +203,10 @@ hash = "144e981730fb29a4169a6e1dec3428af62a313d8cd730480f6561a090dbe92e0"
 [[files]]
 file = "config/quark-common.toml"
 hash = "a8215dca32b42bc1e2a040ecdd6dbebd4aa9259db88a2308875da9ad10fb39c2"
+
+[[files]]
+file = "config/recrafted_creatures-client.toml"
+hash = "5b81656d09f805c59f8a8e1fcccb9560735540cf8665d388eb86453900a35429"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
@@ -226,7 +242,7 @@ hash = "e36a7b95358a0a6d2897a4374ace460cf23b4dead7894b87149402b893ac44cc"
 
 [[files]]
 file = "config/structurify.json"
-hash = "785c1cc3a449e561eb7237267a98f5040e2df41270dc7587654d420c628640b7"
+hash = "4ef6d05b3cf0a56fefa68b7a16fe3d699cceae69222f687600edd3e11e81d554"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -261,6 +277,10 @@ file = "config/zombieawareness/MobLists.toml"
 hash = "02082d3145ed03b4ae0931084661a0b0cc8de32b8c78bec61853722db71c248d"
 
 [[files]]
+file = "defaultconfigs/alekiships-server.toml"
+hash = "604682f6ef7e146504740e853cfa153bd35435a58ecb978fd2f3f0cde6b21aef"
+
+[[files]]
 file = "defaultconfigs/araxers_bestiary-server.toml"
 hash = "29a61286a91fec602ea7d84900de62e62d3437689080e24c65397bc100816224"
 
@@ -275,6 +295,10 @@ hash = "9ebe21d8d1485d4f9dc273b0d293fb033b8e24737e8cef15d1e98baa1aa6fca1"
 [[files]]
 file = "defaultconfigs/gravestone-server.toml"
 hash = "6500478389e356ce3046c32425d7c7cc954d24cd7b34857171c3562f8bb3b497"
+
+[[files]]
+file = "defaultconfigs/monsterexpansion-server.toml"
+hash = "cd7cdf263a1922d218aea91df5add7203e37d1ac0c4be5cfda0d41e970b41a13"
 
 [[files]]
 file = "defaultconfigs/productivebees-server.toml"
@@ -382,7 +406,7 @@ hash = "a6d7a948fd6ec56495c7a6f29d8a458517c6565bdb5a3065cb2caebcc338a41f"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/caiman_targets.json"
-hash = "3188d8424edb39cc6371df151d7174ca224731d3e717aee66908643a7626ad7a"
+hash = "8776f7c5c16ec3598a3328387cf7dfc9fd74195bd60227c43da69c4e67c92342"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/catfish_ignore_eating.json"
@@ -390,7 +414,7 @@ hash = "a7cffcc3d452081273f995ae497684a631be0e2194fb591ac9a3770a8f46ff1b"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/crocodile_targets.json"
-hash = "fe2475daa4df7fa7cd68501df640ff180bc2ed95f33cae8c825fb73a37ab1f9f"
+hash = "814213e89c249def43a494683546ee58531c1969d0e878c37cd08d038963f7eb"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/froststalker_targets.json"
@@ -453,12 +477,16 @@ file = "kubejs/data/bettertemples.zip"
 hash = "88b1a189b5b3d4901b12e16cdc8fe98d41f7dccf32b99f5d6aada8577ea336db"
 
 [[files]]
+file = "kubejs/data/biomesoplenty/worldgen/biome/tropics.json"
+hash = "0a181464e5fd8a2d5af11e98427b44d1a088457f4281eef3234489c18722288a"
+
+[[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_flytrap.json"
-hash = "ef9b97b8c3c2b349d204369c1e9232036f81016137b550e6f0c1a9b863a65173"
+hash = "95b5c1e834659599e2a573804ee166cfad899ce68627fc77e366a406b8b90584"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_giant_lily.json"
-hash = "c5a17791942b3219706a0a58a9da020e15198db981998ca4c7d4591e75fe3e89"
+hash = "9a0cbbe116ee28d0e3f0ed8f14fcd944ccff3e7083e5db5188887ad3eb2d8f42"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_mandrake.json"
@@ -466,7 +494,7 @@ hash = "17d0d6901516a35ff7dd5362225417ef79cc528deec4255102ef287935a91046"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_pitcher_plant.json"
-hash = "511931e945f433bc604d693ee471ee2bf75fd5ae5f560e4e9c3ff654254086e7"
+hash = "af66071952a4540d16bb4f90ec7965acce0c0bf365bbb90263d0a54b0e6d3bba"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_sandbox_tree.json"
@@ -474,11 +502,11 @@ hash = "a9399b33eab4a4131f944118751d8bf2d760683fab74713b7645429ad00fbc34"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_stinky_plant.json"
-hash = "7e4fed8889dd89092961d56ec60a62cd4674f4870066f1ac1a96b359ae4b6e30"
+hash = "e2727adc89ff968dd5739211371aac42bf0c688d3e4d52bbc7cba443ffbd1ad8"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_sundew.json"
-hash = "e27db838c586e49b543c10137c8d1dc1b07a3c6e3a35620d29d63d556ef44884"
+hash = "ea80cf0fb269e44ad42bc52b9b2538085c4d0e98045c798e7f57fbb11edb85de"
 
 [[files]]
 file = "kubejs/data/broglisplants/forge/biome_modifier/add_totem.json"
@@ -486,19 +514,19 @@ hash = "57a5eec9bb80ef133497672150d36fe3ccab46278611ed7704887ca6b6a509c9"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/cherry_grove_butterflies.json"
-hash = "4f37b7fc845ea74b68d89f37745700fa8974a0c3c3c6b7ce6554d992ca10205a"
+hash = "935d75cd8d42d65f5a3628a6a442c6a5aeb5f6e832b9998857bc1528a73aa533"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/dense_butterflies.json"
-hash = "345ff5930f8c45ae13282b1493122c9f16acb22eaa556b45e63a8cb006e848af"
+hash = "935d75cd8d42d65f5a3628a6a442c6a5aeb5f6e832b9998857bc1528a73aa533"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/forest_butterflies.json"
-hash = "313e5f4d846b8f29609e4c59f6a44666c5d09ed3c0db7fb7ede09bd196eac550"
+hash = "935d75cd8d42d65f5a3628a6a442c6a5aeb5f6e832b9998857bc1528a73aa533"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/hill_butterflies.json"
-hash = "f174c84e372f687017b3c9c235e3b03fb1436e512aa80c42c5f300e3ef41a240"
+hash = "dceb5c01f6501fa1283e5004f1b05e91c13342f04ab08a39ec1821b452114d2b"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/jungle_butterflies.json"
@@ -506,63 +534,63 @@ hash = "3273ece2ff190edcc857c910666569a44da5731f5ce6ae2ba9c51556de5f09a6"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/lush_butterflies.json"
-hash = "410cb33191b8db3b7631695194db53679c516c572f5ea36b6548cb80e7a82912"
+hash = "f36b6c0c873053d622e68c94689e50641c3fc9620b44eb32502bb114814b34fd"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/mushroom_butterflies.json"
-hash = "6543aa48c053344478ac1f342f0460e4b5d1d69136d394275d5aac1936cc8d96"
+hash = "364f04a16ce3a9fcacd84bcc8e7b93fac26838c61df23d33d3c859a071947140"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/nether_butterflies.json"
-hash = "7ffa61a6c9cff52c0384b9adb90e94d5b0b13740a9388449109e4dba6de26b25"
+hash = "328a13815566afb12f306dcb21297b033b634e24b19913106eb48088619f1d68"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/plains_butterflies.json"
-hash = "945e0a82a2c11fe65741a44f15cb390ab0f8791d09a92abcb6123f0b54c0beeb"
+hash = "16d7327e1175645a6be09b731f4e8daff6b9318166e9644c969b327599008288"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/plateau_butterflies.json"
-hash = "436804c1a9bf8f608172c8c25e36551dbe7085acb0e24df4594001f64c1a33e6"
+hash = "dceb5c01f6501fa1283e5004f1b05e91c13342f04ab08a39ec1821b452114d2b"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/river_butterflies.json"
-hash = "6fbbb7c54c0b9471f103602a2dd79e00efd2e1b05ed524d5afd7b1e54c24e638"
+hash = "364f04a16ce3a9fcacd84bcc8e7b93fac26838c61df23d33d3c859a071947140"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/savanna_butterflies.json"
-hash = "67be5f76756338a18dc3e6ec4417f878bf650512801a0496d76209d79cd5929e"
+hash = "6ef5d010bc0288560202819e491b292d8a7ba60319428478882763502cd4e2d5"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/snowy_butterflies.json"
-hash = "e8beeb08f2bf8387d1953fc17a21077f530ffa977cbc6add671faed7b9d372c7"
+hash = "b5103add9b3b7027168d04ba12ce614228414fac9b0409e10c5be8754963dca6"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/swamp_butterflies.json"
-hash = "63f56b84e8b69d0f06cc3ebcddcd63b42b436f3bee8aabaecfdd3e36271ba2c9"
+hash = "364f04a16ce3a9fcacd84bcc8e7b93fac26838c61df23d33d3c859a071947140"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/taiga_butterflies.json"
-hash = "6a9e9a7d9c79f285cfed0e8ed3e085cd89e7947a688a00a88a5cddcf63ecc5b2"
+hash = "54992fc83580ca5b508bf497d9239e40d94745e37e462f87e51cbf10824cc050"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/village_desert_butterflies.json"
-hash = "ada495090085ed94fc56f0e0e4f62cf1ddf3db46d647e9b69c8494e7dcf11328"
+hash = "06e73857b74da95e2ea9391ff1a7f2093ba0bfa8c336ea21dc574d2eb7dc1447"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/village_plains_butterflies.json"
-hash = "9fdb8c50e74002f2084ccdb0eb27111924c3a0b92f79e0634a90469d53d7f2b3"
+hash = "06e73857b74da95e2ea9391ff1a7f2093ba0bfa8c336ea21dc574d2eb7dc1447"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/village_savanna_butterflies.json"
-hash = "e04e181a8867773f8d0913f528d5cdc94c412bc7bb4c81cdd7625e6b0b11a15b"
+hash = "06e73857b74da95e2ea9391ff1a7f2093ba0bfa8c336ea21dc574d2eb7dc1447"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/village_snowy_butterflies.json"
-hash = "ca8c8bbc07670b3062e5243c9e7ef691e2262b4d1e27dc97d359f47ecd82647c"
+hash = "06e73857b74da95e2ea9391ff1a7f2093ba0bfa8c336ea21dc574d2eb7dc1447"
 
 [[files]]
 file = "kubejs/data/butterflies/forge/biome_modifier/village_taiga_butterflies.json"
-hash = "1434bd4e2b960f70abb5b39f924e35e07998d0baf5c9408b00d7c7d0d55fd0a2"
+hash = "06e73857b74da95e2ea9391ff1a7f2093ba0bfa8c336ea21dc574d2eb7dc1447"
 
 [[files]]
 file = "kubejs/data/c/tags/worldgen/has_wolf/ashen.json"
@@ -598,15 +626,15 @@ hash = "c28bdc0a5ecf9a0dfba30621e084dd47f3a9c97de3600dea741d95625e946395"
 
 [[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/deepslate_jade_ore_biome_modifier.json"
-hash = "dd9b1d270f30da0dfdb5be1ec56f77e4fcb86a057ea4faf89cf6b99060153199"
+hash = "b09e5482102d58df9a7aca88a5d053bdda1cf2bf4dc96a7625602c0b081975f8"
 
 [[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/jade_ore_biome_modifier.json"
-hash = "c63ff265b2e98e7d068fa8bc0db030aaa2ecdd5e512233cbd076f37b2e72f119"
+hash = "8e40da6e5381b40236de2b04215aa959ab30a3f2902d2d19a34946112a4b92fd"
 
 [[files]]
 file = "kubejs/data/call_of_yucatan/forge/biome_modifier/red_limestone_biome_modifier.json"
-hash = "65c9cfd658ff7de9c3f8f1e17c8f1e8555a56f77ca50a5657eb386afdff0dd6b"
+hash = "bae9fd127dcaebd4b03464b99aba2adb48c55a2d73e8c2d022ff699d445c6d1e"
 
 [[files]]
 file = "kubejs/data/crittersandcompanions/tags/worldgen/biome/silk_cocoon_lush_spawns.json"
@@ -798,7 +826,7 @@ hash = "4a28b48a37e60f88a64e57d1e408e84b6fdcadc293355b9268ce64d303d9cb04"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_0.json"
-hash = "2f34423be8c40df4cdc96278c39a75b1f2ab02f11c6ea6b32866d58c3d86e1e2"
+hash = "01b16f481745b67af2dfb48402d56917fb65723c18c428bf10b88affd0f0a86d"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_1.json"
@@ -806,15 +834,15 @@ hash = "e36ad11d8e7f56ad04a1157f854db69e327e8095b6e64d6064da8f01999fb89a"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_2.json"
-hash = "f827b7c4d6cfe67c91fef6682103f19b6fddff037e489d93dbc271a812e82579"
+hash = "f2fc30500d44e2198ae10e7bb3faa1b9f9a39aa104ffc39c1290df0f692692a5"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_cage_3.json"
-hash = "a8c04a55aedb85cecdc468efebaed71d813978da6cee4596866acdc936da99f2"
+hash = "c3a5f64cc3522589853c29cad867c15b7e81875bdb75b9642c47aba3538e0ec2"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_fishtank.json"
-hash = "b255812d097506ae42d29857d470182b983446ed6185723b5c9292018a23181e"
+hash = "5d7249f3559524cb98a2e0969c475d788f8c93cfc40480f090eb9733b76e76ea"
 
 [[files]]
 file = "kubejs/data/environmental/tags/worldgen/biome/has_feature/bird_of_paradise.json"
@@ -1902,51 +1930,35 @@ hash = "c83f1f6d58d7b28f3007bdc2a647510b49d2e8fd2115f33eadd6becff61ad9f6"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/entity_types/fishnet_additions.json"
-hash = "bbc33cd4bc139f3a4d2fd11fa0afb8898b8dff3bafafd6b53cf628755e545c2c"
+hash = "d405201d4a3be71ec0ab8dab44d04861e9277b51cb9770b5d0018ecf237358ce"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/entity_types/predator_fish.json"
-hash = "aff2628e34750e0cefc0d3a4dcbff8fbb6a3080e256da97a2773fb1ab8fa7202"
+hash = "31ae478db5e5a95575ed4d2baa762fa20e7d717ae6f85accc0d29e97309ec7b0"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/amazon_sword_biomes.json"
-hash = "16ae805d5d469c8629fa117bc6a9375b69f5def4bd239675d5df4b40f7c7ba5d"
+hash = "78402cc1f20ba05e731342dc22e0205700734f38f7b10ac185344a9e25a35319"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/anubias_biomes.json"
-hash = "16ae805d5d469c8629fa117bc6a9375b69f5def4bd239675d5df4b40f7c7ba5d"
+hash = "65cbfda04cba558a1b3b6d7bf729cc6817ce78fdd383d8507002a917d18ea043"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/aquatic_moss_biomes.json"
-hash = "eaae0c2c35aed469845ce2dcb9d8c870bd5dd36108f686a74fb4c0737e50d5a0"
-
-[[files]]
-file = "kubejs/data/fintastic/tags/worldgen/biome/copepod_freshwater_biomes.json"
-hash = "88a4bd65d905cfa6b5a39fe9c2d0c3a0637554291231c6da460214084d5982c4"
+hash = "ef02fa8993d5e1d9a30fa0a5e8d28470a55d94e37733ea215c9dac3c21566827"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/copepod_saltwater_biomes.json"
-hash = "90c1397d9c54faf76cfb6d148aa497e8ffcb88523a9c5ec6baf4bc33661efd57"
+hash = "6a9e38c9ea78998ec8652aef9c59dc20aa9db97c95f657433854aa9e5d603e95"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/duckweed_biomes.json"
-hash = "5f5ff954e62e40bd6008a7381fa96f4a63a925762bb32c160fc6a1846c73d5f7"
+hash = "4284bb6b95f6f61bca0800937da027792e61224b0a892e0488ede40647c1857e"
 
 [[files]]
 file = "kubejs/data/fintastic/tags/worldgen/biome/hornwort_biomes.json"
-hash = "5f859a4c5ca214b3bc704b1105d4830064f73015b446e38d085e2bdeb6c47ca6"
-
-[[files]]
-file = "kubejs/data/fintastic/tags/worldgen/biome/liverock_boulder_biomes.json"
-hash = "1124af9935b4450d1d5d6ceb5240af4684f619b4b4ac0ef7c27bd0ccd8ef40e8"
-
-[[files]]
-file = "kubejs/data/fintastic/tags/worldgen/biome/lotus_biomes.json"
-hash = "af183c51436137ae7675991caa18049029911dff5dcf55c3e5abf271a039e44c"
-
-[[files]]
-file = "kubejs/data/fintastic/tags/worldgen/biome/stromatolite_biomes.json"
-hash = "3cba22095cd0a3fb808bd2aebf2cc941ffe0829d968b1b53a3bce1241e311b36"
+hash = "1506b33cbfb56baad8df2ed05804992c4aa644311f7b3c4ae5dadc2bfc00d689"
 
 [[files]]
 file = "kubejs/data/friendsandfoes/structures/villages/badlands/copper_golem_area.nbt"
@@ -2041,12 +2053,16 @@ file = "kubejs/data/friendsandfoes/structures/villages/swamp/copper_golem_area.n
 hash = "f9fba7efc206560ee072caa3080c7673c205e5ca7ce5e5ef52d0f80c9d4c3296"
 
 [[files]]
-file = "kubejs/data/friendsandfoes/tags/entity_types/mauler_prey.json"
-hash = "eedece1f49b07c3c2c1fefd60749d8c8552c9b22928eb9cecd14c25fe185eb48"
+file = "kubejs/data/friendsandfoes/tags/blocks/crab_burrow_spot_blocks.json"
+hash = "58470165b258e39f12fa6b72d3799e61b7b7cd56bca7ddd549088681cf81ac43"
 
 [[files]]
-file = "kubejs/data/friendsandfoes/tags/items/crab_tempt_items.json"
-hash = "7c560d4896a76f19ff814d8276b6de88a15abe144900738823a41136c5fb360e"
+file = "kubejs/data/friendsandfoes/tags/blocks/crabs_spawnable_on.json"
+hash = "33ba25f3baae48f4ba09c40f850d7d3b426a32deec6f73c7b8697b576afbd813"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/entity_types/mauler_prey.json"
+hash = "eedece1f49b07c3c2c1fefd60749d8c8552c9b22928eb9cecd14c25fe185eb48"
 
 [[files]]
 file = "kubejs/data/idas/advancements/ancient_mines.json"
@@ -2805,6 +2821,22 @@ file = "kubejs/data/idas/recipes/music_disc_slither.json"
 hash = "966f0eb750542e8378d4659859737b648b8c1c188fa1bfb9fc1961d70a6e9ba6"
 
 [[files]]
+file = "kubejs/data/immersive_weathering/tags/worldgen/biome/has_dune_grass.json"
+hash = "1df9a00ac318069a6f073c5d3d2cc3fe3d6ec60cbafabc41de7412ffd99ede8c"
+
+[[files]]
+file = "kubejs/data/immersive_weathering/tags/worldgen/biome/has_ivy.json"
+hash = "8970983586241a2befd903e7421c64ed5be2847504365d0a60cadaa4ae3ee536"
+
+[[files]]
+file = "kubejs/data/immersive_weathering/tags/worldgen/biome/has_permafrost.json"
+hash = "1df9a00ac318069a6f073c5d3d2cc3fe3d6ec60cbafabc41de7412ffd99ede8c"
+
+[[files]]
+file = "kubejs/data/immersive_weathering/tags/worldgen/biome/has_silt.json"
+hash = "3898ed32cd886ba2bda4cbe1901cec2948820bad796d50a550afec777b33585e"
+
+[[files]]
 file = "kubejs/data/integrated_api/integrated_structure_map_trades/idas_maps.json"
 hash = "8fda001288f88484256f2e64c94b4a66adc87ce7ef484aacc1a2a1a969d42439"
 
@@ -2825,6 +2857,10 @@ file = "kubejs/data/minecraft/loot_tables/gameplay/chicken_lay.json"
 hash = "3b249aa4fb56afc0f6679807b8f291fa6b89061a86130a1b051c3d97bb591e0d"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/blocks/allows_leaf_litter.json"
+hash = "40c76f4c43f3f5ba8c01d9dbec0c40356b1da92b4cdbe2722c14234409abbeaf"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/items/music_discs.json"
 hash = "99e6003c63dc862719e458aa19aedec1798b77f1cd17041f574389c60784788f"
 
@@ -2842,7 +2878,7 @@ hash = "e1d84bd1951c0929954b16abc4f0b836f41241335179d6d672cff8fe6788112e"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/spawns_leaf_litter.json"
-hash = "40d06924ef5d45d4f1d3e77b8c6e60fcf25dd54c9ca6b4193799fb2d7bc2fd94"
+hash = "8324afe0ff66d91d757d75cafd287bfa6f1fa2105e2644ad6cd51bd271be0d43"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/spawns_leaf_litter_patches.json"
@@ -2850,15 +2886,15 @@ hash = "25874cd3fcbc0249702f5fc74ff0c53cfb737461956b47c09af04f3c1aae0841"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_1_biome_modifier.json"
-hash = "bd72fee81ee18b5eefd3e82fbd5f747be602a47a1b349cd6686117ad1bde26ed"
+hash = "081d8773c02002c83306e2c50b612d1292cd9fa30bdae3e5d62b8b181f2ceaad"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_2_biome_modifier.json"
-hash = "8a03e8a06c29e0753fd31c9ed69db1df7a0ccf70b9a134684a9a79cd0bd28a57"
+hash = "decabad7d23d94291b293c989e7bf80c2761f16d5b6d720e1913e8a43ff9ae6f"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/bounce_bush_3_biome_modifier.json"
-hash = "43f9511adf6f074b8f05bf14b51602b80a8d91ddc4ba0647dd64e9f12806eb52"
+hash = "efd4fc6cab78aef0e3a9c8f7225ee0a0f2de62f0d94308a94f0909b5b99de738"
 
 [[files]]
 file = "kubejs/data/more_critters/forge/biome_modifier/eerie_birch_tree_biome_modifier.json"
@@ -2898,7 +2934,7 @@ hash = "9a5bd478aee5522e44a1b4ae9ea14f81df509601cf6b320b3e27ca3442b784b6"
 
 [[files]]
 file = "kubejs/data/moremobvariants/tags/worldgen/biome/spawn_mossy_skeletons.json"
-hash = "a1d254824ba0451b68e18c4d0dd480910074ea4e17930fa57491a521fb833841"
+hash = "ff8329b2bd4a55dbb1057e41f0fd387297a646982732ec1a75acd351a8e87cf6"
 
 [[files]]
 file = "kubejs/data/opposing_force/tags/blocks/umber_spider_spawnable_on.json"
@@ -3526,7 +3562,7 @@ hash = "ec783b6e3a8e9bcffe656810b91cfd077608c11da0ed8bf3e2fca397700220ce"
 
 [[files]]
 file = "kubejs/data/species/tags/worldgen/biome/mammutilation_remnant_spawns_in.json"
-hash = "33cb12b77fd48fc885776e56a69a36fb53c5a2ce5e8ae84e8867b13d5910500d"
+hash = "c462bf8aafc8e0c8a5203b43be492b4993d8c7dd2540d1706fc15e3d075f16ec"
 
 [[files]]
 file = "kubejs/data/supplementaries/tags/entity_types/urn_spawn.json"
@@ -3684,6 +3720,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+metafile = true
+
+[[files]]
+file = "mods/armor-of-the-ages.pw.toml"
+hash = "38847ab905b427eb9b157a536fd2c95432ef0deebc140e8b8c67f2e54cb974a0"
 metafile = true
 
 [[files]]
@@ -3903,7 +3944,7 @@ metafile = true
 
 [[files]]
 file = "mods/display-delight.pw.toml"
-hash = "fc6ca89075fc760ad49489b82248391a812965cde718239c12e02c46e3799c17"
+hash = "0d23c9e4edd8df6c91d21f09c4d8fa25a198122c3051a3462dbd1731a8639d77"
 metafile = true
 
 [[files]]
@@ -3963,7 +4004,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "d618683f8252b0d5a5986b8f3121959fc089e48988bc8aa8b060791ad91e6c42"
+hash = "eda400c57b28a9fe52ea21972541c13b29aab512c5a37fc8ccd3cec6c9b3259d"
 metafile = true
 
 [[files]]
@@ -4238,7 +4279,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d52ecdcf11dbcc00e3ea4eedbc3f6c563f48d6270b58105c5269783878e232b0"
+hash = "fcb27d111bee02677bd43a57680fda0b592487a492174dc3b07833cf5b2180b2"
 metafile = true
 
 [[files]]

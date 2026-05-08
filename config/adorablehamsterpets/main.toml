@@ -25,9 +25,9 @@ crownYOffset = 0.25
 # [WARNING: THIS MAKES ALL HAMSTERS LOOK IDENTICAL]. Disables all texture overlays, accessories, and armor rendering on hamsters, forcing them to render with a single grayscale texture. Drastically improves FPS when hundreds of thousands of hamsters are on screen. Can be toggled on and off via a custom keybind.
 performanceMode = false
 # Hand-delivers the sacred texts on first login.
-enableAutoGuidebookDelivery = false
+enableAutoGuidebookDelivery = true
 # If Auto Delivery is disabled (like in most modpacks), give the guidebook the first time the player actually spots a wild hamster from 10 blocks away. This will only trigger once, and only if the player has never received the guidebook before.
-enableAutoGuidebookDeliveryFallback = false
+enableAutoGuidebookDeliveryFallback = true
 # A list of UUIDs for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
 playersWhoHaveSeenGuidebookWarning = [
     "Winterspelleen"
@@ -35,9 +35,9 @@ playersWhoHaveSeenGuidebookWarning = [
 # How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
 guidebookWarningTimer = 3600
 # If true, you must hold sneak to expose their genetic secrets. If false, their DNA is proudly broadcasted to you at all times. Set to False by default so I don't get spammed on Discord.
-requireSneakForCustomJadeInfo = true
+requireSneakForCustomJadeInfo = false
 # If true, the default Jade info will also be hidden unless you are actively sneaking. This setting only matters if 'Require Sneaking' is enabled above.
-requireSneakForDefaultJadeInfo = true
+requireSneakForDefaultJadeInfo = false
 # Display the default Jade entity name. You know, 'Hampter'.
 showJadeEntityName = true
 # Display the default Jade health hearts. In case you want to know exactly how close your hamster is to the great beyond.
@@ -79,11 +79,11 @@ displayAgeInIrlTime = false
 # More stats than anyone asked for. Defaults to off— mercifully.
 enableJadeHamsterDebugInfo = false
 # The master switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
-enableNotificationIcons = false
+enableNotificationIcons = true
 # For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
 snoozeUpdateReminderDays = 5
 # Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.
-enableHudIcon = false
+enableHudIcon = true
 # Banish the bell to a corner of your choosing. It's your screen. Establish dominance.
 hudIconPositionPreset = "TOP_LEFT"
 # Shove the icon horizontally. For when 'top-left' isn't specific enough for your discerning taste.
@@ -93,7 +93,7 @@ hudIconOffsetY = 10
 # Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.
 hudIconScale = 1.0
 # Decide if the bell icon should ambush you while you're sorting your inventory. If disabled, it will only bother you on the main menu or the game HUD if you have those enabled. Your screen, your rules.
-enableWidgetIcon = false
+enableWidgetIcon = true
 # How loud the wind gust sound effect is, for you overachievers who are running 15 different sound physics mods. 1.0 is default, 0.0 is silent.
 leafGustVolume = 0.3
 # Should the gentle, drift of Hamster Bedding leaf particles slowly change direction over time? If true, it's a slow, majestic rotation. (It takes a bout 3 minutes to make a full 360 degree rotation). If false, you get to pick a static wind direction below.
@@ -131,7 +131,7 @@ enableGuiRenaming = true
 # If true, players can tame frozen, AI-disabled hamsters, instantly breathing life into them like some sort of furry necromancer. Turn this off if you're using command-spawned hamsters as statues or shop displays and don't want your patrons walking off with the merchandise happily following.
 allowTamingAiDisabled = true
 # If true, your weapons will magically pass through your own tamed hamsters. Perfect for those with butter fingers who keep 'accidentally' sending their companions to the great hamster wheel in the sky.
-preventOwnerFriendlyFire = true
+preventOwnerFriendlyFire = false
 # Should Ravagers, the hulking beasts of destruction, flee in terror from a tiny ball of fluff? Yes. Yes, they should.
 enableRavagerFlee = true
 # Turns your hamster into a mobile arachnid-repellent unit. Highly effective.
@@ -393,7 +393,7 @@ dismountOrder = "LIFO"
 # Choose what action dismounts the hamster. 'SNEAK_KEY' uses your sneak key, obviously. 'CUSTOM_KEYBIND' uses a separate key you must set in Controls > Key Binds.
 dismountTriggerType = "SNEAK_KEY"
 # Choose whether a single press or a quick double‑tap dismounts the hamster.
-dismountPressType = "SINGLE_PRESS"
+dismountPressType = "DOUBLE_TAP"
 # Max time between sneak key presses to count as a double-tap. (20 ticks = 1 second)
 doubleTapDelayTicks = 10
 # If true, hamsters on your shoulder will randomly cycle through standing, sitting, and laying down while on the shoulder. If false, they will remain in a single state defined below.

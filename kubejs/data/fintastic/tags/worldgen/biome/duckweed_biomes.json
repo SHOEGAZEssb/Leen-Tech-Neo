@@ -1,5 +1,7 @@
 {
   "values": [
-    "#forge:is_swamp"
+    "#forge:is_swamp",
+    "environmental:marsh",
+    "regions_unexplored:muddy_river"
   ]
 }

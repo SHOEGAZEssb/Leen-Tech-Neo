@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:forest",
+    "minecraft:windswept_forest",
+    "minecraft:flower_forest",
+    "minecraft:dark_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:orchard",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:woodland",
+    "biomesoplenty:forested_field",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:ominous_woods",
+    "regions_unexplored:towering_cliffs",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:magnolia_woodland",
+    "regions_unexplored:cold_deciduous_forest",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:redwoods",
+    "atmospheric:aspen_parkland",
+    "environmental:blossom_woods"
+  ]
+}

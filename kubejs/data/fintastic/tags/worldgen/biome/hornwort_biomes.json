@@ -1,5 +1,7 @@
 {
   "values": [
-    "minecraft:river"
+    "minecraft:river",
+    "regions_unexplored:cold_river",
+    "regions_unexplored:muddy_river"
   ]
 }

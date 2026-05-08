@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-05_21-25-19",
+  "config_datetime": "2026-05-08_14-42-58",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -792,6 +792,266 @@
       ]
     },
     {
+      "name": "alekiships:unfinished_rowboat_birch",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "blastfromthepast:frostbite_river",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_cherry",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "blastfromthepast:frostbite_river",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:muddy_river"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_dark_oak",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "blastfromthepast:frostbite_river",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:tropical_river"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_oak",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:frozen_river",
+        "blastfromthepast:frostbite_river",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_spruce",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach",
+        "minecraft:river",
+        "blastfromthepast:frostbite_river",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_sloop_birch",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_sloop_cherry",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_sloop_dark_oak",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_sloop_oak",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:snowy_beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alekiships:unfinished_sloop_spruce",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "biomesoplenty:dune_beach",
+        "biomesoplenty:gravel_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:grassy_beach"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
       "name": "alexscaves:underground_cabin",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -1238,10 +1498,10 @@
       "name": "ars_nouveau:guardian_wilden_den",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "blastfromthepast:frostbite_forest",
         "minecraft:ice_spikes",
         "regions_unexplored:spires",
-        "minecraft:snowy_slopes",
-        "minecraft:snowy_plains"
+        "minecraft:snowy_slopes"
       ],
       "blacklisted_biomes": [
         "minecraft:taiga",
@@ -1767,6 +2027,7 @@
       "name": "betterarcheology:fossil_jungle_1",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "brazilian_expansion:amazon_forest",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest"
       ],
@@ -2743,6 +3004,7 @@
       "name": "betterjungletemples:jungle_temple",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "brazilian_expansion:amazon_forest",
         "biomesoplenty:fungal_jungle",
         "biomesoplenty:tropics"
       ],
@@ -2849,6 +3111,7 @@
       "name": "bettermineshafts:mineshaft_jungle",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "brazilian_expansion:amazon_forest",
         "biomesoplenty:tropics",
         "atmospheric:sparse_rainforest_basin",
         "atmospheric:rainforest_basin",
@@ -3150,6 +3413,86 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "brazilian_expansion:camping_birch_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_dark_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_mangrove",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_plains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "brazilian_expansion:camping_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "butterflies:liangshanbo_grave",
@@ -5417,7 +5760,9 @@
     {
       "name": "idas:lumber_camp/lumber_camp_jungle",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "brazilian_expansion:amazon_forest"
+      ],
       "blacklisted_biomes": [
         "minecraft:jungle",
         "biomesoplenty:floodplain",
@@ -6395,8 +6740,7 @@
       "name": "idas:treetop_tavern",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "atmospheric:sparse_rainforest_basin",
-        "atmospheric:rainforest_basin",
+        "brazilian_expansion:amazon_forest",
         "biomesoplenty:tropics"
       ],
       "blacklisted_biomes": [
@@ -6418,6 +6762,44 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "idas:tudor_pub",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "environmental:snowy_pine_barrens",
+        "environmental:snowy_old_growth_pine_barrens",
+        "blastfromthepast:frostbite_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "biomesoplenty:orchard",
+        "biomesoplenty:seasonal_forest",
+        "biomesoplenty:woodland",
+        "biomesoplenty:old_growth_woodland",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:orchard",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "regions_unexplored:silver_birch_forest",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:prairie",
+        "regions_unexplored:grassland",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:shrubland",
+        "minecraft:meadow",
+        "biomesoplenty:field",
+        "biomesoplenty:highland",
+        "biomesoplenty:rocky_shrubland",
+        "regions_unexplored:highland_fields"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "idas:underground_camp/underground_camp",
@@ -6783,6 +7165,7 @@
       "name": "more_critters:collector_wagon_jungle",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "brazilian_expansion:amazon_forest",
         "biomesoplenty:tropics",
         "atmospheric:sparse_rainforest",
         "atmospheric:rainforest",
@@ -10467,6 +10850,7 @@
       "name": "unusual_prehistory:tar_pit",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "blastfromthepast:frostbite_forest",
         "biomesoplenty:volcano",
         "biomesoplenty:volcanic_plains",
         "atmospheric:spiny_thicket",

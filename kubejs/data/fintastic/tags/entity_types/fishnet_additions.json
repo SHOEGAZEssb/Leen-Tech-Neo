@@ -4,97 +4,60 @@
     "minecraft:axolotl",
     "minecraft:frog",
     "minecraft:turtle",
-    {
-      "id": "alexsmobs:alligator_snapping_turtle",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:terrapin",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:alligator_snapping_turtle",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:skelewag",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:caiman",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:cosmaw",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:cosmic_cod",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:skelewag",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:endergrade",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:skelewag",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:mantis_shrimp",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:mimic_octopus",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:mudskipper",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:platypus",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:rain_frog",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:sea_bear",
-      "required": false
-    },
-    {
-      "id": "alexsmobs:stradpole",
-      "required": false
-    },
-    {
-      "id": "babyfat:ranchu",
-      "required": false
-    },
-    {
-      "id": "spawn:tuna",
-      "required": false
-    },
-    {
-      "id": "spawn:sea_cow",
-      "required": false
-    },
-    {
-      "id": "spawn:octopus",
-      "required": false
-    },
-    {
-      "id": "alexscaves:mineguardians",
-      "required": false
-    },
-    {
-      "id": "upgrade_aquatic:thrasher",
-      "required": false
-    }
+    "minecraft:drowned",
+    "alexsmobs:anaconda",
+    "alexsmobs:alligator_snapping_turtle",
+    "alexsmobs:caiman",
+    "alexsmobs:crocodile",
+    "alexsmobs:skelewag",
+    "alexsmobs:mudskipper",
+    "alexsmobs:platypus",
+    "alexsmobs:seal",
+    "ecologics:penguin",
+    "ecologics:coconut_crab",
+    "environmental:slabfish",
+    "environmental:duck",
+    "friendsandfoes:crab",
+    "seafarer:crab",
+    "seafarer:horseshoe_crab",
+    "seafarer:marine_iguana",
+    "rainbowreef:crab",
+    "recrafted_creatures:beaver",
+    "aquamirae:maw",
+    "unusualfishmod:kalappa",
+    "unusualfishmod:skipper",
+    "unusualfishmod:rootball",
+    "unusualfishmod:prawn",
+    "unusual_prehistory:diplocaulus",
+    "unusual_prehistory:kimmeridgebrachypteraeschnidium_nymph",
+    "unusual_prehistory:talpanas",
+    "unusual_prehistory:metriorhynchus",
+    "unusual_prehistory:hibbertopterus",
+    "unusual_prehistory:kaprosuchus",
+    "unusual_prehistory:praepusa",
+    "creeperoverhaul:ocean_creeper",
+    "endermanoverhaul:coral_enderman",
+    "golemoverhaul:kelp_golem",
+    "opposing_force:terror",
+    "cataclysm:deepling",
+    "cataclysm:deepling_brute",
+    "cataclysm:deepling_angler",
+    "cataclysm:deepling_priest",
+    "cataclysm:deepling_warlock",
+    "cataclysm:lionfish",
+    "cataclysm:coral_golem",
+    "cataclysm:hippocamtus",
+    "cataclysm:cindaria",
+    "cataclysm:clawdian",
+    "cataclysm:urchinkin",
+    "cataclysm:drowned_host",
+    "cataclysm:symbiocto",
+    "alexscaves:sea_pig",
+    "alexscaves:gossamer_worm",
+    "alexscaves:tripodfish",
+    "alexscaves:deep_one",
+    "alexscaves:deep_one_knight",
+    "alexscaves:deep_one_mage",
+    "alexscaves:mine_guardian"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:is_river",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "biomesoplenty:bog",
+    "biomesoplenty:marsh",
+    "biomesoplenty:wetland",
+    "regions_unexplored:fen",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou",
+    "environmental:marsh"
+  ]
+}

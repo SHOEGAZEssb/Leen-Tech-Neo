@@ -1,5 +1,5 @@
 {
-  "biomes": "#minecraft:has_structure/village_plains",
+  "biomes": "#minecraft:is_overworld",
   "spawners": [
     {
       "maxCount": 4,
