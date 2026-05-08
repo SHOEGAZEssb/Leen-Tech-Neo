@@ -2869,6 +2869,10 @@ file = "kubejs/data/minecraft/tags/worldgen/biome/has_pale_leaf_litter.json"
 hash = "75b3a3716028cbda3365b317198e34d5c5c6cdeadb38159548cd96d6df4e091b"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/worldgen/biome/is_jungle.json"
+hash = "52a5fc3e5c1f4ee923b47ec63862f63464a2dc950d26dcedb12b54ccba48db04"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/is_overworld.json"
 hash = "49a7ad21960a42267d41bfb770cbda5ae6b53146139f767789a0a347db9c5035"
 
