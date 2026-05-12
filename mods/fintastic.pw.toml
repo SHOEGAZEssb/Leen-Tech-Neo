@@ -1,13 +1,13 @@
 name = "Fintastic"
-filename = "fintastic-3.1.jar"
+filename = "fintastic-3.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "076064fd4fc86902439bb7e63c582348a531ea43"
+hash = "41761509f26f34c905e763a08723a0d21c8a39b9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8021122
+file-id = 8073642
 project-id = 1126465

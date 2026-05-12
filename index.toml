@@ -190,7 +190,7 @@ hash = "91d8c5e61393a29252b25f865bc9ecd0dc8accc389bbc6983ace6e1838e6ebb3"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "9da135a2eeec196022e4cb6f41177c497091cd1543310b7d19bbdfe6e131cd9a"
+hash = "fcbfd970a019c684d5394e876b9d32c86246657bbebe3a62c56678cf48530fe1"
 
 [[files]]
 file = "config/netherexp-common.toml"
@@ -234,7 +234,7 @@ hash = "8063cf4fcf4555a274871d2703b10872be62d393556760b8138f10829cf67a33"
 
 [[files]]
 file = "config/spawnbalanceutility/BiomeMobWeight.csv"
-hash = "312f7ff5dfd1d2ed4b607180d19f9c3951c4330e9b201169d6c5d299e941a13b"
+hash = "d44c9b13d80bbdbc0939aa664b49b93bfa0778c6ded4a61f6167bf02a1d17584"
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
@@ -418,7 +418,7 @@ hash = "814213e89c249def43a494683546ee58531c1969d0e878c37cd08d038963f7eb"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/froststalker_targets.json"
-hash = "850070731327cd7765db0949fb3c131b44275c8d3b94db5770b63a53831eabf3"
+hash = "dfeda82984877beec45024cca9de0f0f2fe3af31d401282cd4f9377c69cfd062"
 
 [[files]]
 file = "kubejs/data/alexsmobs/tags/entity_types/mantis_shrimp_targets.json"
@@ -838,7 +838,7 @@ hash = "c3a5f64cc3522589853c29cad867c15b7e81875bdb75b9642c47aba3538e0ec2"
 
 [[files]]
 file = "kubejs/data/domesticationinnovation/tags/entity_types/petstore_fishtank.json"
-hash = "5d7249f3559524cb98a2e0969c475d788f8c93cfc40480f090eb9733b76e76ea"
+hash = "94f86f79bebcd719676c92e7074768aa20cb41e01c9dd2249436202500a04b58"
 
 [[files]]
 file = "kubejs/data/environmental/tags/worldgen/biome/has_feature/bird_of_paradise.json"
@@ -3728,7 +3728,7 @@ metafile = true
 
 [[files]]
 file = "mods/armor-of-the-ages.pw.toml"
-hash = "38847ab905b427eb9b157a536fd2c95432ef0deebc140e8b8c67f2e54cb974a0"
+hash = "e38bfb1f9bdf828397bd4f16c8fa4bd106fbd97551870f6b069520760a4fe87d"
 metafile = true
 
 [[files]]
@@ -4053,7 +4053,7 @@ metafile = true
 
 [[files]]
 file = "mods/fintastic.pw.toml"
-hash = "a826bb4da668437a6bc6312fb5523ff99553edc8ae62a379f0c57b50eade2886"
+hash = "555d2357cdd6c95a0ae35f1cca7826440a480ef03828024efdc821024f5c0232"
 metafile = true
 
 [[files]]
@@ -4388,7 +4388,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "ee213139b33b4b697d395ec4d6318097650172d52d9a4bb1511533cacf13e8ea"
+hash = "a1f543c4d45005e158ee4bf30e4d68992f1ccef454f8335316daf305d40957af"
 metafile = true
 
 [[files]]
@@ -4488,7 +4488,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "7e91d696b14e06ae9ac40bf457680b92f0ad2c28582ab539634d3d5e77f89461"
+hash = "58650be97623a6bf442f76994776ebd9d9dd46bb264ee64c2cf8ae85457cd40f"
 metafile = true
 
 [[files]]
@@ -4598,7 +4598,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "cdfa62d5307c6cf0308500447e84a7fd0d6dfebe117da719b616d72ad25b972c"
+hash = "9788a382b7eeb36b40e3c48c86cdeb8b1d11edc03d3959726f63b32ef638bd69"
 metafile = true
 
 [[files]]
